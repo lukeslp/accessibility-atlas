@@ -1,0 +1,4071 @@
+country_code,region,year,hale_years
+AFG,Eastern Mediterranean,2000,46.0
+AFG,Eastern Mediterranean,2001,46.1
+AFG,Eastern Mediterranean,2002,47.2
+AFG,Eastern Mediterranean,2003,48.0
+AFG,Eastern Mediterranean,2004,48.3
+AFG,Eastern Mediterranean,2005,48.6
+AFG,Eastern Mediterranean,2006,48.8
+AFG,Eastern Mediterranean,2007,49.0
+AFG,Eastern Mediterranean,2008,49.5
+AFG,Eastern Mediterranean,2009,50.1
+AFG,Eastern Mediterranean,2010,50.5
+AFG,Eastern Mediterranean,2011,50.9
+AFG,Eastern Mediterranean,2012,51.3
+AFG,Eastern Mediterranean,2013,51.7
+AFG,Eastern Mediterranean,2014,51.7
+AFG,Eastern Mediterranean,2015,51.6
+AFG,Eastern Mediterranean,2016,51.7
+AFG,Eastern Mediterranean,2017,52.0
+AFG,Eastern Mediterranean,2018,51.7
+AFG,Eastern Mediterranean,2019,52.3
+AFG,Eastern Mediterranean,2020,51.7
+AFG,Eastern Mediterranean,2021,50.4
+AGO,Africa,2000,42.8
+AGO,Africa,2001,43.4
+AGO,Africa,2002,44.3
+AGO,Africa,2003,44.9
+AGO,Africa,2004,45.4
+AGO,Africa,2005,46.3
+AGO,Africa,2006,47.1
+AGO,Africa,2007,48.0
+AGO,Africa,2008,48.8
+AGO,Africa,2009,49.6
+AGO,Africa,2010,50.4
+AGO,Africa,2011,51.1
+AGO,Africa,2012,51.7
+AGO,Africa,2013,52.3
+AGO,Africa,2014,53.1
+AGO,Africa,2015,53.5
+AGO,Africa,2016,53.7
+AGO,Africa,2017,53.9
+AGO,Africa,2018,54.1
+AGO,Africa,2019,54.3
+AGO,Africa,2020,54.3
+AGO,Africa,2021,53.8
+ALB,Europe,2000,64.5
+ALB,Europe,2001,66.2
+ALB,Europe,2002,65.9
+ALB,Europe,2003,65.5
+ALB,Europe,2004,65.9
+ALB,Europe,2005,65.0
+ALB,Europe,2006,65.0
+ALB,Europe,2007,65.3
+ALB,Europe,2008,65.7
+ALB,Europe,2009,66.1
+ALB,Europe,2010,66.7
+ALB,Europe,2011,67.0
+ALB,Europe,2012,67.7
+ALB,Europe,2013,68.1
+ALB,Europe,2014,68.3
+ALB,Europe,2015,68.2
+ALB,Europe,2016,68.3
+ALB,Europe,2017,68.3
+ALB,Europe,2018,68.4
+ALB,Europe,2019,68.4
+ALB,Europe,2020,67.2
+ALB,Europe,2021,66.7
+ARE,Eastern Mediterranean,2000,67.5
+ARE,Eastern Mediterranean,2001,67.6
+ARE,Eastern Mediterranean,2002,67.6
+ARE,Eastern Mediterranean,2003,67.7
+ARE,Eastern Mediterranean,2004,68.0
+ARE,Eastern Mediterranean,2005,68.3
+ARE,Eastern Mediterranean,2006,68.8
+ARE,Eastern Mediterranean,2007,69.1
+ARE,Eastern Mediterranean,2008,69.3
+ARE,Eastern Mediterranean,2009,69.2
+ARE,Eastern Mediterranean,2010,69.0
+ARE,Eastern Mediterranean,2011,68.9
+ARE,Eastern Mediterranean,2012,68.9
+ARE,Eastern Mediterranean,2013,69.1
+ARE,Eastern Mediterranean,2014,69.2
+ARE,Eastern Mediterranean,2015,69.2
+ARE,Eastern Mediterranean,2016,69.2
+ARE,Eastern Mediterranean,2017,69.3
+ARE,Eastern Mediterranean,2018,69.5
+ARE,Eastern Mediterranean,2019,69.7
+ARE,Eastern Mediterranean,2020,68.6
+ARE,Eastern Mediterranean,2021,67.3
+ARG,Americas,2000,64.7
+ARG,Americas,2001,64.7
+ARG,Americas,2002,64.7
+ARG,Americas,2003,64.6
+ARG,Americas,2004,65.1
+ARG,Americas,2005,65.4
+ARG,Americas,2006,65.6
+ARG,Americas,2007,65.2
+ARG,Americas,2008,65.7
+ARG,Americas,2009,65.8
+ARG,Americas,2010,65.8
+ARG,Americas,2011,66.0
+ARG,Americas,2012,66.2
+ARG,Americas,2013,66.2
+ARG,Americas,2014,66.4
+ARG,Americas,2015,66.5
+ARG,Americas,2016,66.2
+ARG,Americas,2017,66.6
+ARG,Americas,2018,66.8
+ARG,Americas,2019,66.9
+ARG,Americas,2020,66.2
+ARG,Americas,2021,64.8
+ARM,Europe,2000,63.0
+ARM,Europe,2001,63.1
+ARM,Europe,2002,63.0
+ARM,Europe,2003,63.2
+ARM,Europe,2004,63.5
+ARM,Europe,2005,63.5
+ARM,Europe,2006,63.5
+ARM,Europe,2007,63.9
+ARM,Europe,2008,63.9
+ARM,Europe,2009,64.1
+ARM,Europe,2010,64.3
+ARM,Europe,2011,64.6
+ARM,Europe,2012,64.9
+ARM,Europe,2013,65.3
+ARM,Europe,2014,65.3
+ARM,Europe,2015,65.4
+ARM,Europe,2016,65.5
+ARM,Europe,2017,66.1
+ARM,Europe,2018,66.4
+ARM,Europe,2019,66.5
+ARM,Europe,2020,61.0
+ARM,Europe,2021,64.0
+ATG,Americas,2000,64.9
+ATG,Americas,2001,65.1
+ATG,Americas,2002,65.3
+ATG,Americas,2003,65.5
+ATG,Americas,2004,65.6
+ATG,Americas,2005,65.7
+ATG,Americas,2006,65.7
+ATG,Americas,2007,65.3
+ATG,Americas,2008,65.4
+ATG,Americas,2009,65.7
+ATG,Americas,2010,65.8
+ATG,Americas,2011,65.8
+ATG,Americas,2012,65.8
+ATG,Americas,2013,65.9
+ATG,Americas,2014,65.8
+ATG,Americas,2015,65.8
+ATG,Americas,2016,65.7
+ATG,Americas,2017,65.7
+ATG,Americas,2018,65.8
+ATG,Americas,2019,65.8
+ATG,Americas,2020,67.1
+ATG,Americas,2021,66.5
+AUS,Western Pacific,2000,68.1
+AUS,Western Pacific,2001,68.4
+AUS,Western Pacific,2002,68.4
+AUS,Western Pacific,2003,68.7
+AUS,Western Pacific,2004,68.8
+AUS,Western Pacific,2005,68.8
+AUS,Western Pacific,2006,69.0
+AUS,Western Pacific,2007,69.2
+AUS,Western Pacific,2008,69.2
+AUS,Western Pacific,2009,69.5
+AUS,Western Pacific,2010,69.6
+AUS,Western Pacific,2011,69.7
+AUS,Western Pacific,2012,69.9
+AUS,Western Pacific,2013,70.1
+AUS,Western Pacific,2014,70.1
+AUS,Western Pacific,2015,70.0
+AUS,Western Pacific,2016,70.3
+AUS,Western Pacific,2017,70.3
+AUS,Western Pacific,2018,70.5
+AUS,Western Pacific,2019,70.3
+AUS,Western Pacific,2020,70.7
+AUS,Western Pacific,2021,70.6
+AUT,Europe,2000,67.6
+AUT,Europe,2001,68.0
+AUT,Europe,2002,68.0
+AUT,Europe,2003,67.9
+AUT,Europe,2004,68.3
+AUT,Europe,2005,68.4
+AUT,Europe,2006,68.8
+AUT,Europe,2007,69.0
+AUT,Europe,2008,69.2
+AUT,Europe,2009,69.1
+AUT,Europe,2010,69.4
+AUT,Europe,2011,69.6
+AUT,Europe,2012,69.6
+AUT,Europe,2013,69.8
+AUT,Europe,2014,70.0
+AUT,Europe,2015,69.9
+AUT,Europe,2016,70.2
+AUT,Europe,2017,70.2
+AUT,Europe,2018,70.3
+AUT,Europe,2019,70.4
+AUT,Europe,2020,69.9
+AUT,Europe,2021,69.8
+AZE,Europe,2000,57.8
+AZE,Europe,2001,58.7
+AZE,Europe,2002,59.1
+AZE,Europe,2003,59.2
+AZE,Europe,2004,59.7
+AZE,Europe,2005,59.8
+AZE,Europe,2006,60.1
+AZE,Europe,2007,61.4
+AZE,Europe,2008,61.0
+AZE,Europe,2009,61.6
+AZE,Europe,2010,61.9
+AZE,Europe,2011,62.4
+AZE,Europe,2012,63.1
+AZE,Europe,2013,63.8
+AZE,Europe,2014,64.3
+AZE,Europe,2015,65.0
+AZE,Europe,2016,65.2
+AZE,Europe,2017,65.7
+AZE,Europe,2018,66.1
+AZE,Europe,2019,66.6
+AZE,Europe,2020,63.0
+AZE,Europe,2021,64.0
+BDI,Africa,2000,38.8
+BDI,Africa,2001,39.8
+BDI,Africa,2002,40.8
+BDI,Africa,2003,41.8
+BDI,Africa,2004,43.1
+BDI,Africa,2005,44.3
+BDI,Africa,2006,47.8
+BDI,Africa,2007,49.1
+BDI,Africa,2008,50.3
+BDI,Africa,2009,51.1
+BDI,Africa,2010,51.9
+BDI,Africa,2011,52.7
+BDI,Africa,2012,53.3
+BDI,Africa,2013,53.9
+BDI,Africa,2014,54.4
+BDI,Africa,2015,54.7
+BDI,Africa,2016,55.2
+BDI,Africa,2017,55.6
+BDI,Africa,2018,55.9
+BDI,Africa,2019,56.2
+BDI,Africa,2020,56.4
+BDI,Africa,2021,55.8
+BEL,Europe,2000,67.2
+BEL,Europe,2001,67.4
+BEL,Europe,2002,67.4
+BEL,Europe,2003,67.5
+BEL,Europe,2004,67.9
+BEL,Europe,2005,67.9
+BEL,Europe,2006,68.2
+BEL,Europe,2007,68.4
+BEL,Europe,2008,68.4
+BEL,Europe,2009,68.6
+BEL,Europe,2010,68.6
+BEL,Europe,2011,68.8
+BEL,Europe,2012,68.8
+BEL,Europe,2013,69.0
+BEL,Europe,2014,69.5
+BEL,Europe,2015,69.4
+BEL,Europe,2016,69.6
+BEL,Europe,2017,69.7
+BEL,Europe,2018,69.8
+BEL,Europe,2019,70.1
+BEL,Europe,2020,69.3
+BEL,Europe,2021,69.8
+BEN,Africa,2000,49.9
+BEN,Africa,2001,50.2
+BEN,Africa,2002,50.5
+BEN,Africa,2003,50.8
+BEN,Africa,2004,51.1
+BEN,Africa,2005,51.4
+BEN,Africa,2006,51.7
+BEN,Africa,2007,51.9
+BEN,Africa,2008,52.5
+BEN,Africa,2009,53.0
+BEN,Africa,2010,53.2
+BEN,Africa,2011,53.5
+BEN,Africa,2012,53.8
+BEN,Africa,2013,54.1
+BEN,Africa,2014,54.3
+BEN,Africa,2015,54.6
+BEN,Africa,2016,54.9
+BEN,Africa,2017,55.2
+BEN,Africa,2018,55.5
+BEN,Africa,2019,55.9
+BEN,Africa,2020,56.1
+BEN,Africa,2021,55.7
+BFA,Africa,2000,45.1
+BFA,Africa,2001,45.5
+BFA,Africa,2002,46.0
+BFA,Africa,2003,46.7
+BFA,Africa,2004,47.4
+BFA,Africa,2005,48.2
+BFA,Africa,2006,48.8
+BFA,Africa,2007,49.5
+BFA,Africa,2008,50.1
+BFA,Africa,2009,50.7
+BFA,Africa,2010,51.2
+BFA,Africa,2011,51.7
+BFA,Africa,2012,52.1
+BFA,Africa,2013,52.6
+BFA,Africa,2014,53.1
+BFA,Africa,2015,53.5
+BFA,Africa,2016,53.9
+BFA,Africa,2017,54.3
+BFA,Africa,2018,54.8
+BFA,Africa,2019,55.0
+BFA,Africa,2020,55.1
+BFA,Africa,2021,54.6
+BGD,South-East Asia,2000,56.7
+BGD,South-East Asia,2001,57.2
+BGD,South-East Asia,2002,57.5
+BGD,South-East Asia,2003,57.9
+BGD,South-East Asia,2004,58.4
+BGD,South-East Asia,2005,58.8
+BGD,South-East Asia,2006,59.0
+BGD,South-East Asia,2007,59.4
+BGD,South-East Asia,2008,59.9
+BGD,South-East Asia,2009,60.4
+BGD,South-East Asia,2010,60.8
+BGD,South-East Asia,2011,61.5
+BGD,South-East Asia,2012,62.3
+BGD,South-East Asia,2013,62.7
+BGD,South-East Asia,2014,62.9
+BGD,South-East Asia,2015,63.2
+BGD,South-East Asia,2016,63.4
+BGD,South-East Asia,2017,63.5
+BGD,South-East Asia,2018,63.7
+BGD,South-East Asia,2019,64.0
+BGD,South-East Asia,2020,63.3
+BGD,South-East Asia,2021,63.1
+BGR,Europe,2000,62.8
+BGR,Europe,2001,62.9
+BGR,Europe,2002,63.1
+BGR,Europe,2003,63.3
+BGR,Europe,2004,63.5
+BGR,Europe,2005,63.5
+BGR,Europe,2006,63.6
+BGR,Europe,2007,63.9
+BGR,Europe,2008,64.2
+BGR,Europe,2009,64.4
+BGR,Europe,2010,64.5
+BGR,Europe,2011,64.8
+BGR,Europe,2012,65.0
+BGR,Europe,2013,65.4
+BGR,Europe,2014,65.2
+BGR,Europe,2015,65.3
+BGR,Europe,2016,65.5
+BGR,Europe,2017,65.4
+BGR,Europe,2018,65.5
+BGR,Europe,2019,65.7
+BGR,Europe,2020,64.4
+BGR,Europe,2021,62.4
+BHR,Eastern Mediterranean,2000,61.1
+BHR,Eastern Mediterranean,2001,61.6
+BHR,Eastern Mediterranean,2002,61.8
+BHR,Eastern Mediterranean,2003,61.8
+BHR,Eastern Mediterranean,2004,62.1
+BHR,Eastern Mediterranean,2005,62.4
+BHR,Eastern Mediterranean,2006,62.7
+BHR,Eastern Mediterranean,2007,63.2
+BHR,Eastern Mediterranean,2008,63.6
+BHR,Eastern Mediterranean,2009,64.0
+BHR,Eastern Mediterranean,2010,64.3
+BHR,Eastern Mediterranean,2011,64.5
+BHR,Eastern Mediterranean,2012,64.8
+BHR,Eastern Mediterranean,2013,65.1
+BHR,Eastern Mediterranean,2014,65.5
+BHR,Eastern Mediterranean,2015,65.6
+BHR,Eastern Mediterranean,2016,65.5
+BHR,Eastern Mediterranean,2017,65.6
+BHR,Eastern Mediterranean,2018,65.7
+BHR,Eastern Mediterranean,2019,65.8
+BHR,Eastern Mediterranean,2020,64.7
+BHR,Eastern Mediterranean,2021,64.2
+BHS,Americas,2000,62.2
+BHS,Americas,2001,62.3
+BHS,Americas,2002,62.7
+BHS,Americas,2003,63.0
+BHS,Americas,2004,63.1
+BHS,Americas,2005,63.5
+BHS,Americas,2006,63.5
+BHS,Americas,2007,63.8
+BHS,Americas,2008,63.7
+BHS,Americas,2009,63.6
+BHS,Americas,2010,63.5
+BHS,Americas,2011,63.5
+BHS,Americas,2012,63.6
+BHS,Americas,2013,63.7
+BHS,Americas,2014,63.5
+BHS,Americas,2015,63.7
+BHS,Americas,2016,63.7
+BHS,Americas,2017,63.9
+BHS,Americas,2018,64.0
+BHS,Americas,2019,61.8
+BHS,Americas,2020,63.3
+BHS,Americas,2021,61.5
+BIH,Europe,2000,65.6
+BIH,Europe,2001,65.9
+BIH,Europe,2002,66.1
+BIH,Europe,2003,66.3
+BIH,Europe,2004,66.5
+BIH,Europe,2005,66.4
+BIH,Europe,2006,66.6
+BIH,Europe,2007,66.2
+BIH,Europe,2008,66.7
+BIH,Europe,2009,66.7
+BIH,Europe,2010,66.9
+BIH,Europe,2011,66.9
+BIH,Europe,2012,67.1
+BIH,Europe,2013,67.1
+BIH,Europe,2014,67.0
+BIH,Europe,2015,66.9
+BIH,Europe,2016,67.0
+BIH,Europe,2017,67.1
+BIH,Europe,2018,67.2
+BIH,Europe,2019,67.0
+BIH,Europe,2020,65.9
+BIH,Europe,2021,65.0
+BLR,Europe,2000,60.2
+BLR,Europe,2001,59.9
+BLR,Europe,2002,59.6
+BLR,Europe,2003,60.0
+BLR,Europe,2004,60.3
+BLR,Europe,2005,60.2
+BLR,Europe,2006,60.7
+BLR,Europe,2007,61.5
+BLR,Europe,2008,61.6
+BLR,Europe,2009,61.7
+BLR,Europe,2010,61.7
+BLR,Europe,2011,61.8
+BLR,Europe,2012,63.1
+BLR,Europe,2013,63.5
+BLR,Europe,2014,64.0
+BLR,Europe,2015,64.5
+BLR,Europe,2016,64.6
+BLR,Europe,2017,64.9
+BLR,Europe,2018,65.1
+BLR,Europe,2019,65.4
+BLR,Europe,2020,63.9
+BLR,Europe,2021,63.7
+BLZ,Americas,2000,61.6
+BLZ,Americas,2001,62.0
+BLZ,Americas,2002,62.5
+BLZ,Americas,2003,62.8
+BLZ,Americas,2004,63.0
+BLZ,Americas,2005,63.3
+BLZ,Americas,2006,63.5
+BLZ,Americas,2007,63.8
+BLZ,Americas,2008,64.2
+BLZ,Americas,2009,64.3
+BLZ,Americas,2010,64.2
+BLZ,Americas,2011,64.4
+BLZ,Americas,2012,64.6
+BLZ,Americas,2013,64.8
+BLZ,Americas,2014,64.7
+BLZ,Americas,2015,64.8
+BLZ,Americas,2016,64.8
+BLZ,Americas,2017,65.0
+BLZ,Americas,2018,65.0
+BLZ,Americas,2019,65.2
+BLZ,Americas,2020,65.0
+BLZ,Americas,2021,63.8
+BOL,Americas,2000,57.8
+BOL,Americas,2001,58.3
+BOL,Americas,2002,58.7
+BOL,Americas,2003,59.2
+BOL,Americas,2004,59.6
+BOL,Americas,2005,60.0
+BOL,Americas,2006,60.4
+BOL,Americas,2007,60.7
+BOL,Americas,2008,61.0
+BOL,Americas,2009,61.3
+BOL,Americas,2010,61.5
+BOL,Americas,2011,61.8
+BOL,Americas,2012,62.1
+BOL,Americas,2013,62.3
+BOL,Americas,2014,62.6
+BOL,Americas,2015,62.8
+BOL,Americas,2016,63.1
+BOL,Americas,2017,63.3
+BOL,Americas,2018,63.4
+BOL,Americas,2019,63.6
+BOL,Americas,2020,58.8
+BOL,Americas,2021,57.4
+BRA,Americas,2000,60.9
+BRA,Americas,2001,61.1
+BRA,Americas,2002,61.3
+BRA,Americas,2003,61.5
+BRA,Americas,2004,61.6
+BRA,Americas,2005,62.1
+BRA,Americas,2006,62.3
+BRA,Americas,2007,62.6
+BRA,Americas,2008,62.8
+BRA,Americas,2009,63.0
+BRA,Americas,2010,63.1
+BRA,Americas,2011,63.3
+BRA,Americas,2012,63.5
+BRA,Americas,2013,63.6
+BRA,Americas,2014,63.8
+BRA,Americas,2015,63.9
+BRA,Americas,2016,63.8
+BRA,Americas,2017,64.1
+BRA,Americas,2018,64.4
+BRA,Americas,2019,64.5
+BRA,Americas,2020,63.3
+BRA,Americas,2021,61.8
+BRB,Americas,2000,65.3
+BRB,Americas,2001,65.6
+BRB,Americas,2002,65.5
+BRB,Americas,2003,65.3
+BRB,Americas,2004,65.3
+BRB,Americas,2005,65.6
+BRB,Americas,2006,65.6
+BRB,Americas,2007,65.7
+BRB,Americas,2008,65.9
+BRB,Americas,2009,66.2
+BRB,Americas,2010,66.2
+BRB,Americas,2011,66.3
+BRB,Americas,2012,66.4
+BRB,Americas,2013,66.4
+BRB,Americas,2014,66.5
+BRB,Americas,2015,66.5
+BRB,Americas,2016,66.5
+BRB,Americas,2017,66.5
+BRB,Americas,2018,66.5
+BRB,Americas,2019,66.3
+BRB,Americas,2020,66.9
+BRB,Americas,2021,66.7
+BRN,Western Pacific,2000,66.3
+BRN,Western Pacific,2001,66.4
+BRN,Western Pacific,2002,66.6
+BRN,Western Pacific,2003,66.8
+BRN,Western Pacific,2004,66.9
+BRN,Western Pacific,2005,67.1
+BRN,Western Pacific,2006,67.2
+BRN,Western Pacific,2007,67.2
+BRN,Western Pacific,2008,67.3
+BRN,Western Pacific,2009,67.4
+BRN,Western Pacific,2010,67.5
+BRN,Western Pacific,2011,67.5
+BRN,Western Pacific,2012,67.4
+BRN,Western Pacific,2013,67.3
+BRN,Western Pacific,2014,67.2
+BRN,Western Pacific,2015,67.1
+BRN,Western Pacific,2016,67.0
+BRN,Western Pacific,2017,67.0
+BRN,Western Pacific,2018,66.9
+BRN,Western Pacific,2019,67.1
+BRN,Western Pacific,2020,67.1
+BRN,Western Pacific,2021,67.1
+BTN,South-East Asia,2000,57.2
+BTN,South-East Asia,2001,58.2
+BTN,South-East Asia,2002,58.8
+BTN,South-East Asia,2003,59.3
+BTN,South-East Asia,2004,59.7
+BTN,South-East Asia,2005,60.1
+BTN,South-East Asia,2006,60.6
+BTN,South-East Asia,2007,61.1
+BTN,South-East Asia,2008,61.5
+BTN,South-East Asia,2009,61.8
+BTN,South-East Asia,2010,62.2
+BTN,South-East Asia,2011,62.5
+BTN,South-East Asia,2012,62.8
+BTN,South-East Asia,2013,63.1
+BTN,South-East Asia,2014,63.2
+BTN,South-East Asia,2015,63.4
+BTN,South-East Asia,2016,63.6
+BTN,South-East Asia,2017,63.8
+BTN,South-East Asia,2018,64.0
+BTN,South-East Asia,2019,64.1
+BTN,South-East Asia,2020,64.5
+BTN,South-East Asia,2021,64.8
+BWA,Africa,2000,41.3
+BWA,Africa,2001,40.9
+BWA,Africa,2002,41.1
+BWA,Africa,2003,42.1
+BWA,Africa,2004,44.0
+BWA,Africa,2005,46.1
+BWA,Africa,2006,47.5
+BWA,Africa,2007,48.3
+BWA,Africa,2008,48.7
+BWA,Africa,2009,49.4
+BWA,Africa,2010,50.1
+BWA,Africa,2011,50.8
+BWA,Africa,2012,51.8
+BWA,Africa,2013,52.6
+BWA,Africa,2014,53.2
+BWA,Africa,2015,53.8
+BWA,Africa,2016,54.5
+BWA,Africa,2017,55.3
+BWA,Africa,2018,55.7
+BWA,Africa,2019,56.1
+BWA,Africa,2020,56.3
+BWA,Africa,2021,53.1
+CAF,Africa,2000,38.3
+CAF,Africa,2001,38.5
+CAF,Africa,2002,38.8
+CAF,Africa,2003,39.1
+CAF,Africa,2004,39.5
+CAF,Africa,2005,39.9
+CAF,Africa,2006,40.4
+CAF,Africa,2007,41.1
+CAF,Africa,2008,41.9
+CAF,Africa,2009,42.4
+CAF,Africa,2010,42.7
+CAF,Africa,2011,43.0
+CAF,Africa,2012,43.3
+CAF,Africa,2013,42.9
+CAF,Africa,2014,42.8
+CAF,Africa,2015,44.3
+CAF,Africa,2016,44.7
+CAF,Africa,2017,44.6
+CAF,Africa,2018,45.3
+CAF,Africa,2019,46.0
+CAF,Africa,2020,46.0
+CAF,Africa,2021,45.4
+CAN,Americas,2000,68.5
+CAN,Americas,2001,68.7
+CAN,Americas,2002,68.7
+CAN,Americas,2003,68.8
+CAN,Americas,2004,69.0
+CAN,Americas,2005,69.0
+CAN,Americas,2006,69.3
+CAN,Americas,2007,69.3
+CAN,Americas,2008,69.4
+CAN,Americas,2009,69.6
+CAN,Americas,2010,69.8
+CAN,Americas,2011,70.0
+CAN,Americas,2012,70.1
+CAN,Americas,2013,70.1
+CAN,Americas,2014,70.2
+CAN,Americas,2015,70.2
+CAN,Americas,2016,70.2
+CAN,Americas,2017,70.1
+CAN,Americas,2018,70.1
+CAN,Americas,2019,70.3
+CAN,Americas,2020,69.6
+CAN,Americas,2021,69.8
+CHE,Europe,2000,68.4
+CHE,Europe,2001,68.7
+CHE,Europe,2002,69.0
+CHE,Europe,2003,69.1
+CHE,Europe,2004,69.5
+CHE,Europe,2005,69.7
+CHE,Europe,2006,69.9
+CHE,Europe,2007,70.0
+CHE,Europe,2008,70.1
+CHE,Europe,2009,70.1
+CHE,Europe,2010,70.4
+CHE,Europe,2011,70.5
+CHE,Europe,2012,70.6
+CHE,Europe,2013,70.6
+CHE,Europe,2014,70.9
+CHE,Europe,2015,70.8
+CHE,Europe,2016,71.2
+CHE,Europe,2017,71.2
+CHE,Europe,2018,71.4
+CHE,Europe,2019,71.5
+CHE,Europe,2020,70.9
+CHE,Europe,2021,71.1
+CHL,Americas,2000,66.3
+CHL,Americas,2001,66.2
+CHL,Americas,2002,66.6
+CHL,Americas,2003,66.7
+CHL,Americas,2004,66.7
+CHL,Americas,2005,67.0
+CHL,Americas,2006,67.4
+CHL,Americas,2007,67.5
+CHL,Americas,2008,68.0
+CHL,Americas,2009,68.0
+CHL,Americas,2010,67.9
+CHL,Americas,2011,68.4
+CHL,Americas,2012,68.4
+CHL,Americas,2013,68.5
+CHL,Americas,2014,68.6
+CHL,Americas,2015,68.7
+CHL,Americas,2016,69.0
+CHL,Americas,2017,69.1
+CHL,Americas,2018,69.3
+CHL,Americas,2019,69.4
+CHL,Americas,2020,68.3
+CHL,Americas,2021,67.7
+CHN,Western Pacific,2000,63.1
+CHN,Western Pacific,2001,63.4
+CHN,Western Pacific,2002,63.7
+CHN,Western Pacific,2003,63.9
+CHN,Western Pacific,2004,64.2
+CHN,Western Pacific,2005,64.6
+CHN,Western Pacific,2006,65.3
+CHN,Western Pacific,2007,65.8
+CHN,Western Pacific,2008,65.9
+CHN,Western Pacific,2009,66.3
+CHN,Western Pacific,2010,66.5
+CHN,Western Pacific,2011,66.8
+CHN,Western Pacific,2012,67.2
+CHN,Western Pacific,2013,67.4
+CHN,Western Pacific,2014,67.7
+CHN,Western Pacific,2015,67.9
+CHN,Western Pacific,2016,68.1
+CHN,Western Pacific,2017,68.2
+CHN,Western Pacific,2018,68.3
+CHN,Western Pacific,2019,68.5
+CHN,Western Pacific,2020,68.5
+CHN,Western Pacific,2021,68.6
+CIV,Africa,2000,44.5
+CIV,Africa,2001,44.8
+CIV,Africa,2002,45.1
+CIV,Africa,2003,45.5
+CIV,Africa,2004,46.0
+CIV,Africa,2005,46.9
+CIV,Africa,2006,47.8
+CIV,Africa,2007,48.6
+CIV,Africa,2008,49.3
+CIV,Africa,2009,49.9
+CIV,Africa,2010,50.0
+CIV,Africa,2011,50.2
+CIV,Africa,2012,51.1
+CIV,Africa,2013,51.8
+CIV,Africa,2014,52.4
+CIV,Africa,2015,53.2
+CIV,Africa,2016,53.8
+CIV,Africa,2017,54.3
+CIV,Africa,2018,54.9
+CIV,Africa,2019,55.4
+CIV,Africa,2020,55.3
+CIV,Africa,2021,55.4
+CMR,Africa,2000,46.1
+CMR,Africa,2001,46.1
+CMR,Africa,2002,46.1
+CMR,Africa,2003,46.3
+CMR,Africa,2004,46.7
+CMR,Africa,2005,47.2
+CMR,Africa,2006,47.5
+CMR,Africa,2007,48.0
+CMR,Africa,2008,48.6
+CMR,Africa,2009,49.2
+CMR,Africa,2010,49.6
+CMR,Africa,2011,50.1
+CMR,Africa,2012,50.5
+CMR,Africa,2013,50.9
+CMR,Africa,2014,51.1
+CMR,Africa,2015,51.6
+CMR,Africa,2016,52.3
+CMR,Africa,2017,53.1
+CMR,Africa,2018,53.7
+CMR,Africa,2019,54.2
+CMR,Africa,2020,54.4
+CMR,Africa,2021,54.0
+COD,Africa,2000,45.0
+COD,Africa,2001,45.3
+COD,Africa,2002,45.5
+COD,Africa,2003,45.9
+COD,Africa,2004,46.5
+COD,Africa,2005,47.0
+COD,Africa,2006,47.5
+COD,Africa,2007,48.0
+COD,Africa,2008,48.4
+COD,Africa,2009,48.9
+COD,Africa,2010,49.5
+COD,Africa,2011,49.9
+COD,Africa,2012,50.4
+COD,Africa,2013,50.9
+COD,Africa,2014,51.4
+COD,Africa,2015,51.8
+COD,Africa,2016,52.2
+COD,Africa,2017,52.6
+COD,Africa,2018,53.1
+COD,Africa,2019,53.5
+COD,Africa,2020,53.6
+COD,Africa,2021,53.2
+COG,Africa,2000,45.5
+COG,Africa,2001,46.3
+COG,Africa,2002,46.9
+COG,Africa,2003,47.5
+COG,Africa,2004,48.2
+COG,Africa,2005,49.2
+COG,Africa,2006,50.1
+COG,Africa,2007,50.7
+COG,Africa,2008,51.6
+COG,Africa,2009,52.3
+COG,Africa,2010,52.8
+COG,Africa,2011,53.2
+COG,Africa,2012,53.3
+COG,Africa,2013,53.5
+COG,Africa,2014,53.7
+COG,Africa,2015,54.1
+COG,Africa,2016,54.5
+COG,Africa,2017,54.7
+COG,Africa,2018,54.9
+COG,Africa,2019,54.7
+COG,Africa,2020,55.1
+COG,Africa,2021,54.8
+COL,Americas,2000,63.3
+COL,Americas,2001,63.4
+COL,Americas,2002,63.6
+COL,Americas,2003,64.2
+COL,Americas,2004,64.5
+COL,Americas,2005,64.9
+COL,Americas,2006,65.1
+COL,Americas,2007,65.6
+COL,Americas,2008,65.8
+COL,Americas,2009,66.1
+COL,Americas,2010,66.2
+COL,Americas,2011,66.8
+COL,Americas,2012,67.0
+COL,Americas,2013,67.3
+COL,Americas,2014,67.4
+COL,Americas,2015,67.4
+COL,Americas,2016,67.6
+COL,Americas,2017,67.8
+COL,Americas,2018,67.8
+COL,Americas,2019,67.9
+COL,Americas,2020,66.4
+COL,Americas,2021,65.0
+COM,Africa,2000,54.3
+COM,Africa,2001,54.9
+COM,Africa,2002,55.2
+COM,Africa,2003,55.7
+COM,Africa,2004,56.1
+COM,Africa,2005,56.4
+COM,Africa,2006,56.6
+COM,Africa,2007,56.8
+COM,Africa,2008,57.4
+COM,Africa,2009,57.1
+COM,Africa,2010,57.9
+COM,Africa,2011,57.8
+COM,Africa,2012,58.3
+COM,Africa,2013,58.6
+COM,Africa,2014,58.9
+COM,Africa,2015,59.2
+COM,Africa,2016,59.4
+COM,Africa,2017,59.5
+COM,Africa,2018,59.8
+COM,Africa,2019,59.8
+COM,Africa,2020,59.9
+COM,Africa,2021,59.0
+CPV,Africa,2000,62.4
+CPV,Africa,2001,62.7
+CPV,Africa,2002,62.9
+CPV,Africa,2003,63.0
+CPV,Africa,2004,63.1
+CPV,Africa,2005,63.3
+CPV,Africa,2006,63.9
+CPV,Africa,2007,63.9
+CPV,Africa,2008,64.3
+CPV,Africa,2009,64.3
+CPV,Africa,2010,64.5
+CPV,Africa,2011,64.7
+CPV,Africa,2012,64.8
+CPV,Africa,2013,65.0
+CPV,Africa,2014,65.2
+CPV,Africa,2015,65.2
+CPV,Africa,2016,65.3
+CPV,Africa,2017,65.3
+CPV,Africa,2018,64.6
+CPV,Africa,2019,64.8
+CPV,Africa,2020,64.3
+CPV,Africa,2021,63.8
+CRI,Americas,2000,67.8
+CRI,Americas,2001,67.7
+CRI,Americas,2002,68.3
+CRI,Americas,2003,68.2
+CRI,Americas,2004,68.1
+CRI,Americas,2005,68.9
+CRI,Americas,2006,68.6
+CRI,Americas,2007,69.2
+CRI,Americas,2008,69.2
+CRI,Americas,2009,69.5
+CRI,Americas,2010,68.6
+CRI,Americas,2011,69.2
+CRI,Americas,2012,69.3
+CRI,Americas,2013,69.4
+CRI,Americas,2014,69.3
+CRI,Americas,2015,69.4
+CRI,Americas,2016,69.0
+CRI,Americas,2017,69.1
+CRI,Americas,2018,69.2
+CRI,Americas,2019,69.2
+CRI,Americas,2020,68.8
+CRI,Americas,2021,67.6
+CUB,Americas,2000,67.0
+CUB,Americas,2001,67.0
+CUB,Americas,2002,67.8
+CUB,Americas,2003,67.6
+CUB,Americas,2004,67.7
+CUB,Americas,2005,67.5
+CUB,Americas,2006,68.1
+CUB,Americas,2007,68.2
+CUB,Americas,2008,68.0
+CUB,Americas,2009,68.1
+CUB,Americas,2010,68.0
+CUB,Americas,2011,68.5
+CUB,Americas,2012,68.4
+CUB,Americas,2013,68.3
+CUB,Americas,2014,68.2
+CUB,Americas,2015,68.0
+CUB,Americas,2016,68.2
+CUB,Americas,2017,67.8
+CUB,Americas,2018,68.0
+CUB,Americas,2019,67.8
+CUB,Americas,2020,67.7
+CUB,Americas,2021,64.6
+CYP,Europe,2000,68.5
+CYP,Europe,2001,68.5
+CYP,Europe,2002,68.6
+CYP,Europe,2003,68.7
+CYP,Europe,2004,68.8
+CYP,Europe,2005,69.0
+CYP,Europe,2006,69.2
+CYP,Europe,2007,69.5
+CYP,Europe,2008,69.7
+CYP,Europe,2009,70.0
+CYP,Europe,2010,70.2
+CYP,Europe,2011,70.4
+CYP,Europe,2012,70.6
+CYP,Europe,2013,70.8
+CYP,Europe,2014,70.8
+CYP,Europe,2015,70.8
+CYP,Europe,2016,70.8
+CYP,Europe,2017,70.9
+CYP,Europe,2018,71.0
+CYP,Europe,2019,71.1
+CYP,Europe,2020,70.9
+CYP,Europe,2021,70.7
+CZE,Europe,2000,65.3
+CZE,Europe,2001,65.5
+CZE,Europe,2002,65.5
+CZE,Europe,2003,65.5
+CZE,Europe,2004,65.8
+CZE,Europe,2005,66.0
+CZE,Europe,2006,66.4
+CZE,Europe,2007,66.6
+CZE,Europe,2008,66.8
+CZE,Europe,2009,66.9
+CZE,Europe,2010,67.1
+CZE,Europe,2011,67.3
+CZE,Europe,2012,67.4
+CZE,Europe,2013,67.6
+CZE,Europe,2014,68.0
+CZE,Europe,2015,67.9
+CZE,Europe,2016,68.2
+CZE,Europe,2017,68.2
+CZE,Europe,2018,68.3
+CZE,Europe,2019,68.5
+CZE,Europe,2020,67.7
+CZE,Europe,2021,66.7
+DEU,Europe,2000,67.5
+DEU,Europe,2001,67.7
+DEU,Europe,2002,67.7
+DEU,Europe,2003,67.7
+DEU,Europe,2004,68.1
+DEU,Europe,2005,68.2
+DEU,Europe,2006,68.5
+DEU,Europe,2007,68.6
+DEU,Europe,2008,68.7
+DEU,Europe,2009,68.8
+DEU,Europe,2010,68.9
+DEU,Europe,2011,69.1
+DEU,Europe,2012,69.2
+DEU,Europe,2013,69.0
+DEU,Europe,2014,69.3
+DEU,Europe,2015,69.1
+DEU,Europe,2016,69.2
+DEU,Europe,2017,69.3
+DEU,Europe,2018,69.2
+DEU,Europe,2019,69.4
+DEU,Europe,2020,69.2
+DEU,Europe,2021,68.9
+DJI,Eastern Mediterranean,2000,52.4
+DJI,Eastern Mediterranean,2001,52.3
+DJI,Eastern Mediterranean,2002,52.4
+DJI,Eastern Mediterranean,2003,52.5
+DJI,Eastern Mediterranean,2004,52.6
+DJI,Eastern Mediterranean,2005,52.9
+DJI,Eastern Mediterranean,2006,53.0
+DJI,Eastern Mediterranean,2007,53.7
+DJI,Eastern Mediterranean,2008,54.0
+DJI,Eastern Mediterranean,2009,54.3
+DJI,Eastern Mediterranean,2010,54.6
+DJI,Eastern Mediterranean,2011,54.9
+DJI,Eastern Mediterranean,2012,55.3
+DJI,Eastern Mediterranean,2013,55.6
+DJI,Eastern Mediterranean,2014,56.0
+DJI,Eastern Mediterranean,2015,56.3
+DJI,Eastern Mediterranean,2016,56.7
+DJI,Eastern Mediterranean,2017,57.0
+DJI,Eastern Mediterranean,2018,57.3
+DJI,Eastern Mediterranean,2019,57.6
+DJI,Eastern Mediterranean,2020,57.4
+DJI,Eastern Mediterranean,2021,57.0
+DNK,Europe,2000,66.7
+DNK,Europe,2001,66.8
+DNK,Europe,2002,66.8
+DNK,Europe,2003,67.1
+DNK,Europe,2004,67.4
+DNK,Europe,2005,67.8
+DNK,Europe,2006,67.9
+DNK,Europe,2007,67.9
+DNK,Europe,2008,68.2
+DNK,Europe,2009,68.4
+DNK,Europe,2010,68.6
+DNK,Europe,2011,69.0
+DNK,Europe,2012,69.3
+DNK,Europe,2013,69.4
+DNK,Europe,2014,69.7
+DNK,Europe,2015,69.8
+DNK,Europe,2016,69.9
+DNK,Europe,2017,70.1
+DNK,Europe,2018,70.0
+DNK,Europe,2019,70.3
+DNK,Europe,2020,70.2
+DNK,Europe,2021,70.1
+DOM,Americas,2000,63.8
+DOM,Americas,2001,63.9
+DOM,Americas,2002,64.0
+DOM,Americas,2003,63.8
+DOM,Americas,2004,63.5
+DOM,Americas,2005,63.5
+DOM,Americas,2006,63.5
+DOM,Americas,2007,63.6
+DOM,Americas,2008,63.8
+DOM,Americas,2009,64.0
+DOM,Americas,2010,64.2
+DOM,Americas,2011,64.3
+DOM,Americas,2012,64.1
+DOM,Americas,2013,63.8
+DOM,Americas,2014,63.7
+DOM,Americas,2015,63.7
+DOM,Americas,2016,63.7
+DOM,Americas,2017,63.8
+DOM,Americas,2018,63.8
+DOM,Americas,2019,64.1
+DOM,Americas,2020,63.7
+DOM,Americas,2021,63.6
+DZA,Africa,2000,62.9
+DZA,Africa,2001,63.2
+DZA,Africa,2002,63.4
+DZA,Africa,2003,63.6
+DZA,Africa,2004,64.0
+DZA,Africa,2005,64.3
+DZA,Africa,2006,64.5
+DZA,Africa,2007,64.7
+DZA,Africa,2008,64.9
+DZA,Africa,2009,65.0
+DZA,Africa,2010,65.2
+DZA,Africa,2011,65.4
+DZA,Africa,2012,65.5
+DZA,Africa,2013,65.6
+DZA,Africa,2014,65.7
+DZA,Africa,2015,65.8
+DZA,Africa,2016,66.0
+DZA,Africa,2017,66.1
+DZA,Africa,2018,66.1
+DZA,Africa,2019,66.1
+DZA,Africa,2020,64.1
+DZA,Africa,2021,65.5
+ECU,Americas,2000,63.5
+ECU,Americas,2001,63.9
+ECU,Americas,2002,64.0
+ECU,Americas,2003,64.6
+ECU,Americas,2004,64.6
+ECU,Americas,2005,64.5
+ECU,Americas,2006,64.7
+ECU,Americas,2007,64.9
+ECU,Americas,2008,65.0
+ECU,Americas,2009,65.4
+ECU,Americas,2010,65.5
+ECU,Americas,2011,65.9
+ECU,Americas,2012,66.1
+ECU,Americas,2013,66.5
+ECU,Americas,2014,66.9
+ECU,Americas,2015,67.1
+ECU,Americas,2016,67.2
+ECU,Americas,2017,67.3
+ECU,Americas,2018,67.4
+ECU,Americas,2019,67.6
+ECU,Americas,2020,63.5
+ECU,Americas,2021,64.3
+EGY,Eastern Mediterranean,2000,60.4
+EGY,Eastern Mediterranean,2001,60.2
+EGY,Eastern Mediterranean,2002,60.3
+EGY,Eastern Mediterranean,2003,60.3
+EGY,Eastern Mediterranean,2004,60.6
+EGY,Eastern Mediterranean,2005,60.9
+EGY,Eastern Mediterranean,2006,60.9
+EGY,Eastern Mediterranean,2007,61.1
+EGY,Eastern Mediterranean,2008,61.1
+EGY,Eastern Mediterranean,2009,61.1
+EGY,Eastern Mediterranean,2010,61.1
+EGY,Eastern Mediterranean,2011,61.3
+EGY,Eastern Mediterranean,2012,61.2
+EGY,Eastern Mediterranean,2013,61.6
+EGY,Eastern Mediterranean,2014,61.7
+EGY,Eastern Mediterranean,2015,61.4
+EGY,Eastern Mediterranean,2016,61.9
+EGY,Eastern Mediterranean,2017,62.3
+EGY,Eastern Mediterranean,2018,62.4
+EGY,Eastern Mediterranean,2019,62.5
+EGY,Eastern Mediterranean,2020,61.2
+EGY,Eastern Mediterranean,2021,60.4
+ERI,Africa,2000,47.7
+ERI,Africa,2001,48.8
+ERI,Africa,2002,49.3
+ERI,Africa,2003,49.7
+ERI,Africa,2004,50.2
+ERI,Africa,2005,50.6
+ERI,Africa,2006,51.1
+ERI,Africa,2007,51.6
+ERI,Africa,2008,51.9
+ERI,Africa,2009,52.3
+ERI,Africa,2010,52.6
+ERI,Africa,2011,53.1
+ERI,Africa,2012,53.5
+ERI,Africa,2013,53.8
+ERI,Africa,2014,54.2
+ERI,Africa,2015,54.5
+ERI,Africa,2016,54.9
+ERI,Africa,2017,55.1
+ERI,Africa,2018,55.4
+ERI,Africa,2019,55.7
+ERI,Africa,2020,55.7
+ERI,Africa,2021,55.4
+ESP,Europe,2000,68.9
+ESP,Europe,2001,69.1
+ESP,Europe,2002,69.2
+ESP,Europe,2003,69.1
+ESP,Europe,2004,69.5
+ESP,Europe,2005,69.5
+ESP,Europe,2006,70.0
+ESP,Europe,2007,70.0
+ESP,Europe,2008,70.2
+ESP,Europe,2009,70.4
+ESP,Europe,2010,70.7
+ESP,Europe,2011,70.8
+ESP,Europe,2012,70.9
+ESP,Europe,2013,71.2
+ESP,Europe,2014,71.3
+ESP,Europe,2015,71.1
+ESP,Europe,2016,71.4
+ESP,Europe,2017,71.4
+ESP,Europe,2018,71.4
+ESP,Europe,2019,71.7
+ESP,Europe,2020,70.6
+ESP,Europe,2021,71.1
+EST,Europe,2000,61.9
+EST,Europe,2001,61.8
+EST,Europe,2002,62.1
+EST,Europe,2003,62.7
+EST,Europe,2004,63.0
+EST,Europe,2005,63.5
+EST,Europe,2006,63.7
+EST,Europe,2007,63.8
+EST,Europe,2008,64.7
+EST,Europe,2009,65.3
+EST,Europe,2010,66.0
+EST,Europe,2011,66.3
+EST,Europe,2012,66.4
+EST,Europe,2013,67.0
+EST,Europe,2014,67.0
+EST,Europe,2015,67.4
+EST,Europe,2016,67.5
+EST,Europe,2017,67.9
+EST,Europe,2018,68.0
+EST,Europe,2019,68.4
+EST,Europe,2020,68.1
+EST,Europe,2021,66.7
+ETH,Africa,2000,44.5
+ETH,Africa,2001,46.2
+ETH,Africa,2002,47.1
+ETH,Africa,2003,47.9
+ETH,Africa,2004,48.8
+ETH,Africa,2005,49.9
+ETH,Africa,2006,50.9
+ETH,Africa,2007,52.1
+ETH,Africa,2008,53.2
+ETH,Africa,2009,54.2
+ETH,Africa,2010,55.1
+ETH,Africa,2011,56.0
+ETH,Africa,2012,56.7
+ETH,Africa,2013,57.4
+ETH,Africa,2014,58.0
+ETH,Africa,2015,58.4
+ETH,Africa,2016,58.9
+ETH,Africa,2017,59.3
+ETH,Africa,2018,59.6
+ETH,Africa,2019,59.9
+ETH,Africa,2020,59.8
+ETH,Africa,2021,58.8
+FIN,Europe,2000,66.9
+FIN,Europe,2001,67.1
+FIN,Europe,2002,67.2
+FIN,Europe,2003,67.4
+FIN,Europe,2004,67.6
+FIN,Europe,2005,67.7
+FIN,Europe,2006,67.9
+FIN,Europe,2007,68.0
+FIN,Europe,2008,68.3
+FIN,Europe,2009,68.4
+FIN,Europe,2010,68.6
+FIN,Europe,2011,68.9
+FIN,Europe,2012,69.1
+FIN,Europe,2013,69.3
+FIN,Europe,2014,69.6
+FIN,Europe,2015,69.8
+FIN,Europe,2016,69.8
+FIN,Europe,2017,70.0
+FIN,Europe,2018,70.0
+FIN,Europe,2019,70.2
+FIN,Europe,2020,70.0
+FIN,Europe,2021,69.9
+FJI,Western Pacific,2000,58.1
+FJI,Western Pacific,2001,58.5
+FJI,Western Pacific,2002,58.8
+FJI,Western Pacific,2003,58.8
+FJI,Western Pacific,2004,59.2
+FJI,Western Pacific,2005,59.2
+FJI,Western Pacific,2006,59.2
+FJI,Western Pacific,2007,59.2
+FJI,Western Pacific,2008,59.2
+FJI,Western Pacific,2009,59.4
+FJI,Western Pacific,2010,59.5
+FJI,Western Pacific,2011,59.5
+FJI,Western Pacific,2012,59.6
+FJI,Western Pacific,2013,59.7
+FJI,Western Pacific,2014,59.7
+FJI,Western Pacific,2015,59.8
+FJI,Western Pacific,2016,59.7
+FJI,Western Pacific,2017,59.7
+FJI,Western Pacific,2018,59.7
+FJI,Western Pacific,2019,59.7
+FJI,Western Pacific,2020,59.5
+FJI,Western Pacific,2021,57.7
+FRA,Europe,2000,68.0
+FRA,Europe,2001,68.0
+FRA,Europe,2002,68.1
+FRA,Europe,2003,68.1
+FRA,Europe,2004,68.7
+FRA,Europe,2005,68.8
+FRA,Europe,2006,69.1
+FRA,Europe,2007,69.3
+FRA,Europe,2008,69.4
+FRA,Europe,2009,69.6
+FRA,Europe,2010,69.7
+FRA,Europe,2011,70.0
+FRA,Europe,2012,70.0
+FRA,Europe,2013,70.2
+FRA,Europe,2014,70.5
+FRA,Europe,2015,70.2
+FRA,Europe,2016,70.4
+FRA,Europe,2017,70.5
+FRA,Europe,2018,70.6
+FRA,Europe,2019,70.7
+FRA,Europe,2020,70.1
+FRA,Europe,2021,70.1
+FSM,Western Pacific,2000,56.3
+FSM,Western Pacific,2001,56.5
+FSM,Western Pacific,2002,55.7
+FSM,Western Pacific,2003,56.7
+FSM,Western Pacific,2004,56.8
+FSM,Western Pacific,2005,56.8
+FSM,Western Pacific,2006,56.9
+FSM,Western Pacific,2007,56.9
+FSM,Western Pacific,2008,57.0
+FSM,Western Pacific,2009,57.1
+FSM,Western Pacific,2010,57.2
+FSM,Western Pacific,2011,57.3
+FSM,Western Pacific,2012,57.4
+FSM,Western Pacific,2013,57.5
+FSM,Western Pacific,2014,57.6
+FSM,Western Pacific,2015,57.7
+FSM,Western Pacific,2016,57.8
+FSM,Western Pacific,2017,57.9
+FSM,Western Pacific,2018,58.1
+FSM,Western Pacific,2019,58.2
+FSM,Western Pacific,2020,58.0
+FSM,Western Pacific,2021,57.9
+GAB,Africa,2000,50.0
+GAB,Africa,2001,50.1
+GAB,Africa,2002,50.4
+GAB,Africa,2003,50.5
+GAB,Africa,2004,51.0
+GAB,Africa,2005,51.8
+GAB,Africa,2006,52.3
+GAB,Africa,2007,52.6
+GAB,Africa,2008,52.7
+GAB,Africa,2009,53.1
+GAB,Africa,2010,53.5
+GAB,Africa,2011,53.8
+GAB,Africa,2012,54.3
+GAB,Africa,2013,54.9
+GAB,Africa,2014,55.3
+GAB,Africa,2015,55.5
+GAB,Africa,2016,55.8
+GAB,Africa,2017,56.0
+GAB,Africa,2018,56.1
+GAB,Africa,2019,56.4
+GAB,Africa,2020,56.4
+GAB,Africa,2021,56.3
+GBR,Europe,2000,67.3
+GBR,Europe,2001,67.3
+GBR,Europe,2002,67.5
+GBR,Europe,2003,67.5
+GBR,Europe,2004,67.9
+GBR,Europe,2005,68.1
+GBR,Europe,2006,68.3
+GBR,Europe,2007,68.4
+GBR,Europe,2008,68.5
+GBR,Europe,2009,68.8
+GBR,Europe,2010,69.0
+GBR,Europe,2011,69.3
+GBR,Europe,2012,69.3
+GBR,Europe,2013,69.3
+GBR,Europe,2014,69.5
+GBR,Europe,2015,69.3
+GBR,Europe,2016,69.4
+GBR,Europe,2017,69.5
+GBR,Europe,2018,69.3
+GBR,Europe,2019,69.7
+GBR,Europe,2020,68.8
+GBR,Europe,2021,68.6
+GEO,Europe,2000,62.8
+GEO,Europe,2001,63.2
+GEO,Europe,2002,61.9
+GEO,Europe,2003,62.6
+GEO,Europe,2004,62.4
+GEO,Europe,2005,63.5
+GEO,Europe,2006,63.5
+GEO,Europe,2007,63.9
+GEO,Europe,2008,63.2
+GEO,Europe,2009,62.9
+GEO,Europe,2010,63.4
+GEO,Europe,2011,63.5
+GEO,Europe,2012,63.6
+GEO,Europe,2013,63.9
+GEO,Europe,2014,64.0
+GEO,Europe,2015,64.1
+GEO,Europe,2016,63.9
+GEO,Europe,2017,64.6
+GEO,Europe,2018,64.8
+GEO,Europe,2019,64.9
+GEO,Europe,2020,64.2
+GEO,Europe,2021,62.5
+GHA,Africa,2000,51.7
+GHA,Africa,2001,51.8
+GHA,Africa,2002,52.0
+GHA,Africa,2003,52.2
+GHA,Africa,2004,52.4
+GHA,Africa,2005,52.7
+GHA,Africa,2006,52.9
+GHA,Africa,2007,53.2
+GHA,Africa,2008,53.6
+GHA,Africa,2009,54.0
+GHA,Africa,2010,54.4
+GHA,Africa,2011,54.9
+GHA,Africa,2012,55.4
+GHA,Africa,2013,55.8
+GHA,Africa,2014,56.2
+GHA,Africa,2015,56.5
+GHA,Africa,2016,56.8
+GHA,Africa,2017,57.2
+GHA,Africa,2018,57.6
+GHA,Africa,2019,57.9
+GHA,Africa,2020,58.0
+GHA,Africa,2021,57.9
+GIN,Africa,2000,47.4
+GIN,Africa,2001,47.8
+GIN,Africa,2002,48.3
+GIN,Africa,2003,48.7
+GIN,Africa,2004,49.0
+GIN,Africa,2005,49.4
+GIN,Africa,2006,49.8
+GIN,Africa,2007,50.0
+GIN,Africa,2008,50.4
+GIN,Africa,2009,50.6
+GIN,Africa,2010,51.0
+GIN,Africa,2011,51.3
+GIN,Africa,2012,51.5
+GIN,Africa,2013,51.8
+GIN,Africa,2014,51.4
+GIN,Africa,2015,51.9
+GIN,Africa,2016,52.4
+GIN,Africa,2017,52.8
+GIN,Africa,2018,53.1
+GIN,Africa,2019,53.5
+GIN,Africa,2020,53.4
+GIN,Africa,2021,53.4
+GMB,Africa,2000,51.5
+GMB,Africa,2001,51.7
+GMB,Africa,2002,51.9
+GMB,Africa,2003,52.1
+GMB,Africa,2004,52.4
+GMB,Africa,2005,52.7
+GMB,Africa,2006,53.1
+GMB,Africa,2007,53.3
+GMB,Africa,2008,53.6
+GMB,Africa,2009,53.9
+GMB,Africa,2010,54.3
+GMB,Africa,2011,54.7
+GMB,Africa,2012,55.1
+GMB,Africa,2013,55.3
+GMB,Africa,2014,55.4
+GMB,Africa,2015,55.6
+GMB,Africa,2016,55.9
+GMB,Africa,2017,56.1
+GMB,Africa,2018,56.3
+GMB,Africa,2019,56.6
+GMB,Africa,2020,56.4
+GMB,Africa,2021,55.8
+GNB,Africa,2000,43.9
+GNB,Africa,2001,44.3
+GNB,Africa,2002,44.7
+GNB,Africa,2003,45.2
+GNB,Africa,2004,45.5
+GNB,Africa,2005,45.9
+GNB,Africa,2006,46.4
+GNB,Africa,2007,47.0
+GNB,Africa,2008,47.6
+GNB,Africa,2009,48.1
+GNB,Africa,2010,48.6
+GNB,Africa,2011,49.1
+GNB,Africa,2012,49.6
+GNB,Africa,2013,49.9
+GNB,Africa,2014,50.2
+GNB,Africa,2015,50.5
+GNB,Africa,2016,50.9
+GNB,Africa,2017,51.2
+GNB,Africa,2018,51.5
+GNB,Africa,2019,51.8
+GNB,Africa,2020,51.2
+GNB,Africa,2021,51.5
+GNQ,Africa,2000,46.6
+GNQ,Africa,2001,47.3
+GNQ,Africa,2002,47.8
+GNQ,Africa,2003,48.1
+GNQ,Africa,2004,48.5
+GNQ,Africa,2005,49.0
+GNQ,Africa,2006,49.9
+GNQ,Africa,2007,50.7
+GNQ,Africa,2008,51.3
+GNQ,Africa,2009,51.8
+GNQ,Africa,2010,52.0
+GNQ,Africa,2011,51.9
+GNQ,Africa,2012,52.1
+GNQ,Africa,2013,52.8
+GNQ,Africa,2014,53.2
+GNQ,Africa,2015,52.9
+GNQ,Africa,2016,52.7
+GNQ,Africa,2017,53.0
+GNQ,Africa,2018,53.2
+GNQ,Africa,2019,53.2
+GNQ,Africa,2020,52.8
+GNQ,Africa,2021,53.3
+GRC,Europe,2000,67.7
+GRC,Europe,2001,68.0
+GRC,Europe,2002,68.1
+GRC,Europe,2003,68.2
+GRC,Europe,2004,68.2
+GRC,Europe,2005,68.4
+GRC,Europe,2006,68.6
+GRC,Europe,2007,68.4
+GRC,Europe,2008,68.8
+GRC,Europe,2009,68.9
+GRC,Europe,2010,69.1
+GRC,Europe,2011,69.2
+GRC,Europe,2012,69.2
+GRC,Europe,2013,69.7
+GRC,Europe,2014,69.8
+GRC,Europe,2015,69.5
+GRC,Europe,2016,69.7
+GRC,Europe,2017,69.7
+GRC,Europe,2018,69.9
+GRC,Europe,2019,69.8
+GRC,Europe,2020,69.5
+GRC,Europe,2021,68.6
+GRD,Americas,2000,62.6
+GRD,Americas,2001,62.6
+GRD,Americas,2002,62.3
+GRD,Americas,2003,62.1
+GRD,Americas,2004,61.7
+GRD,Americas,2005,62.0
+GRD,Americas,2006,62.1
+GRD,Americas,2007,62.2
+GRD,Americas,2008,62.1
+GRD,Americas,2009,62.1
+GRD,Americas,2010,62.2
+GRD,Americas,2011,63.0
+GRD,Americas,2012,63.4
+GRD,Americas,2013,63.3
+GRD,Americas,2014,63.3
+GRD,Americas,2015,63.3
+GRD,Americas,2016,63.2
+GRD,Americas,2017,63.3
+GRD,Americas,2018,63.4
+GRD,Americas,2019,63.4
+GRD,Americas,2020,65.2
+GRD,Americas,2021,63.2
+GTM,Americas,2000,58.7
+GTM,Americas,2001,59.0
+GTM,Americas,2002,59.5
+GTM,Americas,2003,59.6
+GTM,Americas,2004,59.8
+GTM,Americas,2005,59.5
+GTM,Americas,2006,60.0
+GTM,Americas,2007,60.6
+GTM,Americas,2008,60.9
+GTM,Americas,2009,60.8
+GTM,Americas,2010,61.0
+GTM,Americas,2011,61.4
+GTM,Americas,2012,61.7
+GTM,Americas,2013,61.6
+GTM,Americas,2014,61.8
+GTM,Americas,2015,61.9
+GTM,Americas,2016,62.1
+GTM,Americas,2017,62.5
+GTM,Americas,2018,62.5
+GTM,Americas,2019,62.5
+GTM,Americas,2020,61.1
+GTM,Americas,2021,59.3
+GUY,Americas,2000,55.9
+GUY,Americas,2001,56.0
+GUY,Americas,2002,56.0
+GUY,Americas,2003,56.0
+GUY,Americas,2004,56.2
+GUY,Americas,2005,56.3
+GUY,Americas,2006,56.5
+GUY,Americas,2007,56.8
+GUY,Americas,2008,56.8
+GUY,Americas,2009,57.1
+GUY,Americas,2010,57.1
+GUY,Americas,2011,57.1
+GUY,Americas,2012,57.1
+GUY,Americas,2013,57.2
+GUY,Americas,2014,57.4
+GUY,Americas,2015,57.8
+GUY,Americas,2016,58.2
+GUY,Americas,2017,58.7
+GUY,Americas,2018,59.1
+GUY,Americas,2019,59.1
+GUY,Americas,2020,57.7
+GUY,Americas,2021,56.8
+HND,Americas,2000,60.7
+HND,Americas,2001,60.9
+HND,Americas,2002,61.0
+HND,Americas,2003,61.1
+HND,Americas,2004,61.2
+HND,Americas,2005,61.4
+HND,Americas,2006,61.6
+HND,Americas,2007,61.7
+HND,Americas,2008,61.7
+HND,Americas,2009,61.8
+HND,Americas,2010,61.7
+HND,Americas,2011,61.6
+HND,Americas,2012,60.3
+HND,Americas,2013,60.6
+HND,Americas,2014,60.7
+HND,Americas,2015,60.8
+HND,Americas,2016,62.1
+HND,Americas,2017,62.2
+HND,Americas,2018,62.2
+HND,Americas,2019,62.3
+HND,Americas,2020,61.3
+HND,Americas,2021,60.0
+HRV,Europe,2000,65.2
+HRV,Europe,2001,65.4
+HRV,Europe,2002,65.5
+HRV,Europe,2003,65.4
+HRV,Europe,2004,65.9
+HRV,Europe,2005,65.9
+HRV,Europe,2006,66.3
+HRV,Europe,2007,66.2
+HRV,Europe,2008,66.4
+HRV,Europe,2009,66.7
+HRV,Europe,2010,67.0
+HRV,Europe,2011,67.2
+HRV,Europe,2012,67.4
+HRV,Europe,2013,67.7
+HRV,Europe,2014,67.9
+HRV,Europe,2015,67.6
+HRV,Europe,2016,68.1
+HRV,Europe,2017,68.0
+HRV,Europe,2018,68.2
+HRV,Europe,2019,68.4
+HRV,Europe,2020,67.7
+HRV,Europe,2021,66.8
+HTI,Americas,2000,49.2
+HTI,Americas,2001,49.5
+HTI,Americas,2002,49.9
+HTI,Americas,2003,50.3
+HTI,Americas,2004,50.0
+HTI,Americas,2005,50.9
+HTI,Americas,2006,51.5
+HTI,Americas,2007,52.0
+HTI,Americas,2008,52.5
+HTI,Americas,2009,52.9
+HTI,Americas,2010,35.3
+HTI,Americas,2011,52.9
+HTI,Americas,2012,53.2
+HTI,Americas,2013,53.5
+HTI,Americas,2014,53.8
+HTI,Americas,2015,54.0
+HTI,Americas,2016,54.2
+HTI,Americas,2017,54.6
+HTI,Americas,2018,54.8
+HTI,Americas,2019,55.0
+HTI,Americas,2020,54.7
+HTI,Americas,2021,53.9
+HUN,Europe,2000,62.2
+HUN,Europe,2001,63.0
+HUN,Europe,2002,63.1
+HUN,Europe,2003,63.2
+HUN,Europe,2004,63.5
+HUN,Europe,2005,63.5
+HUN,Europe,2006,64.0
+HUN,Europe,2007,64.1
+HUN,Europe,2008,64.5
+HUN,Europe,2009,64.7
+HUN,Europe,2010,65.0
+HUN,Europe,2011,65.3
+HUN,Europe,2012,65.5
+HUN,Europe,2013,65.9
+HUN,Europe,2014,66.0
+HUN,Europe,2015,65.9
+HUN,Europe,2016,66.3
+HUN,Europe,2017,66.2
+HUN,Europe,2018,66.4
+HUN,Europe,2019,66.6
+HUN,Europe,2020,66.1
+HUN,Europe,2021,64.8
+IDN,Western Pacific,2000,59.4
+IDN,Western Pacific,2001,59.7
+IDN,Western Pacific,2002,59.9
+IDN,Western Pacific,2003,60.1
+IDN,Western Pacific,2004,58.8
+IDN,Western Pacific,2005,60.5
+IDN,Western Pacific,2006,60.6
+IDN,Western Pacific,2007,60.9
+IDN,Western Pacific,2008,61.1
+IDN,Western Pacific,2009,61.2
+IDN,Western Pacific,2010,61.4
+IDN,Western Pacific,2011,61.7
+IDN,Western Pacific,2012,61.9
+IDN,Western Pacific,2013,62.1
+IDN,Western Pacific,2014,62.4
+IDN,Western Pacific,2015,62.6
+IDN,Western Pacific,2016,62.8
+IDN,Western Pacific,2017,63.0
+IDN,Western Pacific,2018,63.1
+IDN,Western Pacific,2019,63.3
+IDN,Western Pacific,2020,61.9
+IDN,Western Pacific,2021,60.7
+IND,South-East Asia,2000,54.1
+IND,South-East Asia,2001,54.5
+IND,South-East Asia,2002,55.0
+IND,South-East Asia,2003,55.3
+IND,South-East Asia,2004,55.7
+IND,South-East Asia,2005,56.1
+IND,South-East Asia,2006,56.5
+IND,South-East Asia,2007,56.7
+IND,South-East Asia,2008,57.0
+IND,South-East Asia,2009,57.5
+IND,South-East Asia,2010,57.9
+IND,South-East Asia,2011,58.2
+IND,South-East Asia,2012,58.6
+IND,South-East Asia,2013,58.8
+IND,South-East Asia,2014,59.2
+IND,South-East Asia,2015,59.6
+IND,South-East Asia,2016,59.9
+IND,South-East Asia,2017,60.2
+IND,South-East Asia,2018,60.5
+IND,South-East Asia,2019,60.9
+IND,South-East Asia,2020,60.4
+IND,South-East Asia,2021,58.1
+IRL,Europe,2000,66.3
+IRL,Europe,2001,66.8
+IRL,Europe,2002,67.1
+IRL,Europe,2003,67.4
+IRL,Europe,2004,67.7
+IRL,Europe,2005,68.0
+IRL,Europe,2006,68.2
+IRL,Europe,2007,68.4
+IRL,Europe,2008,68.5
+IRL,Europe,2009,68.5
+IRL,Europe,2010,69.3
+IRL,Europe,2011,69.2
+IRL,Europe,2012,69.3
+IRL,Europe,2013,69.5
+IRL,Europe,2014,69.7
+IRL,Europe,2015,69.8
+IRL,Europe,2016,70.0
+IRL,Europe,2017,70.2
+IRL,Europe,2018,70.3
+IRL,Europe,2019,70.5
+IRL,Europe,2020,70.1
+IRL,Europe,2021,70.0
+IRN,Eastern Mediterranean,2000,63.2
+IRN,Eastern Mediterranean,2001,63.4
+IRN,Eastern Mediterranean,2002,63.6
+IRN,Eastern Mediterranean,2003,63.1
+IRN,Eastern Mediterranean,2004,64.0
+IRN,Eastern Mediterranean,2005,64.3
+IRN,Eastern Mediterranean,2006,64.5
+IRN,Eastern Mediterranean,2007,64.8
+IRN,Eastern Mediterranean,2008,65.0
+IRN,Eastern Mediterranean,2009,65.2
+IRN,Eastern Mediterranean,2010,65.5
+IRN,Eastern Mediterranean,2011,65.7
+IRN,Eastern Mediterranean,2012,65.9
+IRN,Eastern Mediterranean,2013,66.0
+IRN,Eastern Mediterranean,2014,66.1
+IRN,Eastern Mediterranean,2015,66.1
+IRN,Eastern Mediterranean,2016,66.2
+IRN,Eastern Mediterranean,2017,66.3
+IRN,Eastern Mediterranean,2018,66.5
+IRN,Eastern Mediterranean,2019,66.6
+IRN,Eastern Mediterranean,2020,64.5
+IRN,Eastern Mediterranean,2021,64.0
+IRQ,Eastern Mediterranean,2000,59.7
+IRQ,Eastern Mediterranean,2001,60.0
+IRQ,Eastern Mediterranean,2002,60.2
+IRQ,Eastern Mediterranean,2003,59.2
+IRQ,Eastern Mediterranean,2004,59.3
+IRQ,Eastern Mediterranean,2005,59.0
+IRQ,Eastern Mediterranean,2006,58.1
+IRQ,Eastern Mediterranean,2007,58.2
+IRQ,Eastern Mediterranean,2008,59.9
+IRQ,Eastern Mediterranean,2009,60.6
+IRQ,Eastern Mediterranean,2010,61.0
+IRQ,Eastern Mediterranean,2011,61.2
+IRQ,Eastern Mediterranean,2012,61.4
+IRQ,Eastern Mediterranean,2013,61.0
+IRQ,Eastern Mediterranean,2014,60.2
+IRQ,Eastern Mediterranean,2015,60.8
+IRQ,Eastern Mediterranean,2016,60.9
+IRQ,Eastern Mediterranean,2017,61.2
+IRQ,Eastern Mediterranean,2018,62.5
+IRQ,Eastern Mediterranean,2019,62.4
+IRQ,Eastern Mediterranean,2020,60.3
+IRQ,Eastern Mediterranean,2021,61.0
+ISL,Europe,2000,69.1
+ISL,Europe,2001,69.4
+ISL,Europe,2002,69.6
+ISL,Europe,2003,69.8
+ISL,Europe,2004,70.0
+ISL,Europe,2005,70.1
+ISL,Europe,2006,70.2
+ISL,Europe,2007,70.3
+ISL,Europe,2008,70.4
+ISL,Europe,2009,70.6
+ISL,Europe,2010,70.7
+ISL,Europe,2011,70.8
+ISL,Europe,2012,71.0
+ISL,Europe,2013,71.0
+ISL,Europe,2014,71.1
+ISL,Europe,2015,71.1
+ISL,Europe,2016,71.2
+ISL,Europe,2017,71.3
+ISL,Europe,2018,71.3
+ISL,Europe,2019,71.4
+ISL,Europe,2020,71.4
+ISL,Europe,2021,71.4
+ISR,Europe,2000,68.3
+ISR,Europe,2001,68.5
+ISR,Europe,2002,68.3
+ISR,Europe,2003,68.7
+ISR,Europe,2004,69.0
+ISR,Europe,2005,69.1
+ISR,Europe,2006,69.3
+ISR,Europe,2007,69.4
+ISR,Europe,2008,69.6
+ISR,Europe,2009,70.1
+ISR,Europe,2010,70.5
+ISR,Europe,2011,70.6
+ISR,Europe,2012,70.6
+ISR,Europe,2013,70.9
+ISR,Europe,2014,70.5
+ISR,Europe,2015,71.0
+ISR,Europe,2016,71.2
+ISR,Europe,2017,71.3
+ISR,Europe,2018,71.5
+ISR,Europe,2019,71.5
+ISR,Europe,2020,71.2
+ISR,Europe,2021,70.8
+ITA,Europe,2000,68.4
+ITA,Europe,2001,68.6
+ITA,Europe,2002,68.8
+ITA,Europe,2003,68.8
+ITA,Europe,2004,69.3
+ITA,Europe,2005,69.3
+ITA,Europe,2006,69.7
+ITA,Europe,2007,69.9
+ITA,Europe,2008,70.1
+ITA,Europe,2009,70.2
+ITA,Europe,2010,70.5
+ITA,Europe,2011,70.5
+ITA,Europe,2012,70.6
+ITA,Europe,2013,70.9
+ITA,Europe,2014,71.2
+ITA,Europe,2015,70.9
+ITA,Europe,2016,71.4
+ITA,Europe,2017,71.1
+ITA,Europe,2018,71.3
+ITA,Europe,2019,71.4
+ITA,Europe,2020,70.5
+ITA,Europe,2021,70.6
+JAM,Americas,2000,63.6
+JAM,Americas,2001,63.5
+JAM,Americas,2002,64.2
+JAM,Americas,2003,64.6
+JAM,Americas,2004,64.8
+JAM,Americas,2005,62.8
+JAM,Americas,2006,65.3
+JAM,Americas,2007,61.4
+JAM,Americas,2008,62.3
+JAM,Americas,2009,63.5
+JAM,Americas,2010,65.0
+JAM,Americas,2011,64.0
+JAM,Americas,2012,65.1
+JAM,Americas,2013,65.2
+JAM,Americas,2014,64.4
+JAM,Americas,2015,63.6
+JAM,Americas,2016,63.6
+JAM,Americas,2017,63.6
+JAM,Americas,2018,63.8
+JAM,Americas,2019,63.6
+JAM,Americas,2020,63.8
+JAM,Americas,2021,61.7
+JOR,Eastern Mediterranean,2000,63.2
+JOR,Eastern Mediterranean,2001,63.2
+JOR,Eastern Mediterranean,2002,63.4
+JOR,Eastern Mediterranean,2003,63.8
+JOR,Eastern Mediterranean,2004,63.9
+JOR,Eastern Mediterranean,2005,63.8
+JOR,Eastern Mediterranean,2006,64.2
+JOR,Eastern Mediterranean,2007,64.9
+JOR,Eastern Mediterranean,2008,65.5
+JOR,Eastern Mediterranean,2009,65.9
+JOR,Eastern Mediterranean,2010,66.1
+JOR,Eastern Mediterranean,2011,66.3
+JOR,Eastern Mediterranean,2012,66.5
+JOR,Eastern Mediterranean,2013,66.8
+JOR,Eastern Mediterranean,2014,67.1
+JOR,Eastern Mediterranean,2015,67.5
+JOR,Eastern Mediterranean,2016,67.7
+JOR,Eastern Mediterranean,2017,67.9
+JOR,Eastern Mediterranean,2018,68.3
+JOR,Eastern Mediterranean,2019,68.4
+JOR,Eastern Mediterranean,2020,66.7
+JOR,Eastern Mediterranean,2021,65.1
+JPN,Western Pacific,2000,71.1
+JPN,Western Pacific,2001,71.3
+JPN,Western Pacific,2002,71.5
+JPN,Western Pacific,2003,71.6
+JPN,Western Pacific,2004,71.7
+JPN,Western Pacific,2005,71.7
+JPN,Western Pacific,2006,71.9
+JPN,Western Pacific,2007,72.0
+JPN,Western Pacific,2008,72.1
+JPN,Western Pacific,2009,72.3
+JPN,Western Pacific,2010,72.3
+JPN,Western Pacific,2011,72.1
+JPN,Western Pacific,2012,72.5
+JPN,Western Pacific,2013,72.7
+JPN,Western Pacific,2014,72.9
+JPN,Western Pacific,2015,73.1
+JPN,Western Pacific,2016,73.2
+JPN,Western Pacific,2017,73.4
+JPN,Western Pacific,2018,73.5
+JPN,Western Pacific,2019,73.6
+JPN,Western Pacific,2020,73.6
+JPN,Western Pacific,2021,73.4
+KAZ,Europe,2000,56.4
+KAZ,Europe,2001,56.7
+KAZ,Europe,2002,57.0
+KAZ,Europe,2003,56.8
+KAZ,Europe,2004,57.1
+KAZ,Europe,2005,57.1
+KAZ,Europe,2006,57.4
+KAZ,Europe,2007,57.7
+KAZ,Europe,2008,58.9
+KAZ,Europe,2009,60.0
+KAZ,Europe,2010,60.0
+KAZ,Europe,2011,60.6
+KAZ,Europe,2012,61.1
+KAZ,Europe,2013,61.9
+KAZ,Europe,2014,62.6
+KAZ,Europe,2015,63.0
+KAZ,Europe,2016,63.3
+KAZ,Europe,2017,63.8
+KAZ,Europe,2018,63.9
+KAZ,Europe,2019,64.0
+KAZ,Europe,2020,62.5
+KAZ,Europe,2021,61.6
+KEN,Africa,2000,47.2
+KEN,Africa,2001,47.4
+KEN,Africa,2002,47.6
+KEN,Africa,2003,48.0
+KEN,Africa,2004,48.5
+KEN,Africa,2005,49.3
+KEN,Africa,2006,50.3
+KEN,Africa,2007,51.2
+KEN,Africa,2008,52.1
+KEN,Africa,2009,53.0
+KEN,Africa,2010,53.7
+KEN,Africa,2011,54.3
+KEN,Africa,2012,54.9
+KEN,Africa,2013,55.4
+KEN,Africa,2014,55.8
+KEN,Africa,2015,56.4
+KEN,Africa,2016,57.0
+KEN,Africa,2017,57.5
+KEN,Africa,2018,57.9
+KEN,Africa,2019,58.2
+KEN,Africa,2020,58.4
+KEN,Africa,2021,58.2
+KGZ,Europe,2000,58.1
+KGZ,Europe,2001,58.7
+KGZ,Europe,2002,58.5
+KGZ,Europe,2003,58.5
+KGZ,Europe,2004,59.1
+KGZ,Europe,2005,59.2
+KGZ,Europe,2006,59.3
+KGZ,Europe,2007,59.9
+KGZ,Europe,2008,60.3
+KGZ,Europe,2009,60.9
+KGZ,Europe,2010,61.1
+KGZ,Europe,2011,61.5
+KGZ,Europe,2012,61.8
+KGZ,Europe,2013,62.5
+KGZ,Europe,2014,62.6
+KGZ,Europe,2015,63.2
+KGZ,Europe,2016,64.1
+KGZ,Europe,2017,64.2
+KGZ,Europe,2018,64.6
+KGZ,Europe,2019,64.8
+KGZ,Europe,2020,63.0
+KGZ,Europe,2021,63.4
+KHM,Western Pacific,2000,51.8
+KHM,Western Pacific,2001,52.6
+KHM,Western Pacific,2002,53.5
+KHM,Western Pacific,2003,54.3
+KHM,Western Pacific,2004,55.0
+KHM,Western Pacific,2005,55.8
+KHM,Western Pacific,2006,56.5
+KHM,Western Pacific,2007,57.1
+KHM,Western Pacific,2008,57.8
+KHM,Western Pacific,2009,58.3
+KHM,Western Pacific,2010,58.7
+KHM,Western Pacific,2011,59.2
+KHM,Western Pacific,2012,59.6
+KHM,Western Pacific,2013,59.9
+KHM,Western Pacific,2014,60.2
+KHM,Western Pacific,2015,60.5
+KHM,Western Pacific,2016,60.7
+KHM,Western Pacific,2017,60.9
+KHM,Western Pacific,2018,61.1
+KHM,Western Pacific,2019,61.3
+KHM,Western Pacific,2020,61.5
+KHM,Western Pacific,2021,60.6
+KIR,Western Pacific,2000,52.9
+KIR,Western Pacific,2001,53.1
+KIR,Western Pacific,2002,53.3
+KIR,Western Pacific,2003,53.5
+KIR,Western Pacific,2004,53.6
+KIR,Western Pacific,2005,53.7
+KIR,Western Pacific,2006,53.8
+KIR,Western Pacific,2007,53.9
+KIR,Western Pacific,2008,53.9
+KIR,Western Pacific,2009,54.0
+KIR,Western Pacific,2010,54.0
+KIR,Western Pacific,2011,54.1
+KIR,Western Pacific,2012,54.1
+KIR,Western Pacific,2013,54.2
+KIR,Western Pacific,2014,54.3
+KIR,Western Pacific,2015,54.3
+KIR,Western Pacific,2016,54.4
+KIR,Western Pacific,2017,54.4
+KIR,Western Pacific,2018,53.5
+KIR,Western Pacific,2019,54.7
+KIR,Western Pacific,2020,54.5
+KIR,Western Pacific,2021,53.6
+KOR,Western Pacific,2000,66.6
+KOR,Western Pacific,2001,67.1
+KOR,Western Pacific,2002,67.4
+KOR,Western Pacific,2003,67.8
+KOR,Western Pacific,2004,68.1
+KOR,Western Pacific,2005,68.5
+KOR,Western Pacific,2006,68.9
+KOR,Western Pacific,2007,69.2
+KOR,Western Pacific,2008,69.6
+KOR,Western Pacific,2009,70.0
+KOR,Western Pacific,2010,70.1
+KOR,Western Pacific,2011,70.4
+KOR,Western Pacific,2012,70.6
+KOR,Western Pacific,2013,70.9
+KOR,Western Pacific,2014,71.3
+KOR,Western Pacific,2015,71.5
+KOR,Western Pacific,2016,71.7
+KOR,Western Pacific,2017,72.0
+KOR,Western Pacific,2018,72.1
+KOR,Western Pacific,2019,72.5
+KOR,Western Pacific,2020,72.5
+KOR,Western Pacific,2021,72.5
+KWT,Eastern Mediterranean,2000,67.3
+KWT,Eastern Mediterranean,2001,68.1
+KWT,Eastern Mediterranean,2002,67.7
+KWT,Eastern Mediterranean,2003,68.0
+KWT,Eastern Mediterranean,2004,67.8
+KWT,Eastern Mediterranean,2005,67.7
+KWT,Eastern Mediterranean,2006,67.8
+KWT,Eastern Mediterranean,2007,68.1
+KWT,Eastern Mediterranean,2008,67.5
+KWT,Eastern Mediterranean,2009,68.1
+KWT,Eastern Mediterranean,2010,69.0
+KWT,Eastern Mediterranean,2011,69.7
+KWT,Eastern Mediterranean,2012,69.6
+KWT,Eastern Mediterranean,2013,69.9
+KWT,Eastern Mediterranean,2014,70.0
+KWT,Eastern Mediterranean,2015,69.7
+KWT,Eastern Mediterranean,2016,70.5
+KWT,Eastern Mediterranean,2017,70.6
+KWT,Eastern Mediterranean,2018,70.8
+KWT,Eastern Mediterranean,2019,70.5
+KWT,Eastern Mediterranean,2020,67.7
+KWT,Eastern Mediterranean,2021,67.8
+LAO,Western Pacific,2000,51.7
+LAO,Western Pacific,2001,52.3
+LAO,Western Pacific,2002,52.9
+LAO,Western Pacific,2003,53.4
+LAO,Western Pacific,2004,53.9
+LAO,Western Pacific,2005,54.4
+LAO,Western Pacific,2006,55.0
+LAO,Western Pacific,2007,55.5
+LAO,Western Pacific,2008,56.1
+LAO,Western Pacific,2009,56.6
+LAO,Western Pacific,2010,57.2
+LAO,Western Pacific,2011,57.7
+LAO,Western Pacific,2012,58.1
+LAO,Western Pacific,2013,58.5
+LAO,Western Pacific,2014,59.0
+LAO,Western Pacific,2015,59.3
+LAO,Western Pacific,2016,59.7
+LAO,Western Pacific,2017,60.1
+LAO,Western Pacific,2018,60.3
+LAO,Western Pacific,2019,60.6
+LAO,Western Pacific,2020,60.9
+LAO,Western Pacific,2021,60.4
+LBN,Eastern Mediterranean,2000,65.0
+LBN,Eastern Mediterranean,2001,65.3
+LBN,Eastern Mediterranean,2002,65.6
+LBN,Eastern Mediterranean,2003,65.8
+LBN,Eastern Mediterranean,2004,66.0
+LBN,Eastern Mediterranean,2005,66.1
+LBN,Eastern Mediterranean,2006,65.7
+LBN,Eastern Mediterranean,2007,66.3
+LBN,Eastern Mediterranean,2008,66.3
+LBN,Eastern Mediterranean,2009,66.4
+LBN,Eastern Mediterranean,2010,66.6
+LBN,Eastern Mediterranean,2011,66.6
+LBN,Eastern Mediterranean,2012,66.6
+LBN,Eastern Mediterranean,2013,66.7
+LBN,Eastern Mediterranean,2014,66.7
+LBN,Eastern Mediterranean,2015,66.8
+LBN,Eastern Mediterranean,2016,67.1
+LBN,Eastern Mediterranean,2017,67.2
+LBN,Eastern Mediterranean,2018,67.5
+LBN,Eastern Mediterranean,2019,67.4
+LBN,Eastern Mediterranean,2020,66.0
+LBN,Eastern Mediterranean,2021,63.2
+LBR,Africa,2000,45.1
+LBR,Africa,2001,45.7
+LBR,Africa,2002,45.4
+LBR,Africa,2003,45.4
+LBR,Africa,2004,47.8
+LBR,Africa,2005,48.7
+LBR,Africa,2006,49.6
+LBR,Africa,2007,50.3
+LBR,Africa,2008,50.7
+LBR,Africa,2009,51.1
+LBR,Africa,2010,51.4
+LBR,Africa,2011,51.7
+LBR,Africa,2012,52.0
+LBR,Africa,2013,52.3
+LBR,Africa,2014,49.7
+LBR,Africa,2015,51.6
+LBR,Africa,2016,53.0
+LBR,Africa,2017,53.3
+LBR,Africa,2018,53.7
+LBR,Africa,2019,54.0
+LBR,Africa,2020,53.9
+LBR,Africa,2021,54.0
+LBY,Eastern Mediterranean,2000,64.2
+LBY,Eastern Mediterranean,2001,64.0
+LBY,Eastern Mediterranean,2002,63.8
+LBY,Eastern Mediterranean,2003,63.8
+LBY,Eastern Mediterranean,2004,64.0
+LBY,Eastern Mediterranean,2005,64.1
+LBY,Eastern Mediterranean,2006,64.6
+LBY,Eastern Mediterranean,2007,64.4
+LBY,Eastern Mediterranean,2008,64.2
+LBY,Eastern Mediterranean,2009,64.1
+LBY,Eastern Mediterranean,2010,64.0
+LBY,Eastern Mediterranean,2011,61.8
+LBY,Eastern Mediterranean,2012,63.8
+LBY,Eastern Mediterranean,2013,64.1
+LBY,Eastern Mediterranean,2014,62.7
+LBY,Eastern Mediterranean,2015,62.7
+LBY,Eastern Mediterranean,2016,62.7
+LBY,Eastern Mediterranean,2017,63.1
+LBY,Eastern Mediterranean,2018,63.4
+LBY,Eastern Mediterranean,2019,63.4
+LBY,Eastern Mediterranean,2020,62.5
+LBY,Eastern Mediterranean,2021,62.1
+LCA,Americas,2000,63.5
+LCA,Americas,2001,63.6
+LCA,Americas,2002,63.8
+LCA,Americas,2003,64.0
+LCA,Americas,2004,64.2
+LCA,Americas,2005,64.5
+LCA,Americas,2006,64.7
+LCA,Americas,2007,65.1
+LCA,Americas,2008,65.3
+LCA,Americas,2009,65.5
+LCA,Americas,2010,65.6
+LCA,Americas,2011,65.8
+LCA,Americas,2012,65.9
+LCA,Americas,2013,65.7
+LCA,Americas,2014,65.8
+LCA,Americas,2015,65.9
+LCA,Americas,2016,65.8
+LCA,Americas,2017,65.7
+LCA,Americas,2018,65.7
+LCA,Americas,2019,65.7
+LCA,Americas,2020,65.2
+LCA,Americas,2021,61.8
+LKA,South-East Asia,2000,62.4
+LKA,South-East Asia,2001,63.3
+LKA,South-East Asia,2002,63.9
+LKA,South-East Asia,2003,63.9
+LKA,South-East Asia,2004,60.4
+LKA,South-East Asia,2005,64.0
+LKA,South-East Asia,2006,63.9
+LKA,South-East Asia,2007,64.3
+LKA,South-East Asia,2008,63.7
+LKA,South-East Asia,2009,63.1
+LKA,South-East Asia,2010,64.5
+LKA,South-East Asia,2011,65.2
+LKA,South-East Asia,2012,65.8
+LKA,South-East Asia,2013,65.9
+LKA,South-East Asia,2014,66.2
+LKA,South-East Asia,2015,66.4
+LKA,South-East Asia,2016,66.6
+LKA,South-East Asia,2017,66.7
+LKA,South-East Asia,2018,66.9
+LKA,South-East Asia,2019,67.1
+LKA,South-East Asia,2020,69.3
+LKA,South-East Asia,2021,66.7
+LSO,Africa,2000,41.8
+LSO,Africa,2001,42.2
+LSO,Africa,2002,42.0
+LSO,Africa,2003,40.1
+LSO,Africa,2004,38.6
+LSO,Africa,2005,37.6
+LSO,Africa,2006,37.4
+LSO,Africa,2007,38.6
+LSO,Africa,2008,40.3
+LSO,Africa,2009,41.5
+LSO,Africa,2010,42.4
+LSO,Africa,2011,42.8
+LSO,Africa,2012,42.7
+LSO,Africa,2013,42.7
+LSO,Africa,2014,42.4
+LSO,Africa,2015,42.6
+LSO,Africa,2016,43.5
+LSO,Africa,2017,44.5
+LSO,Africa,2018,44.9
+LSO,Africa,2019,45.0
+LSO,Africa,2020,45.1
+LSO,Africa,2021,44.6
+LTU,Europe,2000,62.6
+LTU,Europe,2001,62.2
+LTU,Europe,2002,62.4
+LTU,Europe,2003,62.5
+LTU,Europe,2004,62.6
+LTU,Europe,2005,62.0
+LTU,Europe,2006,61.9
+LTU,Europe,2007,61.6
+LTU,Europe,2008,62.4
+LTU,Europe,2009,63.3
+LTU,Europe,2010,63.5
+LTU,Europe,2011,63.9
+LTU,Europe,2012,64.1
+LTU,Europe,2013,64.2
+LTU,Europe,2014,64.7
+LTU,Europe,2015,64.7
+LTU,Europe,2016,65.0
+LTU,Europe,2017,65.6
+LTU,Europe,2018,65.8
+LTU,Europe,2019,66.2
+LTU,Europe,2020,65.1
+LTU,Europe,2021,64.2
+LUX,Europe,2000,67.9
+LUX,Europe,2001,68.0
+LUX,Europe,2002,68.2
+LUX,Europe,2003,68.4
+LUX,Europe,2004,68.5
+LUX,Europe,2005,68.8
+LUX,Europe,2006,69.1
+LUX,Europe,2007,69.3
+LUX,Europe,2008,69.6
+LUX,Europe,2009,69.9
+LUX,Europe,2010,70.1
+LUX,Europe,2011,70.3
+LUX,Europe,2012,70.4
+LUX,Europe,2013,70.7
+LUX,Europe,2014,70.9
+LUX,Europe,2015,71.1
+LUX,Europe,2016,71.3
+LUX,Europe,2017,71.4
+LUX,Europe,2018,71.5
+LUX,Europe,2019,71.5
+LUX,Europe,2020,71.3
+LUX,Europe,2021,71.2
+LVA,Europe,2000,61.2
+LVA,Europe,2001,60.9
+LVA,Europe,2002,61.2
+LVA,Europe,2003,61.7
+LVA,Europe,2004,61.9
+LVA,Europe,2005,61.7
+LVA,Europe,2006,61.7
+LVA,Europe,2007,62.0
+LVA,Europe,2008,62.9
+LVA,Europe,2009,63.5
+LVA,Europe,2010,63.7
+LVA,Europe,2011,64.4
+LVA,Europe,2012,64.6
+LVA,Europe,2013,64.8
+LVA,Europe,2014,65.0
+LVA,Europe,2015,65.4
+LVA,Europe,2016,65.5
+LVA,Europe,2017,65.5
+LVA,Europe,2018,65.5
+LVA,Europe,2019,66.0
+LVA,Europe,2020,65.8
+LVA,Europe,2021,63.8
+MAR,Eastern Mediterranean,2000,60.7
+MAR,Eastern Mediterranean,2001,60.9
+MAR,Eastern Mediterranean,2002,61.1
+MAR,Eastern Mediterranean,2003,61.2
+MAR,Eastern Mediterranean,2004,61.3
+MAR,Eastern Mediterranean,2005,61.5
+MAR,Eastern Mediterranean,2006,61.6
+MAR,Eastern Mediterranean,2007,61.8
+MAR,Eastern Mediterranean,2008,62.0
+MAR,Eastern Mediterranean,2009,62.2
+MAR,Eastern Mediterranean,2010,62.4
+MAR,Eastern Mediterranean,2011,62.6
+MAR,Eastern Mediterranean,2012,62.8
+MAR,Eastern Mediterranean,2013,62.9
+MAR,Eastern Mediterranean,2014,63.1
+MAR,Eastern Mediterranean,2015,63.2
+MAR,Eastern Mediterranean,2016,63.3
+MAR,Eastern Mediterranean,2017,63.4
+MAR,Eastern Mediterranean,2018,63.5
+MAR,Eastern Mediterranean,2019,63.6
+MAR,Eastern Mediterranean,2020,62.4
+MAR,Eastern Mediterranean,2021,62.3
+MDA,Europe,2000,58.0
+MDA,Europe,2001,58.5
+MDA,Europe,2002,58.5
+MDA,Europe,2003,58.6
+MDA,Europe,2004,59.0
+MDA,Europe,2005,58.5
+MDA,Europe,2006,59.1
+MDA,Europe,2007,59.5
+MDA,Europe,2008,59.9
+MDA,Europe,2009,60.1
+MDA,Europe,2010,59.9
+MDA,Europe,2011,61.6
+MDA,Europe,2012,61.9
+MDA,Europe,2013,62.8
+MDA,Europe,2014,62.6
+MDA,Europe,2015,62.7
+MDA,Europe,2016,63.3
+MDA,Europe,2017,64.1
+MDA,Europe,2018,64.1
+MDA,Europe,2019,64.4
+MDA,Europe,2020,63.4
+MDA,Europe,2021,61.2
+MDG,Africa,2000,51.3
+MDG,Africa,2001,51.8
+MDG,Africa,2002,52.0
+MDG,Africa,2003,52.3
+MDG,Africa,2004,52.6
+MDG,Africa,2005,53.1
+MDG,Africa,2006,53.6
+MDG,Africa,2007,54.1
+MDG,Africa,2008,54.4
+MDG,Africa,2009,54.7
+MDG,Africa,2010,55.0
+MDG,Africa,2011,55.2
+MDG,Africa,2012,55.4
+MDG,Africa,2013,55.5
+MDG,Africa,2014,55.7
+MDG,Africa,2015,55.8
+MDG,Africa,2016,55.9
+MDG,Africa,2017,56.0
+MDG,Africa,2018,56.1
+MDG,Africa,2019,56.2
+MDG,Africa,2020,55.4
+MDG,Africa,2021,55.1
+MDV,South-East Asia,2000,61.4
+MDV,South-East Asia,2001,62.0
+MDV,South-East Asia,2002,62.6
+MDV,South-East Asia,2003,63.2
+MDV,South-East Asia,2004,63.0
+MDV,South-East Asia,2005,64.4
+MDV,South-East Asia,2006,64.8
+MDV,South-East Asia,2007,65.1
+MDV,South-East Asia,2008,65.5
+MDV,South-East Asia,2009,65.8
+MDV,South-East Asia,2010,66.1
+MDV,South-East Asia,2011,66.4
+MDV,South-East Asia,2012,66.9
+MDV,South-East Asia,2013,67.3
+MDV,South-East Asia,2014,67.7
+MDV,South-East Asia,2015,68.0
+MDV,South-East Asia,2016,68.4
+MDV,South-East Asia,2017,68.7
+MDV,South-East Asia,2018,69.1
+MDV,South-East Asia,2019,66.9
+MDV,South-East Asia,2020,67.4
+MDV,South-East Asia,2021,66.7
+MEX,Americas,2000,64.1
+MEX,Americas,2001,64.4
+MEX,Americas,2002,64.4
+MEX,Americas,2003,64.5
+MEX,Americas,2004,64.8
+MEX,Americas,2005,64.7
+MEX,Americas,2006,65.0
+MEX,Americas,2007,65.1
+MEX,Americas,2008,64.8
+MEX,Americas,2009,64.8
+MEX,Americas,2010,64.6
+MEX,Americas,2011,65.0
+MEX,Americas,2012,65.2
+MEX,Americas,2013,65.4
+MEX,Americas,2014,65.4
+MEX,Americas,2015,65.5
+MEX,Americas,2016,65.4
+MEX,Americas,2017,65.5
+MEX,Americas,2018,65.5
+MEX,Americas,2019,65.5
+MEX,Americas,2020,61.6
+MEX,Americas,2021,61.4
+MKD,Europe,2000,63.9
+MKD,Europe,2001,64.1
+MKD,Europe,2002,63.9
+MKD,Europe,2003,64.2
+MKD,Europe,2004,64.5
+MKD,Europe,2005,64.6
+MKD,Europe,2006,64.7
+MKD,Europe,2007,64.6
+MKD,Europe,2008,65.1
+MKD,Europe,2009,65.3
+MKD,Europe,2010,65.5
+MKD,Europe,2011,65.6
+MKD,Europe,2012,65.6
+MKD,Europe,2013,66.0
+MKD,Europe,2014,65.9
+MKD,Europe,2015,66.0
+MKD,Europe,2016,66.1
+MKD,Europe,2017,66.5
+MKD,Europe,2018,66.8
+MKD,Europe,2019,66.7
+MKD,Europe,2020,65.1
+MKD,Europe,2021,63.7
+MLI,Africa,2000,46.1
+MLI,Africa,2001,46.5
+MLI,Africa,2002,47.0
+MLI,Africa,2003,47.6
+MLI,Africa,2004,48.3
+MLI,Africa,2005,48.8
+MLI,Africa,2006,49.2
+MLI,Africa,2007,49.8
+MLI,Africa,2008,50.2
+MLI,Africa,2009,50.7
+MLI,Africa,2010,51.1
+MLI,Africa,2011,51.4
+MLI,Africa,2012,51.7
+MLI,Africa,2013,51.8
+MLI,Africa,2014,52.1
+MLI,Africa,2015,52.4
+MLI,Africa,2016,52.9
+MLI,Africa,2017,53.2
+MLI,Africa,2018,53.4
+MLI,Africa,2019,53.8
+MLI,Africa,2020,53.5
+MLI,Africa,2021,53.6
+MLT,Europe,2000,68.0
+MLT,Europe,2001,68.2
+MLT,Europe,2002,68.5
+MLT,Europe,2003,68.6
+MLT,Europe,2004,68.8
+MLT,Europe,2005,69.0
+MLT,Europe,2006,69.1
+MLT,Europe,2007,69.3
+MLT,Europe,2008,69.5
+MLT,Europe,2009,69.8
+MLT,Europe,2010,69.9
+MLT,Europe,2011,70.1
+MLT,Europe,2012,70.3
+MLT,Europe,2013,70.5
+MLT,Europe,2014,70.7
+MLT,Europe,2015,70.9
+MLT,Europe,2016,71.0
+MLT,Europe,2017,71.1
+MLT,Europe,2018,71.3
+MLT,Europe,2019,71.2
+MLT,Europe,2020,70.9
+MLT,Europe,2021,70.7
+MMR,South-East Asia,2000,52.4
+MMR,South-East Asia,2001,52.8
+MMR,South-East Asia,2002,53.2
+MMR,South-East Asia,2003,53.6
+MMR,South-East Asia,2004,54.0
+MMR,South-East Asia,2005,54.5
+MMR,South-East Asia,2006,55.0
+MMR,South-East Asia,2007,55.6
+MMR,South-East Asia,2008,50.5
+MMR,South-East Asia,2009,56.6
+MMR,South-East Asia,2010,57.2
+MMR,South-East Asia,2011,57.7
+MMR,South-East Asia,2012,58.2
+MMR,South-East Asia,2013,58.7
+MMR,South-East Asia,2014,59.2
+MMR,South-East Asia,2015,59.6
+MMR,South-East Asia,2016,59.9
+MMR,South-East Asia,2017,60.0
+MMR,South-East Asia,2018,60.5
+MMR,South-East Asia,2019,60.7
+MMR,South-East Asia,2020,60.7
+MMR,South-East Asia,2021,59.8
+MNE,Europe,2000,64.4
+MNE,Europe,2001,64.5
+MNE,Europe,2002,64.6
+MNE,Europe,2003,64.6
+MNE,Europe,2004,64.7
+MNE,Europe,2005,64.9
+MNE,Europe,2006,65.2
+MNE,Europe,2007,65.5
+MNE,Europe,2008,65.7
+MNE,Europe,2009,66.0
+MNE,Europe,2010,66.3
+MNE,Europe,2011,66.5
+MNE,Europe,2012,66.7
+MNE,Europe,2013,66.9
+MNE,Europe,2014,67.1
+MNE,Europe,2015,67.3
+MNE,Europe,2016,67.4
+MNE,Europe,2017,67.5
+MNE,Europe,2018,67.5
+MNE,Europe,2019,67.3
+MNE,Europe,2020,66.1
+MNE,Europe,2021,65.1
+MNG,Western Pacific,2000,55.6
+MNG,Western Pacific,2001,55.9
+MNG,Western Pacific,2002,56.4
+MNG,Western Pacific,2003,56.8
+MNG,Western Pacific,2004,57.1
+MNG,Western Pacific,2005,57.5
+MNG,Western Pacific,2006,57.9
+MNG,Western Pacific,2007,58.4
+MNG,Western Pacific,2008,58.9
+MNG,Western Pacific,2009,58.9
+MNG,Western Pacific,2010,59.1
+MNG,Western Pacific,2011,59.2
+MNG,Western Pacific,2012,59.6
+MNG,Western Pacific,2013,60.1
+MNG,Western Pacific,2014,60.5
+MNG,Western Pacific,2015,60.8
+MNG,Western Pacific,2016,61.1
+MNG,Western Pacific,2017,61.5
+MNG,Western Pacific,2018,61.8
+MNG,Western Pacific,2019,62.0
+MNG,Western Pacific,2020,63.4
+MNG,Western Pacific,2021,61.3
+MOZ,Africa,2000,43.6
+MOZ,Africa,2001,43.9
+MOZ,Africa,2002,44.1
+MOZ,Africa,2003,44.4
+MOZ,Africa,2004,44.6
+MOZ,Africa,2005,44.8
+MOZ,Africa,2006,45.0
+MOZ,Africa,2007,45.4
+MOZ,Africa,2008,45.9
+MOZ,Africa,2009,46.2
+MOZ,Africa,2010,46.2
+MOZ,Africa,2011,46.4
+MOZ,Africa,2012,46.6
+MOZ,Africa,2013,47.0
+MOZ,Africa,2014,47.7
+MOZ,Africa,2015,48.4
+MOZ,Africa,2016,49.1
+MOZ,Africa,2017,49.7
+MOZ,Africa,2018,50.2
+MOZ,Africa,2019,50.6
+MOZ,Africa,2020,50.7
+MOZ,Africa,2021,49.7
+MRT,Africa,2000,55.2
+MRT,Africa,2001,55.7
+MRT,Africa,2002,56.3
+MRT,Africa,2003,56.8
+MRT,Africa,2004,57.3
+MRT,Africa,2005,57.8
+MRT,Africa,2006,58.4
+MRT,Africa,2007,58.8
+MRT,Africa,2008,59.3
+MRT,Africa,2009,59.7
+MRT,Africa,2010,60.0
+MRT,Africa,2011,60.3
+MRT,Africa,2012,60.6
+MRT,Africa,2013,60.7
+MRT,Africa,2014,60.8
+MRT,Africa,2015,61.0
+MRT,Africa,2016,61.1
+MRT,Africa,2017,61.3
+MRT,Africa,2018,61.4
+MRT,Africa,2019,61.6
+MRT,Africa,2020,60.6
+MRT,Africa,2021,60.4
+MUS,Africa,2000,62.2
+MUS,Africa,2001,62.4
+MUS,Africa,2002,62.6
+MUS,Africa,2003,62.7
+MUS,Africa,2004,62.8
+MUS,Africa,2005,62.9
+MUS,Africa,2006,63.0
+MUS,Africa,2007,63.2
+MUS,Africa,2008,63.4
+MUS,Africa,2009,63.6
+MUS,Africa,2010,63.8
+MUS,Africa,2011,63.9
+MUS,Africa,2012,64.0
+MUS,Africa,2013,64.1
+MUS,Africa,2014,64.2
+MUS,Africa,2015,64.3
+MUS,Africa,2016,64.3
+MUS,Africa,2017,64.3
+MUS,Africa,2018,64.2
+MUS,Africa,2019,64.2
+MUS,Africa,2020,63.8
+MUS,Africa,2021,63.6
+MWI,Africa,2000,39.0
+MWI,Africa,2001,39.7
+MWI,Africa,2002,40.5
+MWI,Africa,2003,41.4
+MWI,Africa,2004,42.3
+MWI,Africa,2005,43.4
+MWI,Africa,2006,44.8
+MWI,Africa,2007,46.2
+MWI,Africa,2008,47.7
+MWI,Africa,2009,48.9
+MWI,Africa,2010,49.9
+MWI,Africa,2011,51.0
+MWI,Africa,2012,52.1
+MWI,Africa,2013,53.1
+MWI,Africa,2014,53.8
+MWI,Africa,2015,54.3
+MWI,Africa,2016,54.6
+MWI,Africa,2017,54.9
+MWI,Africa,2018,55.3
+MWI,Africa,2019,55.5
+MWI,Africa,2020,55.7
+MWI,Africa,2021,54.7
+MYS,Western Pacific,2000,64.1
+MYS,Western Pacific,2001,64.5
+MYS,Western Pacific,2002,64.8
+MYS,Western Pacific,2003,64.7
+MYS,Western Pacific,2004,64.8
+MYS,Western Pacific,2005,65.1
+MYS,Western Pacific,2006,65.2
+MYS,Western Pacific,2007,65.4
+MYS,Western Pacific,2008,65.2
+MYS,Western Pacific,2009,65.1
+MYS,Western Pacific,2010,65.1
+MYS,Western Pacific,2011,65.2
+MYS,Western Pacific,2012,65.5
+MYS,Western Pacific,2013,65.6
+MYS,Western Pacific,2014,65.5
+MYS,Western Pacific,2015,65.2
+MYS,Western Pacific,2016,65.3
+MYS,Western Pacific,2017,65.3
+MYS,Western Pacific,2018,65.4
+MYS,Western Pacific,2019,65.5
+MYS,Western Pacific,2020,67.0
+MYS,Western Pacific,2021,63.9
+NAM,Africa,2000,46.7
+NAM,Africa,2001,46.2
+NAM,Africa,2002,45.7
+NAM,Africa,2003,45.4
+NAM,Africa,2004,45.6
+NAM,Africa,2005,46.6
+NAM,Africa,2006,48.1
+NAM,Africa,2007,49.9
+NAM,Africa,2008,51.4
+NAM,Africa,2009,52.1
+NAM,Africa,2010,52.7
+NAM,Africa,2011,53.3
+NAM,Africa,2012,53.8
+NAM,Africa,2013,54.1
+NAM,Africa,2014,54.2
+NAM,Africa,2015,54.1
+NAM,Africa,2016,54.3
+NAM,Africa,2017,54.6
+NAM,Africa,2018,55.0
+NAM,Africa,2019,55.5
+NAM,Africa,2020,55.7
+NAM,Africa,2021,52.8
+NER,Africa,2000,43.9
+NER,Africa,2001,44.4
+NER,Africa,2002,45.3
+NER,Africa,2003,46.1
+NER,Africa,2004,47.0
+NER,Africa,2005,47.8
+NER,Africa,2006,48.7
+NER,Africa,2007,49.3
+NER,Africa,2008,50.1
+NER,Africa,2009,50.6
+NER,Africa,2010,51.0
+NER,Africa,2011,51.3
+NER,Africa,2012,51.6
+NER,Africa,2013,51.9
+NER,Africa,2014,52.2
+NER,Africa,2015,52.3
+NER,Africa,2016,52.5
+NER,Africa,2017,52.9
+NER,Africa,2018,53.0
+NER,Africa,2019,53.2
+NER,Africa,2020,53.0
+NER,Africa,2021,52.6
+NGA,Africa,2000,46.6
+NGA,Africa,2001,47.0
+NGA,Africa,2002,47.5
+NGA,Africa,2003,48.0
+NGA,Africa,2004,48.6
+NGA,Africa,2005,49.2
+NGA,Africa,2006,49.8
+NGA,Africa,2007,50.3
+NGA,Africa,2008,50.9
+NGA,Africa,2009,51.4
+NGA,Africa,2010,51.9
+NGA,Africa,2011,52.2
+NGA,Africa,2012,52.6
+NGA,Africa,2013,53.0
+NGA,Africa,2014,53.3
+NGA,Africa,2015,53.6
+NGA,Africa,2016,53.9
+NGA,Africa,2017,54.2
+NGA,Africa,2018,54.5
+NGA,Africa,2019,54.8
+NGA,Africa,2020,54.5
+NGA,Africa,2021,54.9
+NIC,Americas,2000,65.3
+NIC,Americas,2001,65.3
+NIC,Americas,2002,65.2
+NIC,Americas,2003,65.1
+NIC,Americas,2004,65.2
+NIC,Americas,2005,65.1
+NIC,Americas,2006,65.9
+NIC,Americas,2007,65.7
+NIC,Americas,2008,65.7
+NIC,Americas,2009,65.8
+NIC,Americas,2010,66.2
+NIC,Americas,2011,66.1
+NIC,Americas,2012,66.2
+NIC,Americas,2013,66.4
+NIC,Americas,2014,66.6
+NIC,Americas,2015,67.2
+NIC,Americas,2016,66.9
+NIC,Americas,2017,67.4
+NIC,Americas,2018,67.3
+NIC,Americas,2019,67.7
+NIC,Americas,2020,64.8
+NIC,Americas,2021,64.6
+NLD,Europe,2000,68.1
+NLD,Europe,2001,68.3
+NLD,Europe,2002,68.3
+NLD,Europe,2003,68.5
+NLD,Europe,2004,68.9
+NLD,Europe,2005,69.1
+NLD,Europe,2006,69.4
+NLD,Europe,2007,69.7
+NLD,Europe,2008,69.8
+NLD,Europe,2009,70.0
+NLD,Europe,2010,70.1
+NLD,Europe,2011,70.3
+NLD,Europe,2012,70.2
+NLD,Europe,2013,70.3
+NLD,Europe,2014,70.5
+NLD,Europe,2015,70.4
+NLD,Europe,2016,70.4
+NLD,Europe,2017,70.5
+NLD,Europe,2018,70.8
+NLD,Europe,2019,71.1
+NLD,Europe,2020,70.2
+NLD,Europe,2021,70.0
+NOR,Europe,2000,67.8
+NOR,Europe,2001,68.0
+NOR,Europe,2002,68.1
+NOR,Europe,2003,68.5
+NOR,Europe,2004,68.9
+NOR,Europe,2005,69.1
+NOR,Europe,2006,69.2
+NOR,Europe,2007,69.3
+NOR,Europe,2008,69.4
+NOR,Europe,2009,69.6
+NOR,Europe,2010,69.7
+NOR,Europe,2011,69.8
+NOR,Europe,2012,70.1
+NOR,Europe,2013,70.3
+NOR,Europe,2014,70.7
+NOR,Europe,2015,70.9
+NOR,Europe,2016,70.9
+NOR,Europe,2017,71.0
+NOR,Europe,2018,71.1
+NOR,Europe,2019,71.2
+NOR,Europe,2020,71.2
+NOR,Europe,2021,71.2
+NPL,South-East Asia,2000,56.1
+NPL,South-East Asia,2001,56.7
+NPL,South-East Asia,2002,57.0
+NPL,South-East Asia,2003,57.7
+NPL,South-East Asia,2004,58.0
+NPL,South-East Asia,2005,58.5
+NPL,South-East Asia,2006,58.8
+NPL,South-East Asia,2007,59.1
+NPL,South-East Asia,2008,59.3
+NPL,South-East Asia,2009,59.5
+NPL,South-East Asia,2010,59.7
+NPL,South-East Asia,2011,59.9
+NPL,South-East Asia,2012,60.0
+NPL,South-East Asia,2013,60.2
+NPL,South-East Asia,2014,60.5
+NPL,South-East Asia,2015,60.1
+NPL,South-East Asia,2016,60.8
+NPL,South-East Asia,2017,61.1
+NPL,South-East Asia,2018,61.3
+NPL,South-East Asia,2019,61.5
+NPL,South-East Asia,2020,61.1
+NPL,South-East Asia,2021,60.2
+NZL,Western Pacific,2000,67.3
+NZL,Western Pacific,2001,67.2
+NZL,Western Pacific,2002,67.4
+NZL,Western Pacific,2003,67.7
+NZL,Western Pacific,2004,67.8
+NZL,Western Pacific,2005,68.4
+NZL,Western Pacific,2006,68.4
+NZL,Western Pacific,2007,68.5
+NZL,Western Pacific,2008,68.7
+NZL,Western Pacific,2009,68.9
+NZL,Western Pacific,2010,69.2
+NZL,Western Pacific,2011,69.0
+NZL,Western Pacific,2012,69.3
+NZL,Western Pacific,2013,69.4
+NZL,Western Pacific,2014,69.3
+NZL,Western Pacific,2015,69.4
+NZL,Western Pacific,2016,69.7
+NZL,Western Pacific,2017,69.3
+NZL,Western Pacific,2018,69.7
+NZL,Western Pacific,2019,69.7
+NZL,Western Pacific,2020,70.2
+NZL,Western Pacific,2021,70.0
+OMN,Eastern Mediterranean,2000,62.5
+OMN,Eastern Mediterranean,2001,62.9
+OMN,Eastern Mediterranean,2002,63.1
+OMN,Eastern Mediterranean,2003,63.3
+OMN,Eastern Mediterranean,2004,63.6
+OMN,Eastern Mediterranean,2005,63.8
+OMN,Eastern Mediterranean,2006,63.9
+OMN,Eastern Mediterranean,2007,63.8
+OMN,Eastern Mediterranean,2008,63.8
+OMN,Eastern Mediterranean,2009,63.6
+OMN,Eastern Mediterranean,2010,63.6
+OMN,Eastern Mediterranean,2011,63.9
+OMN,Eastern Mediterranean,2012,64.2
+OMN,Eastern Mediterranean,2013,64.5
+OMN,Eastern Mediterranean,2014,64.5
+OMN,Eastern Mediterranean,2015,64.4
+OMN,Eastern Mediterranean,2016,64.4
+OMN,Eastern Mediterranean,2017,64.7
+OMN,Eastern Mediterranean,2018,65.3
+OMN,Eastern Mediterranean,2019,65.5
+OMN,Eastern Mediterranean,2020,64.4
+OMN,Eastern Mediterranean,2021,63.2
+PAK,Eastern Mediterranean,2000,53.2
+PAK,Eastern Mediterranean,2001,53.4
+PAK,Eastern Mediterranean,2002,53.6
+PAK,Eastern Mediterranean,2003,53.8
+PAK,Eastern Mediterranean,2004,54.1
+PAK,Eastern Mediterranean,2005,53.7
+PAK,Eastern Mediterranean,2006,54.6
+PAK,Eastern Mediterranean,2007,54.8
+PAK,Eastern Mediterranean,2008,55.1
+PAK,Eastern Mediterranean,2009,55.3
+PAK,Eastern Mediterranean,2010,55.4
+PAK,Eastern Mediterranean,2011,55.8
+PAK,Eastern Mediterranean,2012,56.0
+PAK,Eastern Mediterranean,2013,56.2
+PAK,Eastern Mediterranean,2014,56.5
+PAK,Eastern Mediterranean,2015,56.7
+PAK,Eastern Mediterranean,2016,57.0
+PAK,Eastern Mediterranean,2017,57.3
+PAK,Eastern Mediterranean,2018,57.6
+PAK,Eastern Mediterranean,2019,57.8
+PAK,Eastern Mediterranean,2020,56.9
+PAK,Eastern Mediterranean,2021,56.9
+PAN,Americas,2000,66.2
+PAN,Americas,2001,66.2
+PAN,Americas,2002,66.4
+PAN,Americas,2003,66.3
+PAN,Americas,2004,66.5
+PAN,Americas,2005,66.5
+PAN,Americas,2006,66.7
+PAN,Americas,2007,66.8
+PAN,Americas,2008,66.8
+PAN,Americas,2009,66.9
+PAN,Americas,2010,66.8
+PAN,Americas,2011,67.2
+PAN,Americas,2012,67.1
+PAN,Americas,2013,67.3
+PAN,Americas,2014,67.4
+PAN,Americas,2015,67.7
+PAN,Americas,2016,67.8
+PAN,Americas,2017,67.8
+PAN,Americas,2018,68.1
+PAN,Americas,2019,68.3
+PAN,Americas,2020,66.9
+PAN,Americas,2021,66.7
+PER,Americas,2000,65.4
+PER,Americas,2001,66.1
+PER,Americas,2002,66.3
+PER,Americas,2003,66.5
+PER,Americas,2004,67.0
+PER,Americas,2005,67.5
+PER,Americas,2006,67.9
+PER,Americas,2007,68.4
+PER,Americas,2008,68.6
+PER,Americas,2009,68.1
+PER,Americas,2010,68.2
+PER,Americas,2011,68.5
+PER,Americas,2012,68.8
+PER,Americas,2013,69.2
+PER,Americas,2014,69.6
+PER,Americas,2015,69.9
+PER,Americas,2016,69.8
+PER,Americas,2017,69.2
+PER,Americas,2018,68.9
+PER,Americas,2019,68.4
+PER,Americas,2020,63.9
+PER,Americas,2021,63.0
+PHL,Western Pacific,2000,61.2
+PHL,Western Pacific,2001,61.0
+PHL,Western Pacific,2002,60.9
+PHL,Western Pacific,2003,61.1
+PHL,Western Pacific,2004,60.9
+PHL,Western Pacific,2005,61.0
+PHL,Western Pacific,2006,60.9
+PHL,Western Pacific,2007,61.2
+PHL,Western Pacific,2008,61.2
+PHL,Western Pacific,2009,61.1
+PHL,Western Pacific,2010,61.3
+PHL,Western Pacific,2011,61.4
+PHL,Western Pacific,2012,61.3
+PHL,Western Pacific,2013,61.2
+PHL,Western Pacific,2014,61.5
+PHL,Western Pacific,2015,61.3
+PHL,Western Pacific,2016,61.1
+PHL,Western Pacific,2017,61.4
+PHL,Western Pacific,2018,61.4
+PHL,Western Pacific,2019,61.3
+PHL,Western Pacific,2020,61.3
+PHL,Western Pacific,2021,58.8
+PNG,Western Pacific,2000,55.6
+PNG,Western Pacific,2001,55.6
+PNG,Western Pacific,2002,55.7
+PNG,Western Pacific,2003,55.8
+PNG,Western Pacific,2004,55.9
+PNG,Western Pacific,2005,56.0
+PNG,Western Pacific,2006,56.0
+PNG,Western Pacific,2007,56.3
+PNG,Western Pacific,2008,56.5
+PNG,Western Pacific,2009,56.7
+PNG,Western Pacific,2010,56.9
+PNG,Western Pacific,2011,57.1
+PNG,Western Pacific,2012,57.2
+PNG,Western Pacific,2013,57.5
+PNG,Western Pacific,2014,57.7
+PNG,Western Pacific,2015,57.9
+PNG,Western Pacific,2016,58.1
+PNG,Western Pacific,2017,58.2
+PNG,Western Pacific,2018,58.3
+PNG,Western Pacific,2019,58.5
+PNG,Western Pacific,2020,58.2
+PNG,Western Pacific,2021,57.5
+POL,Europe,2000,64.2
+POL,Europe,2001,64.5
+POL,Europe,2002,64.8
+POL,Europe,2003,64.9
+POL,Europe,2004,65.1
+POL,Europe,2005,65.2
+POL,Europe,2006,65.4
+POL,Europe,2007,65.4
+POL,Europe,2008,65.7
+POL,Europe,2009,65.9
+POL,Europe,2010,66.3
+POL,Europe,2011,66.6
+POL,Europe,2012,66.7
+POL,Europe,2013,66.9
+POL,Europe,2014,67.4
+POL,Europe,2015,67.3
+POL,Europe,2016,67.5
+POL,Europe,2017,67.5
+POL,Europe,2018,67.4
+POL,Europe,2019,67.6
+POL,Europe,2020,66.4
+POL,Europe,2021,65.5
+PRI,Americas,2000,66.2
+PRI,Americas,2001,66.2
+PRI,Americas,2002,66.8
+PRI,Americas,2003,67.0
+PRI,Americas,2004,67.1
+PRI,Americas,2005,67.2
+PRI,Americas,2006,67.5
+PRI,Americas,2007,67.7
+PRI,Americas,2008,67.9
+PRI,Americas,2009,67.8
+PRI,Americas,2010,68.3
+PRI,Americas,2011,68.0
+PRI,Americas,2012,68.5
+PRI,Americas,2013,68.6
+PRI,Americas,2014,69.0
+PRI,Americas,2015,69.4
+PRI,Americas,2016,69.2
+PRI,Americas,2017,67.8
+PRI,Americas,2018,69.6
+PRI,Americas,2019,69.4
+PRI,Americas,2020,68.9
+PRI,Americas,2021,68.8
+PRK,South-East Asia,2000,55.9
+PRK,South-East Asia,2001,56.0
+PRK,South-East Asia,2002,56.2
+PRK,South-East Asia,2003,61.9
+PRK,South-East Asia,2004,62.0
+PRK,South-East Asia,2005,62.2
+PRK,South-East Asia,2006,62.2
+PRK,South-East Asia,2007,62.2
+PRK,South-East Asia,2008,62.4
+PRK,South-East Asia,2009,62.4
+PRK,South-East Asia,2010,62.6
+PRK,South-East Asia,2011,62.8
+PRK,South-East Asia,2012,63.0
+PRK,South-East Asia,2013,63.3
+PRK,South-East Asia,2014,63.5
+PRK,South-East Asia,2015,63.8
+PRK,South-East Asia,2016,63.9
+PRK,South-East Asia,2017,64.2
+PRK,South-East Asia,2018,64.3
+PRK,South-East Asia,2019,64.5
+PRK,South-East Asia,2020,64.6
+PRK,South-East Asia,2021,64.7
+PRT,Europe,2000,66.1
+PRT,Europe,2001,66.3
+PRT,Europe,2002,66.5
+PRT,Europe,2003,66.6
+PRT,Europe,2004,67.2
+PRT,Europe,2005,67.1
+PRT,Europe,2006,67.7
+PRT,Europe,2007,67.8
+PRT,Europe,2008,68.0
+PRT,Europe,2009,68.2
+PRT,Europe,2010,68.5
+PRT,Europe,2011,68.9
+PRT,Europe,2012,68.9
+PRT,Europe,2013,69.3
+PRT,Europe,2014,69.6
+PRT,Europe,2015,69.7
+PRT,Europe,2016,69.7
+PRT,Europe,2017,69.9
+PRT,Europe,2018,69.8
+PRT,Europe,2019,70.1
+PRT,Europe,2020,69.4
+PRT,Europe,2021,69.5
+PRY,Americas,2000,64.4
+PRY,Americas,2001,64.7
+PRY,Americas,2002,64.8
+PRY,Americas,2003,64.7
+PRY,Americas,2004,64.4
+PRY,Americas,2005,64.6
+PRY,Americas,2006,64.6
+PRY,Americas,2007,64.7
+PRY,Americas,2008,64.7
+PRY,Americas,2009,64.6
+PRY,Americas,2010,64.5
+PRY,Americas,2011,64.7
+PRY,Americas,2012,64.9
+PRY,Americas,2013,64.8
+PRY,Americas,2014,65.0
+PRY,Americas,2015,64.9
+PRY,Americas,2016,64.7
+PRY,Americas,2017,65.1
+PRY,Americas,2018,65.0
+PRY,Americas,2019,64.9
+PRY,Americas,2020,64.9
+PRY,Americas,2021,60.9
+PSE,Eastern Mediterranean,2000,60.6
+PSE,Eastern Mediterranean,2001,60.1
+PSE,Eastern Mediterranean,2002,59.5
+PSE,Eastern Mediterranean,2003,60.3
+PSE,Eastern Mediterranean,2004,60.2
+PSE,Eastern Mediterranean,2005,61.0
+PSE,Eastern Mediterranean,2006,59.9
+PSE,Eastern Mediterranean,2007,61.2
+PSE,Eastern Mediterranean,2008,59.6
+PSE,Eastern Mediterranean,2009,60.0
+PSE,Eastern Mediterranean,2010,62.7
+PSE,Eastern Mediterranean,2011,62.8
+PSE,Eastern Mediterranean,2012,63.0
+PSE,Eastern Mediterranean,2013,63.9
+PSE,Eastern Mediterranean,2014,63.9
+PSE,Eastern Mediterranean,2015,64.2
+PSE,Eastern Mediterranean,2016,64.5
+PSE,Eastern Mediterranean,2017,64.9
+PSE,Eastern Mediterranean,2018,65.1
+PSE,Eastern Mediterranean,2019,65.2
+PSE,Eastern Mediterranean,2020,64.4
+PSE,Eastern Mediterranean,2021,62.9
+QAT,Eastern Mediterranean,2000,61.8
+QAT,Eastern Mediterranean,2001,61.7
+QAT,Eastern Mediterranean,2002,61.7
+QAT,Eastern Mediterranean,2003,61.9
+QAT,Eastern Mediterranean,2004,62.1
+QAT,Eastern Mediterranean,2005,62.3
+QAT,Eastern Mediterranean,2006,62.7
+QAT,Eastern Mediterranean,2007,63.0
+QAT,Eastern Mediterranean,2008,63.4
+QAT,Eastern Mediterranean,2009,63.7
+QAT,Eastern Mediterranean,2010,64.2
+QAT,Eastern Mediterranean,2011,64.8
+QAT,Eastern Mediterranean,2012,65.3
+QAT,Eastern Mediterranean,2013,65.8
+QAT,Eastern Mediterranean,2014,66.4
+QAT,Eastern Mediterranean,2015,67.2
+QAT,Eastern Mediterranean,2016,67.5
+QAT,Eastern Mediterranean,2017,67.7
+QAT,Eastern Mediterranean,2018,67.8
+QAT,Eastern Mediterranean,2019,67.9
+QAT,Eastern Mediterranean,2020,66.6
+QAT,Eastern Mediterranean,2021,66.2
+ROU,Europe,2000,62.3
+ROU,Europe,2001,62.4
+ROU,Europe,2002,62.2
+ROU,Europe,2003,62.5
+ROU,Europe,2004,62.9
+ROU,Europe,2005,63.3
+ROU,Europe,2006,63.7
+ROU,Europe,2007,64.1
+ROU,Europe,2008,64.3
+ROU,Europe,2009,64.4
+ROU,Europe,2010,64.7
+ROU,Europe,2011,65.3
+ROU,Europe,2012,65.2
+ROU,Europe,2013,65.7
+ROU,Europe,2014,65.6
+ROU,Europe,2015,65.7
+ROU,Europe,2016,65.8
+ROU,Europe,2017,65.9
+ROU,Europe,2018,65.9
+ROU,Europe,2019,66.2
+ROU,Europe,2020,65.0
+ROU,Europe,2021,63.8
+RUS,Europe,2000,56.7
+RUS,Europe,2001,56.7
+RUS,Europe,2002,56.6
+RUS,Europe,2003,56.5
+RUS,Europe,2004,56.9
+RUS,Europe,2005,56.9
+RUS,Europe,2006,58.0
+RUS,Europe,2007,58.8
+RUS,Europe,2008,59.1
+RUS,Europe,2009,59.7
+RUS,Europe,2010,60.0
+RUS,Europe,2011,60.8
+RUS,Europe,2012,61.1
+RUS,Europe,2013,61.6
+RUS,Europe,2014,61.6
+RUS,Europe,2015,62.1
+RUS,Europe,2016,62.4
+RUS,Europe,2017,63.1
+RUS,Europe,2018,63.3
+RUS,Europe,2019,63.7
+RUS,Europe,2020,62.2
+RUS,Europe,2021,60.9
+RWA,Africa,2000,40.8
+RWA,Africa,2001,42.0
+RWA,Africa,2002,44.0
+RWA,Africa,2003,45.6
+RWA,Africa,2004,47.4
+RWA,Africa,2005,49.5
+RWA,Africa,2006,51.3
+RWA,Africa,2007,52.7
+RWA,Africa,2008,53.9
+RWA,Africa,2009,54.7
+RWA,Africa,2010,55.8
+RWA,Africa,2011,56.5
+RWA,Africa,2012,57.1
+RWA,Africa,2013,57.7
+RWA,Africa,2014,58.1
+RWA,Africa,2015,58.3
+RWA,Africa,2016,58.5
+RWA,Africa,2017,58.8
+RWA,Africa,2018,59.0
+RWA,Africa,2019,59.1
+RWA,Africa,2020,59.5
+RWA,Africa,2021,58.7
+SAU,Eastern Mediterranean,2000,61.2
+SAU,Eastern Mediterranean,2001,61.4
+SAU,Eastern Mediterranean,2002,61.7
+SAU,Eastern Mediterranean,2003,61.9
+SAU,Eastern Mediterranean,2004,62.1
+SAU,Eastern Mediterranean,2005,62.3
+SAU,Eastern Mediterranean,2006,62.4
+SAU,Eastern Mediterranean,2007,62.7
+SAU,Eastern Mediterranean,2008,63.1
+SAU,Eastern Mediterranean,2009,63.8
+SAU,Eastern Mediterranean,2010,64.5
+SAU,Eastern Mediterranean,2011,65.4
+SAU,Eastern Mediterranean,2012,66.1
+SAU,Eastern Mediterranean,2013,66.3
+SAU,Eastern Mediterranean,2014,66.3
+SAU,Eastern Mediterranean,2015,66.1
+SAU,Eastern Mediterranean,2016,66.0
+SAU,Eastern Mediterranean,2017,66.0
+SAU,Eastern Mediterranean,2018,66.1
+SAU,Eastern Mediterranean,2019,66.2
+SAU,Eastern Mediterranean,2020,65.3
+SAU,Eastern Mediterranean,2021,65.6
+SDN,Eastern Mediterranean,2000,54.1
+SDN,Eastern Mediterranean,2001,54.5
+SDN,Eastern Mediterranean,2002,54.8
+SDN,Eastern Mediterranean,2003,55.1
+SDN,Eastern Mediterranean,2004,55.1
+SDN,Eastern Mediterranean,2005,56.1
+SDN,Eastern Mediterranean,2006,56.5
+SDN,Eastern Mediterranean,2007,56.9
+SDN,Eastern Mediterranean,2008,57.2
+SDN,Eastern Mediterranean,2009,57.5
+SDN,Eastern Mediterranean,2010,57.9
+SDN,Eastern Mediterranean,2011,58.0
+SDN,Eastern Mediterranean,2012,58.5
+SDN,Eastern Mediterranean,2013,58.6
+SDN,Eastern Mediterranean,2014,58.9
+SDN,Eastern Mediterranean,2015,59.1
+SDN,Eastern Mediterranean,2016,59.4
+SDN,Eastern Mediterranean,2017,59.7
+SDN,Eastern Mediterranean,2018,59.9
+SDN,Eastern Mediterranean,2019,60.1
+SDN,Eastern Mediterranean,2020,59.1
+SDN,Eastern Mediterranean,2021,58.5
+SEN,Africa,2000,51.0
+SEN,Africa,2001,51.5
+SEN,Africa,2002,52.0
+SEN,Africa,2003,52.8
+SEN,Africa,2004,53.5
+SEN,Africa,2005,54.2
+SEN,Africa,2006,54.8
+SEN,Africa,2007,55.5
+SEN,Africa,2008,56.1
+SEN,Africa,2009,56.6
+SEN,Africa,2010,57.0
+SEN,Africa,2011,57.4
+SEN,Africa,2012,57.7
+SEN,Africa,2013,58.0
+SEN,Africa,2014,58.3
+SEN,Africa,2015,58.7
+SEN,Africa,2016,59.0
+SEN,Africa,2017,59.3
+SEN,Africa,2018,59.6
+SEN,Africa,2019,59.9
+SEN,Africa,2020,59.6
+SEN,Africa,2021,58.9
+SGP,Western Pacific,2000,69.4
+SGP,Western Pacific,2001,69.9
+SGP,Western Pacific,2002,70.0
+SGP,Western Pacific,2003,70.3
+SGP,Western Pacific,2004,70.8
+SGP,Western Pacific,2005,71.0
+SGP,Western Pacific,2006,71.4
+SGP,Western Pacific,2007,71.1
+SGP,Western Pacific,2008,71.4
+SGP,Western Pacific,2009,71.9
+SGP,Western Pacific,2010,72.1
+SGP,Western Pacific,2011,72.3
+SGP,Western Pacific,2012,72.5
+SGP,Western Pacific,2013,72.6
+SGP,Western Pacific,2014,72.8
+SGP,Western Pacific,2015,72.9
+SGP,Western Pacific,2016,73.3
+SGP,Western Pacific,2017,73.3
+SGP,Western Pacific,2018,73.5
+SGP,Western Pacific,2019,73.8
+SGP,Western Pacific,2020,73.8
+SGP,Western Pacific,2021,73.6
+SLB,Western Pacific,2000,56.3
+SLB,Western Pacific,2001,56.3
+SLB,Western Pacific,2002,56.4
+SLB,Western Pacific,2003,56.4
+SLB,Western Pacific,2004,56.5
+SLB,Western Pacific,2005,56.6
+SLB,Western Pacific,2006,56.6
+SLB,Western Pacific,2007,56.6
+SLB,Western Pacific,2008,56.9
+SLB,Western Pacific,2009,56.9
+SLB,Western Pacific,2010,57.1
+SLB,Western Pacific,2011,57.2
+SLB,Western Pacific,2012,57.4
+SLB,Western Pacific,2013,57.5
+SLB,Western Pacific,2014,57.6
+SLB,Western Pacific,2015,57.7
+SLB,Western Pacific,2016,57.8
+SLB,Western Pacific,2017,57.9
+SLB,Western Pacific,2018,58.0
+SLB,Western Pacific,2019,58.1
+SLB,Western Pacific,2020,57.9
+SLB,Western Pacific,2021,57.4
+SLE,Africa,2000,43.1
+SLE,Africa,2001,44.1
+SLE,Africa,2002,44.4
+SLE,Africa,2003,44.6
+SLE,Africa,2004,44.8
+SLE,Africa,2005,45.1
+SLE,Africa,2006,45.5
+SLE,Africa,2007,45.9
+SLE,Africa,2008,46.6
+SLE,Africa,2009,47.2
+SLE,Africa,2010,47.9
+SLE,Africa,2011,48.5
+SLE,Africa,2012,49.1
+SLE,Africa,2013,49.7
+SLE,Africa,2014,48.8
+SLE,Africa,2015,49.6
+SLE,Africa,2016,51.2
+SLE,Africa,2017,51.6
+SLE,Africa,2018,52.2
+SLE,Africa,2019,52.6
+SLE,Africa,2020,52.6
+SLE,Africa,2021,53.1
+SLV,Americas,2000,62.0
+SLV,Americas,2001,62.1
+SLV,Americas,2002,63.3
+SLV,Americas,2003,63.1
+SLV,Americas,2004,63.3
+SLV,Americas,2005,63.4
+SLV,Americas,2006,63.6
+SLV,Americas,2007,64.0
+SLV,Americas,2008,64.2
+SLV,Americas,2009,63.9
+SLV,Americas,2010,64.4
+SLV,Americas,2011,64.4
+SLV,Americas,2012,65.0
+SLV,Americas,2013,64.7
+SLV,Americas,2014,64.0
+SLV,Americas,2015,63.1
+SLV,Americas,2016,63.8
+SLV,Americas,2017,64.0
+SLV,Americas,2018,64.6
+SLV,Americas,2019,64.4
+SLV,Americas,2020,62.6
+SLV,Americas,2021,62.2
+SOM,Eastern Mediterranean,2000,43.4
+SOM,Eastern Mediterranean,2001,43.4
+SOM,Eastern Mediterranean,2002,43.5
+SOM,Eastern Mediterranean,2003,43.6
+SOM,Eastern Mediterranean,2004,43.6
+SOM,Eastern Mediterranean,2005,43.9
+SOM,Eastern Mediterranean,2006,43.9
+SOM,Eastern Mediterranean,2007,44.0
+SOM,Eastern Mediterranean,2008,44.3
+SOM,Eastern Mediterranean,2009,44.7
+SOM,Eastern Mediterranean,2010,43.8
+SOM,Eastern Mediterranean,2011,39.2
+SOM,Eastern Mediterranean,2012,44.3
+SOM,Eastern Mediterranean,2013,46.3
+SOM,Eastern Mediterranean,2014,46.8
+SOM,Eastern Mediterranean,2015,47.2
+SOM,Eastern Mediterranean,2016,47.6
+SOM,Eastern Mediterranean,2017,47.8
+SOM,Eastern Mediterranean,2018,48.2
+SOM,Eastern Mediterranean,2019,48.7
+SOM,Eastern Mediterranean,2020,48.6
+SOM,Eastern Mediterranean,2021,47.4
+SRB,Europe,2000,62.9
+SRB,Europe,2001,63.5
+SRB,Europe,2002,63.6
+SRB,Europe,2003,63.7
+SRB,Europe,2004,63.9
+SRB,Europe,2005,64.0
+SRB,Europe,2006,64.4
+SRB,Europe,2007,64.6
+SRB,Europe,2008,64.8
+SRB,Europe,2009,64.9
+SRB,Europe,2010,65.2
+SRB,Europe,2011,65.4
+SRB,Europe,2012,65.6
+SRB,Europe,2013,65.9
+SRB,Europe,2014,66.0
+SRB,Europe,2015,66.0
+SRB,Europe,2016,66.3
+SRB,Europe,2017,66.3
+SRB,Europe,2018,66.5
+SRB,Europe,2019,66.6
+SRB,Europe,2020,65.3
+SRB,Europe,2021,63.9
+SSD,Africa,2000,44.6
+SSD,Africa,2001,45.5
+SSD,Africa,2002,46.1
+SSD,Africa,2003,46.7
+SSD,Africa,2004,47.4
+SSD,Africa,2005,48.0
+SSD,Africa,2006,48.4
+SSD,Africa,2007,49.0
+SSD,Africa,2008,49.7
+SSD,Africa,2009,49.8
+SSD,Africa,2010,50.7
+SSD,Africa,2011,50.9
+SSD,Africa,2012,51.2
+SSD,Africa,2013,50.9
+SSD,Africa,2014,51.0
+SSD,Africa,2015,51.2
+SSD,Africa,2016,51.1
+SSD,Africa,2017,50.8
+SSD,Africa,2018,50.8
+SSD,Africa,2019,51.0
+SSD,Africa,2020,50.8
+SSD,Africa,2021,50.5
+STP,Africa,2000,55.5
+STP,Africa,2001,56.2
+STP,Africa,2002,56.8
+STP,Africa,2003,57.3
+STP,Africa,2004,57.7
+STP,Africa,2005,58.2
+STP,Africa,2006,58.7
+STP,Africa,2007,59.1
+STP,Africa,2008,59.5
+STP,Africa,2009,60.1
+STP,Africa,2010,60.4
+STP,Africa,2011,60.8
+STP,Africa,2012,61.1
+STP,Africa,2013,61.5
+STP,Africa,2014,61.8
+STP,Africa,2015,62.0
+STP,Africa,2016,62.3
+STP,Africa,2017,62.6
+STP,Africa,2018,62.8
+STP,Africa,2019,63.0
+STP,Africa,2020,62.5
+STP,Africa,2021,62.4
+SUR,Americas,2000,61.4
+SUR,Americas,2001,61.3
+SUR,Americas,2002,61.3
+SUR,Americas,2003,61.3
+SUR,Americas,2004,61.6
+SUR,Americas,2005,61.9
+SUR,Americas,2006,62.2
+SUR,Americas,2007,62.5
+SUR,Americas,2008,62.6
+SUR,Americas,2009,62.9
+SUR,Americas,2010,63.0
+SUR,Americas,2011,63.2
+SUR,Americas,2012,63.4
+SUR,Americas,2013,63.3
+SUR,Americas,2014,63.2
+SUR,Americas,2015,63.1
+SUR,Americas,2016,63.2
+SUR,Americas,2017,63.3
+SUR,Americas,2018,63.2
+SUR,Americas,2019,63.1
+SUR,Americas,2020,62.8
+SUR,Americas,2021,60.3
+SVK,Europe,2000,63.9
+SVK,Europe,2001,64.0
+SVK,Europe,2002,64.2
+SVK,Europe,2003,64.3
+SVK,Europe,2004,64.6
+SVK,Europe,2005,64.6
+SVK,Europe,2006,64.8
+SVK,Europe,2007,64.9
+SVK,Europe,2008,65.1
+SVK,Europe,2009,65.5
+SVK,Europe,2010,65.7
+SVK,Europe,2011,66.0
+SVK,Europe,2012,66.2
+SVK,Europe,2013,66.5
+SVK,Europe,2014,66.8
+SVK,Europe,2015,66.7
+SVK,Europe,2016,67.1
+SVK,Europe,2017,67.1
+SVK,Europe,2018,67.2
+SVK,Europe,2019,67.5
+SVK,Europe,2020,66.9
+SVK,Europe,2021,64.9
+SVN,Europe,2000,66.0
+SVN,Europe,2001,66.1
+SVN,Europe,2002,66.3
+SVN,Europe,2003,66.1
+SVN,Europe,2004,66.7
+SVN,Europe,2005,66.9
+SVN,Europe,2006,67.4
+SVN,Europe,2007,67.5
+SVN,Europe,2008,68.0
+SVN,Europe,2009,68.2
+SVN,Europe,2010,68.6
+SVN,Europe,2011,68.8
+SVN,Europe,2012,68.9
+SVN,Europe,2013,69.1
+SVN,Europe,2014,69.6
+SVN,Europe,2015,69.4
+SVN,Europe,2016,69.7
+SVN,Europe,2017,69.8
+SVN,Europe,2018,70.0
+SVN,Europe,2019,70.2
+SVN,Europe,2020,69.5
+SVN,Europe,2021,69.4
+SWE,Europe,2000,69.3
+SWE,Europe,2001,69.3
+SWE,Europe,2002,69.4
+SWE,Europe,2003,69.6
+SWE,Europe,2004,69.9
+SWE,Europe,2005,70.0
+SWE,Europe,2006,70.1
+SWE,Europe,2007,70.2
+SWE,Europe,2008,70.3
+SWE,Europe,2009,70.5
+SWE,Europe,2010,70.6
+SWE,Europe,2011,70.7
+SWE,Europe,2012,70.7
+SWE,Europe,2013,70.7
+SWE,Europe,2014,70.9
+SWE,Europe,2015,70.8
+SWE,Europe,2016,70.9
+SWE,Europe,2017,71.0
+SWE,Europe,2018,71.1
+SWE,Europe,2019,71.4
+SWE,Europe,2020,70.7
+SWE,Europe,2021,71.1
+SWZ,Africa,2000,41.4
+SWZ,Africa,2001,39.9
+SWZ,Africa,2002,38.7
+SWZ,Africa,2003,37.8
+SWZ,Africa,2004,37.2
+SWZ,Africa,2005,37.0
+SWZ,Africa,2006,37.8
+SWZ,Africa,2007,38.5
+SWZ,Africa,2008,39.0
+SWZ,Africa,2009,39.6
+SWZ,Africa,2010,40.8
+SWZ,Africa,2011,42.2
+SWZ,Africa,2012,43.1
+SWZ,Africa,2013,43.8
+SWZ,Africa,2014,44.6
+SWZ,Africa,2015,45.6
+SWZ,Africa,2016,46.5
+SWZ,Africa,2017,47.0
+SWZ,Africa,2018,47.8
+SWZ,Africa,2019,48.7
+SWZ,Africa,2020,48.7
+SWZ,Africa,2021,47.5
+SYC,Africa,2000,63.7
+SYC,Africa,2001,63.8
+SYC,Africa,2002,63.7
+SYC,Africa,2003,63.6
+SYC,Africa,2004,63.8
+SYC,Africa,2005,63.9
+SYC,Africa,2006,63.9
+SYC,Africa,2007,64.0
+SYC,Africa,2008,64.1
+SYC,Africa,2009,64.3
+SYC,Africa,2010,64.5
+SYC,Africa,2011,64.6
+SYC,Africa,2012,64.5
+SYC,Africa,2013,64.5
+SYC,Africa,2014,64.5
+SYC,Africa,2015,64.4
+SYC,Africa,2016,64.3
+SYC,Africa,2017,64.3
+SYC,Africa,2018,64.3
+SYC,Africa,2019,64.3
+SYC,Africa,2020,67.1
+SYC,Africa,2021,64.7
+SYR,Eastern Mediterranean,2000,62.1
+SYR,Eastern Mediterranean,2001,62.6
+SYR,Eastern Mediterranean,2002,62.8
+SYR,Eastern Mediterranean,2003,63.3
+SYR,Eastern Mediterranean,2004,63.5
+SYR,Eastern Mediterranean,2005,63.7
+SYR,Eastern Mediterranean,2006,63.8
+SYR,Eastern Mediterranean,2007,64.0
+SYR,Eastern Mediterranean,2008,64.0
+SYR,Eastern Mediterranean,2009,64.1
+SYR,Eastern Mediterranean,2010,64.1
+SYR,Eastern Mediterranean,2011,62.5
+SYR,Eastern Mediterranean,2012,56.6
+SYR,Eastern Mediterranean,2013,56.3
+SYR,Eastern Mediterranean,2014,52.5
+SYR,Eastern Mediterranean,2015,52.2
+SYR,Eastern Mediterranean,2016,52.3
+SYR,Eastern Mediterranean,2017,51.4
+SYR,Eastern Mediterranean,2018,55.6
+SYR,Eastern Mediterranean,2019,59.7
+SYR,Eastern Mediterranean,2020,62.0
+SYR,Eastern Mediterranean,2021,62.3
+TCD,Africa,2000,44.6
+TCD,Africa,2001,44.9
+TCD,Africa,2002,45.1
+TCD,Africa,2003,45.4
+TCD,Africa,2004,45.7
+TCD,Africa,2005,46.1
+TCD,Africa,2006,46.2
+TCD,Africa,2007,47.0
+TCD,Africa,2008,47.3
+TCD,Africa,2009,48.0
+TCD,Africa,2010,48.5
+TCD,Africa,2011,48.9
+TCD,Africa,2012,49.3
+TCD,Africa,2013,49.6
+TCD,Africa,2014,50.0
+TCD,Africa,2015,50.4
+TCD,Africa,2016,50.8
+TCD,Africa,2017,51.1
+TCD,Africa,2018,51.4
+TCD,Africa,2019,51.8
+TCD,Africa,2020,51.6
+TCD,Africa,2021,51.5
+TGO,Africa,2000,49.0
+TGO,Africa,2001,49.1
+TGO,Africa,2002,49.2
+TGO,Africa,2003,49.3
+TGO,Africa,2004,49.6
+TGO,Africa,2005,49.8
+TGO,Africa,2006,50.3
+TGO,Africa,2007,50.5
+TGO,Africa,2008,50.7
+TGO,Africa,2009,51.2
+TGO,Africa,2010,51.7
+TGO,Africa,2011,52.3
+TGO,Africa,2012,52.8
+TGO,Africa,2013,53.2
+TGO,Africa,2014,53.6
+TGO,Africa,2015,54.0
+TGO,Africa,2016,54.4
+TGO,Africa,2017,54.9
+TGO,Africa,2018,55.3
+TGO,Africa,2019,55.8
+TGO,Africa,2020,55.9
+TGO,Africa,2021,55.8
+THA,South-East Asia,2000,62.2
+THA,South-East Asia,2001,62.8
+THA,South-East Asia,2002,62.8
+THA,South-East Asia,2003,63.1
+THA,South-East Asia,2004,63.1
+THA,South-East Asia,2005,63.8
+THA,South-East Asia,2006,64.3
+THA,South-East Asia,2007,64.7
+THA,South-East Asia,2008,65.2
+THA,South-East Asia,2009,65.7
+THA,South-East Asia,2010,65.9
+THA,South-East Asia,2011,66.2
+THA,South-East Asia,2012,66.6
+THA,South-East Asia,2013,66.8
+THA,South-East Asia,2014,67.0
+THA,South-East Asia,2015,67.2
+THA,South-East Asia,2016,67.2
+THA,South-East Asia,2017,67.4
+THA,South-East Asia,2018,67.3
+THA,South-East Asia,2019,67.1
+THA,South-East Asia,2020,66.7
+THA,South-East Asia,2021,65.8
+TJK,Europe,2000,57.8
+TJK,Europe,2001,58.4
+TJK,Europe,2002,59.0
+TJK,Europe,2003,59.6
+TJK,Europe,2004,60.0
+TJK,Europe,2005,60.2
+TJK,Europe,2006,60.5
+TJK,Europe,2007,60.7
+TJK,Europe,2008,61.0
+TJK,Europe,2009,61.3
+TJK,Europe,2010,61.8
+TJK,Europe,2011,62.2
+TJK,Europe,2012,62.6
+TJK,Europe,2013,63.2
+TJK,Europe,2014,63.5
+TJK,Europe,2015,63.8
+TJK,Europe,2016,64.0
+TJK,Europe,2017,64.4
+TJK,Europe,2018,64.7
+TJK,Europe,2019,64.9
+TJK,Europe,2020,62.3
+TJK,Europe,2021,63.1
+TKM,Europe,2000,57.8
+TKM,Europe,2001,58.2
+TKM,Europe,2002,58.2
+TKM,Europe,2003,58.2
+TKM,Europe,2004,58.1
+TKM,Europe,2005,57.8
+TKM,Europe,2006,58.2
+TKM,Europe,2007,58.6
+TKM,Europe,2008,59.3
+TKM,Europe,2009,60.4
+TKM,Europe,2010,60.9
+TKM,Europe,2011,61.1
+TKM,Europe,2012,61.2
+TKM,Europe,2013,61.0
+TKM,Europe,2014,60.9
+TKM,Europe,2015,60.9
+TKM,Europe,2016,61.0
+TKM,Europe,2017,61.0
+TKM,Europe,2018,61.1
+TKM,Europe,2019,61.1
+TKM,Europe,2020,60.5
+TKM,Europe,2021,60.8
+TLS,South-East Asia,2000,54.0
+TLS,South-East Asia,2001,54.5
+TLS,South-East Asia,2002,55.1
+TLS,South-East Asia,2003,55.9
+TLS,South-East Asia,2004,56.6
+TLS,South-East Asia,2005,57.2
+TLS,South-East Asia,2006,57.5
+TLS,South-East Asia,2007,57.8
+TLS,South-East Asia,2008,58.1
+TLS,South-East Asia,2009,58.2
+TLS,South-East Asia,2010,58.5
+TLS,South-East Asia,2011,58.8
+TLS,South-East Asia,2012,59.0
+TLS,South-East Asia,2013,59.1
+TLS,South-East Asia,2014,59.2
+TLS,South-East Asia,2015,59.5
+TLS,South-East Asia,2016,59.7
+TLS,South-East Asia,2017,59.8
+TLS,South-East Asia,2018,59.9
+TLS,South-East Asia,2019,60.0
+TLS,South-East Asia,2020,60.3
+TLS,South-East Asia,2021,59.5
+TON,Western Pacific,2000,62.7
+TON,Western Pacific,2001,62.9
+TON,Western Pacific,2002,62.9
+TON,Western Pacific,2003,62.9
+TON,Western Pacific,2004,63.0
+TON,Western Pacific,2005,63.4
+TON,Western Pacific,2006,63.4
+TON,Western Pacific,2007,63.4
+TON,Western Pacific,2008,63.4
+TON,Western Pacific,2009,61.9
+TON,Western Pacific,2010,63.5
+TON,Western Pacific,2011,63.6
+TON,Western Pacific,2012,63.6
+TON,Western Pacific,2013,63.7
+TON,Western Pacific,2014,63.7
+TON,Western Pacific,2015,63.8
+TON,Western Pacific,2016,63.8
+TON,Western Pacific,2017,63.9
+TON,Western Pacific,2018,64.0
+TON,Western Pacific,2019,64.1
+TON,Western Pacific,2020,64.2
+TON,Western Pacific,2021,63.8
+TTO,Americas,2000,61.4
+TTO,Americas,2001,61.5
+TTO,Americas,2002,61.9
+TTO,Americas,2003,61.8
+TTO,Americas,2004,62.1
+TTO,Americas,2005,62.3
+TTO,Americas,2006,62.7
+TTO,Americas,2007,62.8
+TTO,Americas,2008,62.5
+TTO,Americas,2009,63.1
+TTO,Americas,2010,63.5
+TTO,Americas,2011,64.0
+TTO,Americas,2012,64.5
+TTO,Americas,2013,64.3
+TTO,Americas,2014,64.3
+TTO,Americas,2015,64.3
+TTO,Americas,2016,63.9
+TTO,Americas,2017,64.0
+TTO,Americas,2018,64.0
+TTO,Americas,2019,64.1
+TTO,Americas,2020,63.6
+TTO,Americas,2021,61.9
+TUN,Eastern Mediterranean,2000,64.4
+TUN,Eastern Mediterranean,2001,64.6
+TUN,Eastern Mediterranean,2002,64.7
+TUN,Eastern Mediterranean,2003,64.9
+TUN,Eastern Mediterranean,2004,65.0
+TUN,Eastern Mediterranean,2005,65.2
+TUN,Eastern Mediterranean,2006,65.3
+TUN,Eastern Mediterranean,2007,65.5
+TUN,Eastern Mediterranean,2008,65.6
+TUN,Eastern Mediterranean,2009,65.7
+TUN,Eastern Mediterranean,2010,65.8
+TUN,Eastern Mediterranean,2011,65.9
+TUN,Eastern Mediterranean,2012,66.0
+TUN,Eastern Mediterranean,2013,66.0
+TUN,Eastern Mediterranean,2014,66.1
+TUN,Eastern Mediterranean,2015,66.2
+TUN,Eastern Mediterranean,2016,66.2
+TUN,Eastern Mediterranean,2017,66.3
+TUN,Eastern Mediterranean,2018,66.5
+TUN,Eastern Mediterranean,2019,66.7
+TUN,Eastern Mediterranean,2020,66.2
+TUN,Eastern Mediterranean,2021,63.6
+TUR,Europe,2000,63.6
+TUR,Europe,2001,64.2
+TUR,Europe,2002,64.8
+TUR,Europe,2003,65.1
+TUR,Europe,2004,65.6
+TUR,Europe,2005,65.8
+TUR,Europe,2006,66.1
+TUR,Europe,2007,66.3
+TUR,Europe,2008,66.3
+TUR,Europe,2009,66.2
+TUR,Europe,2010,66.3
+TUR,Europe,2011,66.5
+TUR,Europe,2012,66.6
+TUR,Europe,2013,66.5
+TUR,Europe,2014,66.5
+TUR,Europe,2015,66.4
+TUR,Europe,2016,66.4
+TUR,Europe,2017,66.8
+TUR,Europe,2018,67.2
+TUR,Europe,2019,67.2
+TUR,Europe,2020,66.0
+TUR,Europe,2021,65.2
+TZA,Africa,2000,45.9
+TZA,Africa,2001,46.6
+TZA,Africa,2002,47.3
+TZA,Africa,2003,48.0
+TZA,Africa,2004,48.6
+TZA,Africa,2005,49.4
+TZA,Africa,2006,50.5
+TZA,Africa,2007,51.8
+TZA,Africa,2008,52.8
+TZA,Africa,2009,53.3
+TZA,Africa,2010,53.9
+TZA,Africa,2011,54.4
+TZA,Africa,2012,55.1
+TZA,Africa,2013,56.0
+TZA,Africa,2014,56.6
+TZA,Africa,2015,57.0
+TZA,Africa,2016,57.3
+TZA,Africa,2017,57.6
+TZA,Africa,2018,58.0
+TZA,Africa,2019,58.3
+TZA,Africa,2020,58.7
+TZA,Africa,2021,58.1
+UGA,Africa,2000,42.5
+UGA,Africa,2001,43.3
+UGA,Africa,2002,44.0
+UGA,Africa,2003,44.9
+UGA,Africa,2004,46.1
+UGA,Africa,2005,47.5
+UGA,Africa,2006,48.5
+UGA,Africa,2007,49.3
+UGA,Africa,2008,50.3
+UGA,Africa,2009,51.3
+UGA,Africa,2010,52.1
+UGA,Africa,2011,52.9
+UGA,Africa,2012,53.7
+UGA,Africa,2013,54.5
+UGA,Africa,2014,55.2
+UGA,Africa,2015,55.8
+UGA,Africa,2016,56.3
+UGA,Africa,2017,56.8
+UGA,Africa,2018,57.2
+UGA,Africa,2019,57.6
+UGA,Africa,2020,57.7
+UGA,Africa,2021,57.2
+UKR,Europe,2000,58.8
+UKR,Europe,2001,58.9
+UKR,Europe,2002,58.8
+UKR,Europe,2003,58.9
+UKR,Europe,2004,58.9
+UKR,Europe,2005,58.7
+UKR,Europe,2006,59.3
+UKR,Europe,2007,59.1
+UKR,Europe,2008,59.4
+UKR,Europe,2009,60.7
+UKR,Europe,2010,61.2
+UKR,Europe,2011,61.8
+UKR,Europe,2012,62.0
+UKR,Europe,2013,62.3
+UKR,Europe,2014,61.8
+UKR,Europe,2015,62.8
+UKR,Europe,2016,63.2
+UKR,Europe,2017,63.5
+UKR,Europe,2018,63.2
+UKR,Europe,2019,63.5
+UKR,Europe,2020,63.0
+UKR,Europe,2021,61.6
+URY,Americas,2000,65.3
+URY,Americas,2001,65.4
+URY,Americas,2002,65.5
+URY,Americas,2003,65.2
+URY,Americas,2004,65.6
+URY,Americas,2005,65.9
+URY,Americas,2006,66.4
+URY,Americas,2007,65.7
+URY,Americas,2008,66.4
+URY,Americas,2009,66.6
+URY,Americas,2010,66.5
+URY,Americas,2011,66.6
+URY,Americas,2012,66.4
+URY,Americas,2013,66.6
+URY,Americas,2014,67.0
+URY,Americas,2015,66.9
+URY,Americas,2016,66.7
+URY,Americas,2017,67.1
+URY,Americas,2018,66.8
+URY,Americas,2019,66.8
+URY,Americas,2020,67.3
+URY,Americas,2021,65.0
+USA,Americas,2000,65.3
+USA,Americas,2001,65.4
+USA,Americas,2002,65.4
+USA,Americas,2003,65.5
+USA,Americas,2004,65.8
+USA,Americas,2005,65.8
+USA,Americas,2006,66.0
+USA,Americas,2007,66.2
+USA,Americas,2008,66.2
+USA,Americas,2009,66.4
+USA,Americas,2010,66.6
+USA,Americas,2011,66.6
+USA,Americas,2012,66.6
+USA,Americas,2013,66.5
+USA,Americas,2014,66.5
+USA,Americas,2015,66.3
+USA,Americas,2016,66.2
+USA,Americas,2017,66.0
+USA,Americas,2018,66.0
+USA,Americas,2019,66.0
+USA,Americas,2020,64.4
+USA,Americas,2021,63.9
+UZB,Europe,2000,54.7
+UZB,Europe,2001,55.1
+UZB,Europe,2002,55.2
+UZB,Europe,2003,55.7
+UZB,Europe,2004,56.2
+UZB,Europe,2005,56.1
+UZB,Europe,2006,56.9
+UZB,Europe,2007,57.5
+UZB,Europe,2008,58.0
+UZB,Europe,2009,58.7
+UZB,Europe,2010,59.1
+UZB,Europe,2011,59.5
+UZB,Europe,2012,59.9
+UZB,Europe,2013,60.5
+UZB,Europe,2014,60.9
+UZB,Europe,2015,61.4
+UZB,Europe,2016,61.8
+UZB,Europe,2017,62.2
+UZB,Europe,2018,63.0
+UZB,Europe,2019,63.6
+UZB,Europe,2020,62.8
+UZB,Europe,2021,63.4
+VCT,Americas,2000,62.5
+VCT,Americas,2001,62.7
+VCT,Americas,2002,62.8
+VCT,Americas,2003,63.0
+VCT,Americas,2004,63.1
+VCT,Americas,2005,63.2
+VCT,Americas,2006,63.5
+VCT,Americas,2007,63.7
+VCT,Americas,2008,63.9
+VCT,Americas,2009,63.9
+VCT,Americas,2010,63.8
+VCT,Americas,2011,63.6
+VCT,Americas,2012,63.4
+VCT,Americas,2013,63.1
+VCT,Americas,2014,63.2
+VCT,Americas,2015,63.3
+VCT,Americas,2016,63.4
+VCT,Americas,2017,63.5
+VCT,Americas,2018,63.5
+VCT,Americas,2019,63.5
+VCT,Americas,2020,63.1
+VCT,Americas,2021,62.9
+VEN,Americas,2000,64.4
+VEN,Americas,2001,64.3
+VEN,Americas,2002,64.5
+VEN,Americas,2003,64.1
+VEN,Americas,2004,64.7
+VEN,Americas,2005,64.9
+VEN,Americas,2006,64.9
+VEN,Americas,2007,64.8
+VEN,Americas,2008,64.6
+VEN,Americas,2009,64.8
+VEN,Americas,2010,64.9
+VEN,Americas,2011,64.9
+VEN,Americas,2012,64.7
+VEN,Americas,2013,64.9
+VEN,Americas,2014,64.5
+VEN,Americas,2015,64.4
+VEN,Americas,2016,63.1
+VEN,Americas,2017,63.6
+VEN,Americas,2018,63.5
+VEN,Americas,2019,63.4
+VEN,Americas,2020,63.1
+VEN,Americas,2021,62.0
+VNM,Western Pacific,2000,63.7
+VNM,Western Pacific,2001,63.9
+VNM,Western Pacific,2002,64.0
+VNM,Western Pacific,2003,64.0
+VNM,Western Pacific,2004,64.1
+VNM,Western Pacific,2005,64.1
+VNM,Western Pacific,2006,64.2
+VNM,Western Pacific,2007,64.2
+VNM,Western Pacific,2008,64.3
+VNM,Western Pacific,2009,64.3
+VNM,Western Pacific,2010,64.4
+VNM,Western Pacific,2011,64.5
+VNM,Western Pacific,2012,64.6
+VNM,Western Pacific,2013,64.7
+VNM,Western Pacific,2014,64.8
+VNM,Western Pacific,2015,64.8
+VNM,Western Pacific,2016,65.0
+VNM,Western Pacific,2017,65.1
+VNM,Western Pacific,2018,65.3
+VNM,Western Pacific,2019,65.4
+VNM,Western Pacific,2020,66.2
+VNM,Western Pacific,2021,65.4
+VUT,Western Pacific,2000,57.5
+VUT,Western Pacific,2001,57.5
+VUT,Western Pacific,2002,57.6
+VUT,Western Pacific,2003,57.8
+VUT,Western Pacific,2004,57.9
+VUT,Western Pacific,2005,58.0
+VUT,Western Pacific,2006,58.1
+VUT,Western Pacific,2007,58.2
+VUT,Western Pacific,2008,58.3
+VUT,Western Pacific,2009,58.5
+VUT,Western Pacific,2010,58.6
+VUT,Western Pacific,2011,58.8
+VUT,Western Pacific,2012,58.9
+VUT,Western Pacific,2013,59.0
+VUT,Western Pacific,2014,59.1
+VUT,Western Pacific,2015,59.2
+VUT,Western Pacific,2016,59.2
+VUT,Western Pacific,2017,59.3
+VUT,Western Pacific,2018,59.3
+VUT,Western Pacific,2019,59.4
+VUT,Western Pacific,2020,59.4
+VUT,Western Pacific,2021,58.7
+WSM,Western Pacific,2000,61.3
+WSM,Western Pacific,2001,61.4
+WSM,Western Pacific,2002,61.6
+WSM,Western Pacific,2003,61.7
+WSM,Western Pacific,2004,61.8
+WSM,Western Pacific,2005,61.9
+WSM,Western Pacific,2006,62.0
+WSM,Western Pacific,2007,62.0
+WSM,Western Pacific,2008,62.0
+WSM,Western Pacific,2009,60.5
+WSM,Western Pacific,2010,61.9
+WSM,Western Pacific,2011,61.9
+WSM,Western Pacific,2012,61.7
+WSM,Western Pacific,2013,61.7
+WSM,Western Pacific,2014,61.6
+WSM,Western Pacific,2015,61.5
+WSM,Western Pacific,2016,61.4
+WSM,Western Pacific,2017,61.5
+WSM,Western Pacific,2018,61.5
+WSM,Western Pacific,2019,61.4
+WSM,Western Pacific,2020,61.6
+WSM,Western Pacific,2021,61.6
+YEM,Eastern Mediterranean,2000,54.2
+YEM,Eastern Mediterranean,2001,54.6
+YEM,Eastern Mediterranean,2002,55.1
+YEM,Eastern Mediterranean,2003,55.5
+YEM,Eastern Mediterranean,2004,56.0
+YEM,Eastern Mediterranean,2005,56.4
+YEM,Eastern Mediterranean,2006,56.9
+YEM,Eastern Mediterranean,2007,57.3
+YEM,Eastern Mediterranean,2008,57.6
+YEM,Eastern Mediterranean,2009,57.9
+YEM,Eastern Mediterranean,2010,58.3
+YEM,Eastern Mediterranean,2011,58.4
+YEM,Eastern Mediterranean,2012,58.5
+YEM,Eastern Mediterranean,2013,58.9
+YEM,Eastern Mediterranean,2014,58.9
+YEM,Eastern Mediterranean,2015,58.5
+YEM,Eastern Mediterranean,2016,58.1
+YEM,Eastern Mediterranean,2017,58.0
+YEM,Eastern Mediterranean,2018,56.9
+YEM,Eastern Mediterranean,2019,57.4
+YEM,Eastern Mediterranean,2020,57.0
+YEM,Eastern Mediterranean,2021,56.5
+ZAF,Africa,2000,49.4
+ZAF,Africa,2001,48.3
+ZAF,Africa,2002,47.1
+ZAF,Africa,2003,45.9
+ZAF,Africa,2004,45.4
+ZAF,Africa,2005,45.2
+ZAF,Africa,2006,45.2
+ZAF,Africa,2007,45.9
+ZAF,Africa,2008,46.7
+ZAF,Africa,2009,47.8
+ZAF,Africa,2010,49.2
+ZAF,Africa,2011,50.8
+ZAF,Africa,2012,52.2
+ZAF,Africa,2013,53.3
+ZAF,Africa,2014,53.8
+ZAF,Africa,2015,54.2
+ZAF,Africa,2016,54.7
+ZAF,Africa,2017,55.5
+ZAF,Africa,2018,55.9
+ZAF,Africa,2019,56.3
+ZAF,Africa,2020,55.0
+ZAF,Africa,2021,52.8
+ZMB,Africa,2000,38.9
+ZMB,Africa,2001,39.3
+ZMB,Africa,2002,40.0
+ZMB,Africa,2003,41.2
+ZMB,Africa,2004,42.6
+ZMB,Africa,2005,43.8
+ZMB,Africa,2006,45.0
+ZMB,Africa,2007,46.6
+ZMB,Africa,2008,48.1
+ZMB,Africa,2009,49.2
+ZMB,Africa,2010,49.9
+ZMB,Africa,2011,50.5
+ZMB,Africa,2012,51.1
+ZMB,Africa,2013,51.7
+ZMB,Africa,2014,52.3
+ZMB,Africa,2015,52.7
+ZMB,Africa,2016,53.1
+ZMB,Africa,2017,53.4
+ZMB,Africa,2018,53.5
+ZMB,Africa,2019,53.9
+ZMB,Africa,2020,53.9
+ZMB,Africa,2021,53.0
+ZWE,Africa,2000,40.5
+ZWE,Africa,2001,40.3
+ZWE,Africa,2002,40.0
+ZWE,Africa,2003,40.0
+ZWE,Africa,2004,40.1
+ZWE,Africa,2005,40.5
+ZWE,Africa,2006,41.1
+ZWE,Africa,2007,41.9
+ZWE,Africa,2008,42.7
+ZWE,Africa,2009,43.8
+ZWE,Africa,2010,45.3
+ZWE,Africa,2011,46.9
+ZWE,Africa,2012,48.3
+ZWE,Africa,2013,49.3
+ZWE,Africa,2014,50.1
+ZWE,Africa,2015,50.5
+ZWE,Africa,2016,50.9
+ZWE,Africa,2017,51.2
+ZWE,Africa,2018,51.6
+ZWE,Africa,2019,52.0
+ZWE,Africa,2020,52.2
+ZWE,Africa,2021,51.2

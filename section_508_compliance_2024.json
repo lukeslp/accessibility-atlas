@@ -1,0 +1,12 @@
+{
+  "source": "GSA FY24 Governmentwide Section 508 Assessment",
+  "url": "https://www.section508.gov/manage/section-508-assessment/2024/",
+  "year": 2024,
+  "reporting_entities": 245,
+  "assessment_criteria": 103,
+  "key_findings": {
+    "public_websites_conforming_pct": 23,
+    "intranet_pages_conforming_pct": 20,
+    "conformance_trend": "declined from prior year"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "Multiple trackers (UsableNet, Accessibility.works, EcomBack)",
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "total_lawsuits": [
+    814,
+    2258,
+    2256,
+    3550,
+    4055,
+    3255,
+    4061,
+    4000
+  ],
+  "breakdown_2024": {
+    "total": 4000,
+    "federal_court": 2400,
+    "state_court": 1600,
+    "ecommerce_pct": 77,
+    "overlay_widget_cited_pct": 25,
+    "top_states": [
+      "New York",
+      "California"
+    ],
+    "ny_ca_combined_pct": 40
+  },
+  "notes": "The FTC fined accessiBe $1M in January 2025 for false advertising of accessibility overlay products"
+}

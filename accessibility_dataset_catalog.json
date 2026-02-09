@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "created_at": "2025-12-21T12:17:29.026619",
+    "version": "1.0",
+    "total_datasets": 15
+  },
+  "categories": {
+    "speech_disorders": {
+      "description": "Dysarthria, aphasia, stuttering, atypical speech",
+      "datasets": [
+        {
+          "name": "Speech Accessibility Project (SAP)",
+          "url": "https://speechaccessibilityproject.beckman.illinois.edu",
+          "size": "400+ hours",
+          "speakers": "500+",
+          "conditions": [
+            "ALS",
+            "Cerebral Palsy",
+            "Down Syndrome",
+            "Parkinsons",
+            "Stroke"
+          ],
+          "access": "Data Use Agreement required",
+          "format": "Audio + transcripts"
+        },
+        {
+          "name": "TORGO Database",
+          "url": "https://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html",
+          "size": "Multiple speakers",
+          "conditions": [
+            "Cerebral Palsy",
+            "ALS"
+          ],
+          "access": "Request form",
+          "format": "Audio + 3D articulatory data"
+        },
+        {
+          "name": "UASpeech",
+          "url": "https://speechtechnology.web.illinois.edu/uaspeech/",
+          "size": "16 speakers with dysarthria",
+          "access": "Free for research",
+          "format": "Isolated words + digits"
+        },
+        {
+          "name": "SEP-28k (Stuttering)",
+          "url": "https://www.kaggle.com/datasets (search SEP-28k)",
+          "size": "28,000 clips from podcasts",
+          "access": "Public (Kaggle)",
+          "format": "Audio clips + event labels"
+        }
+      ]
+    },
+    "sign_language": {
+      "description": "ASL and other sign language datasets",
+      "datasets": [
+        {
+          "name": "How2Sign",
+          "url": "https://how2sign.github.io",
+          "size": "80+ hours, 35,000 sentences",
+          "access": "CC BY-NC 4.0",
+          "format": "Multiview video + depth + keypoints"
+        },
+        {
+          "name": "WLASL",
+          "url": "https://dxli94.github.io/WLASL/",
+          "hf_url": "https://huggingface.co/datasets/Voxel51/WLASL",
+          "size": "21,083 videos, 2,000 words",
+          "access": "Public download",
+          "format": "Video (isolated signs)"
+        },
+        {
+          "name": "ASL Citizen",
+          "url": "https://www.microsoft.com/en-us/research/project/asl-citizen/",
+          "size": "83,399 videos, 2,731 signs, 52 signers",
+          "access": "License agreement",
+          "format": "Video (isolated signs)"
+        }
+      ]
+    },
+    "aac": {
+      "description": "Augmentative and Alternative Communication",
+      "datasets": [
+        {
+          "name": "AAC Conversations",
+          "url": "https://huggingface.co/datasets (search AAC conversations)",
+          "size": "86,000+ simulated conversations",
+          "languages": "39",
+          "access": "CC-BY-4.0",
+          "format": "Text with typing error augmentations"
+        },
+        {
+          "name": "Domesday Dataset",
+          "url": "https://equalitytime.github.io/domesdaydataset/",
+          "size": "NHS AAC purchases 2006-2012",
+          "access": "Open Data Commons Attribution",
+          "format": "CSV/Excel"
+        }
+      ]
+    },
+    "census_disability": {
+      "description": "U.S. Census Bureau disability demographics",
+      "datasets": [
+        {
+          "name": "ACS Disability Characteristics (B18101)",
+          "url": "https://api.census.gov/data",
+          "coverage": "All states, counties",
+          "access": "API (key recommended)",
+          "format": "JSON via API",
+          "variables": [
+            "Total with disability",
+            "Hearing difficulty",
+            "Vision difficulty",
+            "Cognitive difficulty",
+            "Ambulatory difficulty",
+            "Self-care difficulty",
+            "Independent living difficulty"
+          ]
+        }
+      ]
+    },
+    "visual_accessibility": {
+      "description": "Visual impairment and blind user datasets",
+      "datasets": [
+        {
+          "name": "VizWiz",
+          "url": "https://vizwiz.org/tasks-and-datasets/vqa/",
+          "size": "Images from blind users + questions",
+          "access": "Public download",
+          "format": "Images + text questions + answers"
+        },
+        {
+          "name": "VideoA11y-40K",
+          "url": "arXiv (search VideoA11y-40K)",
+          "size": "40,000 videos with descriptions",
+          "access": "Via paper",
+          "format": "Video + accessibility descriptions"
+        }
+      ]
+    },
+    "clinical_corpora": {
+      "description": "TalkBank clinical speech/language databases",
+      "datasets": [
+        {
+          "name": "AphasiaBank",
+          "url": "https://talkbank.org/aphasia/",
+          "access": "Tiered (public transcripts, member audio/video)",
+          "format": "CHAT transcripts + multimedia"
+        },
+        {
+          "name": "DementiaBank",
+          "url": "https://dementia.talkbank.org",
+          "access": "Tiered",
+          "format": "CHAT transcripts + multimedia"
+        },
+        {
+          "name": "FluencyBank",
+          "url": "https://fluency.talkbank.org",
+          "focus": "Stuttering",
+          "access": "Tiered",
+          "format": "CHAT transcripts + audio"
+        }
+      ]
+    }
+  }
+}
