@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "title": "BLS Disability Employment Statistics - 2024 Annual Averages",
+    "source": "U.S. Bureau of Labor Statistics, Current Population Survey (CPS)",
+    "release_title": "Persons with a Disability: Labor Force Characteristics - 2024",
+    "data_year": 2024,
+    "source_urls": [
+      "https://www.bls.gov/news.release/disabl.htm",
+      "https://www.bls.gov/news.release/disabl.nr0.htm",
+      "https://www.bls.gov/news.release/pdf/disabl.pdf",
+      "https://www.bls.gov/opub/ted/2025/22-7-percent-of-people-with-a-disability-were-employed-in-2024.htm",
+      "https://www.bls.gov/opub/ted/2025/retail-trade-employed-13-1-percent-of-all-workers-with-a-disability-in-2024.htm",
+      "https://www.bls.gov/news.release/disabl.t01.htm",
+      "https://www.bls.gov/news.release/disabl.t04.htm",
+      "https://www.bls.gov/news.release/dissup.htm",
+      "https://www.dol.gov/agencies/odep/research-evaluation/statistics"
+    ],
+    "notes": [
+      "Data are from the Current Population Survey (CPS), a monthly survey of about 60,000 households conducted by the U.S. Census Bureau for the Bureau of Labor Statistics.",
+      "Questions to identify persons with a disability were added to the CPS in June 2008. Annual averages are available starting from 2009.",
+      "Persons are classified as having a disability if they have at least one of the following conditions: deaf or serious difficulty hearing; blind or serious difficulty seeing; serious difficulty concentrating, remembering, or making decisions; serious difficulty walking or climbing stairs; difficulty dressing or bathing; difficulty doing errands alone.",
+      "Values marked as null could not be verified from publicly accessible search results and should be obtained directly from the BLS report tables.",
+      "All percentages are 2024 annual averages unless otherwise noted."
+    ],
+    "compiled_date": "2026-02-09",
+    "compiled_from": "Web search of published BLS data"
+  },
+
+  "population_overview": {
+    "disability_prevalence_percent": 13.0,
+    "note": "People with a disability accounted for about 13 percent of the civilian noninstitutional population age 16 and over in 2024.",
+    "total_employed_with_disability_thousands": 7700,
+    "total_employed_without_disability_thousands": 153600,
+    "age_distribution": {
+      "with_disability": {
+        "age_65_and_over_percent": 50,
+        "note": "Half of those with a disability were age 65 and over in 2024."
+      },
+      "without_disability": {
+        "age_65_and_over_percent": 18,
+        "note": "About 18 percent of those with no disability were age 65 and over."
+      }
+    }
+  },
+
+  "overall_statistics": {
+    "data_year": 2024,
+    "with_disability": {
+      "labor_force_participation_rate": 24.5,
+      "employment_population_ratio": 22.7,
+      "unemployment_rate": 7.5,
+      "not_in_labor_force_percent": 75,
+      "part_time_workers_percent": 31,
+      "self_employed_percent": 9.2,
+      "private_wage_salary_percent": 76.6,
+      "federal_government_percent": 3.3
+    },
+    "without_disability": {
+      "labor_force_participation_rate": null,
+      "employment_population_ratio": 65.5,
+      "unemployment_rate": 3.8,
+      "not_in_labor_force_percent": 32,
+      "part_time_workers_percent": 17,
+      "self_employed_percent": 6.0,
+      "private_wage_salary_percent": 80.5,
+      "federal_government_percent": 2.6
+    },
+    "notes": [
+      "Labor force participation rate for people with a disability (24.5%) reached a series high in 2024.",
+      "Employment-population ratio for people with a disability (22.7%) was also a series high.",
+      "The unemployment rate for people with a disability was about twice that of those with no disability.",
+      "Workers with a disability were nearly twice as likely to work part time as workers with no disability.",
+      "A larger share of people with a disability were self-employed than were those with no disability."
+    ]
+  },
+
+  "working_age_statistics": {
+    "age_range": "16 to 64",
+    "data_year": 2024,
+    "with_disability": {
+      "employment_population_ratio": 37.4,
+      "labor_force_participation_rate": 40.7,
+      "note": "Among people with a disability ages 16 to 64, the employment-population ratio was 37.4 percent and the participation rate was 40.7 percent in 2024."
+    }
+  },
+
+  "by_race_ethnicity": {
+    "data_year": 2024,
+    "disability_prevalence": {
+      "white": 13.0,
+      "black_or_african_american": 13.1,
+      "asian": 6.8,
+      "hispanic_or_latino": 8.7,
+      "note": "Percent of each group's population reporting a disability."
+    },
+    "unemployment_rate_with_disability": {
+      "white": 6.9,
+      "black_or_african_american": 10.7,
+      "asian": 6.3,
+      "hispanic_or_latino": 9.4,
+      "note": "Unemployment rates for persons with a disability by race/ethnicity. Jobless rates were higher among Black or African American and Hispanic or Latino persons with a disability."
+    },
+    "unemployment_rate_without_disability": {
+      "white": null,
+      "black_or_african_american": null,
+      "asian": null,
+      "hispanic_or_latino": null,
+      "note": "Specific values by race for persons without disability not extracted from search results. Available in BLS Table 1."
+    }
+  },
+
+  "by_sex": {
+    "data_year": 2024,
+    "note": "Women were more likely to have a disability than men, partly reflecting the greater life expectancy of women. In 2023, the unemployment rates were the same for men and women with a disability at 7.2 percent. Specific 2024 sex-disaggregated employment-population ratios and participation rates are available in BLS Table 1 but were not extractable from search results.",
+    "with_disability": {
+      "men": {
+        "employment_population_ratio": null,
+        "labor_force_participation_rate": null,
+        "unemployment_rate": null
+      },
+      "women": {
+        "employment_population_ratio": null,
+        "labor_force_participation_rate": null,
+        "unemployment_rate": null
+      }
+    },
+    "reference_2023": {
+      "men_unemployment_rate": 7.2,
+      "women_unemployment_rate": 7.2,
+      "source_note": "2023 annual averages; 2024 sex-specific rates available in BLS Table 1."
+    }
+  },
+
+  "by_education_level": {
+    "data_year": 2024,
+    "population_25_and_over": true,
+    "educational_attainment_distribution": {
+      "with_disability_bachelors_or_higher_percent": 23,
+      "without_disability_bachelors_or_higher_percent": 42,
+      "note": "About 23 percent of people with a disability had completed a bachelor's degree or higher compared with about 42 percent of those with no disability."
+    },
+    "employment_population_ratio": {
+      "note": "For all levels of education, people with a disability were much less likely to be employed than their counterparts with no disability. Specific ratios by education level are in BLS Table 1 but were not fully extractable from search results.",
+      "less_than_high_school_diploma": {
+        "with_disability": null,
+        "without_disability": null
+      },
+      "high_school_graduates_no_college": {
+        "with_disability": null,
+        "without_disability": null
+      },
+      "some_college_or_associate_degree": {
+        "with_disability": null,
+        "without_disability": null
+      },
+      "bachelors_degree_and_higher": {
+        "with_disability": null,
+        "without_disability": null
+      }
+    },
+    "source_table": "BLS Table 1: https://www.bls.gov/news.release/disabl.t01.htm"
+  },
+
+  "by_occupation": {
+    "data_year": 2024,
+    "percent_distribution_of_employed": {
+      "management_professional_and_related": {
+        "with_disability": 37.9,
+        "without_disability": 44.1,
+        "note": "People with a disability were much less likely to work in management, professional, and related occupations."
+      },
+      "service": {
+        "with_disability": 19.0,
+        "without_disability": 16.3,
+        "note": "Workers with a disability were more likely to work in service occupations."
+      },
+      "sales_and_office": {
+        "with_disability": 20.8,
+        "without_disability": 18.4,
+        "note": "People with a disability were more likely to work in sales and office occupations."
+      },
+      "natural_resources_construction_and_maintenance": {
+        "with_disability": 8.1,
+        "without_disability": 9.0,
+        "note": "Workers with a disability were somewhat less likely to work in these occupations."
+      },
+      "production_transportation_and_material_moving": {
+        "with_disability": 14.2,
+        "without_disability": 12.2,
+        "note": "Workers with a disability were more likely to work in production, transportation, and material moving."
+      }
+    }
+  },
+
+  "by_industry": {
+    "data_year": 2024,
+    "percent_distribution_of_employed": {
+      "retail_trade": {
+        "with_disability": 13.1,
+        "without_disability": 10.0,
+        "note": "Retail trade employed 13.1 percent of all workers with a disability, higher than the 10.0 percent of those without."
+      },
+      "leisure_and_hospitality": {
+        "with_disability": 9.5,
+        "without_disability": 8.7
+      },
+      "other_services": {
+        "with_disability": 6.0,
+        "without_disability": 4.7
+      },
+      "health_care_and_social_assistance": {
+        "with_disability": null,
+        "without_disability": null,
+        "note": "Available in BLS Table 4 but not extractable from search results."
+      },
+      "education_services": {
+        "with_disability": null,
+        "without_disability": null,
+        "note": "Available in BLS Table 4 but not extractable from search results."
+      },
+      "professional_and_business_services": {
+        "with_disability": null,
+        "without_disability": null,
+        "note": "Available in BLS Table 4 but not extractable from search results."
+      }
+    },
+    "source_table": "BLS Table 4: https://www.bls.gov/news.release/disabl.t04.htm"
+  },
+
+  "by_disability_type": {
+    "data_period": "July 2024",
+    "source": "Persons with a Disability: Barriers to Employment and Other Labor-Related Issues (BLS USDL-25-1773)",
+    "source_url": "https://www.bls.gov/news.release/dissup.htm",
+    "note": "Data are from the July 2024 CPS supplement, not annual averages. Classifications differ from the standard CPS disability questions.",
+    "prevalence_ages_16_to_75": {
+      "any_limiting_condition_percent": 12.4,
+      "mobility_impairment_percent": 5.3,
+      "mental_health_condition_percent": 1.4,
+      "cognitive_intellectual_or_learning_disability_percent": 1.0,
+      "visual_or_hearing_impairment_percent": 0.6
+    },
+    "employment_rate_by_type": {
+      "mobility_impairment_percent_employed": 22,
+      "cognitive_intellectual_or_learning_disability_percent_employed": 23,
+      "mental_health_condition_percent_employed": 23,
+      "visual_or_hearing_impairment_percent_employed": 27,
+      "other_health_condition_percent_employed": 30
+    }
+  },
+
+  "historical_trends": {
+    "note": "Annual averages from BLS Current Population Survey. Disability questions added to CPS in June 2008; first full-year annual averages available for 2009. Historical employment-population ratio data verified from BLS Economics Daily articles and archived news releases. Some years have incomplete data where specific values could not be confirmed from search results.",
+    "employment_population_ratio": {
+      "description": "Employment-population ratio for persons with a disability, 16 years and over, annual averages",
+      "unit": "percent",
+      "series_id_fred": "LNU02374597",
+      "data": {
+        "2009": {"with_disability": 19.2, "without_disability": null},
+        "2010": {"with_disability": 18.6, "without_disability": 63.5},
+        "2011": {"with_disability": 17.8, "without_disability": null},
+        "2012": {"with_disability": 17.8, "without_disability": null},
+        "2013": {"with_disability": 17.6, "without_disability": null},
+        "2014": {"with_disability": 17.1, "without_disability": null},
+        "2015": {"with_disability": 17.5, "without_disability": null},
+        "2016": {"with_disability": 17.9, "without_disability": null},
+        "2017": {"with_disability": 18.7, "without_disability": null},
+        "2018": {"with_disability": 19.1, "without_disability": null},
+        "2019": {"with_disability": 19.3, "without_disability": 66.6},
+        "2020": {"with_disability": 17.9, "without_disability": null},
+        "2021": {"with_disability": 19.1, "without_disability": null},
+        "2022": {"with_disability": 21.3, "without_disability": null},
+        "2023": {"with_disability": 22.5, "without_disability": 65.8},
+        "2024": {"with_disability": 22.7, "without_disability": 65.5}
+      }
+    },
+    "unemployment_rate": {
+      "description": "Unemployment rate for persons with a disability, 16 years and over, annual averages",
+      "unit": "percent",
+      "series_id_fred": "LNU04074597",
+      "data": {
+        "2009": {"with_disability": null, "without_disability": null},
+        "2010": {"with_disability": 14.8, "without_disability": 9.4},
+        "2011": {"with_disability": 15.0, "without_disability": null},
+        "2012": {"with_disability": null, "without_disability": null},
+        "2013": {"with_disability": null, "without_disability": null},
+        "2014": {"with_disability": 12.5, "without_disability": 5.9},
+        "2015": {"with_disability": null, "without_disability": null},
+        "2016": {"with_disability": null, "without_disability": null},
+        "2017": {"with_disability": 9.2, "without_disability": null},
+        "2018": {"with_disability": null, "without_disability": null},
+        "2019": {"with_disability": null, "without_disability": null},
+        "2020": {"with_disability": null, "without_disability": null},
+        "2021": {"with_disability": 10.1, "without_disability": 5.1},
+        "2022": {"with_disability": null, "without_disability": null},
+        "2023": {"with_disability": 7.2, "without_disability": 3.5},
+        "2024": {"with_disability": 7.5, "without_disability": 3.8}
+      },
+      "note": "Many annual values could not be confirmed from search results. The FRED series LNU04074597 contains complete monthly and annual data."
+    },
+    "labor_force_participation_rate": {
+      "description": "Labor force participation rate for persons with a disability, 16 years and over, annual averages",
+      "unit": "percent",
+      "series_id_fred": "LNU01374597",
+      "data": {
+        "2009": {"with_disability": null, "without_disability": null},
+        "2010": {"with_disability": null, "without_disability": null},
+        "2011": {"with_disability": null, "without_disability": null},
+        "2012": {"with_disability": null, "without_disability": null},
+        "2013": {"with_disability": null, "without_disability": null},
+        "2014": {"with_disability": null, "without_disability": null},
+        "2015": {"with_disability": null, "without_disability": null},
+        "2016": {"with_disability": null, "without_disability": null},
+        "2017": {"with_disability": 20.6, "without_disability": null},
+        "2018": {"with_disability": null, "without_disability": null},
+        "2019": {"with_disability": 20.8, "without_disability": null},
+        "2020": {"with_disability": 20.5, "without_disability": null},
+        "2021": {"with_disability": null, "without_disability": null},
+        "2022": {"with_disability": null, "without_disability": null},
+        "2023": {"with_disability": 24.2, "without_disability": null},
+        "2024": {"with_disability": 24.5, "without_disability": null}
+      },
+      "note": "Many annual values could not be confirmed from search results. The FRED series LNU01374597 contains complete monthly and annual data. The 2024 value of 24.5% is a series high since data were first reported."
+    }
+  },
+
+  "key_findings_2024": [
+    "People with a disability accounted for about 13 percent of the U.S. civilian noninstitutional population age 16 and over in 2024.",
+    "The employment-population ratio for people with a disability was 22.7 percent, a series high, compared with 65.5 percent for those without a disability.",
+    "The labor force participation rate for people with a disability reached a series high of 24.5 percent in 2024.",
+    "The unemployment rate for people with a disability was 7.5 percent, about twice the 3.8 percent rate for those without a disability.",
+    "About 75 percent of people with a disability were not in the labor force, compared with about 32 percent of those without.",
+    "About 31 percent of workers with a disability usually worked part time, compared with about 17 percent of workers without a disability.",
+    "A larger share of people with a disability were self-employed (9.2 percent) than those without (6.0 percent).",
+    "People with a disability were less likely to work in management and professional occupations (37.9 percent vs. 44.1 percent) and more likely to work in service occupations (19.0 percent vs. 16.3 percent).",
+    "Retail trade employed 13.1 percent of workers with a disability vs. 10.0 percent of workers without.",
+    "Among people with a disability, unemployment rates were highest for Black or African American (10.7 percent) and Hispanic or Latino (9.4 percent) persons.",
+    "About 23 percent of people with a disability had completed a bachelor's degree or higher, compared with about 42 percent of those without.",
+    "Among people with a disability ages 16 to 64, the employment-population ratio was 37.4 percent.",
+    "Half of people with a disability were age 65 and over, compared with about 18 percent of those without."
+  ],
+
+  "data_completeness_notes": {
+    "fully_verified_from_search_results": [
+      "Overall employment-population ratio, unemployment rate, labor force participation rate (2024)",
+      "Race/ethnicity unemployment rates for persons with disability (2024)",
+      "Disability prevalence by race/ethnicity (2024)",
+      "Occupation distribution for persons with/without disability (2024)",
+      "Industry: retail trade, leisure/hospitality, other services (2024)",
+      "Self-employment and part-time work rates (2024)",
+      "Historical employment-population ratios (2009-2024, with disability)",
+      "Working age (16-64) employment-population ratio and participation rate (2024)",
+      "Employment by disability type (July 2024 supplement)",
+      "Selected historical unemployment rates (2010, 2011, 2014, 2017, 2021, 2023, 2024)"
+    ],
+    "not_available_from_search_results": [
+      "Sex-specific employment-population ratios, participation rates, and unemployment rates for 2024 (available in BLS Table 1)",
+      "Education-level-specific employment-population ratios for 2024 (available in BLS Table 1)",
+      "Age-group-specific employment rates for 2024, e.g. 16-24, 25-54, 55-64, 65+ (available in BLS Table 1 and Table A)",
+      "Complete industry distribution (available in BLS Table 4)",
+      "Many historical unemployment rates and participation rates (available via FRED series)",
+      "Historical without-disability comparison values for most years"
+    ],
+    "recommended_data_sources_for_gaps": [
+      "BLS Table 1 (2024): https://www.bls.gov/news.release/disabl.t01.htm",
+      "BLS Table A (2023-2024 comparison by age): https://www.bls.gov/news.release/disabl.a.htm",
+      "BLS Table 4 (industry/class of worker): https://www.bls.gov/news.release/disabl.t04.htm",
+      "BLS Full Report PDF: https://www.bls.gov/news.release/pdf/disabl.pdf",
+      "FRED Employment-Population Ratio: https://fred.stlouisfed.org/series/LNU02374597",
+      "FRED Unemployment Rate: https://fred.stlouisfed.org/series/LNU04074597",
+      "FRED Labor Force Participation Rate: https://fred.stlouisfed.org/series/LNU01374597"
+    ]
+  }
+}

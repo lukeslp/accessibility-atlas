@@ -1,0 +1,644 @@
+{
+  "dataset_name": "IDEA Part B Special Education - Child Count, Disability Categories, and Educational Environments",
+  "school_year": "2022-23",
+  "data_source": "U.S. Department of Education, Office of Special Education Programs (OSEP)",
+  "last_updated": "2025-12-01",
+  "retrieval_date": "2026-02-09",
+  "source_tables": {
+    "disability_breakdown": {
+      "table_id": "NCES Digest Table 204.30",
+      "title": "Children 3 to 21 years old served under IDEA, Part B, by type of disability: Selected school years, 1976-77 through 2022-23",
+      "url": "https://nces.ed.gov/programs/digest/d23/tables/dt23_204.30.asp",
+      "download_xlsx": "https://nces.ed.gov/programs/digest/d23/tables/xls/tabn204.30.xlsx"
+    },
+    "educational_environments": {
+      "table_id": "NCES Digest Table 204.60",
+      "title": "Percentage distribution of school-age students served under IDEA, Part B, by educational environment and type of disability: Selected years, fall 1989 through fall 2022",
+      "url": "https://nces.ed.gov/programs/digest/d23/tables/dt23_204.60.asp",
+      "download_xlsx": "https://nces.ed.gov/programs/digest/d23/tables/xls/tabn204.60.xlsx"
+    },
+    "state_level": {
+      "table_id": "NCES Digest Table 204.70",
+      "title": "Number and percentage of children served under IDEA, Part B, by age group and state or jurisdiction: Selected school years, 1990-91 through 2022-23",
+      "url": "https://nces.ed.gov/programs/digest/d23/tables/dt23_204.70.asp",
+      "download_xlsx": "https://nces.ed.gov/programs/digest/d23/tables/xls/tabn204.70.xlsx"
+    },
+    "demographics": {
+      "table_id": "NCES Digest Table 204.50",
+      "title": "Children and students 3 to 21 years old served under IDEA, Part B, by age group and sex, race/ethnicity, and type of disability: School year 2022-23",
+      "url": "https://nces.ed.gov/programs/digest/d23/tables/dt23_204.50.asp",
+      "download_xlsx": "https://nces.ed.gov/programs/digest/d23/tables/xls/tabn204.50.xlsx"
+    },
+    "underlying_data": {
+      "title": "IDEA Section 618 State Part B Child Count and Educational Environments",
+      "url": "https://data.ed.gov/dataset/idea-section-618-state-part-b-child-count-and-educational-environments/resources",
+      "note": "Raw CSV files by year available from ED Open Data Platform"
+    }
+  },
+  "national_summary": {
+    "total_students_served": 7525941,
+    "total_students_served_formatted": "7,525,941",
+    "percent_of_public_school_enrollment": 15.17,
+    "age_group": "3 to 21 years old",
+    "note": "All-time high as of 2022-23; 3% higher than 2019-20 pre-pandemic levels"
+  },
+  "disability_categories": [
+    {
+      "category": "Specific learning disability",
+      "count": 2408411,
+      "count_formatted": "2,408,411",
+      "percentage": 32.0,
+      "description": "Disorder in basic psychological processes involved in understanding or using language (includes dyslexia, dyscalculia, dysgraphia)"
+    },
+    {
+      "category": "Speech or language impairment",
+      "count": 1429556,
+      "count_formatted": "1,429,556",
+      "percentage": 19.0,
+      "description": "Communication disorder such as stuttering, impaired articulation, language or voice impairment"
+    },
+    {
+      "category": "Other health impairment",
+      "count": 1149816,
+      "count_formatted": "1,149,816",
+      "percentage": 15.28,
+      "description": "Limited strength, vitality, or alertness due to chronic or acute health problems (includes ADHD, epilepsy, asthma, diabetes, etc.)"
+    },
+    {
+      "category": "Autism",
+      "count": 980272,
+      "count_formatted": "980,272",
+      "percentage": 13.03,
+      "description": "Autism spectrum disorder significantly affecting communication and social interaction"
+    },
+    {
+      "category": "Developmental delay",
+      "count": 518045,
+      "count_formatted": "518,045",
+      "percentage": 6.88,
+      "description": "Delay in physical, cognitive, communication, social/emotional, or adaptive development (ages 3-9)"
+    },
+    {
+      "category": "Intellectual disability",
+      "count": 434179,
+      "count_formatted": "434,179",
+      "percentage": 5.77,
+      "description": "Significantly subaverage general intellectual functioning concurrent with deficits in adaptive behavior"
+    },
+    {
+      "category": "Emotional disturbance",
+      "count": 326875,
+      "count_formatted": "326,875",
+      "percentage": 4.34,
+      "description": "Condition exhibiting behavioral or emotional responses so different from age-appropriate norms that they adversely affect educational performance"
+    },
+    {
+      "category": "Multiple disabilities",
+      "count": 126209,
+      "count_formatted": "126,209",
+      "percentage": 1.68,
+      "description": "Concomitant impairments whose combination causes severe educational needs"
+    },
+    {
+      "category": "Hearing impairment",
+      "count": 69595,
+      "count_formatted": "69,595",
+      "percentage": 0.92,
+      "description": "Impairment in hearing, whether permanent or fluctuating, including deafness"
+    },
+    {
+      "category": "Orthopedic impairment",
+      "count": 31635,
+      "count_formatted": "31,635",
+      "percentage": 0.42,
+      "description": "Severe orthopedic impairment adversely affecting educational performance"
+    },
+    {
+      "category": "Visual impairment",
+      "count": 24843,
+      "count_formatted": "24,843",
+      "percentage": 0.33,
+      "description": "Impairment in vision that, even with correction, adversely affects educational performance (includes blindness)"
+    },
+    {
+      "category": "Traumatic brain injury",
+      "count": 24653,
+      "count_formatted": "24,653",
+      "percentage": 0.33,
+      "description": "Acquired injury to the brain caused by external physical force"
+    },
+    {
+      "category": "Deaf-blindness",
+      "count": 1852,
+      "count_formatted": "1,852",
+      "percentage": 0.02,
+      "description": "Concomitant hearing and visual impairments"
+    }
+  ],
+  "educational_environments": {
+    "school_year": "Fall 2022",
+    "population": "School-age students (ages 5-21 plus 5-year-olds in kindergarten)",
+    "all_students": {
+      "regular_class_80_plus_pct": 67.0,
+      "regular_class_40_to_79_pct": 15.83,
+      "regular_class_less_than_40_pct": 12.55,
+      "separate_school": 2.39,
+      "separate_residential_facility": 0.15,
+      "parentally_placed_private_school": 1.64,
+      "homebound_hospital": 0.34,
+      "correctional_facility": 0.11
+    },
+    "environment_descriptions": {
+      "regular_class_80_plus_pct": "Students spending 80% or more of the school day inside a regular classroom",
+      "regular_class_40_to_79_pct": "Students spending 40-79% of the school day inside a regular classroom",
+      "regular_class_less_than_40_pct": "Students spending less than 40% of the school day inside a regular classroom",
+      "separate_school": "Separate school specifically for students with disabilities",
+      "separate_residential_facility": "Separate residential facility for students with disabilities",
+      "parentally_placed_private_school": "Students enrolled by parents in private schools who receive special education services at public expense",
+      "homebound_hospital": "Students receiving education in homebound or hospital placement",
+      "correctional_facility": "Students in correctional facilities"
+    },
+    "by_disability_type": {
+      "Autism": {
+        "regular_class_80_plus_pct": 40.65,
+        "regular_class_40_to_79_pct": 17.22,
+        "regular_class_less_than_40_pct": 34.68,
+        "separate_school": 5.83,
+        "separate_residential_facility": 0.22,
+        "parentally_placed_private_school": 1.09,
+        "homebound_hospital": 0.29,
+        "correctional_facility": 0.01
+      },
+      "Specific learning disability": {
+        "regular_class_80_plus_pct": 76.26,
+        "regular_class_40_to_79_pct": 18.47,
+        "regular_class_less_than_40_pct": 3.44,
+        "separate_school": 0.33,
+        "separate_residential_facility": 0.03,
+        "parentally_placed_private_school": 1.29,
+        "homebound_hospital": 0.09,
+        "correctional_facility": 0.09
+      },
+      "Speech or language impairment": {
+        "regular_class_80_plus_pct": 88.51,
+        "regular_class_40_to_79_pct": 3.69,
+        "regular_class_less_than_40_pct": 3.56,
+        "separate_school": 0.2,
+        "separate_residential_facility": 0.01,
+        "parentally_placed_private_school": 3.93,
+        "homebound_hospital": 0.08,
+        "correctional_facility": 0.01
+      },
+      "Intellectual disability": {
+        "regular_class_80_plus_pct": 20.81,
+        "regular_class_40_to_79_pct": 27.77,
+        "regular_class_less_than_40_pct": 45.53,
+        "separate_school": 4.61,
+        "separate_residential_facility": 0.21,
+        "parentally_placed_private_school": 0.4,
+        "homebound_hospital": 0.56,
+        "correctional_facility": 0.1
+      },
+      "Emotional disturbance": {
+        "regular_class_80_plus_pct": 55.93,
+        "regular_class_40_to_79_pct": 16.91,
+        "regular_class_less_than_40_pct": 13.7,
+        "separate_school": 10.61,
+        "separate_residential_facility": 0.8,
+        "parentally_placed_private_school": 0.47,
+        "homebound_hospital": 0.76,
+        "correctional_facility": 0.83
+      },
+      "Other health impairment": {
+        "regular_class_80_plus_pct": 70.69,
+        "regular_class_40_to_79_pct": 17.89,
+        "regular_class_less_than_40_pct": 7.51,
+        "separate_school": 1.64,
+        "separate_residential_facility": 0.14,
+        "parentally_placed_private_school": 1.41,
+        "homebound_hospital": 0.54,
+        "correctional_facility": 0.18
+      },
+      "Multiple disabilities": {
+        "regular_class_80_plus_pct": 15.95,
+        "regular_class_40_to_79_pct": 18.24,
+        "regular_class_less_than_40_pct": 43.52,
+        "separate_school": 16.43,
+        "separate_residential_facility": 0.9,
+        "parentally_placed_private_school": 0.73,
+        "homebound_hospital": 4.16,
+        "correctional_facility": 0.06
+      },
+      "Developmental delay": {
+        "regular_class_80_plus_pct": 68.76,
+        "regular_class_40_to_79_pct": 14.92,
+        "regular_class_less_than_40_pct": 14.7,
+        "separate_school": 0.72,
+        "separate_residential_facility": 0.01,
+        "parentally_placed_private_school": 0.73,
+        "homebound_hospital": 0.16,
+        "correctional_facility": 0.0
+      },
+      "Hearing impairment": {
+        "regular_class_80_plus_pct": 65.24,
+        "regular_class_40_to_79_pct": 13.51,
+        "regular_class_less_than_40_pct": 9.68,
+        "separate_school": 8.17,
+        "separate_residential_facility": 1.5,
+        "parentally_placed_private_school": 1.73,
+        "homebound_hospital": 0.15,
+        "correctional_facility": 0.02
+      },
+      "Orthopedic impairment": {
+        "regular_class_80_plus_pct": 58.94,
+        "regular_class_40_to_79_pct": 14.95,
+        "regular_class_less_than_40_pct": 19.05,
+        "separate_school": 2.72,
+        "separate_residential_facility": 0.09,
+        "parentally_placed_private_school": 1.47,
+        "homebound_hospital": 2.76,
+        "correctional_facility": 0.02
+      },
+      "Visual impairment": {
+        "regular_class_80_plus_pct": 70.12,
+        "regular_class_40_to_79_pct": 11.49,
+        "regular_class_less_than_40_pct": 8.6,
+        "separate_school": 5.33,
+        "separate_residential_facility": 2.12,
+        "parentally_placed_private_school": 1.49,
+        "homebound_hospital": 0.85,
+        "correctional_facility": 0.0
+      },
+      "Traumatic brain injury": {
+        "regular_class_80_plus_pct": 51.48,
+        "regular_class_40_to_79_pct": 20.83,
+        "regular_class_less_than_40_pct": 19.58,
+        "separate_school": 4.94,
+        "separate_residential_facility": 0.41,
+        "parentally_placed_private_school": 1.09,
+        "homebound_hospital": 1.6,
+        "correctional_facility": 0.08
+      },
+      "Deaf-blindness": {
+        "regular_class_80_plus_pct": 31.39,
+        "regular_class_40_to_79_pct": 12.29,
+        "regular_class_less_than_40_pct": 29.7,
+        "separate_school": 18.58,
+        "separate_residential_facility": 2.85,
+        "parentally_placed_private_school": 0.99,
+        "homebound_hospital": 4.02,
+        "correctional_facility": 0.17
+      }
+    },
+    "key_findings": [
+      "67% of all students with disabilities spend 80%+ of the day in regular classrooms (up from 31.7% in 1989)",
+      "Speech/language impairment has highest inclusion rate at 88.5% in regular class 80%+ of time",
+      "Multiple disabilities has highest separate school rate at 16.4%",
+      "Steady decades-long trend toward greater inclusion in regular education settings"
+    ]
+  },
+  "state_data": {
+    "Alabama": {
+      "total_served": 99921,
+      "pct_of_enrollment": 13.31
+    },
+    "Alaska": {
+      "total_served": 19368,
+      "pct_of_enrollment": 14.82
+    },
+    "Arizona": {
+      "total_served": 149811,
+      "pct_of_enrollment": 13.23
+    },
+    "Arkansas": {
+      "total_served": 80226,
+      "pct_of_enrollment": 16.27
+    },
+    "California": {
+      "total_served": 805289,
+      "pct_of_enrollment": 13.58
+    },
+    "Colorado": {
+      "total_served": 113289,
+      "pct_of_enrollment": 13.01
+    },
+    "Connecticut": {
+      "total_served": 88635,
+      "pct_of_enrollment": 17.26
+    },
+    "Delaware": {
+      "total_served": 27502,
+      "pct_of_enrollment": 19.44
+    },
+    "District of Columbia": {
+      "total_served": 15126,
+      "pct_of_enrollment": 16.62
+    },
+    "Florida": {
+      "total_served": 432391,
+      "pct_of_enrollment": 15.06
+    },
+    "Georgia": {
+      "total_served": 230363,
+      "pct_of_enrollment": 13.16
+    },
+    "Hawaii": {
+      "total_served": 19920,
+      "pct_of_enrollment": 11.7
+    },
+    "Idaho": {
+      "total_served": 38298,
+      "pct_of_enrollment": 12.06
+    },
+    "Illinois": {
+      "total_served": 295261,
+      "pct_of_enrollment": 15.94
+    },
+    "Indiana": {
+      "total_served": 188078,
+      "pct_of_enrollment": 18.15
+    },
+    "Iowa": {
+      "total_served": 71801,
+      "pct_of_enrollment": 14.04
+    },
+    "Kansas": {
+      "total_served": 81063,
+      "pct_of_enrollment": 16.61
+    },
+    "Kentucky": {
+      "total_served": 109749,
+      "pct_of_enrollment": 16.63
+    },
+    "Louisiana": {
+      "total_served": 96916,
+      "pct_of_enrollment": 13.5
+    },
+    "Maine": {
+      "total_served": 35828,
+      "pct_of_enrollment": 20.61
+    },
+    "Maryland": {
+      "total_served": 114732,
+      "pct_of_enrollment": 12.89
+    },
+    "Massachusetts": {
+      "total_served": 182105,
+      "pct_of_enrollment": 19.72
+    },
+    "Michigan": {
+      "total_served": 199856,
+      "pct_of_enrollment": 13.94
+    },
+    "Minnesota": {
+      "total_served": 151845,
+      "pct_of_enrollment": 17.45
+    },
+    "Mississippi": {
+      "total_served": 69280,
+      "pct_of_enrollment": 15.74
+    },
+    "Missouri": {
+      "total_served": 127376,
+      "pct_of_enrollment": 14.28
+    },
+    "Montana": {
+      "total_served": 21112,
+      "pct_of_enrollment": 14.01
+    },
+    "Nebraska": {
+      "total_served": 55212,
+      "pct_of_enrollment": 16.77
+    },
+    "Nevada": {
+      "total_served": 64032,
+      "pct_of_enrollment": 13.22
+    },
+    "New Hampshire": {
+      "total_served": 30917,
+      "pct_of_enrollment": 18.3
+    },
+    "New Jersey": {
+      "total_served": 243035,
+      "pct_of_enrollment": 17.56
+    },
+    "New Mexico": {
+      "total_served": 56195,
+      "pct_of_enrollment": 17.84
+    },
+    "New York": {
+      "total_served": 524993,
+      "pct_of_enrollment": 20.73
+    },
+    "North Carolina": {
+      "total_served": 202310,
+      "pct_of_enrollment": 13.12
+    },
+    "North Dakota": {
+      "total_served": 17654,
+      "pct_of_enrollment": 14.9
+    },
+    "Ohio": {
+      "total_served": 278916,
+      "pct_of_enrollment": 16.6
+    },
+    "Oklahoma": {
+      "total_served": 120920,
+      "pct_of_enrollment": 17.24
+    },
+    "Oregon": {
+      "total_served": 87648,
+      "pct_of_enrollment": 15.18
+    },
+    "Pennsylvania": {
+      "total_served": 357917,
+      "pct_of_enrollment": 21.14
+    },
+    "Rhode Island": {
+      "total_served": 24650,
+      "pct_of_enrollment": 17.93
+    },
+    "South Carolina": {
+      "total_served": 112142,
+      "pct_of_enrollment": 14.21
+    },
+    "South Dakota": {
+      "total_served": 23232,
+      "pct_of_enrollment": 16.37
+    },
+    "Tennessee": {
+      "total_served": 132339,
+      "pct_of_enrollment": 13.15
+    },
+    "Texas": {
+      "total_served": 703058,
+      "pct_of_enrollment": 12.74
+    },
+    "Utah": {
+      "total_served": 91715,
+      "pct_of_enrollment": 13.26
+    },
+    "Vermont": {
+      "total_served": 15471,
+      "pct_of_enrollment": 18.49
+    },
+    "Virginia": {
+      "total_served": 177836,
+      "pct_of_enrollment": 14.11
+    },
+    "Washington": {
+      "total_served": 151949,
+      "pct_of_enrollment": 13.94
+    },
+    "West Virginia": {
+      "total_served": 46973,
+      "pct_of_enrollment": 18.7
+    },
+    "Wisconsin": {
+      "total_served": 125334,
+      "pct_of_enrollment": 15.23
+    },
+    "Wyoming": {
+      "total_served": 16352,
+      "pct_of_enrollment": 17.68
+    }
+  },
+  "state_rankings": {
+    "highest_pct_served": [
+      {
+        "state": "Pennsylvania",
+        "pct": 21.14
+      },
+      {
+        "state": "New York",
+        "pct": 20.73
+      },
+      {
+        "state": "Maine",
+        "pct": 20.61
+      },
+      {
+        "state": "Massachusetts",
+        "pct": 19.72
+      },
+      {
+        "state": "Delaware",
+        "pct": 19.44
+      }
+    ],
+    "lowest_pct_served": [
+      {
+        "state": "Hawaii",
+        "pct": 11.7
+      },
+      {
+        "state": "Idaho",
+        "pct": 12.06
+      },
+      {
+        "state": "Texas",
+        "pct": 12.74
+      },
+      {
+        "state": "Maryland",
+        "pct": 12.89
+      },
+      {
+        "state": "Colorado",
+        "pct": 13.01
+      }
+    ]
+  },
+  "historical_trends": {
+    "total_served_by_year": {
+      "1976-77": 3694000,
+      "1980-81": 4144000,
+      "1990-91": 4710089,
+      "2000-01": 6295816,
+      "2008-09": 6483398,
+      "2009-10": 6481269,
+      "2010-11": 6436234,
+      "2011-12": 6401282,
+      "2012-13": 6429331,
+      "2013-14": 6464096,
+      "2014-15": 6555291,
+      "2015-16": 6676974,
+      "2016-17": 6802402,
+      "2017-18": 6964424,
+      "2018-19": 7134248,
+      "2019-20": 7281881,
+      "2020-21": 7182916,
+      "2021-22": 7259425,
+      "2022-23": 7525941
+    },
+    "educational_environment_trends": {
+      "1989": {
+        "regular_80_plus": 31.67,
+        "regular_40_79": 37.45,
+        "regular_less_40": 24.87
+      },
+      "1995": {
+        "regular_80_plus": 45.66,
+        "regular_40_79": 28.46,
+        "regular_less_40": 21.53
+      },
+      "2000": {
+        "regular_80_plus": 46.5,
+        "regular_40_79": 29.83,
+        "regular_less_40": 19.54
+      },
+      "2005": {
+        "regular_80_plus": 54.24,
+        "regular_40_79": 25.14,
+        "regular_less_40": 16.66
+      },
+      "2010": {
+        "regular_80_plus": 60.53,
+        "regular_40_79": 20.04,
+        "regular_less_40": 14.24
+      },
+      "2015": {
+        "regular_80_plus": 62.55,
+        "regular_40_79": 18.72,
+        "regular_less_40": 13.63
+      },
+      "2019": {
+        "regular_80_plus": 64.77,
+        "regular_40_79": 17.52,
+        "regular_less_40": 12.84
+      },
+      "2020": {
+        "regular_80_plus": 65.95,
+        "regular_40_79": 16.6,
+        "regular_less_40": 12.62
+      },
+      "2021": {
+        "regular_80_plus": 66.54,
+        "regular_40_79": 16.18,
+        "regular_less_40": 12.56
+      },
+      "2022": {
+        "regular_80_plus": 67.0,
+        "regular_40_79": 15.83,
+        "regular_less_40": 12.55
+      }
+    },
+    "key_observations": [
+      "Total served grew from 3.7 million (1976-77) to 7.5 million (2022-23)",
+      "Peak growth occurred 1976-2005; plateaued 2005-2015; resumed growth after 2015",
+      "COVID-19 caused a dip in 2020-21 (7.18M), but recovered to record 7.53M by 2022-23",
+      "Specific learning disability share declined from 45% (2000-01) to 32% (2022-23)",
+      "Autism rose from 1.5% (2000-01) to 13% (2022-23), the fastest-growing category",
+      "Other health impairment grew from 4.8% (2000-01) to 15.3% (2022-23), primarily driven by ADHD identification",
+      "Inclusion in regular classes rose dramatically: 31.7% in 80%+ regular class (1989) to 67% (2022)"
+    ]
+  },
+  "data_notes": [
+    "Data by disability type for Iowa are imputed based on 2018-19 percentages applied to 2022-23 totals",
+    "Educational environment data include 50 states and District of Columbia only (excludes territories)",
+    "Values are from NCES Digest of Education Statistics 2023 (prepared December 2023)",
+    "United States total includes 50 states, DC, and Bureau of Indian Education",
+    "Other health impairment includes limited strength/vitality/alertness due to chronic or acute health problems (e.g., ADHD, epilepsy, asthma, diabetes)",
+    "Developmental delay category is optional by state law; not all states report this category"
+  ]
+}

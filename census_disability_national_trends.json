@@ -1,0 +1,55 @@
+{
+  "dataset": "US National Disability Prevalence Trends",
+  "source": "US Census Bureau, ACS 1-Year Estimates, Table B18101",
+  "universe": "Civilian noninstitutionalized population",
+  "years": "2017-2022",
+  "note": "2020 ACS 1-year standard estimates were not released due to COVID-19 data collection disruptions",
+  "url": "https://data.census.gov/table/ACSDT1Y2022.B18101",
+  "data": [
+    {
+      "year": 2017,
+      "total_population": 320775014,
+      "with_disability": 40678654,
+      "without_disability": 280096360,
+      "disability_rate_pct": 12.68,
+      "male_with_disability": 19741186,
+      "female_with_disability": 20937468
+    },
+    {
+      "year": 2018,
+      "total_population": 322249485,
+      "with_disability": 40637764,
+      "without_disability": 281611721,
+      "disability_rate_pct": 12.61,
+      "male_with_disability": 19667414,
+      "female_with_disability": 20970350
+    },
+    {
+      "year": 2019,
+      "total_population": 323120678,
+      "with_disability": 41089958,
+      "without_disability": 282030720,
+      "disability_rate_pct": 12.72,
+      "male_with_disability": 19901988,
+      "female_with_disability": 21187970
+    },
+    {
+      "year": 2021,
+      "total_population": 326912547,
+      "with_disability": 42485034,
+      "without_disability": 284427513,
+      "disability_rate_pct": 13.0,
+      "male_with_disability": 20538293,
+      "female_with_disability": 21946741
+    },
+    {
+      "year": 2022,
+      "total_population": 328309810,
+      "with_disability": 44146764,
+      "without_disability": 284163046,
+      "disability_rate_pct": 13.45,
+      "male_with_disability": 21264156,
+      "female_with_disability": 22882608
+    }
+  ]
+}
