@@ -299,7 +299,7 @@ USA,Americas,2021,65.2
 
 Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection. I built this because disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. Having it all in one place -- with consistent formatting and analysis notebooks -- makes it actually usable.
 
-**Luke Steuber** | [lukesteuber.com](https://lukesteuber.com) | [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com) | [dr.eamer.dev](https://dr.eamer.dev)
+**Luke Steuber** • [lukesteuber.com](https://lukesteuber.com) • [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com) • [dr.eamer.dev](https://dr.eamer.dev)
 
 ## License
 
