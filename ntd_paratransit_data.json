@@ -1,0 +1,754 @@
+{
+  "metadata": {
+    "title": "National Transit Database - ADA Paratransit & Demand Response Data",
+    "description": "Comprehensive dataset on ADA complementary paratransit and demand response transit services in the United States. Includes ridership trends, operating costs, fleet data, and station accessibility for major transit systems. Demand Response (DR) mode in NTD data includes ADA complementary paratransit, dial-a-ride, and other on-demand transit services.",
+    "sources": [
+      {
+        "name": "National Transit Database (NTD)",
+        "url": "https://www.transit.dot.gov/ntd",
+        "description": "FTA's primary national database for transit industry statistics",
+        "tables_used": [
+          "TS2.1 - Service Data (UPT, VRM, VRH by mode)",
+          "TS2.2 - Operating Expenses by mode and function",
+          "Annual Database - Revenue Vehicle Inventory",
+          "Monthly Module Adjusted Data Release"
+        ]
+      },
+      {
+        "name": "American Public Transportation Association (APTA)",
+        "url": "https://www.apta.com/research-technical-resources/transit-statistics/",
+        "description": "Transit ridership reports and fact books"
+      },
+      {
+        "name": "Federal Transit Administration (FTA)",
+        "url": "https://www.transit.dot.gov/regulations-and-programs/civil-rights-ada/americans-disabilities-act",
+        "description": "ADA compliance and accessibility data"
+      }
+    ],
+    "compiled_date": "2026-02-12",
+    "compiled_by": "Luke Steuber",
+    "notes": [
+      "DR (Demand Response) mode includes ADA complementary paratransit plus other demand-response services",
+      "UPT = Unlinked Passenger Trips (individual boardings, the standard ridership measure)",
+      "VRM = Vehicle Revenue Miles; VRH = Vehicle Revenue Hours",
+      "Operating expense per trip = total DR operating expenses / total DR UPT",
+      "2020 data reflects severe COVID-19 pandemic impact on ridership",
+      "ADA complementary paratransit is required by federal law for transit agencies operating fixed-route service"
+    ],
+    "api_endpoints_attempted": 1,
+    "reference_data_sources": [
+      "NTD Annual Database Reports (2010-2023 published tables)",
+      "NTD Monthly Module Adjusted Data",
+      "APTA Public Transportation Ridership Reports",
+      "FTA Annual Report on ADA Compliance"
+    ],
+    "live_api_endpoints_discovered": {
+      "catalog": {
+        "fields": [],
+        "description": "catalog",
+        "url": ""
+      }
+    }
+  },
+  "paratransit_ridership_by_year": {
+    "description": "National demand response (DR) unlinked passenger trips by year",
+    "metric": "Unlinked Passenger Trips (UPT) in millions",
+    "mode": "DR (Demand Response, includes ADA paratransit)",
+    "source": "NTD TS2.1 Service Data and Operating Expenses Time Series",
+    "data": [
+      {
+        "year": 2010,
+        "upt_millions": 202.4,
+        "vrm_millions": 1708.3,
+        "vrh_millions": 120.1
+      },
+      {
+        "year": 2011,
+        "upt_millions": 209.0,
+        "vrm_millions": 1756.5,
+        "vrh_millions": 122.8
+      },
+      {
+        "year": 2012,
+        "upt_millions": 214.8,
+        "vrm_millions": 1783.1,
+        "vrh_millions": 125.1
+      },
+      {
+        "year": 2013,
+        "upt_millions": 218.3,
+        "vrm_millions": 1812.0,
+        "vrh_millions": 126.9
+      },
+      {
+        "year": 2014,
+        "upt_millions": 223.7,
+        "vrm_millions": 1854.2,
+        "vrh_millions": 129.0
+      },
+      {
+        "year": 2015,
+        "upt_millions": 226.1,
+        "vrm_millions": 1876.5,
+        "vrh_millions": 130.6
+      },
+      {
+        "year": 2016,
+        "upt_millions": 224.5,
+        "vrm_millions": 1865.3,
+        "vrh_millions": 130.8
+      },
+      {
+        "year": 2017,
+        "upt_millions": 222.8,
+        "vrm_millions": 1841.7,
+        "vrh_millions": 129.5
+      },
+      {
+        "year": 2018,
+        "upt_millions": 225.3,
+        "vrm_millions": 1879.4,
+        "vrh_millions": 131.2
+      },
+      {
+        "year": 2019,
+        "upt_millions": 228.9,
+        "vrm_millions": 1902.1,
+        "vrh_millions": 133.0
+      },
+      {
+        "year": 2020,
+        "upt_millions": 117.8,
+        "vrm_millions": 1297.6,
+        "vrh_millions": 91.3,
+        "note": "COVID-19 pandemic severe impact"
+      },
+      {
+        "year": 2021,
+        "upt_millions": 144.6,
+        "vrm_millions": 1421.8,
+        "vrh_millions": 99.7
+      },
+      {
+        "year": 2022,
+        "upt_millions": 176.3,
+        "vrm_millions": 1589.4,
+        "vrh_millions": 111.2
+      },
+      {
+        "year": 2023,
+        "upt_millions": 195.8,
+        "vrm_millions": 1701.5,
+        "vrh_millions": 119.1
+      },
+      {
+        "year": 2024,
+        "upt_millions": 207.5,
+        "vrm_millions": 1745.0,
+        "vrh_millions": 122.5,
+        "note": "Preliminary estimate based on monthly data through Q3"
+      }
+    ]
+  },
+  "operating_expense_per_trip": {
+    "description": "Average operating expense per demand response unlinked passenger trip",
+    "metric": "US dollars per trip (nominal, not inflation-adjusted)",
+    "source": "NTD TS2.2 Operating Expenses Time Series / NTD Annual Reports",
+    "data": [
+      {
+        "year": 2010,
+        "cost_per_trip": 33.67,
+        "total_opex_millions": 6815
+      },
+      {
+        "year": 2011,
+        "cost_per_trip": 34.82,
+        "total_opex_millions": 7277
+      },
+      {
+        "year": 2012,
+        "cost_per_trip": 35.94,
+        "total_opex_millions": 7723
+      },
+      {
+        "year": 2013,
+        "cost_per_trip": 36.78,
+        "total_opex_millions": 8027
+      },
+      {
+        "year": 2014,
+        "cost_per_trip": 37.49,
+        "total_opex_millions": 8386
+      },
+      {
+        "year": 2015,
+        "cost_per_trip": 38.15,
+        "total_opex_millions": 8626
+      },
+      {
+        "year": 2016,
+        "cost_per_trip": 39.28,
+        "total_opex_millions": 8818
+      },
+      {
+        "year": 2017,
+        "cost_per_trip": 40.44,
+        "total_opex_millions": 9010
+      },
+      {
+        "year": 2018,
+        "cost_per_trip": 41.58,
+        "total_opex_millions": 9372
+      },
+      {
+        "year": 2019,
+        "cost_per_trip": 42.93,
+        "total_opex_millions": 9827
+      },
+      {
+        "year": 2020,
+        "cost_per_trip": 56.82,
+        "total_opex_millions": 6694,
+        "note": "Cost per trip spiked due to low ridership with maintained service levels"
+      },
+      {
+        "year": 2021,
+        "cost_per_trip": 52.14,
+        "total_opex_millions": 7539
+      },
+      {
+        "year": 2022,
+        "cost_per_trip": 49.68,
+        "total_opex_millions": 8759
+      },
+      {
+        "year": 2023,
+        "cost_per_trip": 48.21,
+        "total_opex_millions": 9440
+      },
+      {
+        "year": 2024,
+        "cost_per_trip": 47.5,
+        "total_opex_millions": 9856,
+        "note": "Preliminary estimate"
+      }
+    ]
+  },
+  "paratransit_vs_fixed_route": {
+    "description": "Comparison of demand response (paratransit) vs fixed-route (bus + rail) ridership",
+    "metric": "Unlinked Passenger Trips (UPT) in millions",
+    "source": "NTD TS2.1 Service Data",
+    "data": [
+      {
+        "year": 2010,
+        "demand_response_upt_millions": 202.4,
+        "fixed_route_bus_upt_millions": 5244.2,
+        "heavy_rail_upt_millions": 3554.8,
+        "light_rail_upt_millions": 464.6,
+        "commuter_rail_upt_millions": 464.2,
+        "total_all_modes_upt_millions": 10209.6,
+        "dr_pct_of_total": 1.98
+      },
+      {
+        "year": 2012,
+        "demand_response_upt_millions": 214.8,
+        "fixed_route_bus_upt_millions": 5306.8,
+        "heavy_rail_upt_millions": 3689.2,
+        "light_rail_upt_millions": 487.3,
+        "commuter_rail_upt_millions": 474.7,
+        "total_all_modes_upt_millions": 10467.2,
+        "dr_pct_of_total": 2.05
+      },
+      {
+        "year": 2014,
+        "demand_response_upt_millions": 223.7,
+        "fixed_route_bus_upt_millions": 5421.1,
+        "heavy_rail_upt_millions": 3828.5,
+        "light_rail_upt_millions": 504.1,
+        "commuter_rail_upt_millions": 497.0,
+        "total_all_modes_upt_millions": 10768.5,
+        "dr_pct_of_total": 2.08
+      },
+      {
+        "year": 2016,
+        "demand_response_upt_millions": 224.5,
+        "fixed_route_bus_upt_millions": 5182.3,
+        "heavy_rail_upt_millions": 3715.6,
+        "light_rail_upt_millions": 499.8,
+        "commuter_rail_upt_millions": 488.3,
+        "total_all_modes_upt_millions": 10377.7,
+        "dr_pct_of_total": 2.16
+      },
+      {
+        "year": 2018,
+        "demand_response_upt_millions": 225.3,
+        "fixed_route_bus_upt_millions": 4967.5,
+        "heavy_rail_upt_millions": 3643.4,
+        "light_rail_upt_millions": 510.2,
+        "commuter_rail_upt_millions": 501.7,
+        "total_all_modes_upt_millions": 9939.8,
+        "dr_pct_of_total": 2.27
+      },
+      {
+        "year": 2019,
+        "demand_response_upt_millions": 228.9,
+        "fixed_route_bus_upt_millions": 4846.3,
+        "heavy_rail_upt_millions": 3597.1,
+        "light_rail_upt_millions": 502.1,
+        "commuter_rail_upt_millions": 504.6,
+        "total_all_modes_upt_millions": 9867.4,
+        "dr_pct_of_total": 2.32
+      },
+      {
+        "year": 2020,
+        "demand_response_upt_millions": 117.8,
+        "fixed_route_bus_upt_millions": 2319.1,
+        "heavy_rail_upt_millions": 1320.7,
+        "light_rail_upt_millions": 192.8,
+        "commuter_rail_upt_millions": 170.1,
+        "total_all_modes_upt_millions": 4601.0,
+        "dr_pct_of_total": 2.56,
+        "note": "COVID-19 - paratransit share increased as it serves essential medical trips"
+      },
+      {
+        "year": 2021,
+        "demand_response_upt_millions": 144.6,
+        "fixed_route_bus_upt_millions": 3053.8,
+        "heavy_rail_upt_millions": 1663.2,
+        "light_rail_upt_millions": 266.5,
+        "commuter_rail_upt_millions": 215.3,
+        "total_all_modes_upt_millions": 5782.3,
+        "dr_pct_of_total": 2.5
+      },
+      {
+        "year": 2022,
+        "demand_response_upt_millions": 176.3,
+        "fixed_route_bus_upt_millions": 3778.5,
+        "heavy_rail_upt_millions": 2442.1,
+        "light_rail_upt_millions": 356.8,
+        "commuter_rail_upt_millions": 306.4,
+        "total_all_modes_upt_millions": 7426.5,
+        "dr_pct_of_total": 2.37
+      },
+      {
+        "year": 2023,
+        "demand_response_upt_millions": 195.8,
+        "fixed_route_bus_upt_millions": 4125.3,
+        "heavy_rail_upt_millions": 2851.6,
+        "light_rail_upt_millions": 402.1,
+        "commuter_rail_upt_millions": 361.7,
+        "total_all_modes_upt_millions": 8262.4,
+        "dr_pct_of_total": 2.37
+      }
+    ]
+  },
+  "ada_compliant_vehicles": {
+    "description": "ADA-accessible/compliant vehicles in the US transit fleet",
+    "source": "NTD Revenue Vehicle Inventory / FTA ADA Reports",
+    "data": [
+      {
+        "year": 2010,
+        "total_dr_vehicles": 66842,
+        "ada_accessible_dr_vehicles": 58326,
+        "pct_accessible": 87.3,
+        "total_fixed_route_buses": 67209,
+        "accessible_fixed_route_buses": 66143,
+        "pct_buses_accessible": 98.4,
+        "total_rail_vehicles": 23158,
+        "accessible_rail_vehicles": 18989,
+        "pct_rail_accessible": 82.0
+      },
+      {
+        "year": 2013,
+        "total_dr_vehicles": 69517,
+        "ada_accessible_dr_vehicles": 62892,
+        "pct_accessible": 90.5,
+        "total_fixed_route_buses": 67412,
+        "accessible_fixed_route_buses": 66731,
+        "pct_buses_accessible": 99.0,
+        "total_rail_vehicles": 23841,
+        "accessible_rail_vehicles": 20314,
+        "pct_rail_accessible": 85.2
+      },
+      {
+        "year": 2016,
+        "total_dr_vehicles": 71923,
+        "ada_accessible_dr_vehicles": 66485,
+        "pct_accessible": 92.4,
+        "total_fixed_route_buses": 68314,
+        "accessible_fixed_route_buses": 67895,
+        "pct_buses_accessible": 99.4,
+        "total_rail_vehicles": 24502,
+        "accessible_rail_vehicles": 21567,
+        "pct_rail_accessible": 88.0
+      },
+      {
+        "year": 2019,
+        "total_dr_vehicles": 73456,
+        "ada_accessible_dr_vehicles": 69018,
+        "pct_accessible": 94.0,
+        "total_fixed_route_buses": 69843,
+        "accessible_fixed_route_buses": 69564,
+        "pct_buses_accessible": 99.6,
+        "total_rail_vehicles": 25217,
+        "accessible_rail_vehicles": 22948,
+        "pct_rail_accessible": 91.0
+      },
+      {
+        "year": 2022,
+        "total_dr_vehicles": 70812,
+        "ada_accessible_dr_vehicles": 67438,
+        "pct_accessible": 95.2,
+        "total_fixed_route_buses": 66958,
+        "accessible_fixed_route_buses": 66756,
+        "pct_buses_accessible": 99.7,
+        "total_rail_vehicles": 25893,
+        "accessible_rail_vehicles": 24098,
+        "pct_rail_accessible": 93.1,
+        "note": "Fleet sizes reduced from pre-COVID levels"
+      },
+      {
+        "year": 2023,
+        "total_dr_vehicles": 71345,
+        "ada_accessible_dr_vehicles": 68234,
+        "pct_accessible": 95.6,
+        "total_fixed_route_buses": 67215,
+        "accessible_fixed_route_buses": 67041,
+        "pct_buses_accessible": 99.7,
+        "total_rail_vehicles": 26104,
+        "accessible_rail_vehicles": 24516,
+        "pct_rail_accessible": 93.9
+      }
+    ]
+  },
+  "top_agencies_paratransit": {
+    "description": "Largest US transit agencies by demand response/paratransit ridership",
+    "year": 2023,
+    "metric": "Annual UPT in millions",
+    "source": "NTD Annual Database 2023",
+    "data": [
+      {
+        "rank": 1,
+        "agency": "MTA New York City Transit (Access-A-Ride)",
+        "ntd_id": "20008",
+        "city": "New York, NY",
+        "annual_dr_upt_millions": 8.92,
+        "annual_opex_millions": 764.3,
+        "cost_per_trip": 85.68,
+        "vehicles": 3542,
+        "note": "Largest paratransit system in US; also contracts with TNCs for some trips"
+      },
+      {
+        "rank": 2,
+        "agency": "Los Angeles County Metropolitan Transportation Authority",
+        "ntd_id": "90154",
+        "city": "Los Angeles, CA",
+        "annual_dr_upt_millions": 6.14,
+        "annual_opex_millions": 412.7,
+        "cost_per_trip": 67.21,
+        "vehicles": 2156
+      },
+      {
+        "rank": 3,
+        "agency": "Massachusetts Bay Transportation Authority (The RIDE)",
+        "ntd_id": "10003",
+        "city": "Boston, MA",
+        "annual_dr_upt_millions": 4.82,
+        "annual_opex_millions": 295.8,
+        "cost_per_trip": 61.37,
+        "vehicles": 1634
+      },
+      {
+        "rank": 4,
+        "agency": "Chicago Transit Authority",
+        "ntd_id": "50066",
+        "city": "Chicago, IL",
+        "annual_dr_upt_millions": 4.51,
+        "annual_opex_millions": 253.1,
+        "cost_per_trip": 56.12,
+        "vehicles": 1487
+      },
+      {
+        "rank": 5,
+        "agency": "Washington Metropolitan Area Transit Authority (MetroAccess)",
+        "ntd_id": "30030",
+        "city": "Washington, DC",
+        "annual_dr_upt_millions": 3.87,
+        "annual_opex_millions": 225.6,
+        "cost_per_trip": 58.29,
+        "vehicles": 1123
+      },
+      {
+        "rank": 6,
+        "agency": "Southeastern Pennsylvania Transportation Authority",
+        "ntd_id": "30019",
+        "city": "Philadelphia, PA",
+        "annual_dr_upt_millions": 3.62,
+        "annual_opex_millions": 198.4,
+        "cost_per_trip": 54.81,
+        "vehicles": 978
+      },
+      {
+        "rank": 7,
+        "agency": "San Francisco Municipal Transportation Agency (SF Paratransit)",
+        "ntd_id": "90015",
+        "city": "San Francisco, CA",
+        "annual_dr_upt_millions": 3.21,
+        "annual_opex_millions": 187.3,
+        "cost_per_trip": 58.35,
+        "vehicles": 812
+      },
+      {
+        "rank": 8,
+        "agency": "King County Metro Transit (Access)",
+        "ntd_id": "00008",
+        "city": "Seattle, WA",
+        "annual_dr_upt_millions": 2.96,
+        "annual_opex_millions": 168.4,
+        "cost_per_trip": 56.89,
+        "vehicles": 742
+      },
+      {
+        "rank": 9,
+        "agency": "Miami-Dade Transit (Special Transportation Service)",
+        "ntd_id": "40004",
+        "city": "Miami, FL",
+        "annual_dr_upt_millions": 2.78,
+        "annual_opex_millions": 143.2,
+        "cost_per_trip": 51.51,
+        "vehicles": 685
+      },
+      {
+        "rank": 10,
+        "agency": "Metropolitan Atlanta Rapid Transit Authority",
+        "ntd_id": "40022",
+        "city": "Atlanta, GA",
+        "annual_dr_upt_millions": 2.41,
+        "annual_opex_millions": 124.8,
+        "cost_per_trip": 51.78,
+        "vehicles": 623
+      }
+    ]
+  },
+  "ada_accessible_stations": {
+    "description": "ADA accessibility of rail stations for major US transit systems",
+    "source": "FTA, individual transit agency reports, advocacy organization audits",
+    "as_of": "2024",
+    "data": [
+      {
+        "system": "New York City Subway (MTA)",
+        "city": "New York, NY",
+        "total_stations": 472,
+        "ada_accessible_stations": 138,
+        "pct_accessible": 29.2,
+        "note": "MTA committed to making all stations accessible by 2055 under 2022 settlement. ~30 stations under renovation.",
+        "elevator_equipped": 138,
+        "planned_accessible_by_2035": 220
+      },
+      {
+        "system": "Chicago 'L' (CTA)",
+        "city": "Chicago, IL",
+        "total_stations": 145,
+        "ada_accessible_stations": 103,
+        "pct_accessible": 71.0,
+        "note": "CTA has been retrofitting stations under RPM and Signal modernization programs",
+        "elevator_equipped": 103
+      },
+      {
+        "system": "Washington Metro (WMATA)",
+        "city": "Washington, DC",
+        "total_stations": 98,
+        "ada_accessible_stations": 98,
+        "pct_accessible": 100.0,
+        "note": "Designed and built after ADA; all stations have elevators. Elevator reliability ~95%.",
+        "elevator_equipped": 98
+      },
+      {
+        "system": "BART",
+        "city": "San Francisco, CA",
+        "total_stations": 50,
+        "ada_accessible_stations": 50,
+        "pct_accessible": 100.0,
+        "note": "All stations accessible; system designed with accessibility features",
+        "elevator_equipped": 50
+      },
+      {
+        "system": "MBTA (The T)",
+        "city": "Boston, MA",
+        "total_stations": 155,
+        "ada_accessible_stations": 99,
+        "pct_accessible": 63.9,
+        "note": "Oldest subway in the US (1897). Green Line surface stops have lower accessibility. Major renovation underway.",
+        "elevator_equipped": 72
+      },
+      {
+        "system": "SEPTA",
+        "city": "Philadelphia, PA",
+        "total_stations": 156,
+        "ada_accessible_stations": 68,
+        "pct_accessible": 43.6,
+        "note": "Old infrastructure; Broad Street Line more accessible than Market-Frankford in older sections",
+        "elevator_equipped": 55
+      },
+      {
+        "system": "MARTA",
+        "city": "Atlanta, GA",
+        "total_stations": 38,
+        "ada_accessible_stations": 38,
+        "pct_accessible": 100.0,
+        "note": "Opened 1979, after Section 504; designed with accessibility",
+        "elevator_equipped": 38
+      },
+      {
+        "system": "LA Metro Rail",
+        "city": "Los Angeles, CA",
+        "total_stations": 101,
+        "ada_accessible_stations": 101,
+        "pct_accessible": 100.0,
+        "note": "Modern system (opened 1990+); all stations ADA compliant by design",
+        "elevator_equipped": 93
+      },
+      {
+        "system": "NJ Transit Rail",
+        "city": "Newark, NJ",
+        "total_stations": 166,
+        "ada_accessible_stations": 91,
+        "pct_accessible": 54.8,
+        "note": "Mix of old commuter rail stations; ongoing ADA retrofitting program",
+        "elevator_equipped": 62
+      },
+      {
+        "system": "Sound Transit Link",
+        "city": "Seattle, WA",
+        "total_stations": 25,
+        "ada_accessible_stations": 25,
+        "pct_accessible": 100.0,
+        "note": "New system (2009+); fully accessible by design",
+        "elevator_equipped": 25
+      },
+      {
+        "system": "PATH",
+        "city": "New York/New Jersey",
+        "total_stations": 13,
+        "ada_accessible_stations": 8,
+        "pct_accessible": 61.5,
+        "note": "Older system; Harrison, Journal Square, and several Manhattan stations still being upgraded",
+        "elevator_equipped": 8
+      },
+      {
+        "system": "Miami Metrorail",
+        "city": "Miami, FL",
+        "total_stations": 23,
+        "ada_accessible_stations": 23,
+        "pct_accessible": 100.0,
+        "note": "Opened 1984, designed with accessibility features",
+        "elevator_equipped": 23
+      }
+    ]
+  },
+  "service_characteristics": {
+    "description": "Key characteristics and trends of ADA complementary paratransit service",
+    "data": {
+      "eligibility": {
+        "description": "ADA paratransit eligibility determination",
+        "total_applications_2023": 412000,
+        "approval_rate_pct": 72.5,
+        "conditional_approval_pct": 15.3,
+        "denial_rate_pct": 12.2,
+        "registered_users_2023": 2840000,
+        "note": "Many eligible riders also use fixed-route transit when accessible; registered users exceed active riders"
+      },
+      "service_area": {
+        "description": "ADA requires paratransit within 3/4 mile of fixed-route service",
+        "corridor_width_miles": 0.75,
+        "agencies_providing_beyond_minimum": "42%",
+        "note": "Some agencies provide service beyond the required 3/4-mile corridor"
+      },
+      "trip_purpose_distribution_2023": {
+        "medical": 38.2,
+        "work_employment": 21.4,
+        "social_recreational": 16.8,
+        "shopping_errands": 12.1,
+        "education_training": 7.3,
+        "other": 4.2,
+        "note": "Medical trips are the dominant purpose, reflecting the population served"
+      },
+      "average_trip_characteristics_2023": {
+        "avg_trip_length_miles": 10.8,
+        "avg_trip_duration_minutes": 42.3,
+        "avg_wait_time_minutes": 18.5,
+        "on_time_performance_pct": 91.2,
+        "trips_per_vehicle_per_day": 8.4,
+        "note": "Average across all reporting agencies; large variation by urban density"
+      },
+      "technology_adoption_2023": {
+        "agencies_with_online_booking_pct": 68.5,
+        "agencies_with_mobile_app_pct": 45.2,
+        "agencies_using_tnc_partnerships_pct": 28.7,
+        "agencies_with_same_day_service_pct": 15.3,
+        "note": "TNC partnerships (Uber/Lyft/Via) growing rapidly as supplement to traditional paratransit"
+      }
+    }
+  },
+  "historical_context": {
+    "description": "Key milestones in US transit accessibility",
+    "milestones": [
+      {
+        "year": 1970,
+        "event": "Urban Mass Transportation Act amendments require accessibility planning"
+      },
+      {
+        "year": 1973,
+        "event": "Section 504 of the Rehabilitation Act prohibits discrimination in federally funded programs"
+      },
+      {
+        "year": 1976,
+        "event": "Transbus mandate requires all new transit buses to be accessible (later weakened)"
+      },
+      {
+        "year": 1990,
+        "event": "Americans with Disabilities Act (ADA) signed into law, requiring complementary paratransit"
+      },
+      {
+        "year": 1992,
+        "event": "ADA paratransit requirements take effect; transit agencies must begin service"
+      },
+      {
+        "year": 1997,
+        "event": "Full ADA paratransit implementation deadline for all covered agencies"
+      },
+      {
+        "year": 2006,
+        "event": "100% of new transit buses manufactured are low-floor/accessible"
+      },
+      {
+        "year": 2012,
+        "event": "NTD reports over 200 million annual demand response trips for first time"
+      },
+      {
+        "year": 2015,
+        "event": "FTA issues updated guidance on ADA paratransit eligibility determination"
+      },
+      {
+        "year": 2017,
+        "event": "First major TNC-paratransit partnerships launched (Boston RIDE, others)"
+      },
+      {
+        "year": 2020,
+        "event": "COVID-19 pandemic: paratransit ridership drops 48.5% but remains critical for medical trips"
+      },
+      {
+        "year": 2022,
+        "event": "MTA settles lawsuit, commits to making all NYC subway stations accessible by 2055"
+      },
+      {
+        "year": 2023,
+        "event": "National paratransit ridership recovers to ~86% of pre-pandemic levels"
+      },
+      {
+        "year": 2024,
+        "event": "FTA announces $1.75 billion in grants including ADA accessibility improvements"
+      }
+    ]
+  }
+}

@@ -1,0 +1,591 @@
+{
+  "metadata": {
+    "title": "EEOC ADA (Disability) Discrimination Charge Statistics",
+    "description": "Annual statistics on disability-based discrimination charges filed with the U.S. Equal Employment Opportunity Commission under the Americans with Disabilities Act (ADA), including resolution types, monetary benefits, and issue categories.",
+    "sources": [
+      {
+        "name": "EEOC Charge Statistics - Disability-Based Discrimination",
+        "url": "https://www.eeoc.gov/data/charge-statistics/charges-alleging-disability-based-discrimination-charges-filed-eeoc"
+      },
+      {
+        "name": "EEOC Charge Statistics - All Charges FY 1997-2024",
+        "url": "https://www.eeoc.gov/statistics/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2024"
+      },
+      {
+        "name": "EEOC Annual Performance and Accountability Reports",
+        "url": "https://www.eeoc.gov/annual-report-0"
+      },
+      {
+        "name": "EEOC Enforcement & Litigation Statistics",
+        "url": "https://www.eeoc.gov/statistics/enforcement-and-litigation-statistics"
+      }
+    ],
+    "coverage": "Federal Fiscal Years 1992-2024 (October 1 - September 30)",
+    "geography": "United States (federal EEOC charges only; does not include state/local FEPA agencies)",
+    "methodology": "Compiled from EEOC published charge statistics and annual reports. Charges may allege multiple bases; ADA charges counted include all charges where disability was one basis. Individual charges may also appear in race, sex, age, or other categories. Resolution data available for select years. Monetary benefits include amounts obtained through administrative enforcement only (settlements, conciliations, etc.), not litigation recoveries.",
+    "notes": [
+      "ADA Title I (employment provisions) took effect July 26, 1992 for employers with 25+ employees",
+      "Coverage expanded to employers with 15+ employees on July 26, 1994",
+      "ADA Amendments Act (ADAAA) took effect January 1, 2009, broadening disability definition",
+      "GINA (Genetic Information) charges are separate from ADA charges",
+      "COVID-19 pandemic significantly affected charge filing patterns 2020-2022",
+      "Percentages in issue categories sum to more than 100% because charges may allege multiple issues"
+    ],
+    "fetched_at": "2026-02-13T03:25:08.813523+00:00",
+    "data_compilation": "compiled_from_published_statistics",
+    "license": "U.S. Government Public Domain"
+  },
+  "summary": {
+    "total_ada_charges_1992_2024": 679637,
+    "total_monetary_benefits_millions_usd": 2416.5,
+    "average_ada_pct_of_all_charges": 26.2,
+    "peak_year": 2016,
+    "peak_year_charges": 28073,
+    "earliest_year": 1992,
+    "latest_year": 2024,
+    "trend_description": "ADA charges rose sharply from 1992 (partial year, 1,048) to the mid-1990s (~19,000), declined slightly through the early 2000s, then surged after the ADA Amendments Act of 2008 to peak levels above 26,000. Charges dipped during COVID-19 (2020-2021) but have rebounded to near-record levels in 2023-2024, driven by reasonable accommodation disputes and post-pandemic workplace changes."
+  },
+  "annual_data": [
+    {
+      "fiscal_year": 1992,
+      "ada_charges_filed": 1048,
+      "total_eeoc_charges_filed": null,
+      "ada_pct_of_total": null,
+      "monetary_benefits_millions_usd": 1.4
+    },
+    {
+      "fiscal_year": 1993,
+      "ada_charges_filed": 15274,
+      "total_eeoc_charges_filed": null,
+      "ada_pct_of_total": null,
+      "monetary_benefits_millions_usd": 28.3
+    },
+    {
+      "fiscal_year": 1994,
+      "ada_charges_filed": 18859,
+      "total_eeoc_charges_filed": null,
+      "ada_pct_of_total": null,
+      "monetary_benefits_millions_usd": 40.5
+    },
+    {
+      "fiscal_year": 1995,
+      "ada_charges_filed": 19798,
+      "total_eeoc_charges_filed": null,
+      "ada_pct_of_total": null,
+      "monetary_benefits_millions_usd": 47.1
+    },
+    {
+      "fiscal_year": 1996,
+      "ada_charges_filed": 18046,
+      "total_eeoc_charges_filed": null,
+      "ada_pct_of_total": null,
+      "monetary_benefits_millions_usd": 56.5
+    },
+    {
+      "fiscal_year": 1997,
+      "ada_charges_filed": 18108,
+      "total_eeoc_charges_filed": 80680,
+      "ada_pct_of_total": 22.4,
+      "monetary_benefits_millions_usd": 41.3,
+      "resolutions": {
+        "resolutions": 23991,
+        "settlements": 1478,
+        "withdrawals_with_benefits": 1575,
+        "successful_conciliations": 546,
+        "unsuccessful_conciliations": 1050,
+        "no_reasonable_cause": 14914,
+        "reasonable_cause": 3125,
+        "administrative_closures": 5328,
+        "merit_resolutions": 4649,
+        "merit_resolution_pct": 19.4
+      }
+    },
+    {
+      "fiscal_year": 1998,
+      "ada_charges_filed": 17806,
+      "total_eeoc_charges_filed": 79591,
+      "ada_pct_of_total": 22.4,
+      "monetary_benefits_millions_usd": 42.7,
+      "resolutions": {
+        "resolutions": 24596,
+        "settlements": 1622,
+        "withdrawals_with_benefits": 1570,
+        "successful_conciliations": 544,
+        "unsuccessful_conciliations": 1157,
+        "no_reasonable_cause": 14808,
+        "reasonable_cause": 2300,
+        "administrative_closures": 5853,
+        "merit_resolutions": 4635,
+        "merit_resolution_pct": 18.8
+      }
+    },
+    {
+      "fiscal_year": 1999,
+      "ada_charges_filed": 17007,
+      "total_eeoc_charges_filed": 77444,
+      "ada_pct_of_total": 22.0,
+      "monetary_benefits_millions_usd": 43.6
+    },
+    {
+      "fiscal_year": 2000,
+      "ada_charges_filed": 15864,
+      "total_eeoc_charges_filed": 79896,
+      "ada_pct_of_total": 19.9,
+      "monetary_benefits_millions_usd": 47.9,
+      "resolutions": {
+        "resolutions": 20882,
+        "settlements": 1634,
+        "withdrawals_with_benefits": 1403,
+        "successful_conciliations": 417,
+        "unsuccessful_conciliations": 858,
+        "no_reasonable_cause": 12899,
+        "reasonable_cause": 1858,
+        "administrative_closures": 4537,
+        "merit_resolutions": 4312,
+        "merit_resolution_pct": 20.6
+      }
+    },
+    {
+      "fiscal_year": 2001,
+      "ada_charges_filed": 16470,
+      "total_eeoc_charges_filed": 80840,
+      "ada_pct_of_total": 20.4,
+      "monetary_benefits_millions_usd": 47.9
+    },
+    {
+      "fiscal_year": 2002,
+      "ada_charges_filed": 15964,
+      "total_eeoc_charges_filed": 84442,
+      "ada_pct_of_total": 18.9,
+      "monetary_benefits_millions_usd": 50.0
+    },
+    {
+      "fiscal_year": 2003,
+      "ada_charges_filed": 15377,
+      "total_eeoc_charges_filed": 81293,
+      "ada_pct_of_total": 18.9,
+      "monetary_benefits_millions_usd": 48.8
+    },
+    {
+      "fiscal_year": 2004,
+      "ada_charges_filed": 15376,
+      "total_eeoc_charges_filed": 79432,
+      "ada_pct_of_total": 19.4,
+      "monetary_benefits_millions_usd": 47.7
+    },
+    {
+      "fiscal_year": 2005,
+      "ada_charges_filed": 14893,
+      "total_eeoc_charges_filed": 75428,
+      "ada_pct_of_total": 19.7,
+      "monetary_benefits_millions_usd": 44.8,
+      "resolutions": {
+        "resolutions": 15975,
+        "settlements": 1448,
+        "withdrawals_with_benefits": 1148,
+        "successful_conciliations": 341,
+        "unsuccessful_conciliations": 789,
+        "no_reasonable_cause": 9508,
+        "reasonable_cause": 1426,
+        "administrative_closures": 3188,
+        "merit_resolutions": 3641,
+        "merit_resolution_pct": 22.8
+      }
+    },
+    {
+      "fiscal_year": 2006,
+      "ada_charges_filed": 15575,
+      "total_eeoc_charges_filed": 75768,
+      "ada_pct_of_total": 20.6,
+      "monetary_benefits_millions_usd": 48.8
+    },
+    {
+      "fiscal_year": 2007,
+      "ada_charges_filed": 17734,
+      "total_eeoc_charges_filed": 82792,
+      "ada_pct_of_total": 21.4,
+      "monetary_benefits_millions_usd": 67.4
+    },
+    {
+      "fiscal_year": 2008,
+      "ada_charges_filed": 19453,
+      "total_eeoc_charges_filed": 95402,
+      "ada_pct_of_total": 20.4,
+      "monetary_benefits_millions_usd": 57.2
+    },
+    {
+      "fiscal_year": 2009,
+      "ada_charges_filed": 21451,
+      "total_eeoc_charges_filed": 93277,
+      "ada_pct_of_total": 23.0,
+      "monetary_benefits_millions_usd": 68.1
+    },
+    {
+      "fiscal_year": 2010,
+      "ada_charges_filed": 25165,
+      "total_eeoc_charges_filed": 99922,
+      "ada_pct_of_total": 25.2,
+      "monetary_benefits_millions_usd": 76.1,
+      "resolutions": {
+        "resolutions": 24786,
+        "settlements": 2019,
+        "withdrawals_with_benefits": 1817,
+        "successful_conciliations": 506,
+        "unsuccessful_conciliations": 1475,
+        "no_reasonable_cause": 15063,
+        "reasonable_cause": 2826,
+        "administrative_closures": 4875,
+        "merit_resolutions": 5817,
+        "merit_resolution_pct": 23.5
+      }
+    },
+    {
+      "fiscal_year": 2011,
+      "ada_charges_filed": 25742,
+      "total_eeoc_charges_filed": 99947,
+      "ada_pct_of_total": 25.8,
+      "monetary_benefits_millions_usd": 103.4
+    },
+    {
+      "fiscal_year": 2012,
+      "ada_charges_filed": 26379,
+      "total_eeoc_charges_filed": 99412,
+      "ada_pct_of_total": 26.5,
+      "monetary_benefits_millions_usd": 103.1
+    },
+    {
+      "fiscal_year": 2013,
+      "ada_charges_filed": 25957,
+      "total_eeoc_charges_filed": 93727,
+      "ada_pct_of_total": 27.7,
+      "monetary_benefits_millions_usd": 110.2
+    },
+    {
+      "fiscal_year": 2014,
+      "ada_charges_filed": 25369,
+      "total_eeoc_charges_filed": 88778,
+      "ada_pct_of_total": 28.6,
+      "monetary_benefits_millions_usd": 93.3
+    },
+    {
+      "fiscal_year": 2015,
+      "ada_charges_filed": 26968,
+      "total_eeoc_charges_filed": 89385,
+      "ada_pct_of_total": 30.2,
+      "monetary_benefits_millions_usd": 107.6,
+      "resolutions": {
+        "resolutions": 26131,
+        "settlements": 2126,
+        "withdrawals_with_benefits": 1798,
+        "successful_conciliations": 574,
+        "unsuccessful_conciliations": 1589,
+        "no_reasonable_cause": 15467,
+        "reasonable_cause": 2863,
+        "administrative_closures": 5276,
+        "merit_resolutions": 5961,
+        "merit_resolution_pct": 22.8
+      }
+    },
+    {
+      "fiscal_year": 2016,
+      "ada_charges_filed": 28073,
+      "total_eeoc_charges_filed": 91503,
+      "ada_pct_of_total": 30.7,
+      "monetary_benefits_millions_usd": 104.6
+    },
+    {
+      "fiscal_year": 2017,
+      "ada_charges_filed": 26838,
+      "total_eeoc_charges_filed": 84254,
+      "ada_pct_of_total": 31.9,
+      "monetary_benefits_millions_usd": 135.2
+    },
+    {
+      "fiscal_year": 2018,
+      "ada_charges_filed": 24605,
+      "total_eeoc_charges_filed": 76418,
+      "ada_pct_of_total": 32.2,
+      "monetary_benefits_millions_usd": 103.5,
+      "resolutions": {
+        "resolutions": 24313,
+        "settlements": 1941,
+        "withdrawals_with_benefits": 1587,
+        "successful_conciliations": 528,
+        "unsuccessful_conciliations": 1272,
+        "no_reasonable_cause": 14782,
+        "reasonable_cause": 2393,
+        "administrative_closures": 4810,
+        "merit_resolutions": 5321,
+        "merit_resolution_pct": 21.9
+      }
+    },
+    {
+      "fiscal_year": 2019,
+      "ada_charges_filed": 24238,
+      "total_eeoc_charges_filed": 72675,
+      "ada_pct_of_total": 33.4,
+      "monetary_benefits_millions_usd": 98.6
+    },
+    {
+      "fiscal_year": 2020,
+      "ada_charges_filed": 24324,
+      "total_eeoc_charges_filed": 67448,
+      "ada_pct_of_total": 36.1,
+      "monetary_benefits_millions_usd": 93.4,
+      "resolutions": {
+        "resolutions": 22424,
+        "settlements": 1756,
+        "withdrawals_with_benefits": 1423,
+        "successful_conciliations": 489,
+        "unsuccessful_conciliations": 1189,
+        "no_reasonable_cause": 13490,
+        "reasonable_cause": 2137,
+        "administrative_closures": 4579,
+        "merit_resolutions": 4855,
+        "merit_resolution_pct": 21.7
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "ada_charges_filed": 22843,
+      "total_eeoc_charges_filed": 61331,
+      "ada_pct_of_total": 37.2,
+      "monetary_benefits_millions_usd": 84.7,
+      "resolutions": {
+        "resolutions": 20153,
+        "settlements": 1682,
+        "withdrawals_with_benefits": 1289,
+        "successful_conciliations": 421,
+        "unsuccessful_conciliations": 1031,
+        "no_reasonable_cause": 12104,
+        "reasonable_cause": 1897,
+        "administrative_closures": 4181,
+        "merit_resolutions": 4323,
+        "merit_resolution_pct": 21.5
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "ada_charges_filed": 25004,
+      "total_eeoc_charges_filed": 73485,
+      "ada_pct_of_total": 34.0,
+      "monetary_benefits_millions_usd": 109.8,
+      "resolutions": {
+        "resolutions": 22738,
+        "settlements": 1894,
+        "withdrawals_with_benefits": 1456,
+        "successful_conciliations": 498,
+        "unsuccessful_conciliations": 1215,
+        "no_reasonable_cause": 13341,
+        "reasonable_cause": 2243,
+        "administrative_closures": 4704,
+        "merit_resolutions": 5091,
+        "merit_resolution_pct": 22.4
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "ada_charges_filed": 26572,
+      "total_eeoc_charges_filed": 81055,
+      "ada_pct_of_total": 32.8,
+      "monetary_benefits_millions_usd": 124.3,
+      "resolutions": {
+        "resolutions": 24612,
+        "settlements": 2075,
+        "withdrawals_with_benefits": 1589,
+        "successful_conciliations": 562,
+        "unsuccessful_conciliations": 1368,
+        "no_reasonable_cause": 14287,
+        "reasonable_cause": 2531,
+        "administrative_closures": 5031,
+        "merit_resolutions": 5595,
+        "merit_resolution_pct": 22.7
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "ada_charges_filed": 27457,
+      "total_eeoc_charges_filed": 88531,
+      "ada_pct_of_total": 31.0,
+      "monetary_benefits_millions_usd": 138.7,
+      "resolutions": {
+        "resolutions": 25487,
+        "settlements": 2189,
+        "withdrawals_with_benefits": 1673,
+        "successful_conciliations": 601,
+        "unsuccessful_conciliations": 1458,
+        "no_reasonable_cause": 14724,
+        "reasonable_cause": 2712,
+        "administrative_closures": 5288,
+        "merit_resolutions": 5921,
+        "merit_resolution_pct": 23.2
+      }
+    }
+  ],
+  "issue_categories": {
+    "discharge_termination": {
+      "description": "Discharge / Termination",
+      "typical_pct_of_ada_charges": 52.0,
+      "trend": "Consistently the #1 issue in ADA charges since 1992",
+      "annual_snapshots": {
+        "2010": 53.2,
+        "2015": 51.8,
+        "2020": 50.4,
+        "2023": 49.7,
+        "2024": 49.1
+      }
+    },
+    "reasonable_accommodation": {
+      "description": "Failure to provide reasonable accommodation",
+      "typical_pct_of_ada_charges": 33.5,
+      "trend": "Rising steadily, especially post-COVID with remote work requests",
+      "annual_snapshots": {
+        "2010": 29.8,
+        "2015": 31.4,
+        "2020": 35.2,
+        "2023": 37.1,
+        "2024": 38.3
+      }
+    },
+    "harassment": {
+      "description": "Disability-based harassment",
+      "typical_pct_of_ada_charges": 18.5,
+      "trend": "Gradual increase over past decade",
+      "annual_snapshots": {
+        "2010": 15.3,
+        "2015": 17.1,
+        "2020": 18.9,
+        "2023": 20.2,
+        "2024": 20.8
+      }
+    },
+    "terms_conditions": {
+      "description": "Terms and conditions of employment",
+      "typical_pct_of_ada_charges": 21.4,
+      "trend": "Relatively stable",
+      "annual_snapshots": {
+        "2010": 22.1,
+        "2015": 21.3,
+        "2020": 20.7,
+        "2023": 21.0,
+        "2024": 21.2
+      }
+    },
+    "hiring": {
+      "description": "Hiring discrimination",
+      "typical_pct_of_ada_charges": 8.2,
+      "trend": "Historically underreported; slight increase in recent years",
+      "annual_snapshots": {
+        "2010": 7.1,
+        "2015": 7.8,
+        "2020": 8.5,
+        "2023": 9.0,
+        "2024": 9.3
+      }
+    },
+    "discipline": {
+      "description": "Disciplinary action",
+      "typical_pct_of_ada_charges": 12.8,
+      "trend": "Relatively stable",
+      "annual_snapshots": {
+        "2010": 12.5,
+        "2015": 12.9,
+        "2020": 12.6,
+        "2023": 13.1,
+        "2024": 13.0
+      }
+    },
+    "constructive_discharge": {
+      "description": "Constructive discharge (forced resignation)",
+      "typical_pct_of_ada_charges": 5.8,
+      "trend": "Slight decline",
+      "annual_snapshots": {
+        "2010": 6.4,
+        "2015": 5.9,
+        "2020": 5.5,
+        "2023": 5.3,
+        "2024": 5.2
+      }
+    },
+    "demotion": {
+      "description": "Demotion",
+      "typical_pct_of_ada_charges": 4.6,
+      "trend": "Stable",
+      "annual_snapshots": {
+        "2010": 4.8,
+        "2015": 4.5,
+        "2020": 4.4,
+        "2023": 4.6,
+        "2024": 4.5
+      }
+    }
+  },
+  "key_legislation_timeline": [
+    {
+      "year": 1990,
+      "event": "ADA signed into law (July 26, 1990)",
+      "impact": "Established federal prohibition on disability discrimination"
+    },
+    {
+      "year": 1992,
+      "event": "ADA Title I takes effect for employers with 25+ employees",
+      "impact": "EEOC begins accepting ADA charges; 1,048 filed in partial FY1992"
+    },
+    {
+      "year": 1994,
+      "event": "ADA coverage expands to employers with 15+ employees",
+      "impact": "Broader coverage leads to increased filings"
+    },
+    {
+      "year": 1999,
+      "event": "Sutton trilogy (Supreme Court narrows disability definition)",
+      "impact": "Three rulings limited who qualified as disabled; charge filings declined"
+    },
+    {
+      "year": 2008,
+      "event": "ADA Amendments Act (ADAAA) signed September 25, 2008",
+      "impact": "Broadened disability definition, overturning Sutton trilogy; charges surged"
+    },
+    {
+      "year": 2009,
+      "event": "ADAAA takes effect January 1, 2009",
+      "impact": "Major increase in ADA charge filings from ~19,000 to 25,000+"
+    },
+    {
+      "year": 2011,
+      "event": "EEOC issues final ADAAA regulations (March 2011)",
+      "impact": "Clearer guidance on broader disability definition"
+    },
+    {
+      "year": 2016,
+      "event": "EEOC issues updated guidance on employer wellness programs",
+      "impact": "Addressed intersection of ADA and employer health programs"
+    },
+    {
+      "year": 2020,
+      "event": "COVID-19 pandemic and EEOC guidance on ADA/COVID",
+      "impact": "New accommodation issues (remote work, testing); dip in filings due to office closures"
+    },
+    {
+      "year": 2022,
+      "event": "Post-pandemic return-to-office disputes surge",
+      "impact": "Reasonable accommodation charges rise as employers mandate in-person work"
+    },
+    {
+      "year": 2023,
+      "event": "EEOC strategic plan emphasizes disability rights enforcement",
+      "impact": "Increased filing activity; ADA charges reach near-record levels"
+    }
+  ],
+  "resolution_definitions": {
+    "settlements": "Charges resolved through negotiated agreements before determination",
+    "withdrawals_with_benefits": "Charging party withdraws charge after obtaining some benefit",
+    "successful_conciliations": "EEOC found reasonable cause and successfully conciliated",
+    "unsuccessful_conciliations": "EEOC found reasonable cause but conciliation failed (may lead to litigation)",
+    "no_reasonable_cause": "EEOC investigation found insufficient evidence of discrimination",
+    "reasonable_cause": "EEOC investigation found sufficient evidence (includes successful and unsuccessful conciliations)",
+    "administrative_closures": "Charge closed for administrative reasons (e.g., charging party failed to cooperate, lack of jurisdiction)",
+    "merit_resolutions": "Sum of settlements, withdrawals with benefits, and successful conciliations",
+    "merit_resolution_pct": "Merit resolutions as percentage of all resolutions"
+  }
+}

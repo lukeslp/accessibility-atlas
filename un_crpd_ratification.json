@@ -1,0 +1,1969 @@
+{
+  "metadata": {
+    "title": "UN Convention on the Rights of Persons with Disabilities (CRPD) - Ratification Status",
+    "description": "Ratification and signature status for the CRPD and its Optional Protocol, by country",
+    "treaty": {
+      "name": "Convention on the Rights of Persons with Disabilities",
+      "treaty_id": "IV-15",
+      "adopted": "2006-12-13",
+      "opened_for_signature": "2007-03-30",
+      "entered_into_force": "2008-05-03",
+      "depositary": "Secretary-General of the United Nations"
+    },
+    "optional_protocol": {
+      "name": "Optional Protocol to the Convention on the Rights of Persons with Disabilities",
+      "treaty_id": "IV-15-a",
+      "adopted": "2006-12-13",
+      "opened_for_signature": "2007-03-30",
+      "entered_into_force": "2008-05-03",
+      "purpose": "Establishes an individual communications procedure and an inquiry procedure for the CRPD"
+    },
+    "source": {
+      "name": "OHCHR Treaty Body Internet",
+      "url_crpd": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?Treaty=CRPD&Lang=en",
+      "url_op": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?Treaty=CRPD-OP&Lang=en",
+      "authoritative_reference": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15&chapter=4"
+    },
+    "fetched_at": "2026-02-13T03:33:01.151748Z",
+    "record_count": 196,
+    "fields": {
+      "country": "Country or territory name as used by the UN",
+      "iso_code": "ISO 3166-1 alpha-2 country code",
+      "region": "UN geoscheme regional grouping (Africa, Americas, Asia-Pacific, Europe, MENA)",
+      "crpd_signature_date": "Date the country signed the CRPD (ISO 8601)",
+      "crpd_ratification_date": "Date the country ratified, acceded to, or formally confirmed the CRPD (ISO 8601)",
+      "crpd_action_type": "Type of action: ratification (signed then ratified), accession (joined without signing), or succession",
+      "optional_protocol_signature_date": "Date the country signed the Optional Protocol (ISO 8601)",
+      "optional_protocol_ratification_date": "Date the country ratified or acceded to the Optional Protocol (ISO 8601)"
+    },
+    "notes": [
+      "Dates are in ISO 8601 format (YYYY-MM-DD)",
+      "Accession means a state joins the treaty without having previously signed it",
+      "Succession means a newly independent state assumes treaty obligations of its predecessor",
+      "The CRPD was adopted by the UN General Assembly on 13 December 2006",
+      "The CRPD entered into force on 3 May 2008 after the 20th ratification",
+      "The Optional Protocol enables individual complaints and inquiry procedures",
+      "Regional classification follows UN geoscheme groupings",
+      "Some countries may have signed but not yet ratified (signature indicates intent but is not legally binding)"
+    ]
+  },
+  "statistics": {
+    "total_entries": 196,
+    "total_crpd_signatories": 164,
+    "total_crpd_ratifications": 193,
+    "total_op_signatories": 95,
+    "total_op_ratifications": 108,
+    "ratification_by_action_type": {
+      "ratification": 161,
+      "accession": 32,
+      "succession": 0
+    },
+    "cumulative_ratifications_by_year": {
+      "2007": {
+        "new_this_year": 14,
+        "cumulative_total": 14
+      },
+      "2008": {
+        "new_this_year": 32,
+        "cumulative_total": 46
+      },
+      "2009": {
+        "new_this_year": 30,
+        "cumulative_total": 76
+      },
+      "2010": {
+        "new_this_year": 21,
+        "cumulative_total": 97
+      },
+      "2011": {
+        "new_this_year": 12,
+        "cumulative_total": 109
+      },
+      "2012": {
+        "new_this_year": 18,
+        "cumulative_total": 127
+      },
+      "2013": {
+        "new_this_year": 12,
+        "cumulative_total": 139
+      },
+      "2014": {
+        "new_this_year": 12,
+        "cumulative_total": 151
+      },
+      "2015": {
+        "new_this_year": 9,
+        "cumulative_total": 160
+      },
+      "2016": {
+        "new_this_year": 12,
+        "cumulative_total": 172
+      },
+      "2017": {
+        "new_this_year": 3,
+        "cumulative_total": 175
+      },
+      "2018": {
+        "new_this_year": 2,
+        "cumulative_total": 177
+      },
+      "2019": {
+        "new_this_year": 4,
+        "cumulative_total": 181
+      },
+      "2020": {
+        "new_this_year": 1,
+        "cumulative_total": 182
+      },
+      "2021": {
+        "new_this_year": 2,
+        "cumulative_total": 184
+      },
+      "2022": {
+        "new_this_year": 1,
+        "cumulative_total": 185
+      },
+      "2023": {
+        "new_this_year": 4,
+        "cumulative_total": 189
+      },
+      "2024": {
+        "new_this_year": 2,
+        "cumulative_total": 191
+      },
+      "2025": {
+        "new_this_year": 2,
+        "cumulative_total": 193
+      }
+    },
+    "cumulative_signatures_by_year": {
+      "2007": {
+        "new_this_year": 121,
+        "cumulative_total": 121
+      },
+      "2008": {
+        "new_this_year": 17,
+        "cumulative_total": 138
+      },
+      "2009": {
+        "new_this_year": 6,
+        "cumulative_total": 144
+      },
+      "2010": {
+        "new_this_year": 3,
+        "cumulative_total": 147
+      },
+      "2011": {
+        "new_this_year": 6,
+        "cumulative_total": 153
+      },
+      "2012": {
+        "new_this_year": 2,
+        "cumulative_total": 155
+      },
+      "2013": {
+        "new_this_year": 3,
+        "cumulative_total": 158
+      },
+      "2014": {
+        "new_this_year": 1,
+        "cumulative_total": 159
+      },
+      "2015": {
+        "new_this_year": 1,
+        "cumulative_total": 160
+      },
+      "2018": {
+        "new_this_year": 2,
+        "cumulative_total": 162
+      },
+      "2019": {
+        "new_this_year": 1,
+        "cumulative_total": 163
+      },
+      "2020": {
+        "new_this_year": 1,
+        "cumulative_total": 164
+      }
+    },
+    "regional_breakdown": {
+      "Asia-Pacific": {
+        "total_countries": 46,
+        "crpd_ratified": 44,
+        "crpd_signed_only": 2,
+        "op_ratified": 14,
+        "not_signed": 0
+      },
+      "Europe": {
+        "total_countries": 47,
+        "crpd_ratified": 47,
+        "crpd_signed_only": 0,
+        "op_ratified": 36,
+        "not_signed": 0
+      },
+      "Africa": {
+        "total_countries": 54,
+        "crpd_ratified": 54,
+        "crpd_signed_only": 0,
+        "op_ratified": 31,
+        "not_signed": 0
+      },
+      "Americas": {
+        "total_countries": 35,
+        "crpd_ratified": 34,
+        "crpd_signed_only": 1,
+        "op_ratified": 22,
+        "not_signed": 0
+      },
+      "MENA": {
+        "total_countries": 13,
+        "crpd_ratified": 13,
+        "crpd_signed_only": 0,
+        "op_ratified": 5,
+        "not_signed": 0
+      },
+      "Other": {
+        "total_countries": 1,
+        "crpd_ratified": 1,
+        "crpd_signed_only": 0,
+        "op_ratified": 0,
+        "not_signed": 0
+      }
+    }
+  },
+  "countries": [
+    {
+      "country": "Afghanistan",
+      "crpd_ratification_date": "2012-09-18",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2012-09-18",
+      "iso_code": "AF",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Albania",
+      "crpd_signature_date": "2009-12-22",
+      "crpd_ratification_date": "2013-02-11",
+      "crpd_action_type": "ratification",
+      "iso_code": "AL",
+      "region": "Europe"
+    },
+    {
+      "country": "Algeria",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-12-04",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "iso_code": "DZ",
+      "region": "Africa"
+    },
+    {
+      "country": "Andorra",
+      "crpd_signature_date": "2007-04-27",
+      "crpd_ratification_date": "2014-03-11",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-04-27",
+      "optional_protocol_ratification_date": "2014-03-11",
+      "iso_code": "AD",
+      "region": "Europe"
+    },
+    {
+      "country": "Angola",
+      "crpd_ratification_date": "2014-05-19",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2013-05-19",
+      "iso_code": "AO",
+      "region": "Africa"
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2016-01-07",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "iso_code": "AG",
+      "region": "Americas"
+    },
+    {
+      "country": "Argentina",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-09-02",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-09-02",
+      "iso_code": "AR",
+      "region": "Americas"
+    },
+    {
+      "country": "Armenia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-09-22",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2022-12-26",
+      "iso_code": "AM",
+      "region": "Europe"
+    },
+    {
+      "country": "Australia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-07-17",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2009-08-21",
+      "iso_code": "AU",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Austria",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-09-26",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-09-26",
+      "iso_code": "AT",
+      "region": "Europe"
+    },
+    {
+      "country": "Azerbaijan",
+      "crpd_signature_date": "2008-01-09",
+      "crpd_ratification_date": "2009-01-28",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-01-09",
+      "optional_protocol_ratification_date": "2009-01-28",
+      "iso_code": "AZ",
+      "region": "Europe"
+    },
+    {
+      "country": "Bahamas",
+      "crpd_signature_date": "2013-09-24",
+      "crpd_ratification_date": "2015-09-28",
+      "crpd_action_type": "ratification",
+      "iso_code": "BS",
+      "region": "Americas"
+    },
+    {
+      "country": "Bahrain",
+      "crpd_signature_date": "2007-06-25",
+      "crpd_ratification_date": "2011-09-22",
+      "crpd_action_type": "ratification",
+      "iso_code": "BH",
+      "region": "MENA"
+    },
+    {
+      "country": "Bangladesh",
+      "crpd_signature_date": "2007-05-09",
+      "crpd_ratification_date": "2007-11-30",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2008-05-12",
+      "iso_code": "BD",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Barbados",
+      "crpd_signature_date": "2007-07-19",
+      "crpd_ratification_date": "2013-02-27",
+      "crpd_action_type": "ratification",
+      "iso_code": "BB",
+      "region": "Americas"
+    },
+    {
+      "country": "Belarus",
+      "crpd_signature_date": "2015-09-28",
+      "crpd_ratification_date": "2016-11-29",
+      "crpd_action_type": "ratification",
+      "iso_code": "BY",
+      "region": "Europe"
+    },
+    {
+      "country": "Belgium",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-07-02",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2009-07-02",
+      "iso_code": "BE",
+      "region": "Europe"
+    },
+    {
+      "country": "Belize",
+      "crpd_signature_date": "2011-05-09",
+      "crpd_ratification_date": "2011-06-02",
+      "crpd_action_type": "ratification",
+      "iso_code": "BZ",
+      "region": "Americas"
+    },
+    {
+      "country": "Benin",
+      "crpd_signature_date": "2008-02-08",
+      "crpd_ratification_date": "2012-07-05",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-02-08",
+      "optional_protocol_ratification_date": "2012-07-05",
+      "iso_code": "BJ",
+      "region": "Africa"
+    },
+    {
+      "country": "Bhutan",
+      "crpd_signature_date": "2010-09-21",
+      "crpd_ratification_date": "2024-03-13",
+      "crpd_action_type": "ratification",
+      "iso_code": "BT",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Bolivia (Plurinational State of)",
+      "crpd_signature_date": "2007-08-13",
+      "crpd_ratification_date": "2009-11-16",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-08-13",
+      "optional_protocol_ratification_date": "2009-11-16",
+      "iso_code": "BO",
+      "region": "Americas"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "crpd_signature_date": "2009-07-29",
+      "crpd_ratification_date": "2010-03-12",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2009-07-29",
+      "optional_protocol_ratification_date": "2010-03-12",
+      "iso_code": "BA",
+      "region": "Europe"
+    },
+    {
+      "country": "Botswana",
+      "crpd_ratification_date": "2021-07-12",
+      "crpd_action_type": "accession",
+      "iso_code": "BW",
+      "region": "Africa"
+    },
+    {
+      "country": "Brazil",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-08-01",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-08-01",
+      "iso_code": "BR",
+      "region": "Americas"
+    },
+    {
+      "country": "Brunei Darussalam",
+      "crpd_signature_date": "2007-12-18",
+      "crpd_ratification_date": "2016-04-11",
+      "crpd_action_type": "ratification",
+      "iso_code": "BN",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Bulgaria",
+      "crpd_signature_date": "2007-09-27",
+      "crpd_ratification_date": "2012-03-22",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-12-18",
+      "iso_code": "BG",
+      "region": "Europe"
+    },
+    {
+      "country": "Burkina Faso",
+      "crpd_signature_date": "2007-05-23",
+      "crpd_ratification_date": "2009-07-23",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-05-23",
+      "optional_protocol_ratification_date": "2009-07-23",
+      "iso_code": "BF",
+      "region": "Africa"
+    },
+    {
+      "country": "Burundi",
+      "crpd_signature_date": "2007-04-26",
+      "crpd_ratification_date": "2014-05-22",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-04-26",
+      "optional_protocol_ratification_date": "2014-05-22",
+      "iso_code": "BI",
+      "region": "Africa"
+    },
+    {
+      "country": "Cabo Verde",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2011-10-10",
+      "crpd_action_type": "ratification",
+      "iso_code": "CV",
+      "region": "Africa"
+    },
+    {
+      "country": "Cambodia",
+      "crpd_signature_date": "2007-10-01",
+      "crpd_ratification_date": "2012-12-20",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-10-01",
+      "iso_code": "KH",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Cameroon",
+      "crpd_signature_date": "2008-10-01",
+      "crpd_ratification_date": "2023-09-28",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-10-01",
+      "iso_code": "CM",
+      "region": "Africa"
+    },
+    {
+      "country": "Canada",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-03-11",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2018-12-03",
+      "iso_code": "CA",
+      "region": "Americas"
+    },
+    {
+      "country": "Central African Republic",
+      "crpd_signature_date": "2007-05-09",
+      "crpd_ratification_date": "2016-10-11",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-05-09",
+      "optional_protocol_ratification_date": "2016-10-11",
+      "iso_code": "CF",
+      "region": "Africa"
+    },
+    {
+      "country": "Chad",
+      "crpd_signature_date": "2012-09-26",
+      "crpd_ratification_date": "2019-06-20",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2012-09-26",
+      "iso_code": "TD",
+      "region": "Africa"
+    },
+    {
+      "country": "Chile",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-07-29",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-07-29",
+      "iso_code": "CL",
+      "region": "Americas"
+    },
+    {
+      "country": "China",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-08-01",
+      "crpd_action_type": "ratification",
+      "iso_code": "CN",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Colombia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2011-05-10",
+      "crpd_action_type": "ratification",
+      "iso_code": "CO",
+      "region": "Americas"
+    },
+    {
+      "country": "Comoros",
+      "crpd_signature_date": "2007-09-26",
+      "crpd_ratification_date": "2016-06-16",
+      "crpd_action_type": "ratification",
+      "iso_code": "KM",
+      "region": "Africa"
+    },
+    {
+      "country": "Congo",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2014-09-02",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2014-09-02",
+      "iso_code": "CG",
+      "region": "Africa"
+    },
+    {
+      "country": "Cook Islands",
+      "crpd_ratification_date": "2009-05-08",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2009-05-08",
+      "iso_code": "CK",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Costa Rica",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-10-01",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-10-01",
+      "iso_code": "CR",
+      "region": "Americas"
+    },
+    {
+      "country": "Croatia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-08-15",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2007-08-15",
+      "iso_code": "HR",
+      "region": "Europe"
+    },
+    {
+      "country": "Cuba",
+      "crpd_signature_date": "2007-04-26",
+      "crpd_ratification_date": "2007-09-06",
+      "crpd_action_type": "ratification",
+      "iso_code": "CU",
+      "region": "Americas"
+    },
+    {
+      "country": "Cyprus",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2011-06-27",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2011-06-27",
+      "iso_code": "CY",
+      "region": "Europe"
+    },
+    {
+      "country": "Czech Republic",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-09-28",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2021-08-24",
+      "iso_code": "CZ",
+      "region": "Europe"
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "crpd_signature_date": "2007-06-07",
+      "crpd_ratification_date": "2014-01-10",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-06-07",
+      "iso_code": "CI",
+      "region": "Africa"
+    },
+    {
+      "country": "Democratic People's Republic of Korea",
+      "crpd_signature_date": "2013-07-03",
+      "crpd_ratification_date": "2016-12-06",
+      "crpd_action_type": "ratification",
+      "iso_code": "KP",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "crpd_ratification_date": "2015-09-30",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2015-09-28",
+      "iso_code": "CD",
+      "region": "Africa"
+    },
+    {
+      "country": "Denmark",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-07-24",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2014-09-23",
+      "iso_code": "DK",
+      "region": "Europe"
+    },
+    {
+      "country": "Djibouti",
+      "crpd_ratification_date": "2012-06-18",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2012-06-18",
+      "iso_code": "DJ",
+      "region": "Africa"
+    },
+    {
+      "country": "Dominica",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2012-10-01",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2012-10-01",
+      "iso_code": "DM",
+      "region": "Americas"
+    },
+    {
+      "country": "Dominican Republic",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-08-18",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2009-08-18",
+      "iso_code": "DO",
+      "region": "Americas"
+    },
+    {
+      "country": "Ecuador",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-04-03",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-04-03",
+      "iso_code": "EC",
+      "region": "Americas"
+    },
+    {
+      "country": "Egypt",
+      "crpd_signature_date": "2007-04-04",
+      "crpd_ratification_date": "2008-04-14",
+      "crpd_action_type": "ratification",
+      "iso_code": "EG",
+      "region": "Africa"
+    },
+    {
+      "country": "El Salvador",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-12-14",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2007-12-14",
+      "iso_code": "SV",
+      "region": "Americas"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "crpd_ratification_date": "2022-03-25",
+      "crpd_action_type": "accession",
+      "iso_code": "GQ",
+      "region": "Africa"
+    },
+    {
+      "country": "Eritrea",
+      "crpd_ratification_date": "2025-01-06",
+      "crpd_action_type": "accession",
+      "iso_code": "ER",
+      "region": "Africa"
+    },
+    {
+      "country": "Estonia",
+      "crpd_signature_date": "2007-09-25",
+      "crpd_ratification_date": "2012-05-30",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2012-05-30",
+      "iso_code": "EE",
+      "region": "Europe"
+    },
+    {
+      "country": "Eswatini",
+      "crpd_signature_date": "2007-09-25",
+      "crpd_ratification_date": "2012-09-24",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-09-25",
+      "optional_protocol_ratification_date": "2012-09-24",
+      "iso_code": "SZ",
+      "region": "Africa"
+    },
+    {
+      "country": "Ethiopia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-07-07",
+      "crpd_action_type": "ratification",
+      "iso_code": "ET",
+      "region": "Africa"
+    },
+    {
+      "country": "European Union",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-12-23",
+      "crpd_action_type": "ratification",
+      "iso_code": "EU",
+      "region": "Other"
+    },
+    {
+      "country": "Fiji",
+      "crpd_signature_date": "2010-06-02",
+      "crpd_ratification_date": "2017-06-07",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2010-06-02",
+      "iso_code": "FJ",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Finland",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2016-05-11",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2016-05-11",
+      "iso_code": "FI",
+      "region": "Europe"
+    },
+    {
+      "country": "France",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-02-18",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-09-23",
+      "optional_protocol_ratification_date": "2010-02-18",
+      "iso_code": "FR",
+      "region": "Europe"
+    },
+    {
+      "country": "Gabon",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-10-01",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-09-25",
+      "optional_protocol_ratification_date": "2014-06-26",
+      "iso_code": "GA",
+      "region": "Africa"
+    },
+    {
+      "country": "Gambia",
+      "crpd_ratification_date": "2015-07-06",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2015-07-06",
+      "iso_code": "GM",
+      "region": "Africa"
+    },
+    {
+      "country": "Georgia",
+      "crpd_signature_date": "2009-07-10",
+      "crpd_ratification_date": "2014-03-13",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2009-07-10",
+      "optional_protocol_ratification_date": "2021-04-12",
+      "iso_code": "GE",
+      "region": "Europe"
+    },
+    {
+      "country": "Germany",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-02-24",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2009-02-24",
+      "iso_code": "DE",
+      "region": "Europe"
+    },
+    {
+      "country": "Ghana",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2012-07-31",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2012-07-31",
+      "iso_code": "GH",
+      "region": "Africa"
+    },
+    {
+      "country": "Greece",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2012-05-31",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2010-09-27",
+      "optional_protocol_ratification_date": "2012-05-31",
+      "iso_code": "GR",
+      "region": "Europe"
+    },
+    {
+      "country": "Grenada",
+      "crpd_signature_date": "2010-07-12",
+      "crpd_ratification_date": "2014-08-27",
+      "crpd_action_type": "ratification",
+      "iso_code": "GD",
+      "region": "Americas"
+    },
+    {
+      "country": "Guatemala",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-04-07",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2009-04-07",
+      "iso_code": "GT",
+      "region": "Americas"
+    },
+    {
+      "country": "Guinea",
+      "crpd_signature_date": "2007-05-16",
+      "crpd_ratification_date": "2008-02-08",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-08-31",
+      "optional_protocol_ratification_date": "2008-02-08",
+      "iso_code": "GN",
+      "region": "Africa"
+    },
+    {
+      "country": "Guinea-Bissau",
+      "crpd_signature_date": "2013-09-24",
+      "crpd_ratification_date": "2014-09-24",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2013-09-24",
+      "optional_protocol_ratification_date": "2018-10-22",
+      "iso_code": "GW",
+      "region": "Africa"
+    },
+    {
+      "country": "Guyana",
+      "crpd_signature_date": "2007-04-11",
+      "crpd_ratification_date": "2014-09-10",
+      "crpd_action_type": "ratification",
+      "iso_code": "GY",
+      "region": "Americas"
+    },
+    {
+      "country": "Haiti",
+      "crpd_ratification_date": "2009-07-23",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2009-07-23",
+      "iso_code": "HT",
+      "region": "Americas"
+    },
+    {
+      "country": "Honduras",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-04-14",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-08-23",
+      "optional_protocol_ratification_date": "2010-08-16",
+      "iso_code": "HN",
+      "region": "Americas"
+    },
+    {
+      "country": "Hungary",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-07-20",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2007-07-20",
+      "iso_code": "HU",
+      "region": "Europe"
+    },
+    {
+      "country": "Iceland",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2016-09-23",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "iso_code": "IS",
+      "region": "Europe"
+    },
+    {
+      "country": "India",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-10-01",
+      "crpd_action_type": "ratification",
+      "iso_code": "IN",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Indonesia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2011-11-30",
+      "crpd_action_type": "ratification",
+      "iso_code": "ID",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Iran (Islamic Republic of)",
+      "crpd_ratification_date": "2009-10-23",
+      "crpd_action_type": "accession",
+      "iso_code": "IR",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Iraq",
+      "crpd_ratification_date": "2013-03-20",
+      "crpd_action_type": "accession",
+      "iso_code": "IQ",
+      "region": "MENA"
+    },
+    {
+      "country": "Ireland",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2018-03-20",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2024-10-31",
+      "iso_code": "IE",
+      "region": "Europe"
+    },
+    {
+      "country": "Israel",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2012-09-28",
+      "crpd_action_type": "ratification",
+      "iso_code": "IL",
+      "region": "MENA"
+    },
+    {
+      "country": "Italy",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-05-15",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2009-05-15",
+      "iso_code": "IT",
+      "region": "Europe"
+    },
+    {
+      "country": "Jamaica",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-03-30",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "iso_code": "JM",
+      "region": "Americas"
+    },
+    {
+      "country": "Japan",
+      "crpd_signature_date": "2007-09-28",
+      "crpd_ratification_date": "2014-01-20",
+      "crpd_action_type": "ratification",
+      "iso_code": "JP",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Jordan",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-03-31",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "iso_code": "JO",
+      "region": "MENA"
+    },
+    {
+      "country": "Kazakhstan",
+      "crpd_signature_date": "2008-12-11",
+      "crpd_ratification_date": "2015-04-21",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-12-11",
+      "optional_protocol_ratification_date": "2023-07-13",
+      "iso_code": "KZ",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Kenya",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-05-19",
+      "crpd_action_type": "ratification",
+      "iso_code": "KE",
+      "region": "Africa"
+    },
+    {
+      "country": "Kiribati",
+      "crpd_ratification_date": "2013-09-27",
+      "crpd_action_type": "accession",
+      "iso_code": "KI",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Kuwait",
+      "crpd_ratification_date": "2013-08-22",
+      "crpd_action_type": "accession",
+      "iso_code": "KW",
+      "region": "MENA"
+    },
+    {
+      "country": "Kyrgyzstan",
+      "crpd_signature_date": "2011-09-21",
+      "crpd_ratification_date": "2019-05-16",
+      "crpd_action_type": "ratification",
+      "iso_code": "KG",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Lao People's Democratic Republic",
+      "crpd_signature_date": "2008-01-15",
+      "crpd_ratification_date": "2009-09-25",
+      "crpd_action_type": "ratification",
+      "iso_code": "LA",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Latvia",
+      "crpd_signature_date": "2008-07-18",
+      "crpd_ratification_date": "2010-03-01",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2010-01-22",
+      "optional_protocol_ratification_date": "2010-08-31",
+      "iso_code": "LV",
+      "region": "Europe"
+    },
+    {
+      "country": "Lebanon",
+      "crpd_signature_date": "2007-06-14",
+      "crpd_ratification_date": "2025-06-05",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-06-14",
+      "optional_protocol_ratification_date": "2025-06-05",
+      "iso_code": "LB",
+      "region": "MENA"
+    },
+    {
+      "country": "Lesotho",
+      "crpd_ratification_date": "2008-12-02",
+      "crpd_action_type": "accession",
+      "iso_code": "LS",
+      "region": "Africa"
+    },
+    {
+      "country": "Liberia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2012-07-26",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "iso_code": "LR",
+      "region": "Africa"
+    },
+    {
+      "country": "Libya",
+      "crpd_signature_date": "2008-05-01",
+      "crpd_ratification_date": "2018-02-13",
+      "crpd_action_type": "ratification",
+      "iso_code": "LY",
+      "region": "Africa"
+    },
+    {
+      "country": "Liechtenstein",
+      "crpd_signature_date": "2020-09-08",
+      "crpd_ratification_date": "2023-12-18",
+      "crpd_action_type": "ratification",
+      "iso_code": "LI",
+      "region": "Europe"
+    },
+    {
+      "country": "Lithuania",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-08-18",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2010-08-18",
+      "iso_code": "LT",
+      "region": "Europe"
+    },
+    {
+      "country": "Luxembourg",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2011-09-26",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2011-09-26",
+      "iso_code": "LU",
+      "region": "Europe"
+    },
+    {
+      "country": "Madagascar",
+      "crpd_signature_date": "2007-09-25",
+      "crpd_ratification_date": "2015-06-12",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-09-25",
+      "iso_code": "MG",
+      "region": "Africa"
+    },
+    {
+      "country": "Malawi",
+      "crpd_signature_date": "2007-09-27",
+      "crpd_ratification_date": "2009-08-27",
+      "crpd_action_type": "ratification",
+      "iso_code": "MW",
+      "region": "Africa"
+    },
+    {
+      "country": "Malaysia",
+      "crpd_signature_date": "2008-04-08",
+      "crpd_ratification_date": "2010-07-19",
+      "crpd_action_type": "ratification",
+      "iso_code": "MY",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Maldives",
+      "crpd_signature_date": "2007-10-02",
+      "crpd_ratification_date": "2010-04-05",
+      "crpd_action_type": "ratification",
+      "iso_code": "MV",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Mali",
+      "crpd_signature_date": "2007-05-15",
+      "crpd_ratification_date": "2008-04-07",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-05-15",
+      "optional_protocol_ratification_date": "2008-04-07",
+      "iso_code": "ML",
+      "region": "Africa"
+    },
+    {
+      "country": "Malta",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2012-10-10",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2012-10-10",
+      "iso_code": "MT",
+      "region": "Europe"
+    },
+    {
+      "country": "Marshall Islands",
+      "crpd_ratification_date": "2015-03-17",
+      "crpd_action_type": "accession",
+      "iso_code": "MH",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Mauritania",
+      "crpd_ratification_date": "2012-04-03",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2012-04-03",
+      "iso_code": "MR",
+      "region": "Africa"
+    },
+    {
+      "country": "Mauritius",
+      "crpd_signature_date": "2007-09-25",
+      "crpd_ratification_date": "2010-01-08",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-09-25",
+      "iso_code": "MU",
+      "region": "Africa"
+    },
+    {
+      "country": "Mexico",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-12-17",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2007-12-17",
+      "iso_code": "MX",
+      "region": "Americas"
+    },
+    {
+      "country": "Micronesia (Federated States of)",
+      "crpd_signature_date": "2011-09-23",
+      "crpd_ratification_date": "2016-12-07",
+      "crpd_action_type": "ratification",
+      "iso_code": "FM",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Monaco",
+      "crpd_signature_date": "2009-09-23",
+      "crpd_ratification_date": "2017-09-19",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2019-06-27",
+      "optional_protocol_ratification_date": "2019-06-27",
+      "iso_code": "MC",
+      "region": "Europe"
+    },
+    {
+      "country": "Mongolia",
+      "crpd_ratification_date": "2009-05-13",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2009-05-13",
+      "iso_code": "MN",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Montenegro",
+      "crpd_signature_date": "2007-09-27",
+      "crpd_ratification_date": "2009-11-02",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-09-27",
+      "optional_protocol_ratification_date": "2009-11-02",
+      "iso_code": "ME",
+      "region": "Europe"
+    },
+    {
+      "country": "Morocco",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-04-08",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2009-04-08",
+      "iso_code": "MA",
+      "region": "Africa"
+    },
+    {
+      "country": "Mozambique",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2012-01-30",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2012-01-30",
+      "iso_code": "MZ",
+      "region": "Africa"
+    },
+    {
+      "country": "Myanmar",
+      "crpd_ratification_date": "2011-12-07",
+      "crpd_action_type": "accession",
+      "iso_code": "MM",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Namibia",
+      "crpd_signature_date": "2007-04-25",
+      "crpd_ratification_date": "2007-12-04",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-04-25",
+      "optional_protocol_ratification_date": "2007-12-04",
+      "iso_code": "NA",
+      "region": "Africa"
+    },
+    {
+      "country": "Nauru",
+      "crpd_ratification_date": "2012-06-27",
+      "crpd_action_type": "accession",
+      "iso_code": "NR",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Nepal",
+      "crpd_signature_date": "2008-01-03",
+      "crpd_ratification_date": "2010-05-07",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-01-03",
+      "optional_protocol_ratification_date": "2010-05-07",
+      "iso_code": "NP",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Netherlands",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2016-06-14",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2026-01-27",
+      "iso_code": "NL",
+      "region": "Europe"
+    },
+    {
+      "country": "New Zealand",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-09-25",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2016-10-04",
+      "iso_code": "NZ",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Nicaragua",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-12-07",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-10-21",
+      "optional_protocol_ratification_date": "2010-02-02",
+      "iso_code": "NI",
+      "region": "Americas"
+    },
+    {
+      "country": "Niger",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-06-24",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-08-02",
+      "optional_protocol_ratification_date": "2008-06-24",
+      "iso_code": "NE",
+      "region": "Africa"
+    },
+    {
+      "country": "Nigeria",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-09-24",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2010-09-24",
+      "iso_code": "NG",
+      "region": "Africa"
+    },
+    {
+      "country": "North Macedonia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2011-12-29",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2009-07-29",
+      "optional_protocol_ratification_date": "2011-12-29",
+      "iso_code": "MK",
+      "region": "Europe"
+    },
+    {
+      "country": "Norway",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2013-06-03",
+      "crpd_action_type": "ratification",
+      "iso_code": "NO",
+      "region": "Europe"
+    },
+    {
+      "country": "Oman",
+      "crpd_signature_date": "2008-03-17",
+      "crpd_ratification_date": "2009-01-06",
+      "crpd_action_type": "ratification",
+      "iso_code": "OM",
+      "region": "MENA"
+    },
+    {
+      "country": "Pakistan",
+      "crpd_signature_date": "2008-09-25",
+      "crpd_ratification_date": "2011-07-05",
+      "crpd_action_type": "ratification",
+      "iso_code": "PK",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Palau",
+      "crpd_signature_date": "2011-09-20",
+      "crpd_ratification_date": "2013-06-11",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2013-06-11",
+      "iso_code": "PW",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Panama",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-08-07",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2007-08-07",
+      "iso_code": "PA",
+      "region": "Americas"
+    },
+    {
+      "country": "Papua New Guinea",
+      "crpd_signature_date": "2011-06-02",
+      "crpd_ratification_date": "2013-09-26",
+      "crpd_action_type": "ratification",
+      "iso_code": "PG",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Paraguay",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-09-03",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-09-03",
+      "iso_code": "PY",
+      "region": "Americas"
+    },
+    {
+      "country": "Peru",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-01-30",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-01-30",
+      "iso_code": "PE",
+      "region": "Americas"
+    },
+    {
+      "country": "Philippines",
+      "crpd_signature_date": "2007-09-25",
+      "crpd_ratification_date": "2008-04-15",
+      "crpd_action_type": "ratification",
+      "iso_code": "PH",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Poland",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2012-09-25",
+      "crpd_action_type": "ratification",
+      "iso_code": "PL",
+      "region": "Europe"
+    },
+    {
+      "country": "Portugal",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-09-23",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2009-09-23",
+      "iso_code": "PT",
+      "region": "Europe"
+    },
+    {
+      "country": "Qatar",
+      "crpd_signature_date": "2007-07-09",
+      "crpd_ratification_date": "2008-05-13",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-07-09",
+      "iso_code": "QA",
+      "region": "MENA"
+    },
+    {
+      "country": "Republic of Korea",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-12-11",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2022-12-15",
+      "iso_code": "KR",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Republic of Moldova",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-09-21",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2018-09-27",
+      "optional_protocol_ratification_date": "2022-11-15",
+      "iso_code": "MD",
+      "region": "Europe"
+    },
+    {
+      "country": "Romania",
+      "crpd_signature_date": "2007-09-26",
+      "crpd_ratification_date": "2011-01-31",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-09-25",
+      "iso_code": "RO",
+      "region": "Europe"
+    },
+    {
+      "country": "Russian Federation",
+      "crpd_signature_date": "2008-09-24",
+      "crpd_ratification_date": "2012-09-25",
+      "crpd_action_type": "ratification",
+      "iso_code": "RU",
+      "region": "Europe"
+    },
+    {
+      "country": "Rwanda",
+      "crpd_ratification_date": "2008-12-15",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2008-12-15",
+      "iso_code": "RW",
+      "region": "Africa"
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "crpd_signature_date": "2019-09-27",
+      "crpd_ratification_date": "2019-10-17",
+      "crpd_action_type": "ratification",
+      "iso_code": "KN",
+      "region": "Americas"
+    },
+    {
+      "country": "Saint Lucia",
+      "crpd_signature_date": "2011-09-22",
+      "crpd_ratification_date": "2020-06-11",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2020-06-11",
+      "iso_code": "LC",
+      "region": "Americas"
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "crpd_ratification_date": "2010-10-29",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2010-10-29",
+      "iso_code": "VC",
+      "region": "Americas"
+    },
+    {
+      "country": "Samoa",
+      "crpd_signature_date": "2014-09-24",
+      "crpd_ratification_date": "2016-12-02",
+      "crpd_action_type": "ratification",
+      "iso_code": "WS",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "San Marino",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-02-22",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-02-22",
+      "iso_code": "SM",
+      "region": "Europe"
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "crpd_ratification_date": "2015-11-05",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2021-05-26",
+      "iso_code": "ST",
+      "region": "Africa"
+    },
+    {
+      "country": "Saudi Arabia",
+      "crpd_ratification_date": "2008-06-24",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2008-06-24",
+      "iso_code": "SA",
+      "region": "MENA"
+    },
+    {
+      "country": "Senegal",
+      "crpd_signature_date": "2007-04-25",
+      "crpd_ratification_date": "2010-09-07",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-04-25",
+      "iso_code": "SN",
+      "region": "Africa"
+    },
+    {
+      "country": "Serbia",
+      "crpd_signature_date": "2007-12-17",
+      "crpd_ratification_date": "2009-07-31",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-12-17",
+      "optional_protocol_ratification_date": "2009-07-31",
+      "iso_code": "RS",
+      "region": "Europe"
+    },
+    {
+      "country": "Seychelles",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-10-02",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "iso_code": "SC",
+      "region": "Africa"
+    },
+    {
+      "country": "Sierra Leone",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2010-10-04",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "iso_code": "SL",
+      "region": "Africa"
+    },
+    {
+      "country": "Singapore",
+      "crpd_signature_date": "2012-11-12",
+      "crpd_ratification_date": "2013-07-18",
+      "crpd_action_type": "ratification",
+      "iso_code": "SG",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Slovakia",
+      "crpd_signature_date": "2007-09-26",
+      "crpd_ratification_date": "2010-05-26",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-09-26",
+      "optional_protocol_ratification_date": "2010-05-26",
+      "iso_code": "SK",
+      "region": "Europe"
+    },
+    {
+      "country": "Slovenia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-04-24",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-04-24",
+      "iso_code": "SI",
+      "region": "Europe"
+    },
+    {
+      "country": "Solomon Islands",
+      "crpd_signature_date": "2008-09-23",
+      "crpd_ratification_date": "2023-06-22",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2009-09-24",
+      "iso_code": "SB",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Somalia",
+      "crpd_signature_date": "2018-10-02",
+      "crpd_ratification_date": "2019-08-06",
+      "crpd_action_type": "ratification",
+      "iso_code": "SO",
+      "region": "Africa"
+    },
+    {
+      "country": "South Africa",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-11-30",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2007-11-30",
+      "iso_code": "ZA",
+      "region": "Africa"
+    },
+    {
+      "country": "South Sudan",
+      "crpd_ratification_date": "2024-02-05",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2024-02-05",
+      "iso_code": "SS",
+      "region": "Africa"
+    },
+    {
+      "country": "Spain",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2007-12-03",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2007-12-03",
+      "iso_code": "ES",
+      "region": "Europe"
+    },
+    {
+      "country": "Sri Lanka",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2016-02-08",
+      "crpd_action_type": "ratification",
+      "iso_code": "LK",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "State of Palestine",
+      "crpd_ratification_date": "2014-04-02",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2019-04-10",
+      "iso_code": "PS",
+      "region": "MENA"
+    },
+    {
+      "country": "Sudan",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-04-24",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2009-04-24",
+      "iso_code": "SD",
+      "region": "Africa"
+    },
+    {
+      "country": "Suriname",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2017-03-29",
+      "crpd_action_type": "ratification",
+      "iso_code": "SR",
+      "region": "Americas"
+    },
+    {
+      "country": "Sweden",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-12-15",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-12-15",
+      "iso_code": "SE",
+      "region": "Europe"
+    },
+    {
+      "country": "Switzerland",
+      "crpd_ratification_date": "2014-04-15",
+      "crpd_action_type": "accession",
+      "iso_code": "CH",
+      "region": "Europe"
+    },
+    {
+      "country": "Syrian Arab Republic",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-07-10",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2009-07-10",
+      "iso_code": "SY",
+      "region": "MENA"
+    },
+    {
+      "country": "Tajikistan",
+      "crpd_signature_date": "2018-03-22",
+      "iso_code": "TJ",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Thailand",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-07-29",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2016-09-02",
+      "iso_code": "TH",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Timor-Leste",
+      "crpd_ratification_date": "2023-01-17",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2023-02-07",
+      "iso_code": "TL",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Togo",
+      "crpd_signature_date": "2008-09-23",
+      "crpd_ratification_date": "2011-03-01",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-09-23",
+      "optional_protocol_ratification_date": "2011-03-01",
+      "iso_code": "TG",
+      "region": "Africa"
+    },
+    {
+      "country": "Tonga",
+      "crpd_signature_date": "2007-11-15",
+      "iso_code": "TO",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "crpd_signature_date": "2007-09-27",
+      "crpd_ratification_date": "2015-06-25",
+      "crpd_action_type": "ratification",
+      "iso_code": "TT",
+      "region": "Americas"
+    },
+    {
+      "country": "Tunisia",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-04-02",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-04-02",
+      "iso_code": "TN",
+      "region": "Africa"
+    },
+    {
+      "country": "Turkmenistan",
+      "crpd_ratification_date": "2008-09-04",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2010-11-10",
+      "iso_code": "TM",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Tuvalu",
+      "crpd_ratification_date": "2013-12-18",
+      "crpd_action_type": "accession",
+      "iso_code": "TV",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Türkiye",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-09-28",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2009-09-28",
+      "optional_protocol_ratification_date": "2015-03-26",
+      "iso_code": "TR",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Uganda",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2008-09-25",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-03-30",
+      "optional_protocol_ratification_date": "2008-09-25",
+      "iso_code": "UG",
+      "region": "Africa"
+    },
+    {
+      "country": "Ukraine",
+      "crpd_signature_date": "2008-09-24",
+      "crpd_ratification_date": "2010-02-04",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-09-24",
+      "optional_protocol_ratification_date": "2010-02-04",
+      "iso_code": "UA",
+      "region": "Europe"
+    },
+    {
+      "country": "United Arab Emirates",
+      "crpd_signature_date": "2008-02-08",
+      "crpd_ratification_date": "2010-03-19",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-02-12",
+      "iso_code": "AE",
+      "region": "MENA"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-06-08",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2009-02-26",
+      "optional_protocol_ratification_date": "2009-08-07",
+      "iso_code": "GB",
+      "region": "Europe"
+    },
+    {
+      "country": "United Republic of Tanzania",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-11-10",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-09-29",
+      "optional_protocol_ratification_date": "2009-11-10",
+      "iso_code": "TZ",
+      "region": "Africa"
+    },
+    {
+      "country": "United States of America",
+      "crpd_signature_date": "2009-07-30",
+      "iso_code": "US",
+      "region": "Americas"
+    },
+    {
+      "country": "Uruguay",
+      "crpd_signature_date": "2007-04-03",
+      "crpd_ratification_date": "2009-02-11",
+      "crpd_action_type": "ratification",
+      "optional_protocol_ratification_date": "2011-10-28",
+      "iso_code": "UY",
+      "region": "Americas"
+    },
+    {
+      "country": "Uzbekistan",
+      "crpd_signature_date": "2009-02-27",
+      "crpd_ratification_date": "2021-06-28",
+      "crpd_action_type": "ratification",
+      "iso_code": "UZ",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Vanuatu",
+      "crpd_signature_date": "2007-05-17",
+      "crpd_ratification_date": "2008-10-23",
+      "crpd_action_type": "ratification",
+      "iso_code": "VU",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Venezuela (Bolivarian Republic of)",
+      "crpd_ratification_date": "2013-09-24",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2013-09-24",
+      "iso_code": "VE",
+      "region": "Americas"
+    },
+    {
+      "country": "Viet Nam",
+      "crpd_signature_date": "2007-10-22",
+      "crpd_ratification_date": "2015-02-05",
+      "crpd_action_type": "ratification",
+      "iso_code": "VN",
+      "region": "Asia-Pacific"
+    },
+    {
+      "country": "Yemen",
+      "crpd_signature_date": "2007-03-30",
+      "crpd_ratification_date": "2009-03-26",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2007-04-11",
+      "optional_protocol_ratification_date": "2009-03-26",
+      "iso_code": "YE",
+      "region": "MENA"
+    },
+    {
+      "country": "Zambia",
+      "crpd_signature_date": "2008-05-09",
+      "crpd_ratification_date": "2010-02-01",
+      "crpd_action_type": "ratification",
+      "optional_protocol_signature_date": "2008-09-29",
+      "iso_code": "ZM",
+      "region": "Africa"
+    },
+    {
+      "country": "Zimbabwe",
+      "crpd_ratification_date": "2013-09-23",
+      "crpd_action_type": "accession",
+      "optional_protocol_ratification_date": "2013-09-23",
+      "iso_code": "ZW",
+      "region": "Africa"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "dataset": "US Disability Characteristics Summary",
+  "source": "US Census Bureau, ACS 1-Year Estimates 2022, Subject Table S1810",
+  "year": 2022,
+  "universe": "Civilian noninstitutionalized population",
+  "url": "https://data.census.gov/table/ACSST1Y2022.S1810",
+  "overall": {
+    "total_population": 328309810,
+    "with_disability": 44146764,
+    "rate_pct": 13.4
+  },
+  "by_sex": {
+    "male": {
+      "total": 161683069,
+      "with_disability": 21264156,
+      "rate_pct": 13.2
+    },
+    "female": {
+      "total": 166626741,
+      "with_disability": 22882608,
+      "rate_pct": 13.7
+    }
+  },
+  "by_race_ethnicity": {
+    "white_alone": {
+      "total": 200003542,
+      "with_disability": 28800167,
+      "rate_pct": 14.4
+    },
+    "black_alone": {
+      "total": 39433690,
+      "with_disability": 5892163,
+      "rate_pct": 14.9
+    },
+    "aian_alone": {
+      "total": 3136844,
+      "with_disability": 492983,
+      "rate_pct": 15.7
+    },
+    "asian_alone": {
+      "total": 19585690,
+      "with_disability": 1617809,
+      "rate_pct": 8.3
+    },
+    "nhpi_alone": {
+      "total": 648525,
+      "with_disability": 80808,
+      "rate_pct": 12.5
+    },
+    "other_race_alone": {
+      "total": 24217296,
+      "with_disability": 2482618,
+      "rate_pct": 10.3
+    },
+    "two_or_more_races": {
+      "total": 41284223,
+      "with_disability": 4780216,
+      "rate_pct": 11.6
+    },
+    "white_non_hispanic": {
+      "total": 189453615,
+      "with_disability": 27692494,
+      "rate_pct": 14.6
+    },
+    "hispanic_latino": {
+      "total": 62806703,
+      "with_disability": 6581811,
+      "rate_pct": 10.5
+    }
+  },
+  "by_age": {
+    "under_5": {
+      "total": 18356548,
+      "with_disability": 139115,
+      "rate_pct": 0.8
+    },
+    "5_to_17": {
+      "total": 53886426,
+      "with_disability": 3336376,
+      "rate_pct": 6.2
+    },
+    "18_to_34": {
+      "total": 74727805,
+      "with_disability": 6212622,
+      "rate_pct": 8.3
+    },
+    "35_to_64": {
+      "total": 124917948,
+      "with_disability": 15794378,
+      "rate_pct": 12.6
+    },
+    "65_to_74": {
+      "total": 33484852,
+      "with_disability": 8128815,
+      "rate_pct": 24.3
+    },
+    "75_plus": {
+      "total": 22936231,
+      "with_disability": 10535458,
+      "rate_pct": 45.9
+    }
+  },
+  "by_disability_type": {
+    "hearing": {
+      "with_disability": 12034657,
+      "rate_pct": 3.7
+    },
+    "vision": {
+      "with_disability": 8181582,
+      "rate_pct": 2.5
+    },
+    "cognitive": {
+      "with_disability": 17524606,
+      "rate_pct": 5.7
+    },
+    "ambulatory": {
+      "with_disability": 20905277,
+      "rate_pct": 6.7
+    },
+    "self_care": {
+      "with_disability": 7999365,
+      "rate_pct": 2.6
+    },
+    "independent_living": {
+      "with_disability": 15383671,
+      "rate_pct": 6.0
+    }
+  },
+  "hearing_by_age": {
+    "under_18": {
+      "with_disability": 379714,
+      "rate_pct": 0.5
+    },
+    "under_5": {
+      "with_disability": 87289,
+      "rate_pct": 0.5
+    },
+    "5_to_17": {
+      "with_disability": 292425,
+      "rate_pct": 0.5
+    },
+    "18_to_64": {
+      "with_disability": 4009330,
+      "rate_pct": 2.0
+    },
+    "18_to_34": {
+      "with_disability": 682072,
+      "rate_pct": 0.9
+    },
+    "35_to_64": {
+      "with_disability": 3327258,
+      "rate_pct": 2.7
+    },
+    "65_plus": {
+      "with_disability": 7645613,
+      "rate_pct": 13.6
+    },
+    "65_to_74": {
+      "with_disability": 2845531,
+      "rate_pct": 8.5
+    },
+    "75_plus": {
+      "with_disability": 4800082,
+      "rate_pct": 20.9
+    }
+  },
+  "vision_by_age": {
+    "under_18": {
+      "with_disability": 608449,
+      "rate_pct": 0.8
+    },
+    "under_5": {
+      "with_disability": 80103,
+      "rate_pct": 0.4
+    },
+    "5_to_17": {
+      "with_disability": 528346,
+      "rate_pct": 1.0
+    },
+    "18_to_64": {
+      "with_disability": 4237061,
+      "rate_pct": 2.1
+    },
+    "18_to_34": {
+      "with_disability": 1091777,
+      "rate_pct": 1.5
+    },
+    "35_to_64": {
+      "with_disability": 3145284,
+      "rate_pct": 2.5
+    },
+    "65_plus": {
+      "with_disability": 3336072,
+      "rate_pct": 5.9
+    },
+    "65_to_74": {
+      "with_disability": 1438382,
+      "rate_pct": 4.3
+    },
+    "75_plus": {
+      "with_disability": 1897690,
+      "rate_pct": 8.3
+    }
+  },
+  "cognitive_by_age": {
+    "5_to_17": {"with_disability": 2596152, "rate_pct": 4.8},
+    "18_to_64": {"with_disability": 10398189, "rate_pct": 5.2},
+    "18_to_34": {"with_disability": 4178809, "rate_pct": 5.6},
+    "35_to_64": {"with_disability": 6219380, "rate_pct": 5.0},
+    "65_plus": {"with_disability": 4530265, "rate_pct": 8.0},
+    "65_to_74": {"with_disability": 1756256, "rate_pct": 5.2},
+    "75_plus": {"with_disability": 2774009, "rate_pct": 12.1}
+  },
+  "ambulatory_by_age": {
+    "5_to_17": {"with_disability": 321666, "rate_pct": 0.6},
+    "18_to_64": {"with_disability": 8842847, "rate_pct": 4.4},
+    "18_to_34": {"with_disability": 937999, "rate_pct": 1.3},
+    "35_to_64": {"with_disability": 7904848, "rate_pct": 6.3},
+    "65_plus": {"with_disability": 11740764, "rate_pct": 20.8},
+    "65_to_74": {"with_disability": 4931999, "rate_pct": 14.7},
+    "75_plus": {"with_disability": 6808765, "rate_pct": 29.7}
+  },
+  "self_care_by_age": {
+    "5_to_17": {"with_disability": 618480, "rate_pct": 1.1},
+    "18_to_64": {"with_disability": 3352604, "rate_pct": 1.7},
+    "18_to_34": {"with_disability": 663376, "rate_pct": 0.9},
+    "35_to_64": {"with_disability": 2689228, "rate_pct": 2.2},
+    "65_plus": {"with_disability": 4028281, "rate_pct": 7.1},
+    "65_to_74": {"with_disability": 1395895, "rate_pct": 4.2},
+    "75_plus": {"with_disability": 2632386, "rate_pct": 11.5}
+  },
+  "independent_living_by_age": {
+    "18_to_64": {"with_disability": 7864324, "rate_pct": 3.9},
+    "18_to_34": {"with_disability": 2496671, "rate_pct": 3.3},
+    "35_to_64": {"with_disability": 5367653, "rate_pct": 4.3},
+    "65_plus": {"with_disability": 7519347, "rate_pct": 13.3},
+    "65_to_74": {"with_disability": 2504006, "rate_pct": 7.5},
+    "75_plus": {"with_disability": 5015341, "rate_pct": 21.9}
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "dataset": "US Disability Prevalence by Race/Ethnicity",
+  "source": "US Census Bureau, ACS 1-Year Estimates 2022, Tables B18101A-I",
+  "year": 2022,
+  "universe": "Civilian noninstitutionalized population",
+  "note": "Race categories are not mutually exclusive (e.g., Hispanic can be any race). 'White alone, not Hispanic' and 'Hispanic or Latino' are mutually exclusive.",
+  "data": [
+    {
+      "race_ethnicity": "White alone",
+      "table": "B18101A",
+      "total_population": 200003542,
+      "total_with_disability": 28800167,
+      "disability_rate_pct": 14.4,
+      "by_age": {
+        "under_18": {
+          "total": 37681720,
+          "with_disability": 1739166,
+          "rate_pct": 4.62
+        },
+        "18_to_64": {
+          "total": 119803868,
+          "with_disability": 13425085,
+          "rate_pct": 11.21
+        },
+        "65_plus": {
+          "total": 42517954,
+          "with_disability": 13635916,
+          "rate_pct": 32.07
+        }
+      }
+    },
+    {
+      "race_ethnicity": "Black or African American alone",
+      "table": "B18101B",
+      "total_population": 39433690,
+      "total_with_disability": 5892163,
+      "disability_rate_pct": 14.94,
+      "by_age": {
+        "under_18": {
+          "total": 9642857,
+          "with_disability": 550100,
+          "rate_pct": 5.7
+        },
+        "18_to_64": {
+          "total": 24655937,
+          "with_disability": 3415366,
+          "rate_pct": 13.85
+        },
+        "65_plus": {
+          "total": 5134896,
+          "with_disability": 1926697,
+          "rate_pct": 37.52
+        }
+      }
+    },
+    {
+      "race_ethnicity": "American Indian and Alaska Native alone",
+      "table": "B18101C",
+      "total_population": 3136844,
+      "total_with_disability": 492983,
+      "disability_rate_pct": 15.72,
+      "by_age": {
+        "under_18": {
+          "total": 814900,
+          "with_disability": 46310,
+          "rate_pct": 5.68
+        },
+        "18_to_64": {
+          "total": 2011633,
+          "with_disability": 307003,
+          "rate_pct": 15.26
+        },
+        "65_plus": {
+          "total": 310311,
+          "with_disability": 139670,
+          "rate_pct": 45.01
+        }
+      }
+    },
+    {
+      "race_ethnicity": "Asian alone",
+      "table": "B18101D",
+      "total_population": 19585690,
+      "total_with_disability": 1617809,
+      "disability_rate_pct": 8.26,
+      "by_age": {
+        "under_18": {
+          "total": 3742525,
+          "with_disability": 110909,
+          "rate_pct": 2.96
+        },
+        "18_to_64": {
+          "total": 13067632,
+          "with_disability": 675980,
+          "rate_pct": 5.17
+        },
+        "65_plus": {
+          "total": 2775533,
+          "with_disability": 830920,
+          "rate_pct": 29.94
+        }
+      }
+    },
+    {
+      "race_ethnicity": "Native Hawaiian and Other Pacific Islander alone",
+      "table": "B18101E",
+      "total_population": 648525,
+      "total_with_disability": 80808,
+      "disability_rate_pct": 12.46,
+      "by_age": {
+        "under_18": {
+          "total": 171516,
+          "with_disability": 6711,
+          "rate_pct": 3.91
+        },
+        "18_to_64": {
+          "total": 415018,
+          "with_disability": 52522,
+          "rate_pct": 12.66
+        },
+        "65_plus": {
+          "total": 61991,
+          "with_disability": 21575,
+          "rate_pct": 34.8
+        }
+      }
+    },
+    {
+      "race_ethnicity": "Some other race alone",
+      "table": "B18101F",
+      "total_population": 24217296,
+      "total_with_disability": 2482618,
+      "disability_rate_pct": 10.25,
+      "by_age": {
+        "under_18": {
+          "total": 6640198,
+          "with_disability": 327087,
+          "rate_pct": 4.93
+        },
+        "18_to_64": {
+          "total": 15681288,
+          "with_disability": 1444761,
+          "rate_pct": 9.21
+        },
+        "65_plus": {
+          "total": 1895810,
+          "with_disability": 710770,
+          "rate_pct": 37.49
+        }
+      }
+    },
+    {
+      "race_ethnicity": "Two or more races",
+      "table": "B18101G",
+      "total_population": 41284223,
+      "total_with_disability": 4780216,
+      "disability_rate_pct": 11.58,
+      "by_age": {
+        "under_18": {
+          "total": 13549258,
+          "with_disability": 695208,
+          "rate_pct": 5.13
+        },
+        "18_to_64": {
+          "total": 24010377,
+          "with_disability": 2686283,
+          "rate_pct": 11.19
+        },
+        "65_plus": {
+          "total": 3724588,
+          "with_disability": 1398725,
+          "rate_pct": 37.55
+        }
+      }
+    },
+    {
+      "race_ethnicity": "White alone, not Hispanic or Latino",
+      "table": "B18101H",
+      "total_population": 189453615,
+      "total_with_disability": 27692494,
+      "disability_rate_pct": 14.62,
+      "by_age": {
+        "under_18": {
+          "total": 34254811,
+          "with_disability": 1567695,
+          "rate_pct": 4.58
+        },
+        "18_to_64": {
+          "total": 113489739,
+          "with_disability": 12782315,
+          "rate_pct": 11.26
+        },
+        "65_plus": {
+          "total": 41709065,
+          "with_disability": 13342484,
+          "rate_pct": 31.99
+        }
+      }
+    },
+    {
+      "race_ethnicity": "Hispanic or Latino",
+      "table": "B18101I",
+      "total_population": 62806703,
+      "total_with_disability": 6581811,
+      "disability_rate_pct": 10.48,
+      "by_age": {
+        "under_18": {
+          "total": 18717284,
+          "with_disability": 927383,
+          "rate_pct": 4.95
+        },
+        "18_to_64": {
+          "total": 38913683,
+          "with_disability": 3734478,
+          "rate_pct": 9.6
+        },
+        "65_plus": {
+          "total": 5175736,
+          "with_disability": 1919950,
+          "rate_pct": 37.1
+        }
+      }
+    }
+  ]
+}

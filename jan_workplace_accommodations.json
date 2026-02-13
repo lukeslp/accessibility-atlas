@@ -1,0 +1,630 @@
+{
+  "dataset_name": "JAN Workplace Accommodation Data",
+  "description": "Workplace accommodation cost, effectiveness, and benefit data from the Job Accommodation Network (JAN) employer survey, covering accommodations made between 2019-2024. JAN is funded by the U.S. Department of Labor's Office of Disability Employment Policy.",
+  "accommodation_costs": {
+    "cost_respondents": 1425,
+    "cost_respondent_pct_of_total": 26,
+    "cost_distribution": [
+      {
+        "category": "No cost ($0)",
+        "count": 872,
+        "percent": 61,
+        "examples": "Modifying work schedule, changing company policy"
+      },
+      {
+        "category": "One-time expense",
+        "count": 466,
+        "percent": 33,
+        "median_cost_usd": 300,
+        "examples": "Screen-reading software, automatic door opener"
+      },
+      {
+        "category": "Ongoing annual cost",
+        "count": 87,
+        "percent": 6,
+        "median_annual_cost_usd": 2400,
+        "examples": "Sign language interpreter during meetings"
+      }
+    ]
+  },
+  "employer_context": {
+    "pct_contacting_for_retention": 56,
+    "average_employee_tenure": "five years and eight months",
+    "median_hourly_wage_usd": 18.88,
+    "median_annual_salary_usd": 65225,
+    "pct_employees_with_college_degree_or_higher": 65
+  },
+  "effectiveness": {
+    "respondents": 2069,
+    "ratings": [
+      {
+        "rating": "Very effective or extremely effective",
+        "percent": 66
+      },
+      {
+        "rating": "Somewhat effective",
+        "percent": 22
+      },
+      {
+        "rating": "Ineffective",
+        "percent": 12
+      }
+    ],
+    "total_effective_pct": 88
+  },
+  "benefits": {
+    "direct_benefits": [
+      {
+        "benefit": "Increased employee retention",
+        "pct_employers_reporting": 85
+      },
+      {
+        "benefit": "Increased employee productivity",
+        "pct_employers_reporting": 52
+      },
+      {
+        "benefit": "Eliminated costs of training new employee",
+        "pct_employers_reporting": 48
+      },
+      {
+        "benefit": "Increased employee attendance",
+        "pct_employers_reporting": 47
+      },
+      {
+        "benefit": "Saved workers' compensation/insurance costs",
+        "pct_employers_reporting": 24
+      },
+      {
+        "benefit": "Hiring of a qualified person with a disability",
+        "pct_employers_reporting": 18
+      },
+      {
+        "benefit": "Promotion of an employee",
+        "pct_employers_reporting": 8
+      }
+    ],
+    "indirect_benefits": [
+      {
+        "benefit": "Improved interactions with coworkers",
+        "pct_employers_reporting": 35
+      },
+      {
+        "benefit": "Increased overall company safety",
+        "pct_employers_reporting": 30
+      },
+      {
+        "benefit": "Increased overall company morale",
+        "pct_employers_reporting": 29
+      },
+      {
+        "benefit": "Increased overall company productivity",
+        "pct_employers_reporting": 21
+      },
+      {
+        "benefit": "Improved interactions with customers",
+        "pct_employers_reporting": 21
+      },
+      {
+        "benefit": "Increased overall company attendance",
+        "pct_employers_reporting": 19
+      }
+    ]
+  },
+  "accommodation_types": {
+    "description": "JAN covers accommodations across disability categories. The SOAR database contains 700+ real-life accommodation examples searchable by disability, limitation, or occupation.",
+    "soar_database_url": "https://askjan.org/soar.cfm",
+    "most_popular_accommodation_searches": [
+      "Limitations",
+      "Work Related Functions",
+      "Disabilities",
+      "Other",
+      "Accommodation",
+      "ADA",
+      "Addiction",
+      "ADHD",
+      "Aging",
+      "Air Quality/Irritants",
+      "Anxiety",
+      "Back Impairment",
+      "Body Odor",
+      "Cancer",
+      "Commute",
+      "Cumulative Trauma Conditions",
+      "Decreased Stamina/Fatigue",
+      "Depression",
+      "Diabetes",
+      "Fibromyalgia",
+      "Handling/Fingering",
+      "Headache",
+      "Learning",
+      "Learning Disability",
+      "Leave",
+      "Lifting",
+      "Mental Health Conditions",
+      "Multiple Sclerosis",
+      "Non-compliant Behavior",
+      "Pain",
+      "Parking",
+      "PTSD",
+      "Reading",
+      "Stress",
+      "Stress Intolerance",
+      "Telework",
+      "Temperature Sensitivity"
+    ],
+    "example_accommodations": [
+      {
+        "situation": "Counselor who was a veteran with PTSD needed to use a service dog at work",
+        "solution": "Employer allowed service dog with separate area during counseling sessions",
+        "disability_type": "PTSD / Mental Health"
+      },
+      {
+        "situation": "Social worker with Type 2 diabetes experiencing vision loss requested reduced workload",
+        "solution": "Stand-magnification equipment for print and screen-magnification software for computer",
+        "disability_type": "Diabetes / Vision Loss"
+      },
+      {
+        "situation": "Electrician with severe depression needed to attend periodic licensure trainings",
+        "solution": "Remote CART service for note-taking during training sessions",
+        "disability_type": "Depression / Mental Health"
+      }
+    ],
+    "common_accommodation_categories": [
+      "Schedule modifications (flexible hours, breaks)",
+      "Telework / remote work arrangements",
+      "Assistive technology (screen readers, magnification)",
+      "Physical workspace modifications (ergonomic furniture, ramps)",
+      "Policy modifications (leave, dress code, fragrance-free)",
+      "Communication aids (CART services, sign language interpreters)",
+      "Job restructuring (reassigning marginal functions)",
+      "Service animals in the workplace",
+      "Modified training materials and formats",
+      "Environmental adjustments (lighting, noise, temperature)"
+    ],
+    "note": "Common categories derived from JAN SOAR database and published accommodation guides"
+  },
+  "disability_categories": {
+    "total_disability_conditions_covered": 102,
+    "all_conditions": [
+      "Human Immunodeficiency Virus (HIV)",
+      "Addison's Disease",
+      "Aging",
+      "Allergies",
+      "Multiple Chemical Sensitivity",
+      "Electrical Sensitivity",
+      "Fragrance Sensitivity",
+      "Food Allergy",
+      "Latex Allergy",
+      "Alzheimer's Disease",
+      "Amputation",
+      "Hand Amputation",
+      "Amyotrophic Lateral Sclerosis (ALS)/Lou Gehrig's Disease",
+      "Arthritis",
+      "Ataxia",
+      "Attention Deficit/Hyperactivity Disorder (ADHD)",
+      "Autism Spectrum",
+      "Back Impairment",
+      "Bladder Impairment",
+      "Sickle Cell Anemia",
+      "Bleeding Disorder",
+      "Body Odor",
+      "Little Person",
+      "Obesity",
+      "Brain Injury",
+      "Stroke",
+      "Burn Injury",
+      "Cancer",
+      "Cataplexy",
+      "Charcot-Marie-Tooth",
+      "Chronic Fatigue Syndrome/Myalgic Encephalomyelitis",
+      "Chronic Pain",
+      "Albinism",
+      "Cumulative Trauma Conditions",
+      "Diabetes",
+      "Dystonia",
+      "Ehlers-Danlos Syndrome",
+      "Epilepsy/Seizure Disorder",
+      "Essential Tremors",
+      "Fibromyalgia",
+      "Gastrointestinal Disorders",
+      "Gastroesophageal Reflux Disease (GERD, Acid Reflux, Heartburn)",
+      "Graves' Disease",
+      "Guillain Barre' Syndrome",
+      "Migraines",
+      "Hearing Impairment",
+      "Deafness",
+      "Heart Condition",
+      "Postural Orthostatic Tachycardia Syndrome (POTS)",
+      "Hepatitis",
+      "Huntington's Disease",
+      "Intellectual Disability",
+      "Fetal Alcohol Syndrome",
+      "Learning Disability",
+      "Auditory Processing Disorder",
+      "Leg Impairment",
+      "Lupus",
+      "Lyme Disease",
+      "Marfan Syndrome",
+      "Mental Health Conditions",
+      "Anxiety Disorder",
+      "Bipolar Disorder",
+      "Depression",
+      "Eating Disorders",
+      "Obsessive Compulsive Disorder (OCD)",
+      "Personality Disorder",
+      "Phobias",
+      "Post-Traumatic Stress Disorder (PTSD)",
+      "Schizophrenia",
+      "Seasonal Affective Disorder (SAD)",
+      "Tourette Syndrome",
+      "Multiple Sclerosis",
+      "Muscular Dystrophy",
+      "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome",
+      "Myasthenia Gravis",
+      "Neurodiversity",
+      "Cerebral Palsy",
+      "Paraplegia",
+      "Quadriplegia",
+      "Parkinson's Disease",
+      "Poliomyelitis (Polio)/Post Polio",
+      "Pregnancy",
+      "Raynaud's Disease",
+      "Reflex Sympathetic Dystrophy (RSD)",
+      "Renal/Kidney Disease",
+      "Endometriosis",
+      "Respiratory Impairments",
+      "Sarcoidosis",
+      "Shingles",
+      "Skin Conditions",
+      "Sleep Disorder",
+      "Stuttering",
+      "Speech-Language Impairment",
+      "Spina Bifida",
+      "Substance Use Disorder",
+      "Alcoholism",
+      "Drug Addiction",
+      "Thyroid Disorders",
+      "Vertigo",
+      "Blindness",
+      "Low Vision",
+      "Colorblind/Color Vision Deficiency"
+    ],
+    "by_category": {
+      "physical_mobility": {
+        "count": 29,
+        "conditions": [
+          "Amputation",
+          "Arthritis",
+          "Ataxia",
+          "Back Impairment",
+          "Burn Injury",
+          "Cerebral Palsy",
+          "Charcot-Marie-Tooth",
+          "Chronic Pain",
+          "Cumulative Trauma Conditions",
+          "Dystonia",
+          "Ehlers-Danlos Syndrome",
+          "Essential Tremors",
+          "Fibromyalgia",
+          "Gastroesophageal Reflux Disease (GERD, Acid Reflux, Heartburn)",
+          "Guillain Barre' Syndrome",
+          "Hand Amputation",
+          "Leg Impairment",
+          "Little Person",
+          "Marfan Syndrome",
+          "Muscular Dystrophy",
+          "Myasthenia Gravis",
+          "Obesity",
+          "Paraplegia",
+          "Parkinson's Disease",
+          "Poliomyelitis (Polio)/Post Polio",
+          "Quadriplegia",
+          "Raynaud's Disease",
+          "Reflex Sympathetic Dystrophy (RSD)",
+          "Spina Bifida"
+        ]
+      },
+      "sensory_communication": {
+        "count": 10,
+        "conditions": [
+          "Albinism",
+          "Auditory Processing Disorder",
+          "Blindness",
+          "Body Odor",
+          "Colorblind/Color Vision Deficiency",
+          "Deafness",
+          "Hearing Impairment",
+          "Low Vision",
+          "Speech-Language Impairment",
+          "Stuttering"
+        ]
+      },
+      "cognitive_neurological": {
+        "count": 12,
+        "conditions": [
+          "Alzheimer's Disease",
+          "Attention Deficit/Hyperactivity Disorder (ADHD)",
+          "Autism Spectrum",
+          "Brain Injury",
+          "Epilepsy/Seizure Disorder",
+          "Fetal Alcohol Syndrome",
+          "Huntington's Disease",
+          "Intellectual Disability",
+          "Learning Disability",
+          "Multiple Sclerosis",
+          "Neurodiversity",
+          "Stroke"
+        ]
+      },
+      "mental_health_behavioral": {
+        "count": 15,
+        "conditions": [
+          "Alcoholism",
+          "Anxiety Disorder",
+          "Bipolar Disorder",
+          "Depression",
+          "Drug Addiction",
+          "Eating Disorders",
+          "Mental Health Conditions",
+          "Obsessive Compulsive Disorder (OCD)",
+          "Personality Disorder",
+          "Phobias",
+          "Post-Traumatic Stress Disorder (PTSD)",
+          "Schizophrenia",
+          "Seasonal Affective Disorder (SAD)",
+          "Substance Use Disorder",
+          "Tourette Syndrome"
+        ]
+      },
+      "chronic_medical": {
+        "count": 35,
+        "conditions": [
+          "Addison's Disease",
+          "Aging",
+          "Allergies",
+          "Amyotrophic Lateral Sclerosis (ALS)/Lou Gehrig's Disease",
+          "Bleeding Disorder",
+          "Cancer",
+          "Cataplexy",
+          "Chronic Fatigue Syndrome/Myalgic Encephalomyelitis",
+          "Diabetes",
+          "Electrical Sensitivity",
+          "Endometriosis",
+          "Food Allergy",
+          "Fragrance Sensitivity",
+          "Gastrointestinal Disorders",
+          "Graves' Disease",
+          "Heart Condition",
+          "Hepatitis",
+          "Human Immunodeficiency Virus (HIV)",
+          "Latex Allergy",
+          "Lupus",
+          "Lyme Disease",
+          "Migraines",
+          "Multiple Chemical Sensitivity",
+          "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome",
+          "Postural Orthostatic Tachycardia Syndrome (POTS)",
+          "Pregnancy",
+          "Renal/Kidney Disease",
+          "Respiratory Impairments",
+          "Sarcoidosis",
+          "Shingles",
+          "Sickle Cell Anemia",
+          "Skin Conditions",
+          "Sleep Disorder",
+          "Thyroid Disorders",
+          "Vertigo"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "conditions": [
+          "Bladder Impairment"
+        ]
+      }
+    },
+    "source_url": "https://askjan.org/a-to-z.cfm"
+  },
+  "jan_service_satisfaction": {
+    "respondents": 3184,
+    "pct_jan_understood_needs": 97,
+    "pct_information_met_needs": 92,
+    "pct_would_use_jan_again": 100
+  },
+  "survey_metadata": {
+    "surveys_sent": 26028,
+    "employer_responses": 5406,
+    "survey_period_start": "January 1, 2019",
+    "survey_period_end": "December 31, 2024",
+    "description": "JAN employer survey on workplace accommodation costs and benefits"
+  },
+  "related_resources": {
+    "external_disability_data_sources": [
+      {
+        "name": "American Community Survey",
+        "url": "http://www.census.gov/programs-surveys/acs/"
+      },
+      {
+        "name": "Current Population Survey",
+        "url": "http://www.census.gov/programs-surveys/cps.html"
+      },
+      {
+        "name": "National Study of Long-Term Care Providers",
+        "url": "http://www.cdc.gov/nchs/nsltcp/index.htm"
+      },
+      {
+        "name": "National Health Interview Survey",
+        "url": "https://www.cdc.gov/nchs/nhis/"
+      },
+      {
+        "name": "Survey of Income and Program Participation",
+        "url": "http://www.census.gov/sipp/"
+      },
+      {
+        "name": "Office of Disability Employment Policy",
+        "url": "https://www.dol.gov/odep/topics/DisabilityEmploymentStatistics.htm"
+      },
+      {
+        "name": "U.S. Census Bureau",
+        "url": "http://www.census.gov/"
+      },
+      {
+        "name": "Bureau of Labor Statistics",
+        "url": "http://www.bls.gov/"
+      },
+      {
+        "name": "DisabilityStatistics.org",
+        "url": "http://disabilitystatistics.org/"
+      },
+      {
+        "name": "StatsRRTC",
+        "url": "http://www.researchondisability.org/statsrrtc"
+      }
+    ],
+    "jan_publications": [
+      {
+        "title": "For Employers",
+        "url": "https://askjan.org/info-by-role.cfm#for-employers"
+      },
+      {
+        "title": "A to Z By Disability: Amyotrophic Lateral Sclerosis (ALS)/Lou Gehrig's Disease",
+        "url": "https://askjan.org/disabilities/Amyotrophic-Lateral-Sclerosis-ALS-Lou-Gehrig-s-Disease.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Addison's Disease",
+        "url": "https://askjan.org/disabilities/Addison-s-Disease.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Aging",
+        "url": "https://askjan.org/disabilities/Aging.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Albinism",
+        "url": "https://askjan.org/disabilities/Albinism.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Alcoholism",
+        "url": "https://askjan.org/disabilities/Alcoholism.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Allergies",
+        "url": "https://askjan.org/disabilities/Allergies.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Alzheimer's Disease",
+        "url": "https://askjan.org/disabilities/Alzheimer-s-Disease.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Amputation",
+        "url": "https://askjan.org/disabilities/Amputation.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Anxiety Disorder",
+        "url": "https://askjan.org/disabilities/Anxiety-Disorder.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Arthritis",
+        "url": "https://askjan.org/disabilities/Arthritis.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Ataxia",
+        "url": "https://askjan.org/disabilities/Ataxia.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Attention Deficit/Hyperactivity Disorder (ADHD)",
+        "url": "https://askjan.org/disabilities/Attention-Deficit-Hyperactivity-Disorder-AD-HD.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Auditory Processing Disorder",
+        "url": "https://askjan.org/disabilities/Auditory-Processing-Disorder.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Autism Spectrum",
+        "url": "https://askjan.org/disabilities/Autism-Spectrum.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Back Impairments",
+        "url": "https://askjan.org/disabilities/Back-Impairment.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Bipolar Disorder",
+        "url": "https://askjan.org/disabilities/Bipolar-Disorder.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Bladder Impairments",
+        "url": "https://askjan.org/disabilities/Bladder-Impairment.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Bleeding Disorders",
+        "url": "https://askjan.org/disabilities/Bleeding-Disorder.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Blindness",
+        "url": "https://askjan.org/disabilities/Blind.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Body Odor",
+        "url": "https://askjan.org/disabilities/Body-Odor.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Brain Injury",
+        "url": "https://askjan.org/disabilities/Brain-Injury.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Burn Injuries",
+        "url": "https://askjan.org/disabilities/Burn-Injury.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Cancer",
+        "url": "https://askjan.org/disabilities/Cancer.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Cataplexy",
+        "url": "https://askjan.org/disabilities/Cataplexy.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Cerebral Palsy",
+        "url": "https://askjan.org/disabilities/Cerebral-Palsy.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Charcot-Marie-Tooth",
+        "url": "https://askjan.org/disabilities/Charcot-Marie-Tooth.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Chronic Fatigue Syndrome/Myalgic Encephalomyelitis",
+        "url": "https://askjan.org/disabilities/Chronic-Fatigue-Syndrome-Myalgic-Encephalomyelitis.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Chronic Pain",
+        "url": "https://askjan.org/disabilities/Chronic-Pain.cfm"
+      },
+      {
+        "title": "A to Z By Disability: Colorblindness/Color Vision Deficiency",
+        "url": "https://askjan.org/disabilities/Colorblind-Color-Vision-Deficiency.cfm"
+      }
+    ]
+  },
+  "metadata": {
+    "source_organization": "Job Accommodation Network (JAN)",
+    "source_affiliation": "U.S. Department of Labor, Office of Disability Employment Policy",
+    "primary_source_url": "https://askjan.org/topics/costs.cfm",
+    "additional_source_urls": [
+      "https://askjan.org/topics/disstats.cfm",
+      "https://askjan.org/a-to-z.cfm",
+      "https://askjan.org/soar.cfm",
+      "https://askjan.org/publications/index.cfm"
+    ],
+    "report_last_updated": "September 17, 2025",
+    "grant_number": "OD-000007-25A",
+    "fetched_at": "2026-02-13T03:32:35.383930+00:00",
+    "fetcher_script": "fetch_jan_data.py",
+    "notes": [
+      "All statistics are from JAN's employer survey conducted 2019-2024",
+      "Survey respondents represent manufacturing, service, wholesale/retail, small businesses to Fortune 500",
+      "Accommodation cost data based on 1,425 employers who shared cost information",
+      "Effectiveness data based on 2,069 employer responses",
+      "Disability category counts reflect conditions listed on JAN A-Z page",
+      "Common accommodation categories derived from SOAR database categories"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "dataset": "US Disability by Age and Sex (National)",
+  "source": "US Census Bureau, ACS 1-Year Estimates 2022, Table B18101",
+  "year": 2022,
+  "universe": "Civilian noninstitutionalized population",
+  "url": "https://data.census.gov/table/ACSDT1Y2022.B18101",
+  "summary": {
+    "total_population": 328309810,
+    "total_with_disability": 44146764,
+    "total_without_disability": 284163046,
+    "overall_rate_pct": 13.45,
+    "male_with_disability": 21264156,
+    "male_rate_pct": 13.15,
+    "female_with_disability": 22882608,
+    "female_rate_pct": 13.73
+  },
+  "male": {
+    "total": 161683069,
+    "with_disability": 21264156,
+    "rate_pct": 13.15,
+    "by_age": {
+      "under_5": {
+        "total": 9394183,
+        "with_disability": 73457,
+        "without_disability": 9320726,
+        "rate_pct": 0.78
+      },
+      "5_to_17": {
+        "total": 27599442,
+        "with_disability": 2021094,
+        "without_disability": 25578348,
+        "rate_pct": 7.32
+      },
+      "18_to_34": {
+        "total": 37537305,
+        "with_disability": 3169341,
+        "without_disability": 34367964,
+        "rate_pct": 8.44
+      },
+      "35_to_64": {
+        "total": 61761661,
+        "with_disability": 7665599,
+        "without_disability": 54096062,
+        "rate_pct": 12.41
+      },
+      "65_to_74": {
+        "total": 15722490,
+        "with_disability": 3960896,
+        "without_disability": 11761594,
+        "rate_pct": 25.19
+      },
+      "75_plus": {
+        "total": 9667988,
+        "with_disability": 4373769,
+        "without_disability": 5294219,
+        "rate_pct": 45.24
+      }
+    }
+  },
+  "female": {
+    "total": 166626741,
+    "with_disability": 22882608,
+    "rate_pct": 13.73,
+    "by_age": {
+      "under_5": {
+        "total": 8962365,
+        "with_disability": 65658,
+        "without_disability": 8896707,
+        "rate_pct": 0.73
+      },
+      "5_to_17": {
+        "total": 26286984,
+        "with_disability": 1315282,
+        "without_disability": 24971702,
+        "rate_pct": 5.0
+      },
+      "18_to_34": {
+        "total": 37190500,
+        "with_disability": 3043281,
+        "without_disability": 34147219,
+        "rate_pct": 8.18
+      },
+      "35_to_64": {
+        "total": 63156287,
+        "with_disability": 8128779,
+        "without_disability": 55027508,
+        "rate_pct": 12.87
+      },
+      "65_to_74": {
+        "total": 17762362,
+        "with_disability": 4167919,
+        "without_disability": 13594443,
+        "rate_pct": 23.46
+      },
+      "75_plus": {
+        "total": 13268243,
+        "with_disability": 6161689,
+        "without_disability": 7106554,
+        "rate_pct": 46.44
+      }
+    }
+  }
+}

@@ -1,0 +1,2808 @@
+{
+  "dataset": "Eurostat EU Disability Statistics",
+  "description": "Disability prevalence and employment gap data for EU/EEA countries based on the Global Activity Limitation Indicator (GALI) from EU-SILC",
+  "generated": "2026-02-09T07:39:43Z",
+  "sources": {
+    "prevalence_data": {
+      "dataset_code": "hlth_silc_12",
+      "dataset_name": "Population by activity limitation status, by sex, age and income quintile",
+      "source": "EU Statistics on Income and Living Conditions (EU-SILC)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table",
+      "api_url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/hlth_silc_12?format=JSON",
+      "publisher": "Eurostat",
+      "last_updated": "2024-01-03"
+    },
+    "employment_gap": {
+      "dataset_code": "tepsr_sp200",
+      "dataset_name": "Disability employment gap by level of activity limitation and sex",
+      "source": "EU Statistics on Income and Living Conditions (EU-SILC)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/tepsr_sp200/default/table",
+      "api_url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tepsr_sp200?format=JSON",
+      "publisher": "Eurostat"
+    },
+    "methodology": {
+      "indicator": "Global Activity Limitation Indicator (GALI)",
+      "description": "The GALI question asks respondents whether they have been limited in activities people usually do because of health problems for at least the past 6 months. Response options: severely limited, limited but not severely, not limited at all.",
+      "reference_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Disability_statistics_introduced"
+    }
+  },
+  "eu27_summary_2023": {
+    "total_disability_rate_pct": 26.9,
+    "some_limitation_pct": 19.7,
+    "severe_limitation_pct": 7.2,
+    "no_limitation_pct": 73.1,
+    "employment_gap_pp": 21.4,
+    "severe_employment_gap_pp": 42.3,
+    "note": "EU27 average for population aged 16+ (prevalence) and 20-64 (employment gap)"
+  },
+  "countries": [
+    {
+      "country_code": "EU27_2020",
+      "country_name": "European Union - 27 countries (from 2020)",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 19.7,
+        "severe_limitation": 7.2,
+        "some_or_severe_limitation": 26.9,
+        "no_limitation": 73.1
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 17.8,
+          "severe_limitation_pct": 6.5,
+          "some_or_severe_pct": 24.3
+        },
+        "female": {
+          "some_limitation_pct": 21.4,
+          "severe_limitation_pct": 7.9,
+          "some_or_severe_pct": 29.2
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 14.2,
+        "severe_limitation_pct": 4.4,
+        "some_or_severe_pct": 18.6,
+        "no_limitation_pct": 81.4
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 8.3,
+          "severe_pct": 1.8
+        },
+        "25-34": {
+          "some_or_severe_pct": 11.6,
+          "severe_pct": 2.2
+        },
+        "35-44": {
+          "some_or_severe_pct": 14.7,
+          "severe_pct": 3.2
+        },
+        "45-54": {
+          "some_or_severe_pct": 21.2,
+          "severe_pct": 5.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 32.6,
+          "severe_pct": 8.5
+        },
+        "65+": {
+          "some_or_severe_pct": 51.7,
+          "severe_pct": 15.7
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 35.3,
+        "second_20pct": 32.3,
+        "middle_20pct": 27.2,
+        "fourth_20pct": 22.4,
+        "highest_20pct": 18.1
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 21.4,
+          "male": 23.1,
+          "female": 19.1
+        },
+        "some_limitation_only": 14.4,
+        "severe_limitation": 42.3
+      }
+    },
+    {
+      "country_code": "AT",
+      "country_name": "Austria",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 20.9,
+        "severe_limitation": 8.8,
+        "some_or_severe_limitation": 29.7,
+        "no_limitation": 70.3
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 18.9,
+          "severe_limitation_pct": 8.7,
+          "some_or_severe_pct": 27.6
+        },
+        "female": {
+          "some_limitation_pct": 22.8,
+          "severe_limitation_pct": 8.9,
+          "some_or_severe_pct": 31.7
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 17.6,
+        "severe_limitation_pct": 6.3,
+        "some_or_severe_pct": 23.9,
+        "no_limitation_pct": 76.1
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 13.9,
+          "severe_pct": 3.2
+        },
+        "25-34": {
+          "some_or_severe_pct": 14.0,
+          "severe_pct": 2.5
+        },
+        "35-44": {
+          "some_or_severe_pct": 18.7,
+          "severe_pct": 3.8
+        },
+        "45-54": {
+          "some_or_severe_pct": 27.2,
+          "severe_pct": 7.5
+        },
+        "55-64": {
+          "some_or_severe_pct": 39.7,
+          "severe_pct": 12.3
+        },
+        "65+": {
+          "some_or_severe_pct": 50.9,
+          "severe_pct": 18.1
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 36.7,
+        "second_20pct": 34.8,
+        "middle_20pct": 32.4,
+        "fourth_20pct": 24.9,
+        "highest_20pct": 21.1
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 26.1,
+          "male": 32.5,
+          "female": 19.3
+        },
+        "some_limitation_only": 17.1,
+        "severe_limitation": 50.5
+      }
+    },
+    {
+      "country_code": "BE",
+      "country_name": "Belgium",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 16.6,
+        "severe_limitation": 8.7,
+        "some_or_severe_limitation": 25.3,
+        "no_limitation": 74.7
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 14.5,
+          "severe_limitation_pct": 8.3,
+          "some_or_severe_pct": 22.8
+        },
+        "female": {
+          "some_limitation_pct": 18.7,
+          "severe_limitation_pct": 9.0,
+          "some_or_severe_pct": 27.7
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 13.6,
+        "severe_limitation_pct": 6.7,
+        "some_or_severe_pct": 20.2,
+        "no_limitation_pct": 79.8
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 8.7,
+          "severe_pct": 1.8
+        },
+        "25-34": {
+          "some_or_severe_pct": 12.5,
+          "severe_pct": 2.9
+        },
+        "35-44": {
+          "some_or_severe_pct": 17.8,
+          "severe_pct": 5.6
+        },
+        "45-54": {
+          "some_or_severe_pct": 26.2,
+          "severe_pct": 9.8
+        },
+        "55-64": {
+          "some_or_severe_pct": 33.1,
+          "severe_pct": 12.0
+        },
+        "65+": {
+          "some_or_severe_pct": 42.2,
+          "severe_pct": 15.4
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 38.4,
+        "second_20pct": 33.7,
+        "middle_20pct": 24.3,
+        "fourth_20pct": 15.1,
+        "highest_20pct": 15.0
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 33.5,
+          "male": 36.7,
+          "female": 30.0
+        },
+        "some_limitation_only": 22.0,
+        "severe_limitation": 56.0
+      }
+    },
+    {
+      "country_code": "BG",
+      "country_name": "Bulgaria",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 11.1,
+        "severe_limitation": 2.5,
+        "some_or_severe_limitation": 13.6,
+        "no_limitation": 86.4
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 9.3,
+          "severe_limitation_pct": 2.0,
+          "some_or_severe_pct": 11.4
+        },
+        "female": {
+          "some_limitation_pct": 12.7,
+          "severe_limitation_pct": 2.9,
+          "some_or_severe_pct": 15.6
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 5.4,
+        "severe_limitation_pct": 1.1,
+        "some_or_severe_pct": 6.5,
+        "no_limitation_pct": 93.5
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 2.2,
+          "severe_pct": 0.7
+        },
+        "25-34": {
+          "some_or_severe_pct": 1.7,
+          "severe_pct": 0.8
+        },
+        "35-44": {
+          "some_or_severe_pct": 4.0,
+          "severe_pct": 0.7
+        },
+        "45-54": {
+          "some_or_severe_pct": 7.2,
+          "severe_pct": 1.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 14.2,
+          "severe_pct": 2.1
+        },
+        "65+": {
+          "some_or_severe_pct": 32.0,
+          "severe_pct": 6.0
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 15.5,
+        "second_20pct": 22.3,
+        "middle_20pct": 14.5,
+        "fourth_20pct": 9.7,
+        "highest_20pct": 5.8
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 39.5,
+          "male": 46.8,
+          "female": 32.0
+        },
+        "some_limitation_only": 33.4,
+        "severe_limitation": null
+      }
+    },
+    {
+      "country_code": "CZ",
+      "country_name": "Czechia",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 19.5,
+        "severe_limitation": 7.3,
+        "some_or_severe_limitation": 26.8,
+        "no_limitation": 73.2
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 17.8,
+          "severe_limitation_pct": 6.3,
+          "some_or_severe_pct": 24.1
+        },
+        "female": {
+          "some_limitation_pct": 21.1,
+          "severe_limitation_pct": 8.1,
+          "some_or_severe_pct": 29.2
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 12.7,
+        "severe_limitation_pct": 4.3,
+        "some_or_severe_pct": 17.0,
+        "no_limitation_pct": 83.0
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 6.3,
+          "severe_pct": 2.1
+        },
+        "25-34": {
+          "some_or_severe_pct": 9.4,
+          "severe_pct": 1.9
+        },
+        "35-44": {
+          "some_or_severe_pct": 13.4,
+          "severe_pct": 3.7
+        },
+        "45-54": {
+          "some_or_severe_pct": 17.8,
+          "severe_pct": 4.2
+        },
+        "55-64": {
+          "some_or_severe_pct": 35.7,
+          "severe_pct": 8.9
+        },
+        "65+": {
+          "some_or_severe_pct": 56.1,
+          "severe_pct": 16.2
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 41.9,
+        "second_20pct": 34.9,
+        "middle_20pct": 24.1,
+        "fourth_20pct": 19.2,
+        "highest_20pct": 14.2
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 22.2,
+          "male": 25.1,
+          "female": 18.4
+        },
+        "some_limitation_only": 12.8,
+        "severe_limitation": 50.8
+      }
+    },
+    {
+      "country_code": "DK",
+      "country_name": "Denmark",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 30.1,
+        "severe_limitation": 6.6,
+        "some_or_severe_limitation": 36.7,
+        "no_limitation": 63.3
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 27.3,
+          "severe_limitation_pct": 6.4,
+          "some_or_severe_pct": 33.6
+        },
+        "female": {
+          "some_limitation_pct": 32.9,
+          "severe_limitation_pct": 6.8,
+          "some_or_severe_pct": 39.6
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 26.3,
+        "severe_limitation_pct": 6.6,
+        "some_or_severe_pct": 32.8,
+        "no_limitation_pct": 67.2
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 24.8,
+          "severe_pct": 4.0
+        },
+        "25-34": {
+          "some_or_severe_pct": 26.8,
+          "severe_pct": 3.9
+        },
+        "35-44": {
+          "some_or_severe_pct": 29.7,
+          "severe_pct": 6.9
+        },
+        "45-54": {
+          "some_or_severe_pct": 35.9,
+          "severe_pct": 9.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 45.2,
+          "severe_pct": 8.6
+        },
+        "65+": {
+          "some_or_severe_pct": 48.3,
+          "severe_pct": 6.7
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 47.6,
+        "second_20pct": 44.7,
+        "middle_20pct": 35.4,
+        "fourth_20pct": 30.8,
+        "highest_20pct": 25.0
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 20.4,
+          "male": 16.5,
+          "female": 22.7
+        },
+        "some_limitation_only": 15.4,
+        "severe_limitation": 39.4
+      }
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Germany",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 19.5,
+        "severe_limitation": 8.7,
+        "some_or_severe_limitation": 28.2,
+        "no_limitation": 71.8
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 18.3,
+          "severe_limitation_pct": 8.0,
+          "some_or_severe_pct": 26.2
+        },
+        "female": {
+          "some_limitation_pct": 20.7,
+          "severe_limitation_pct": 9.4,
+          "some_or_severe_pct": 30.1
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 14.3,
+        "severe_limitation_pct": 5.1,
+        "some_or_severe_pct": 19.4,
+        "no_limitation_pct": 80.6
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 7.1,
+          "severe_pct": 1.0
+        },
+        "25-34": {
+          "some_or_severe_pct": 10.2,
+          "severe_pct": 2.1
+        },
+        "35-44": {
+          "some_or_severe_pct": 14.2,
+          "severe_pct": 3.0
+        },
+        "45-54": {
+          "some_or_severe_pct": 22.6,
+          "severe_pct": 6.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 36.1,
+          "severe_pct": 11.1
+        },
+        "65+": {
+          "some_or_severe_pct": 54.7,
+          "severe_pct": 19.6
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 39.3,
+        "second_20pct": 33.6,
+        "middle_20pct": 28.1,
+        "fourth_20pct": 23.4,
+        "highest_20pct": 17.3
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 22.6,
+          "male": 25.3,
+          "female": 19.4
+        },
+        "some_limitation_only": 12.0,
+        "severe_limitation": 51.9
+      }
+    },
+    {
+      "country_code": "EE",
+      "country_name": "Estonia",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 21.0,
+        "severe_limitation": 11.5,
+        "some_or_severe_limitation": 32.5,
+        "no_limitation": 67.5
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 19.1,
+          "severe_limitation_pct": 10.5,
+          "some_or_severe_pct": 29.6
+        },
+        "female": {
+          "some_limitation_pct": 22.7,
+          "severe_limitation_pct": 12.4,
+          "some_or_severe_pct": 35.0
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 16.6,
+        "severe_limitation_pct": 6.8,
+        "some_or_severe_pct": 23.4,
+        "no_limitation_pct": 76.6
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 12.6,
+          "severe_pct": 3.2
+        },
+        "25-34": {
+          "some_or_severe_pct": 13.1,
+          "severe_pct": 3.4
+        },
+        "35-44": {
+          "some_or_severe_pct": 16.8,
+          "severe_pct": 3.7
+        },
+        "45-54": {
+          "some_or_severe_pct": 28.6,
+          "severe_pct": 7.9
+        },
+        "55-64": {
+          "some_or_severe_pct": 43.1,
+          "severe_pct": 15.0
+        },
+        "65+": {
+          "some_or_severe_pct": 59.2,
+          "severe_pct": 25.4
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 50.5,
+        "second_20pct": 41.7,
+        "middle_20pct": 26.1,
+        "fourth_20pct": 24.1,
+        "highest_20pct": 17.4
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 20.2,
+          "male": 26.6,
+          "female": 13.9
+        },
+        "some_limitation_only": 9.5,
+        "severe_limitation": 46.7
+      }
+    },
+    {
+      "country_code": "EL",
+      "country_name": "Greece",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 13.7,
+        "severe_limitation": 9.4,
+        "some_or_severe_limitation": 23.1,
+        "no_limitation": 76.9
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 12.8,
+          "severe_limitation_pct": 8.3,
+          "some_or_severe_pct": 21.1
+        },
+        "female": {
+          "some_limitation_pct": 14.6,
+          "severe_limitation_pct": 10.4,
+          "some_or_severe_pct": 24.9
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 6.0,
+        "severe_limitation_pct": 4.0,
+        "some_or_severe_pct": 10.0,
+        "no_limitation_pct": 90.0
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 2.5,
+          "severe_pct": 0.8
+        },
+        "25-34": {
+          "some_or_severe_pct": 4.6,
+          "severe_pct": 2.3
+        },
+        "35-44": {
+          "some_or_severe_pct": 7.5,
+          "severe_pct": 2.6
+        },
+        "45-54": {
+          "some_or_severe_pct": 10.0,
+          "severe_pct": 4.2
+        },
+        "55-64": {
+          "some_or_severe_pct": 21.0,
+          "severe_pct": 8.3
+        },
+        "65+": {
+          "some_or_severe_pct": 58.9,
+          "severe_pct": 24.2
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 25.7,
+        "second_20pct": 27.7,
+        "middle_20pct": 23.4,
+        "fourth_20pct": 20.1,
+        "highest_20pct": 19.0
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 26.0,
+          "male": 32.8,
+          "female": 19.0
+        },
+        "some_limitation_only": 20.2,
+        "severe_limitation": 34.5
+      }
+    },
+    {
+      "country_code": "ES",
+      "country_name": "Spain",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 24.5,
+        "severe_limitation": 5.1,
+        "some_or_severe_limitation": 29.6,
+        "no_limitation": 70.4
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 22.3,
+          "severe_limitation_pct": 4.5,
+          "some_or_severe_pct": 26.8
+        },
+        "female": {
+          "some_limitation_pct": 26.5,
+          "severe_limitation_pct": 5.7,
+          "some_or_severe_pct": 32.2
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 19.8,
+        "severe_limitation_pct": 3.4,
+        "some_or_severe_pct": 23.2,
+        "no_limitation_pct": 76.8
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 9.5,
+          "severe_pct": 1.0
+        },
+        "25-34": {
+          "some_or_severe_pct": 16.5,
+          "severe_pct": 1.8
+        },
+        "35-44": {
+          "some_or_severe_pct": 20.6,
+          "severe_pct": 3.1
+        },
+        "45-54": {
+          "some_or_severe_pct": 26.8,
+          "severe_pct": 3.8
+        },
+        "55-64": {
+          "some_or_severe_pct": 36.1,
+          "severe_pct": 5.9
+        },
+        "65+": {
+          "some_or_severe_pct": 50.5,
+          "severe_pct": 10.9
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 33.0,
+        "second_20pct": 32.8,
+        "middle_20pct": 30.2,
+        "fourth_20pct": 28.1,
+        "highest_20pct": 24.2
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 13.8,
+          "male": 14.3,
+          "female": 12.4
+        },
+        "some_limitation_only": 10.6,
+        "severe_limitation": 32.5
+      }
+    },
+    {
+      "country_code": "FI",
+      "country_name": "Finland",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 27.6,
+        "severe_limitation": 7.2,
+        "some_or_severe_limitation": 34.8,
+        "no_limitation": 65.2
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 24.2,
+          "severe_limitation_pct": 6.7,
+          "some_or_severe_pct": 30.9
+        },
+        "female": {
+          "some_limitation_pct": 31.2,
+          "severe_limitation_pct": 7.7,
+          "some_or_severe_pct": 38.8
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 24.2,
+        "severe_limitation_pct": 4.3,
+        "some_or_severe_pct": 28.5,
+        "no_limitation_pct": 71.5
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 23.1,
+          "severe_pct": 2.9
+        },
+        "25-34": {
+          "some_or_severe_pct": 25.5,
+          "severe_pct": 2.8
+        },
+        "35-44": {
+          "some_or_severe_pct": 22.5,
+          "severe_pct": 2.4
+        },
+        "45-54": {
+          "some_or_severe_pct": 29.7,
+          "severe_pct": 5.2
+        },
+        "55-64": {
+          "some_or_severe_pct": 40.3,
+          "severe_pct": 7.7
+        },
+        "65+": {
+          "some_or_severe_pct": 51.3,
+          "severe_pct": 14.8
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 46.5,
+        "second_20pct": 39.2,
+        "middle_20pct": 35.2,
+        "fourth_20pct": 28.3,
+        "highest_20pct": 24.7
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 19.4,
+          "male": 22.8,
+          "female": 16.3
+        },
+        "some_limitation_only": 14.6,
+        "severe_limitation": 46.8
+      }
+    },
+    {
+      "country_code": "FR",
+      "country_name": "France",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 16.6,
+        "severe_limitation": 10.2,
+        "some_or_severe_limitation": 26.8,
+        "no_limitation": 73.2
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 15.1,
+          "severe_limitation_pct": 9.2,
+          "some_or_severe_pct": 24.3
+        },
+        "female": {
+          "some_limitation_pct": 18.0,
+          "severe_limitation_pct": 11.1,
+          "some_or_severe_pct": 29.1
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 13.1,
+        "severe_limitation_pct": 6.8,
+        "some_or_severe_pct": 19.9,
+        "no_limitation_pct": 80.1
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 8.9,
+          "severe_pct": 2.8
+        },
+        "25-34": {
+          "some_or_severe_pct": 12.7,
+          "severe_pct": 3.2
+        },
+        "35-44": {
+          "some_or_severe_pct": 16.8,
+          "severe_pct": 5.4
+        },
+        "45-54": {
+          "some_or_severe_pct": 24.4,
+          "severe_pct": 8.8
+        },
+        "55-64": {
+          "some_or_severe_pct": 33.2,
+          "severe_pct": 12.5
+        },
+        "65+": {
+          "some_or_severe_pct": 45.7,
+          "severe_pct": 19.2
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 35.3,
+        "second_20pct": 32.7,
+        "middle_20pct": 28.1,
+        "fourth_20pct": 22.2,
+        "highest_20pct": 16.8
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 19.9,
+          "male": 22.5,
+          "female": 16.9
+        },
+        "some_limitation_only": 12.9,
+        "severe_limitation": 33.1
+      }
+    },
+    {
+      "country_code": "HR",
+      "country_name": "Croatia",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 21.2,
+        "severe_limitation": 7.7,
+        "some_or_severe_limitation": 28.9,
+        "no_limitation": 71.1
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 19.8,
+          "severe_limitation_pct": 7.0,
+          "some_or_severe_pct": 26.7
+        },
+        "female": {
+          "some_limitation_pct": 22.5,
+          "severe_limitation_pct": 8.5,
+          "some_or_severe_pct": 30.9
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 12.4,
+        "severe_limitation_pct": 3.7,
+        "some_or_severe_pct": 16.1,
+        "no_limitation_pct": 83.9
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 3.9,
+          "severe_pct": 1.2
+        },
+        "25-34": {
+          "some_or_severe_pct": 6.6,
+          "severe_pct": 2.6
+        },
+        "35-44": {
+          "some_or_severe_pct": 8.9,
+          "severe_pct": 2.8
+        },
+        "45-54": {
+          "some_or_severe_pct": 17.5,
+          "severe_pct": 3.6
+        },
+        "55-64": {
+          "some_or_severe_pct": 36.4,
+          "severe_pct": 7.0
+        },
+        "65+": {
+          "some_or_severe_pct": 65.0,
+          "severe_pct": 19.1
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 50.3,
+        "second_20pct": 33.7,
+        "middle_20pct": 25.1,
+        "fourth_20pct": 20.0,
+        "highest_20pct": 14.5
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 39.2,
+          "male": 44.2,
+          "female": 34.4
+        },
+        "some_limitation_only": 33.5,
+        "severe_limitation": 58.3
+      }
+    },
+    {
+      "country_code": "HU",
+      "country_name": "Hungary",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 16.2,
+        "severe_limitation": 6.1,
+        "some_or_severe_limitation": 22.3,
+        "no_limitation": 77.7
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 14.0,
+          "severe_limitation_pct": 5.3,
+          "some_or_severe_pct": 19.3
+        },
+        "female": {
+          "some_limitation_pct": 18.3,
+          "severe_limitation_pct": 6.7,
+          "some_or_severe_pct": 25.0
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 9.5,
+        "severe_limitation_pct": 3.2,
+        "some_or_severe_pct": 12.7,
+        "no_limitation_pct": 87.3
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 3.5,
+          "severe_pct": 1.3
+        },
+        "25-34": {
+          "some_or_severe_pct": 4.2,
+          "severe_pct": 1.1
+        },
+        "35-44": {
+          "some_or_severe_pct": 7.9,
+          "severe_pct": 1.8
+        },
+        "45-54": {
+          "some_or_severe_pct": 13.4,
+          "severe_pct": 3.4
+        },
+        "55-64": {
+          "some_or_severe_pct": 28.8,
+          "severe_pct": 7.2
+        },
+        "65+": {
+          "some_or_severe_pct": 53.2,
+          "severe_pct": 15.3
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 37.3,
+        "second_20pct": 26.4,
+        "middle_20pct": 17.7,
+        "fourth_20pct": 16.1,
+        "highest_20pct": 15.0
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 29.8,
+          "male": 31.8,
+          "female": 27.2
+        },
+        "some_limitation_only": 19.8,
+        "severe_limitation": 59.2
+      }
+    },
+    {
+      "country_code": "IE",
+      "country_name": "Ireland",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 15.3,
+        "severe_limitation": 5.2,
+        "some_or_severe_limitation": 20.5,
+        "no_limitation": 79.5
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 13.6,
+          "severe_limitation_pct": 5.5,
+          "some_or_severe_pct": 19.1
+        },
+        "female": {
+          "some_limitation_pct": 17.0,
+          "severe_limitation_pct": 5.0,
+          "some_or_severe_pct": 21.9
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 12.2,
+        "severe_limitation_pct": 3.8,
+        "some_or_severe_pct": 16.0,
+        "no_limitation_pct": 84.0
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 10.5,
+          "severe_pct": 3.1
+        },
+        "25-34": {
+          "some_or_severe_pct": 11.9,
+          "severe_pct": 1.9
+        },
+        "35-44": {
+          "some_or_severe_pct": 12.3,
+          "severe_pct": 3.4
+        },
+        "45-54": {
+          "some_or_severe_pct": 19.5,
+          "severe_pct": 4.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 26.5,
+          "severe_pct": 6.9
+        },
+        "65+": {
+          "some_or_severe_pct": 40.1,
+          "severe_pct": 11.3
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 31.8,
+        "second_20pct": 26.8,
+        "middle_20pct": 18.8,
+        "fourth_20pct": 14.8,
+        "highest_20pct": 12.4
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 36.7,
+          "male": 42.4,
+          "female": 30.7
+        },
+        "some_limitation_only": 29.7,
+        "severe_limitation": 59.0
+      }
+    },
+    {
+      "country_code": "IT",
+      "country_name": "Italy",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 15.5,
+        "severe_limitation": 5.1,
+        "some_or_severe_limitation": 20.6,
+        "no_limitation": 79.4
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 14.4,
+          "severe_limitation_pct": 4.3,
+          "some_or_severe_pct": 18.7
+        },
+        "female": {
+          "some_limitation_pct": 16.6,
+          "severe_limitation_pct": 5.9,
+          "some_or_severe_pct": 22.5
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 8.1,
+        "severe_limitation_pct": 2.2,
+        "some_or_severe_pct": 10.4,
+        "no_limitation_pct": 89.6
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 3.6,
+          "severe_pct": 1.6
+        },
+        "25-34": {
+          "some_or_severe_pct": 6.9,
+          "severe_pct": 1.4
+        },
+        "35-44": {
+          "some_or_severe_pct": 6.8,
+          "severe_pct": 1.0
+        },
+        "45-54": {
+          "some_or_severe_pct": 11.1,
+          "severe_pct": 2.2
+        },
+        "55-64": {
+          "some_or_severe_pct": 18.9,
+          "severe_pct": 4.2
+        },
+        "65+": {
+          "some_or_severe_pct": 47.8,
+          "severe_pct": 12.8
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 24.2,
+        "second_20pct": 24.0,
+        "middle_20pct": 21.9,
+        "fourth_20pct": 17.4,
+        "highest_20pct": 16.0
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 15.9,
+          "male": 16.6,
+          "female": 15.9
+        },
+        "some_limitation_only": 8.3,
+        "severe_limitation": 44.7
+      }
+    },
+    {
+      "country_code": "LV",
+      "country_name": "Latvia",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 30.6,
+        "severe_limitation": 10.1,
+        "some_or_severe_limitation": 40.7,
+        "no_limitation": 59.3
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 27.6,
+          "severe_limitation_pct": 8.3,
+          "some_or_severe_pct": 35.9
+        },
+        "female": {
+          "some_limitation_pct": 32.9,
+          "severe_limitation_pct": 11.5,
+          "some_or_severe_pct": 44.3
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 24.4,
+        "severe_limitation_pct": 4.9,
+        "some_or_severe_pct": 29.3,
+        "no_limitation_pct": 70.7
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 13.2,
+          "severe_pct": 2.1
+        },
+        "25-34": {
+          "some_or_severe_pct": 17.0,
+          "severe_pct": 2.4
+        },
+        "35-44": {
+          "some_or_severe_pct": 21.0,
+          "severe_pct": 2.7
+        },
+        "45-54": {
+          "some_or_severe_pct": 35.0,
+          "severe_pct": 5.4
+        },
+        "55-64": {
+          "some_or_severe_pct": 48.4,
+          "severe_pct": 9.7
+        },
+        "65+": {
+          "some_or_severe_pct": 72.2,
+          "severe_pct": 24.5
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 58.3,
+        "second_20pct": 49.5,
+        "middle_20pct": 38.0,
+        "fourth_20pct": 30.6,
+        "highest_20pct": 24.7
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 18.5,
+          "male": 25.1,
+          "female": 12.6
+        },
+        "some_limitation_only": 12.0,
+        "severe_limitation": 50.7
+      }
+    },
+    {
+      "country_code": "LT",
+      "country_name": "Lithuania",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 21.0,
+        "severe_limitation": 6.4,
+        "some_or_severe_limitation": 27.4,
+        "no_limitation": 72.6
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 18.6,
+          "severe_limitation_pct": 5.9,
+          "some_or_severe_pct": 24.5
+        },
+        "female": {
+          "some_limitation_pct": 23.0,
+          "severe_limitation_pct": 6.8,
+          "some_or_severe_pct": 29.8
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 13.5,
+        "severe_limitation_pct": 3.3,
+        "some_or_severe_pct": 16.8,
+        "no_limitation_pct": 83.2
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 8.5,
+          "severe_pct": 1.8
+        },
+        "25-34": {
+          "some_or_severe_pct": 7.7,
+          "severe_pct": 0.9
+        },
+        "35-44": {
+          "some_or_severe_pct": 10.4,
+          "severe_pct": 2.2
+        },
+        "45-54": {
+          "some_or_severe_pct": 19.5,
+          "severe_pct": 4.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 32.4,
+          "severe_pct": 6.6
+        },
+        "65+": {
+          "some_or_severe_pct": 59.2,
+          "severe_pct": 15.5
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 45.1,
+        "second_20pct": 35.5,
+        "middle_20pct": 24.7,
+        "fourth_20pct": 16.4,
+        "highest_20pct": 12.4
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 32.4,
+          "male": 37.1,
+          "female": 27.8
+        },
+        "some_limitation_only": 25.6,
+        "severe_limitation": 61.0
+      }
+    },
+    {
+      "country_code": "LU",
+      "country_name": "Luxembourg",
+      "data_year": 2022,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 22.7,
+        "severe_limitation": 5.8,
+        "some_or_severe_limitation": 28.5,
+        "no_limitation": 71.5
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 21.6,
+          "severe_limitation_pct": 5.0,
+          "some_or_severe_pct": 26.5
+        },
+        "female": {
+          "some_limitation_pct": 23.8,
+          "severe_limitation_pct": 6.7,
+          "some_or_severe_pct": 30.5
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 19.9,
+        "severe_limitation_pct": 5.0,
+        "some_or_severe_pct": 24.9,
+        "no_limitation_pct": 75.1
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 13.3,
+          "severe_pct": 2.4
+        },
+        "25-34": {
+          "some_or_severe_pct": 17.7,
+          "severe_pct": 2.5
+        },
+        "35-44": {
+          "some_or_severe_pct": 23.7,
+          "severe_pct": 3.7
+        },
+        "45-54": {
+          "some_or_severe_pct": 30.2,
+          "severe_pct": 8.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 36.7,
+          "severe_pct": 7.7
+        },
+        "65+": {
+          "some_or_severe_pct": 47.6,
+          "severe_pct": 10.5
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 33.0,
+        "second_20pct": 33.3,
+        "middle_20pct": 27.4,
+        "fourth_20pct": 23.8,
+        "highest_20pct": 25.7
+      },
+      "disability_employment_gap": {
+        "data_year": 2022,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 8.5,
+          "male": 13.2,
+          "female": 2.9
+        },
+        "some_limitation_only": 5.2,
+        "severe_limitation": 21.6
+      }
+    },
+    {
+      "country_code": "MT",
+      "country_name": "Malta",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 10.0,
+        "severe_limitation": 3.8,
+        "some_or_severe_limitation": 13.8,
+        "no_limitation": 86.2
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 8.6,
+          "severe_limitation_pct": 3.1,
+          "some_or_severe_pct": 11.6
+        },
+        "female": {
+          "some_limitation_pct": 11.5,
+          "severe_limitation_pct": 4.7,
+          "some_or_severe_pct": 16.2
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 6.0,
+        "severe_limitation_pct": 1.8,
+        "some_or_severe_pct": 7.8,
+        "no_limitation_pct": 92.2
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 4.4,
+          "severe_pct": 0.9
+        },
+        "25-34": {
+          "some_or_severe_pct": 4.2,
+          "severe_pct": 1.3
+        },
+        "35-44": {
+          "some_or_severe_pct": 6.3,
+          "severe_pct": 1.7
+        },
+        "45-54": {
+          "some_or_severe_pct": 9.5,
+          "severe_pct": 1.3
+        },
+        "55-64": {
+          "some_or_severe_pct": 17.1,
+          "severe_pct": 4.0
+        },
+        "65+": {
+          "some_or_severe_pct": 37.0,
+          "severe_pct": 11.8
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 23.8,
+        "second_20pct": 21.2,
+        "middle_20pct": 13.3,
+        "fourth_20pct": 7.4,
+        "highest_20pct": 4.8
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 25.8,
+          "male": 23.2,
+          "female": 26.9
+        },
+        "some_limitation_only": 20.1,
+        "severe_limitation": 44.6
+      }
+    },
+    {
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 27.6,
+        "severe_limitation": 4.9,
+        "some_or_severe_limitation": 32.4,
+        "no_limitation": 67.6
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 25.2,
+          "severe_limitation_pct": 4.3,
+          "some_or_severe_pct": 29.5
+        },
+        "female": {
+          "some_limitation_pct": 29.9,
+          "severe_limitation_pct": 5.5,
+          "some_or_severe_pct": 35.4
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 22.3,
+        "severe_limitation_pct": 3.9,
+        "some_or_severe_pct": 26.2,
+        "no_limitation_pct": 73.8
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 13.9,
+          "severe_pct": 1.1
+        },
+        "25-34": {
+          "some_or_severe_pct": 16.9,
+          "severe_pct": 1.3
+        },
+        "35-44": {
+          "some_or_severe_pct": 25.2,
+          "severe_pct": 4.3
+        },
+        "45-54": {
+          "some_or_severe_pct": 32.2,
+          "severe_pct": 4.8
+        },
+        "55-64": {
+          "some_or_severe_pct": 40.5,
+          "severe_pct": 7.4
+        },
+        "65+": {
+          "some_or_severe_pct": 52.4,
+          "severe_pct": 8.0
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 45.1,
+        "second_20pct": 40.0,
+        "middle_20pct": 33.8,
+        "fourth_20pct": 24.0,
+        "highest_20pct": 19.7
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 23.8,
+          "male": 20.9,
+          "female": 26.0
+        },
+        "some_limitation_only": 18.0,
+        "severe_limitation": 56.2
+      }
+    },
+    {
+      "country_code": "PL",
+      "country_name": "Poland",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 17.3,
+        "severe_limitation": 7.0,
+        "some_or_severe_limitation": 24.4,
+        "no_limitation": 75.6
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 15.7,
+          "severe_limitation_pct": 6.6,
+          "some_or_severe_pct": 22.3
+        },
+        "female": {
+          "some_limitation_pct": 18.7,
+          "severe_limitation_pct": 7.4,
+          "some_or_severe_pct": 26.1
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 11.4,
+        "severe_limitation_pct": 4.0,
+        "some_or_severe_pct": 15.4,
+        "no_limitation_pct": 84.6
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 6.9,
+          "severe_pct": 2.6
+        },
+        "25-34": {
+          "some_or_severe_pct": 8.3,
+          "severe_pct": 2.6
+        },
+        "35-44": {
+          "some_or_severe_pct": 12.4,
+          "severe_pct": 3.2
+        },
+        "45-54": {
+          "some_or_severe_pct": 15.7,
+          "severe_pct": 3.7
+        },
+        "55-64": {
+          "some_or_severe_pct": 29.0,
+          "severe_pct": 7.1
+        },
+        "65+": {
+          "some_or_severe_pct": 49.8,
+          "severe_pct": 15.7
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 33.1,
+        "second_20pct": 29.5,
+        "middle_20pct": 22.8,
+        "fourth_20pct": 19.8,
+        "highest_20pct": 15.8
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 33.9,
+          "male": 38.2,
+          "female": 29.7
+        },
+        "some_limitation_only": 26.8,
+        "severe_limitation": 54.5
+      }
+    },
+    {
+      "country_code": "PT",
+      "country_name": "Portugal",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 25.8,
+        "severe_limitation": 7.6,
+        "some_or_severe_limitation": 33.4,
+        "no_limitation": 66.6
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 21.9,
+          "severe_limitation_pct": 6.5,
+          "some_or_severe_pct": 28.4
+        },
+        "female": {
+          "some_limitation_pct": 29.3,
+          "severe_limitation_pct": 8.6,
+          "some_or_severe_pct": 37.9
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 18.9,
+        "severe_limitation_pct": 4.4,
+        "some_or_severe_pct": 23.3,
+        "no_limitation_pct": 76.7
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 11.9,
+          "severe_pct": 2.3
+        },
+        "25-34": {
+          "some_or_severe_pct": 14.1,
+          "severe_pct": 3.4
+        },
+        "35-44": {
+          "some_or_severe_pct": 18.5,
+          "severe_pct": 3.2
+        },
+        "45-54": {
+          "some_or_severe_pct": 27.0,
+          "severe_pct": 4.8
+        },
+        "55-64": {
+          "some_or_severe_pct": 37.9,
+          "severe_pct": 7.1
+        },
+        "65+": {
+          "some_or_severe_pct": 59.2,
+          "severe_pct": 15.8
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 43.3,
+        "second_20pct": 39.6,
+        "middle_20pct": 31.1,
+        "fourth_20pct": 27.9,
+        "highest_20pct": 25.9
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 14.0,
+          "male": 17.0,
+          "female": 11.2
+        },
+        "some_limitation_only": 10.7,
+        "severe_limitation": 27.5
+      }
+    },
+    {
+      "country_code": "RO",
+      "country_name": "Romania",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 26.2,
+        "severe_limitation": 4.4,
+        "some_or_severe_limitation": 30.6,
+        "no_limitation": 69.4
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 22.0,
+          "severe_limitation_pct": 3.5,
+          "some_or_severe_pct": 25.5
+        },
+        "female": {
+          "some_limitation_pct": 29.9,
+          "severe_limitation_pct": 5.3,
+          "some_or_severe_pct": 35.2
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 14.0,
+        "severe_limitation_pct": 1.7,
+        "some_or_severe_pct": 15.7,
+        "no_limitation_pct": 84.3
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 2.6,
+          "severe_pct": 0.5
+        },
+        "25-34": {
+          "some_or_severe_pct": 6.3,
+          "severe_pct": 1.0
+        },
+        "35-44": {
+          "some_or_severe_pct": 8.5,
+          "severe_pct": 1.0
+        },
+        "45-54": {
+          "some_or_severe_pct": 17.3,
+          "severe_pct": 1.2
+        },
+        "55-64": {
+          "some_or_severe_pct": 39.3,
+          "severe_pct": 4.4
+        },
+        "65+": {
+          "some_or_severe_pct": 74.8,
+          "severe_pct": 12.6
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 31.9,
+        "second_20pct": 40.1,
+        "middle_20pct": 33.9,
+        "fourth_20pct": 27.8,
+        "highest_20pct": 19.4
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 29.2,
+          "male": 26.5,
+          "female": 27.2
+        },
+        "some_limitation_only": 24.4,
+        "severe_limitation": null
+      }
+    },
+    {
+      "country_code": "SE",
+      "country_name": "Sweden",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 17.7,
+        "severe_limitation": 4.9,
+        "some_or_severe_limitation": 22.6,
+        "no_limitation": 77.4
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 15.0,
+          "severe_limitation_pct": 4.6,
+          "some_or_severe_pct": 19.6
+        },
+        "female": {
+          "some_limitation_pct": 20.5,
+          "severe_limitation_pct": 5.2,
+          "some_or_severe_pct": 25.7
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 15.6,
+        "severe_limitation_pct": 3.8,
+        "some_or_severe_pct": 19.4,
+        "no_limitation_pct": 80.6
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 17.8,
+          "severe_pct": 3.2
+        },
+        "25-34": {
+          "some_or_severe_pct": 19.1,
+          "severe_pct": 3.9
+        },
+        "35-44": {
+          "some_or_severe_pct": 15.8,
+          "severe_pct": 3.1
+        },
+        "45-54": {
+          "some_or_severe_pct": 19.6,
+          "severe_pct": 4.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 24.6,
+          "severe_pct": 4.7
+        },
+        "65+": {
+          "some_or_severe_pct": 32.2,
+          "severe_pct": 8.0
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 34.9,
+        "second_20pct": 27.0,
+        "middle_20pct": 22.6,
+        "fourth_20pct": 17.6,
+        "highest_20pct": 12.0
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 23.2,
+          "male": 22.4,
+          "female": 22.7
+        },
+        "some_limitation_only": 16.8,
+        "severe_limitation": 48.8
+      }
+    },
+    {
+      "country_code": "SI",
+      "country_name": "Slovenia",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 14.8,
+        "severe_limitation": 6.8,
+        "some_or_severe_limitation": 21.6,
+        "no_limitation": 78.4
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 14.6,
+          "severe_limitation_pct": 6.5,
+          "some_or_severe_pct": 21.1
+        },
+        "female": {
+          "some_limitation_pct": 15.0,
+          "severe_limitation_pct": 7.1,
+          "some_or_severe_pct": 22.1
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 11.7,
+        "severe_limitation_pct": 4.4,
+        "some_or_severe_pct": 16.0,
+        "no_limitation_pct": 84.0
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 4.6,
+          "severe_pct": 1.8
+        },
+        "25-34": {
+          "some_or_severe_pct": 6.9,
+          "severe_pct": 0.8
+        },
+        "35-44": {
+          "some_or_severe_pct": 11.8,
+          "severe_pct": 2.6
+        },
+        "45-54": {
+          "some_or_severe_pct": 19.5,
+          "severe_pct": 5.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 31.7,
+          "severe_pct": 10.0
+        },
+        "65+": {
+          "some_or_severe_pct": 39.8,
+          "severe_pct": 14.7
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 33.4,
+        "second_20pct": 25.9,
+        "middle_20pct": 19.4,
+        "fourth_20pct": 16.5,
+        "highest_20pct": 12.6
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 17.3,
+          "male": 21.0,
+          "female": 13.2
+        },
+        "some_limitation_only": 11.0,
+        "severe_limitation": 34.3
+      }
+    },
+    {
+      "country_code": "SK",
+      "country_name": "Slovakia",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 21.9,
+        "severe_limitation": 8.6,
+        "some_or_severe_limitation": 30.5,
+        "no_limitation": 69.5
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 20.0,
+          "severe_limitation_pct": 8.0,
+          "some_or_severe_pct": 28.0
+        },
+        "female": {
+          "some_limitation_pct": 23.7,
+          "severe_limitation_pct": 9.2,
+          "some_or_severe_pct": 32.9
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 15.9,
+        "severe_limitation_pct": 4.7,
+        "some_or_severe_pct": 20.6,
+        "no_limitation_pct": 79.4
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 6.6,
+          "severe_pct": 2.1
+        },
+        "25-34": {
+          "some_or_severe_pct": 10.1,
+          "severe_pct": 2.3
+        },
+        "35-44": {
+          "some_or_severe_pct": 13.0,
+          "severe_pct": 3.1
+        },
+        "45-54": {
+          "some_or_severe_pct": 27.2,
+          "severe_pct": 4.9
+        },
+        "55-64": {
+          "some_or_severe_pct": 42.9,
+          "severe_pct": 10.4
+        },
+        "65+": {
+          "some_or_severe_pct": 67.5,
+          "severe_pct": 23.3
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 29.4,
+        "second_20pct": 31.9,
+        "middle_20pct": 35.3,
+        "fourth_20pct": 30.8,
+        "highest_20pct": 25.6
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 22.1,
+          "male": 25.2,
+          "female": 18.7
+        },
+        "some_limitation_only": 14.4,
+        "severe_limitation": 48.8
+      }
+    },
+    {
+      "country_code": "CY",
+      "country_name": "Cyprus",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 13.7,
+        "severe_limitation": 8.3,
+        "some_or_severe_limitation": 22.0,
+        "no_limitation": 78.0
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 14.0,
+          "severe_limitation_pct": 7.7,
+          "some_or_severe_pct": 21.8
+        },
+        "female": {
+          "some_limitation_pct": 13.4,
+          "severe_limitation_pct": 8.8,
+          "some_or_severe_pct": 22.2
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 9.3,
+        "severe_limitation_pct": 4.2,
+        "some_or_severe_pct": 13.5,
+        "no_limitation_pct": 86.5
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 3.4,
+          "severe_pct": 1.2
+        },
+        "25-34": {
+          "some_or_severe_pct": 7.2,
+          "severe_pct": 2.4
+        },
+        "35-44": {
+          "some_or_severe_pct": 9.9,
+          "severe_pct": 2.5
+        },
+        "45-54": {
+          "some_or_severe_pct": 18.0,
+          "severe_pct": 4.5
+        },
+        "55-64": {
+          "some_or_severe_pct": 29.1,
+          "severe_pct": 10.7
+        },
+        "65+": {
+          "some_or_severe_pct": 55.0,
+          "severe_pct": 24.2
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 38.9,
+        "second_20pct": 25.3,
+        "middle_20pct": 18.2,
+        "fourth_20pct": 14.6,
+        "highest_20pct": 13.5
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 27.0,
+          "male": 25.4,
+          "female": 29.0
+        },
+        "some_limitation_only": 15.9,
+        "severe_limitation": 51.6
+      }
+    },
+    {
+      "country_code": "NO",
+      "country_name": "Norway",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 17.3,
+        "severe_limitation": 8.1,
+        "some_or_severe_limitation": 25.4,
+        "no_limitation": 74.6
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 14.1,
+          "severe_limitation_pct": 6.4,
+          "some_or_severe_pct": 20.5
+        },
+        "female": {
+          "some_limitation_pct": 20.5,
+          "severe_limitation_pct": 9.8,
+          "some_or_severe_pct": 30.4
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 15.9,
+        "severe_limitation_pct": 7.3,
+        "some_or_severe_pct": 23.3,
+        "no_limitation_pct": 76.7
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 14.1,
+          "severe_pct": 3.6
+        },
+        "25-34": {
+          "some_or_severe_pct": 15.2,
+          "severe_pct": 5.3
+        },
+        "35-44": {
+          "some_or_severe_pct": 22.1,
+          "severe_pct": 7.9
+        },
+        "45-54": {
+          "some_or_severe_pct": 30.2,
+          "severe_pct": 9.7
+        },
+        "55-64": {
+          "some_or_severe_pct": 34.2,
+          "severe_pct": 9.7
+        },
+        "65+": {
+          "some_or_severe_pct": 32.8,
+          "severe_pct": 10.8
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 31.8,
+        "second_20pct": 29.5,
+        "middle_20pct": 25.6,
+        "fourth_20pct": 23.6,
+        "highest_20pct": 18.2
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 28.7,
+          "male": 32.0,
+          "female": 24.8
+        },
+        "some_limitation_only": 17.6,
+        "severe_limitation": 52.8
+      }
+    },
+    {
+      "country_code": "IS",
+      "country_name": "Iceland",
+      "data_year": 2020,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 13.1,
+        "severe_limitation": 11.2,
+        "some_or_severe_limitation": 24.3,
+        "no_limitation": 75.7
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 9.5,
+          "severe_limitation_pct": 8.5,
+          "some_or_severe_pct": 18.0
+        },
+        "female": {
+          "some_limitation_pct": 16.8,
+          "severe_limitation_pct": 14.0,
+          "some_or_severe_pct": 30.8
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 11.9,
+        "severe_limitation_pct": 10.0,
+        "some_or_severe_pct": 21.9,
+        "no_limitation_pct": 78.1
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 13.2,
+          "severe_pct": 3.7
+        },
+        "25-34": {
+          "some_or_severe_pct": 17.3,
+          "severe_pct": 7.8
+        },
+        "35-44": {
+          "some_or_severe_pct": 20.0,
+          "severe_pct": 8.3
+        },
+        "45-54": {
+          "some_or_severe_pct": 27.2,
+          "severe_pct": 12.3
+        },
+        "55-64": {
+          "some_or_severe_pct": 33.5,
+          "severe_pct": 18.8
+        },
+        "65+": {
+          "some_or_severe_pct": 35.6,
+          "severe_pct": 16.7
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 27.1,
+        "second_20pct": 30.4,
+        "middle_20pct": 24.7,
+        "fourth_20pct": 19.2,
+        "highest_20pct": 19.4
+      }
+    },
+    {
+      "country_code": "CH",
+      "country_name": "Switzerland",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 28.1,
+        "severe_limitation": 5.9,
+        "some_or_severe_limitation": 34.0,
+        "no_limitation": 66.0
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 25.1,
+          "severe_limitation_pct": 5.4,
+          "some_or_severe_pct": 30.5
+        },
+        "female": {
+          "some_limitation_pct": 30.9,
+          "severe_limitation_pct": 6.4,
+          "some_or_severe_pct": 37.4
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 24.4,
+        "severe_limitation_pct": 5.3,
+        "some_or_severe_pct": 29.7,
+        "no_limitation_pct": 70.3
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 23.5,
+          "severe_pct": 3.0
+        },
+        "25-34": {
+          "some_or_severe_pct": 24.1,
+          "severe_pct": 3.3
+        },
+        "35-44": {
+          "some_or_severe_pct": 26.4,
+          "severe_pct": 5.4
+        },
+        "45-54": {
+          "some_or_severe_pct": 31.9,
+          "severe_pct": 5.2
+        },
+        "55-64": {
+          "some_or_severe_pct": 40.0,
+          "severe_pct": 8.6
+        },
+        "65+": {
+          "some_or_severe_pct": 49.2,
+          "severe_pct": 8.2
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 43.3,
+        "second_20pct": 36.7,
+        "middle_20pct": 33.8,
+        "fourth_20pct": 30.3,
+        "highest_20pct": 27.1
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 14.4,
+          "male": 17.4,
+          "female": 10.8
+        },
+        "some_limitation_only": 9.6,
+        "severe_limitation": 35.7
+      }
+    },
+    {
+      "country_code": "RS",
+      "country_name": "Serbia",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 7.7,
+        "severe_limitation": 3.4,
+        "some_or_severe_limitation": 11.0,
+        "no_limitation": 89.0
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 6.6,
+          "severe_limitation_pct": 2.9,
+          "some_or_severe_pct": 9.5
+        },
+        "female": {
+          "some_limitation_pct": 8.6,
+          "severe_limitation_pct": 3.8,
+          "some_or_severe_pct": 12.5
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 4.0,
+        "severe_limitation_pct": 1.7,
+        "some_or_severe_pct": 5.7,
+        "no_limitation_pct": 94.3
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 1.6,
+          "severe_pct": 0.8
+        },
+        "25-34": {
+          "some_or_severe_pct": 2.3,
+          "severe_pct": 0.8
+        },
+        "35-44": {
+          "some_or_severe_pct": 4.5,
+          "severe_pct": 1.6
+        },
+        "45-54": {
+          "some_or_severe_pct": 5.2,
+          "severe_pct": 1.5
+        },
+        "55-64": {
+          "some_or_severe_pct": 12.7,
+          "severe_pct": 3.4
+        },
+        "65+": {
+          "some_or_severe_pct": 25.9,
+          "severe_pct": 7.9
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 17.3,
+        "second_20pct": 14.5,
+        "middle_20pct": 9.3,
+        "fourth_20pct": 7.8,
+        "highest_20pct": 6.3
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 41.0,
+          "male": 46.2,
+          "female": 35.8
+        },
+        "some_limitation_only": 38.2,
+        "severe_limitation": 47.4
+      }
+    },
+    {
+      "country_code": "ME",
+      "country_name": "Montenegro",
+      "data_year": 2022,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 7.6,
+        "severe_limitation": 4.3,
+        "some_or_severe_limitation": 11.9,
+        "no_limitation": 88.1
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 6.1,
+          "severe_limitation_pct": 4.2,
+          "some_or_severe_pct": 10.3
+        },
+        "female": {
+          "some_limitation_pct": 9.0,
+          "severe_limitation_pct": 4.4,
+          "some_or_severe_pct": 13.4
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 4.1,
+        "severe_limitation_pct": 2.2,
+        "some_or_severe_pct": 6.3,
+        "no_limitation_pct": 93.7
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 1.2,
+          "severe_pct": 0.6
+        },
+        "25-34": {
+          "some_or_severe_pct": 2.1,
+          "severe_pct": 1.3
+        },
+        "35-44": {
+          "some_or_severe_pct": 4.1,
+          "severe_pct": 1.6
+        },
+        "45-54": {
+          "some_or_severe_pct": 8.1,
+          "severe_pct": 2.4
+        },
+        "55-64": {
+          "some_or_severe_pct": 15.9,
+          "severe_pct": 5.2
+        },
+        "65+": {
+          "some_or_severe_pct": 41.3,
+          "severe_pct": 15.2
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 12.8,
+        "second_20pct": 13.6,
+        "middle_20pct": 14.3,
+        "fourth_20pct": 11.3,
+        "highest_20pct": 7.6
+      },
+      "disability_employment_gap": {
+        "data_year": 2022,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 33.7,
+          "male": 37.8,
+          "female": 29.4
+        },
+        "some_limitation_only": 31.0,
+        "severe_limitation": 38.7
+      }
+    },
+    {
+      "country_code": "MK",
+      "country_name": "North Macedonia",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 10.9,
+        "severe_limitation": 6.8,
+        "some_or_severe_limitation": 17.6,
+        "no_limitation": 82.4
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 9.0,
+          "severe_limitation_pct": 5.7,
+          "some_or_severe_pct": 14.8
+        },
+        "female": {
+          "some_limitation_pct": 12.6,
+          "severe_limitation_pct": 7.8,
+          "some_or_severe_pct": 20.4
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 5.5,
+        "severe_limitation_pct": 3.7,
+        "some_or_severe_pct": 9.1,
+        "no_limitation_pct": 90.9
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 1.9,
+          "severe_pct": 1.5
+        },
+        "25-34": {
+          "some_or_severe_pct": 4.2,
+          "severe_pct": 2.5
+        },
+        "35-44": {
+          "some_or_severe_pct": 6.0,
+          "severe_pct": 2.6
+        },
+        "45-54": {
+          "some_or_severe_pct": 11.7,
+          "severe_pct": 4.0
+        },
+        "55-64": {
+          "some_or_severe_pct": 19.6,
+          "severe_pct": 7.1
+        },
+        "65+": {
+          "some_or_severe_pct": 48.7,
+          "severe_pct": 18.1
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 21.6,
+        "second_20pct": 21.5,
+        "middle_20pct": 18.7,
+        "fourth_20pct": 15.3,
+        "highest_20pct": 12.1
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 29.2,
+          "male": 34.1,
+          "female": 22.7
+        },
+        "some_limitation_only": 25.3,
+        "severe_limitation": 35.1
+      }
+    },
+    {
+      "country_code": "AL",
+      "country_name": "Albania",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 24.5,
+        "severe_limitation": 6.3,
+        "some_or_severe_limitation": 30.7,
+        "no_limitation": 69.3
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 21.1,
+          "severe_limitation_pct": 6.5,
+          "some_or_severe_pct": 27.7
+        },
+        "female": {
+          "some_limitation_pct": 27.7,
+          "severe_limitation_pct": 6.0,
+          "some_or_severe_pct": 33.7
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 16.2,
+        "severe_limitation_pct": 4.7,
+        "some_or_severe_pct": 21.0,
+        "no_limitation_pct": 79.0
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 6.8,
+          "severe_pct": 2.6
+        },
+        "25-34": {
+          "some_or_severe_pct": 11.0,
+          "severe_pct": 3.2
+        },
+        "35-44": {
+          "some_or_severe_pct": 18.3,
+          "severe_pct": 5.0
+        },
+        "45-54": {
+          "some_or_severe_pct": 26.4,
+          "severe_pct": 5.4
+        },
+        "55-64": {
+          "some_or_severe_pct": 40.9,
+          "severe_pct": 7.3
+        },
+        "65+": {
+          "some_or_severe_pct": 70.0,
+          "severe_pct": 12.4
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 32.9,
+        "second_20pct": 38.3,
+        "middle_20pct": 32.9,
+        "fourth_20pct": 27.8,
+        "highest_20pct": 22.6
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 19.4,
+          "male": 16.4,
+          "female": 18.7
+        },
+        "some_limitation_only": 13.7,
+        "severe_limitation": 39.4
+      }
+    },
+    {
+      "country_code": "TR",
+      "country_name": "T\u00fcrkiye",
+      "data_year": 2023,
+      "gali_indicator": {
+        "description": "Global Activity Limitation Indicator (GALI) - self-reported activity limitation due to health problems for at least the past 6 months",
+        "age_group": "16 years or over",
+        "unit": "percentage of population",
+        "some_limitation": 20.6,
+        "severe_limitation": 5.1,
+        "some_or_severe_limitation": 25.7,
+        "no_limitation": 74.3
+      },
+      "by_sex": {
+        "male": {
+          "some_limitation_pct": 17.3,
+          "severe_limitation_pct": 4.4,
+          "some_or_severe_pct": 21.8
+        },
+        "female": {
+          "some_limitation_pct": 23.7,
+          "severe_limitation_pct": 5.8,
+          "some_or_severe_pct": 29.6
+        }
+      },
+      "working_age_16_64": {
+        "some_limitation_pct": 16.6,
+        "severe_limitation_pct": 3.2,
+        "some_or_severe_pct": 19.9,
+        "no_limitation_pct": 80.1
+      },
+      "by_age_group": {
+        "16-24": {
+          "some_or_severe_pct": 6.7,
+          "severe_pct": 1.4
+        },
+        "25-34": {
+          "some_or_severe_pct": 9.8,
+          "severe_pct": 1.6
+        },
+        "35-44": {
+          "some_or_severe_pct": 17.7,
+          "severe_pct": 2.7
+        },
+        "45-54": {
+          "some_or_severe_pct": 28.5,
+          "severe_pct": 4.5
+        },
+        "55-64": {
+          "some_or_severe_pct": 43.2,
+          "severe_pct": 7.0
+        },
+        "65+": {
+          "some_or_severe_pct": 63.6,
+          "severe_pct": 17.6
+        }
+      },
+      "by_income_quintile": {
+        "lowest_20pct": 28.9,
+        "second_20pct": 30.3,
+        "middle_20pct": 27.7,
+        "fourth_20pct": 24.5,
+        "highest_20pct": 18.5
+      },
+      "disability_employment_gap": {
+        "data_year": 2023,
+        "unit": "percentage_points",
+        "description": "Gap between employment rate of persons without disability and persons with disability (aged 20-64)",
+        "some_or_severe_limitation": {
+          "total": 18.6,
+          "male": 20.7,
+          "female": 9.8
+        },
+        "some_limitation_only": 15.6,
+        "severe_limitation": 34.4
+      }
+    }
+  ],
+  "notes": [
+    "All prevalence data expressed as percentage of population aged 16 or over",
+    "Employment gap expressed in percentage points: employment rate of non-disabled minus employment rate of disabled (aged 20-64)",
+    "GALI = Global Activity Limitation Indicator, the standard EU measure of disability",
+    "Data from EU-SILC (EU Statistics on Income and Living Conditions)",
+    "Income quintiles based on equivalized disposable income",
+    "Most country data is from 2023; Luxembourg from 2022; Iceland from 2020"
+  ]
+}

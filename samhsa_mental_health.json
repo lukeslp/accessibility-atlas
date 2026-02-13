@@ -1,0 +1,1371 @@
+{
+  "metadata": {
+    "source": "SAMHSA - Substance Abuse and Mental Health Services Administration",
+    "survey_name": "National Survey on Drug Use and Health (NSDUH)",
+    "fetch_date": "2026-02-12",
+    "years_covered": "2008-2023",
+    "primary_source_url": "https://www.samhsa.gov/data/report/2023-nsduh-detailed-tables",
+    "data_url": "https://www.samhsa.gov/data/",
+    "methodology": "Annual household survey of ~70,000 people aged 12+ in the civilian, noninstitutionalized US population",
+    "notes": [
+      "2020 data collection was affected by COVID-19 pandemic; 2020 estimates should be compared with caution",
+      "NSDUH methodology changed in 2021 (web-based data collection added); 2021+ data may not be directly comparable to pre-2020",
+      "Numbers in thousands unless otherwise noted",
+      "AMI = Any Mental Illness (diagnosable mental, behavioral, or emotional disorder, excluding developmental and substance use disorders)",
+      "SMI = Serious Mental Illness (mental, behavioral, or emotional disorder resulting in serious functional impairment)",
+      "MDE = Major Depressive Episode",
+      "SUD = Substance Use Disorder",
+      "2022-2023 data from 2023 NSDUH Detailed Tables (Tables 6.x, 7.x)",
+      "Historical data (2008-2021) from SAMHSA published annual reports and key substance use and mental health indicators"
+    ],
+    "citation": "SAMHSA, Center for Behavioral Health Statistics and Quality. National Survey on Drug Use and Health (NSDUH). Table data from 2023 NSDUH Detailed Tables."
+  },
+  "prevalence": {
+    "any_mental_illness_adults": {
+      "description": "Any Mental Illness (AMI) in Past Year among adults aged 18+",
+      "source_tables": [
+        "Table 6.1A",
+        "Table 6.1B"
+      ],
+      "by_year": {
+        "2008": {
+          "number_thousands": 39828,
+          "percent": 18.5,
+          "note": "From SAMHSA annual reports"
+        },
+        "2009": {
+          "number_thousands": 41255,
+          "percent": 19.1
+        },
+        "2010": {
+          "number_thousands": 42282,
+          "percent": 19.5
+        },
+        "2011": {
+          "number_thousands": 42098,
+          "percent": 19.3
+        },
+        "2012": {
+          "number_thousands": 42484,
+          "percent": 19.3
+        },
+        "2013": {
+          "number_thousands": 42552,
+          "percent": 19.1
+        },
+        "2014": {
+          "number_thousands": 42440,
+          "percent": 18.8
+        },
+        "2015": {
+          "number_thousands": 43358,
+          "percent": 19.0
+        },
+        "2016": {
+          "number_thousands": 44696,
+          "percent": 19.3
+        },
+        "2017": {
+          "number_thousands": 46601,
+          "percent": 19.9
+        },
+        "2018": {
+          "number_thousands": 47596,
+          "percent": 19.9
+        },
+        "2019": {
+          "number_thousands": 51500,
+          "percent": 20.6
+        },
+        "2020": {
+          "number_thousands": 52900,
+          "percent": 21.0,
+          "note": "COVID-19 affected data collection"
+        },
+        "2021": {
+          "number_thousands": 57800,
+          "percent": 22.8,
+          "note": "Methodology change - web-based collection added"
+        },
+        "2022": {
+          "number_thousands": 59286,
+          "percent": 23.1
+        },
+        "2023": {
+          "number_thousands": 58657,
+          "percent": 22.8
+        }
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "number_thousands": 11515,
+          "percent": 33.8
+        },
+        "18_20": {
+          "number_thousands": 3737,
+          "percent": 30.8
+        },
+        "21_25": {
+          "number_thousands": 7777,
+          "percent": 35.5
+        },
+        "26_plus": {
+          "number_thousands": 47142,
+          "percent": 21.1
+        },
+        "26_49": {
+          "number_thousands": 30264,
+          "percent": 29.2
+        },
+        "50_plus": {
+          "number_thousands": 16879,
+          "percent": 14.1
+        }
+      },
+      "by_sex_2023": {
+        "male": {
+          "number_thousands": 23817,
+          "percent": 19.0
+        },
+        "female": {
+          "number_thousands": 34840,
+          "percent": 26.4
+        }
+      },
+      "by_sex_2022": {
+        "male": {
+          "number_thousands": 24627,
+          "percent": 19.7
+        },
+        "female": {
+          "number_thousands": 34659,
+          "percent": 26.4
+        }
+      },
+      "by_race_ethnicity_2023": {
+        "white_non_hispanic": {
+          "percent": 24.0
+        },
+        "black_non_hispanic": {
+          "percent": 19.4
+        },
+        "hispanic_latino": {
+          "percent": 20.6
+        },
+        "asian_non_hispanic": {
+          "percent": 18.1
+        },
+        "aian_non_hispanic": {
+          "percent": 23.5
+        },
+        "two_or_more_races": {
+          "percent": 36.7
+        }
+      }
+    },
+    "serious_mental_illness_adults": {
+      "description": "Serious Mental Illness (SMI) in Past Year among adults aged 18+",
+      "source_tables": [
+        "Table 6.4A",
+        "Table 6.4B"
+      ],
+      "by_year": {
+        "2008": {
+          "number_thousands": 9832,
+          "percent": 4.6,
+          "note": "From SAMHSA annual reports"
+        },
+        "2009": {
+          "number_thousands": 10018,
+          "percent": 4.6
+        },
+        "2010": {
+          "number_thousands": 9850,
+          "percent": 4.5
+        },
+        "2011": {
+          "number_thousands": 10045,
+          "percent": 4.6
+        },
+        "2012": {
+          "number_thousands": 9612,
+          "percent": 4.4
+        },
+        "2013": {
+          "number_thousands": 10002,
+          "percent": 4.5
+        },
+        "2014": {
+          "number_thousands": 10022,
+          "percent": 4.4
+        },
+        "2015": {
+          "number_thousands": 10408,
+          "percent": 4.6
+        },
+        "2016": {
+          "number_thousands": 10398,
+          "percent": 4.5
+        },
+        "2017": {
+          "number_thousands": 11189,
+          "percent": 4.8
+        },
+        "2018": {
+          "number_thousands": 11397,
+          "percent": 4.8
+        },
+        "2019": {
+          "number_thousands": 13100,
+          "percent": 5.2
+        },
+        "2020": {
+          "number_thousands": 14200,
+          "percent": 5.6,
+          "note": "COVID-19 affected data collection"
+        },
+        "2021": {
+          "number_thousands": 14100,
+          "percent": 5.5,
+          "note": "Methodology change"
+        },
+        "2022": {
+          "number_thousands": 15360,
+          "percent": 6.0
+        },
+        "2023": {
+          "number_thousands": 14601,
+          "percent": 5.7
+        }
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "number_thousands": 3519,
+          "percent": 10.3
+        },
+        "18_20": {
+          "number_thousands": 1118,
+          "percent": 9.2
+        },
+        "21_25": {
+          "number_thousands": 2401,
+          "percent": 11.0
+        },
+        "26_plus": {
+          "number_thousands": 11082,
+          "percent": 5.0
+        },
+        "26_49": {
+          "number_thousands": 8202,
+          "percent": 7.9
+        },
+        "50_plus": {
+          "number_thousands": 2880,
+          "percent": 2.4
+        }
+      },
+      "by_sex_2023": {
+        "male": {
+          "number_thousands": 5431,
+          "percent": 4.3
+        },
+        "female": {
+          "number_thousands": 9170,
+          "percent": 6.9
+        }
+      },
+      "by_race_ethnicity_2023": {
+        "white_non_hispanic": {
+          "percent": 6.1
+        },
+        "black_non_hispanic": {
+          "percent": 3.7
+        },
+        "hispanic_latino": {
+          "percent": 5.5
+        },
+        "asian_non_hispanic": {
+          "percent": 2.9
+        },
+        "aian_non_hispanic": {
+          "percent": 3.3
+        },
+        "two_or_more_races": {
+          "percent": 14.0
+        }
+      }
+    },
+    "major_depressive_episode_adults": {
+      "description": "Major Depressive Episode (MDE) in Past Year among adults aged 18+",
+      "source_tables": [
+        "Table 6.37A",
+        "Table 6.37B"
+      ],
+      "by_year": {
+        "2008": {
+          "number_thousands": 15399,
+          "percent": 7.1,
+          "note": "From SAMHSA annual reports"
+        },
+        "2009": {
+          "number_thousands": 15589,
+          "percent": 7.2
+        },
+        "2010": {
+          "number_thousands": 15650,
+          "percent": 7.2
+        },
+        "2011": {
+          "number_thousands": 15636,
+          "percent": 7.1
+        },
+        "2012": {
+          "number_thousands": 15702,
+          "percent": 7.1
+        },
+        "2013": {
+          "number_thousands": 15742,
+          "percent": 7.1
+        },
+        "2014": {
+          "number_thousands": 15704,
+          "percent": 7.0
+        },
+        "2015": {
+          "number_thousands": 16104,
+          "percent": 7.0
+        },
+        "2016": {
+          "number_thousands": 16198,
+          "percent": 7.0
+        },
+        "2017": {
+          "number_thousands": 17299,
+          "percent": 7.4
+        },
+        "2018": {
+          "number_thousands": 17664,
+          "percent": 7.4
+        },
+        "2019": {
+          "number_thousands": 19400,
+          "percent": 7.8
+        },
+        "2020": {
+          "number_thousands": 21000,
+          "percent": 8.4,
+          "note": "COVID-19 pandemic year"
+        },
+        "2021": {
+          "number_thousands": 21000,
+          "percent": 8.3,
+          "note": "Methodology change"
+        },
+        "2022": {
+          "number_thousands": 22475,
+          "percent": 8.8
+        },
+        "2023": {
+          "number_thousands": 21899,
+          "percent": 8.5
+        }
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "number_thousands": 5953,
+          "percent": 17.5
+        },
+        "26_plus": {
+          "number_thousands": 15946,
+          "percent": 7.1
+        },
+        "26_49": {
+          "number_thousands": 10567,
+          "percent": 10.2
+        },
+        "50_plus": {
+          "number_thousands": 5379,
+          "percent": 4.5
+        }
+      },
+      "by_sex_2023": {
+        "male": {
+          "number_thousands": 7956,
+          "percent": 6.3
+        },
+        "female": {
+          "number_thousands": 13943,
+          "percent": 10.5
+        }
+      }
+    },
+    "serious_psychological_distress": {
+      "description": "Serious Psychological Distress (SPD) in Past Year among adults aged 18+",
+      "source_table": "Table 6.86B",
+      "overall_2023": {
+        "percent": 13.8
+      },
+      "overall_2022": {
+        "percent": 14.6
+      },
+      "by_sex_2023": {
+        "male": {
+          "percent": 11.3
+        },
+        "female": {
+          "percent": 16.1
+        }
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "percent": 31.0
+        },
+        "26_49": {
+          "percent": 17.5
+        },
+        "50_plus": {
+          "percent": 5.6
+        }
+      },
+      "by_race_ethnicity_2023": {
+        "white_non_hispanic": {
+          "percent": 14.2
+        },
+        "black_non_hispanic": {
+          "percent": 11.4
+        },
+        "hispanic_latino": {
+          "percent": 13.8
+        },
+        "asian_non_hispanic": {
+          "percent": 10.2
+        },
+        "two_or_more_races": {
+          "percent": 25.6
+        }
+      }
+    }
+  },
+  "treatment": {
+    "mental_health_treatment_adults": {
+      "description": "Received Mental Health Treatment in Past Year among adults aged 18+",
+      "source_tables": [
+        "Table 6.20A",
+        "Table 6.21A",
+        "Table 6.21B"
+      ],
+      "overall": {
+        "2022": {
+          "number_thousands": 55836,
+          "percent": 21.8
+        },
+        "2023": {
+          "number_thousands": 59175,
+          "percent": 23.0
+        }
+      },
+      "among_those_with_ami": {
+        "2022": {
+          "percent": 50.6
+        },
+        "2023": {
+          "percent": 53.9
+        }
+      },
+      "among_those_with_smi": {
+        "2022": {
+          "percent": 66.7
+        },
+        "2023": {
+          "percent": 71.1
+        }
+      },
+      "among_those_with_ami_excluding_smi": {
+        "2022": {
+          "percent": 44.9
+        },
+        "2023": {
+          "percent": 48.1
+        }
+      },
+      "among_those_without_mental_illness": {
+        "2022": {
+          "percent": 13.1
+        },
+        "2023": {
+          "percent": 13.9
+        }
+      },
+      "by_sex_2023": {
+        "male": {
+          "percent_overall": 17.1,
+          "percent_ami": 45.9,
+          "percent_smi": 63.3
+        },
+        "female": {
+          "percent_overall": 28.5,
+          "percent_ami": 59.3,
+          "percent_smi": 75.7
+        }
+      },
+      "by_race_ethnicity_2023": {
+        "white_non_hispanic": {
+          "percent_overall": 25.5
+        },
+        "black_non_hispanic": {
+          "percent_overall": 15.1
+        },
+        "hispanic_latino": {
+          "percent_overall": 17.0
+        },
+        "asian_non_hispanic": {
+          "percent_overall": 13.5
+        },
+        "aian_non_hispanic": {
+          "percent_overall": 25.5
+        }
+      },
+      "types_of_treatment_2023": {
+        "any_treatment": {
+          "number_thousands": 59175
+        },
+        "inpatient": {
+          "number_thousands": 3012
+        },
+        "outpatient": {
+          "number_thousands": 36435
+        },
+        "outpatient_therapist_office": {
+          "number_thousands": 24462
+        },
+        "outpatient_general_medical": {
+          "number_thousands": 18568
+        },
+        "prescription_medication": {
+          "number_thousands": 41920
+        },
+        "telehealth": {
+          "number_thousands": 31274
+        },
+        "school_counseling": {
+          "number_thousands": 1872
+        }
+      },
+      "historical_treatment_rates_any_mh_treatment": {
+        "description": "Percent of adults 18+ who received any mental health treatment in past year",
+        "2008": 13.5,
+        "2009": 13.8,
+        "2010": 14.1,
+        "2011": 14.5,
+        "2012": 14.8,
+        "2013": 14.7,
+        "2014": 15.8,
+        "2015": 16.2,
+        "2016": 16.4,
+        "2017": 16.8,
+        "2018": 17.0,
+        "2019": 19.2,
+        "2020": 19.7,
+        "2021": 21.6,
+        "2022": 21.8,
+        "2023": 23.0,
+        "note": "Rates from 2008-2018 from SAMHSA published annual reports; 2019+ from detailed tables. Methodology change in 2021."
+      }
+    },
+    "youth_mental_health_treatment": {
+      "description": "Types and Locations of Mental Health Treatment among youth aged 12-17",
+      "source_tables": [
+        "Table 7.4A",
+        "Table 7.4B"
+      ],
+      "overall_2023": {
+        "any_treatment": {
+          "number_thousands": 8256,
+          "percent": 31.9
+        },
+        "inpatient": {
+          "number_thousands": 901,
+          "percent": 3.5
+        },
+        "outpatient": {
+          "number_thousands": 6120,
+          "percent": 23.6
+        },
+        "prescription_medication": {
+          "number_thousands": 3604,
+          "percent": 13.9
+        },
+        "telehealth": {
+          "number_thousands": 3677,
+          "percent": 14.2
+        }
+      },
+      "overall_2022": {
+        "any_treatment": {
+          "number_thousands": 7669,
+          "percent": 29.8
+        }
+      },
+      "by_sex_2023": {
+        "male": {
+          "percent": 25.0
+        },
+        "female": {
+          "percent": 39.0
+        }
+      },
+      "by_race_ethnicity_2023": {
+        "white_non_hispanic": {
+          "percent": 37.1
+        },
+        "black_non_hispanic": {
+          "percent": 22.9
+        },
+        "hispanic_latino": {
+          "percent": 25.2
+        },
+        "asian_non_hispanic": {
+          "percent": 24.6
+        }
+      }
+    }
+  },
+  "unmet_need": {
+    "adults": {
+      "description": "Perceived Unmet Need for Mental Health Treatment in Past Year among adults 18+ who did not receive treatment",
+      "source_tables": [
+        "Table 6.28A",
+        "Table 6.28B"
+      ],
+      "overall": {
+        "2022": {
+          "number_thousands": 12082,
+          "percent_of_untreated": 6.1
+        },
+        "2023": {
+          "number_thousands": 10085,
+          "percent_of_untreated": 5.2
+        }
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "number_thousands": 3016,
+          "percent": 12.4
+        },
+        "26_49": {
+          "number_thousands": 5175,
+          "percent": 6.9
+        },
+        "50_plus": {
+          "number_thousands": 1893,
+          "percent": 2.0
+        }
+      },
+      "by_sex_2023": {
+        "male": {
+          "number_thousands": 4516,
+          "percent": 4.4
+        },
+        "female": {
+          "number_thousands": 5568,
+          "percent": 6.0
+        }
+      },
+      "reasons_for_not_receiving_treatment_2023": {
+        "description": "Among adults 18+ with perceived unmet need who did not receive treatment",
+        "source_table": "Table 6.34A",
+        "thought_should_handle_on_own": {
+          "number_thousands": 6788,
+          "note": "Most common reason"
+        },
+        "cost_too_much": {
+          "number_thousands": 5406
+        },
+        "not_ready_to_start": {
+          "number_thousands": 5005
+        },
+        "did_not_know_where_to_get_treatment": {
+          "number_thousands": 4406
+        },
+        "not_enough_time": {
+          "number_thousands": 4284
+        },
+        "could_not_find_desired_provider": {
+          "number_thousands": 3732
+        },
+        "no_health_insurance_for_mh": {
+          "number_thousands": 2899
+        },
+        "insurance_not_enough_coverage": {
+          "number_thousands": 3230
+        },
+        "thought_treatment_would_not_help": {
+          "number_thousands": 2726
+        },
+        "worried_what_people_would_think": {
+          "number_thousands": 2372
+        },
+        "worried_about_privacy": {
+          "number_thousands": 1944
+        },
+        "transportation_childcare_scheduling": {
+          "number_thousands": 1909
+        },
+        "afraid_of_forced_treatment": {
+          "number_thousands": 1473
+        },
+        "no_openings_available": {
+          "number_thousands": 1561
+        },
+        "feared_medication": {
+          "number_thousands": 2866
+        },
+        "felt_no_one_would_care": {
+          "number_thousands": 1284
+        },
+        "family_friends_disapproval": {
+          "number_thousands": 1068
+        },
+        "feared_losing_job_home_children": {
+          "number_thousands": 1009
+        }
+      }
+    },
+    "adults_with_ami_not_treated": {
+      "description": "Adults 18+ with Any Mental Illness who did not receive mental health treatment",
+      "2022": {
+        "number_thousands": 29316,
+        "percent_of_ami": 49.4
+      },
+      "2023": {
+        "number_thousands": 27064,
+        "percent_of_ami": 46.1
+      }
+    },
+    "adults_with_smi_not_treated": {
+      "description": "Adults 18+ with Serious Mental Illness who did not receive mental health treatment",
+      "2022": {
+        "number_thousands": 5119,
+        "percent_of_smi": 33.3
+      },
+      "2023": {
+        "number_thousands": 4220,
+        "percent_of_smi": 28.9
+      }
+    }
+  },
+  "youth_mental_health": {
+    "major_depressive_episode": {
+      "description": "Major Depressive Episode (MDE) in Past Year among youth aged 12-17",
+      "source_tables": [
+        "Table 7.1A",
+        "Table 7.1B"
+      ],
+      "by_year": {
+        "2008": {
+          "percent": 8.3,
+          "note": "From SAMHSA annual reports"
+        },
+        "2009": {
+          "percent": 8.1
+        },
+        "2010": {
+          "percent": 8.0
+        },
+        "2011": {
+          "percent": 8.2
+        },
+        "2012": {
+          "percent": 9.1
+        },
+        "2013": {
+          "percent": 10.7
+        },
+        "2014": {
+          "percent": 11.4
+        },
+        "2015": {
+          "percent": 12.5
+        },
+        "2016": {
+          "percent": 12.8
+        },
+        "2017": {
+          "percent": 13.3
+        },
+        "2018": {
+          "percent": 14.4
+        },
+        "2019": {
+          "percent": 15.7
+        },
+        "2020": {
+          "percent": 17.0,
+          "note": "COVID-19 year"
+        },
+        "2021": {
+          "percent": 20.1,
+          "note": "Methodology change"
+        },
+        "2022": {
+          "number_thousands": 4823,
+          "percent": 19.5
+        },
+        "2023": {
+          "number_thousands": 4517,
+          "percent": 18.1
+        }
+      },
+      "mde_with_severe_impairment": {
+        "2022": {
+          "number_thousands": 3595,
+          "percent": 14.6
+        },
+        "2023": {
+          "number_thousands": 3358,
+          "percent": 13.5
+        }
+      },
+      "by_age_group_2023": {
+        "12_13": {
+          "percent_mde": 11.9,
+          "percent_severe": 8.2
+        },
+        "14_15": {
+          "percent_mde": 19.1,
+          "percent_severe": 14.6
+        },
+        "16_17": {
+          "percent_mde": 22.7,
+          "percent_severe": 17.0
+        }
+      },
+      "by_sex_2023": {
+        "male": {
+          "percent_mde": 9.4,
+          "percent_severe": 6.6
+        },
+        "female": {
+          "percent_mde": 27.3,
+          "percent_severe": 20.8
+        }
+      },
+      "by_race_ethnicity_2023": {
+        "white_non_hispanic": {
+          "percent": 19.6
+        },
+        "black_non_hispanic": {
+          "percent": 13.3
+        },
+        "hispanic_latino": {
+          "percent": 17.8
+        },
+        "asian_non_hispanic": {
+          "percent": 13.7
+        },
+        "two_or_more_races": {
+          "percent": 22.2
+        }
+      }
+    },
+    "suicidal_thoughts_and_behavior": {
+      "description": "Suicidal Thoughts and Behavior among youth aged 12-17",
+      "source_tables": [
+        "Table 7.33A",
+        "Table 7.33B",
+        "Table 7.35A",
+        "Table 7.35B"
+      ],
+      "serious_thoughts_2023": {
+        "total": {
+          "number_thousands": 3189,
+          "percent": 12.3
+        },
+        "male": {
+          "percent": 7.9
+        },
+        "female": {
+          "percent": 17.0
+        }
+      },
+      "serious_thoughts_2022": {
+        "total": {
+          "number_thousands": 3427,
+          "percent": 13.4
+        }
+      },
+      "suicide_attempts_2023": {
+        "total": {
+          "number_thousands": 856,
+          "percent": 3.3
+        },
+        "male": {
+          "percent": 1.6
+        },
+        "female": {
+          "percent": 5.1
+        }
+      },
+      "suicide_attempts_2022": {
+        "total": {
+          "number_thousands": 953,
+          "percent": 3.7
+        }
+      },
+      "by_race_ethnicity_attempts_2023": {
+        "white_non_hispanic": {
+          "percent": 3.1
+        },
+        "black_non_hispanic": {
+          "percent": 3.8
+        },
+        "hispanic_latino": {
+          "percent": 3.7
+        },
+        "asian_non_hispanic": {
+          "percent": 3.0
+        },
+        "aian_non_hispanic": {
+          "percent": 3.8
+        }
+      }
+    },
+    "treatment_received": {
+      "description": "Mental health treatment among youth aged 12-17",
+      "2022": {
+        "percent_any_treatment": 29.8
+      },
+      "2023": {
+        "percent_any_treatment": 31.9,
+        "percent_inpatient": 3.5,
+        "percent_outpatient": 23.6,
+        "percent_medication": 13.9,
+        "percent_telehealth": 14.2
+      },
+      "by_sex_2023": {
+        "male": {
+          "percent": 25.0
+        },
+        "female": {
+          "percent": 39.0
+        }
+      }
+    }
+  },
+  "suicidal_thoughts_behavior_adults": {
+    "description": "Suicidal Thoughts and Behavior in Past Year among adults aged 18+",
+    "source_tables": [
+      "Table 6.68A",
+      "Table 6.68B"
+    ],
+    "serious_thoughts": {
+      "by_year": {
+        "2008": {
+          "percent": 3.7,
+          "note": "From SAMHSA annual reports"
+        },
+        "2009": {
+          "percent": 3.7
+        },
+        "2010": {
+          "percent": 3.7
+        },
+        "2011": {
+          "percent": 3.7
+        },
+        "2012": {
+          "percent": 3.9
+        },
+        "2013": {
+          "percent": 3.9
+        },
+        "2014": {
+          "percent": 3.9
+        },
+        "2015": {
+          "percent": 4.0
+        },
+        "2016": {
+          "percent": 4.0
+        },
+        "2017": {
+          "percent": 4.2
+        },
+        "2018": {
+          "percent": 4.3
+        },
+        "2019": {
+          "percent": 4.6
+        },
+        "2020": {
+          "percent": 4.6
+        },
+        "2021": {
+          "percent": 4.9
+        },
+        "2022": {
+          "number_thousands": 13200,
+          "percent": 5.2
+        },
+        "2023": {
+          "number_thousands": 12821,
+          "percent": 5.0
+        }
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "number_thousands": 4165,
+          "percent": 12.2
+        },
+        "26_49": {
+          "number_thousands": 6077,
+          "percent": 5.9
+        },
+        "50_plus": {
+          "number_thousands": 2579,
+          "percent": 2.1
+        }
+      }
+    },
+    "suicide_plans": {
+      "2022": {
+        "number_thousands": 3753,
+        "percent": 1.5
+      },
+      "2023": {
+        "number_thousands": 3704,
+        "percent": 1.4
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "percent": 4.2
+        },
+        "26_49": {
+          "percent": 1.6
+        },
+        "50_plus": {
+          "percent": 0.5
+        }
+      }
+    },
+    "suicide_attempts": {
+      "2022": {
+        "number_thousands": 1623,
+        "percent": 0.6
+      },
+      "2023": {
+        "number_thousands": 1458,
+        "percent": 0.6
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "percent": 2.0
+        },
+        "26_49": {
+          "percent": 0.6
+        },
+        "50_plus": {
+          "percent": 0.2
+        }
+      }
+    }
+  },
+  "co_occurring_conditions": {
+    "sud_and_ami": {
+      "description": "Co-Occurring Substance Use Disorder and Any Mental Illness among adults 18+",
+      "source_tables": [
+        "Table 6.10A",
+        "Table 6.10B"
+      ],
+      "2022": {
+        "number_thousands": 21543,
+        "percent": 8.4
+      },
+      "2023": {
+        "number_thousands": 20440,
+        "percent": 7.9
+      },
+      "by_sex_2023": {
+        "male": {
+          "percent": 7.7
+        },
+        "female": {
+          "percent": 8.2
+        }
+      },
+      "by_age_group_2023": {
+        "18_25": {
+          "percent": 14.1
+        },
+        "26_49": {
+          "percent": 10.9
+        },
+        "50_plus": {
+          "percent": 3.6
+        }
+      },
+      "by_race_ethnicity_2023": {
+        "white_non_hispanic": {
+          "percent": 8.4
+        },
+        "black_non_hispanic": {
+          "percent": 7.8
+        },
+        "hispanic_latino": {
+          "percent": 7.1
+        },
+        "asian_non_hispanic": {
+          "percent": 3.5
+        },
+        "two_or_more_races": {
+          "percent": 13.3
+        }
+      }
+    },
+    "sud_and_smi": {
+      "description": "Co-Occurring Substance Use Disorder and Serious Mental Illness among adults 18+",
+      "source_tables": [
+        "Table 6.13A",
+        "Table 6.13B"
+      ],
+      "2022": {
+        "number_thousands": 7742,
+        "percent": 3.0
+      },
+      "2023": {
+        "number_thousands": 7070,
+        "percent": 2.7
+      }
+    }
+  },
+  "trends": {
+    "key_trend_indicators": {
+      "ami_prevalence_pct": {
+        "description": "Any Mental Illness prevalence rate (%) among adults 18+",
+        "2008": 18.5,
+        "2009": 19.1,
+        "2010": 19.5,
+        "2011": 19.3,
+        "2012": 19.3,
+        "2013": 19.1,
+        "2014": 18.8,
+        "2015": 19.0,
+        "2016": 19.3,
+        "2017": 19.9,
+        "2018": 19.9,
+        "2019": 20.6,
+        "2020": 21.0,
+        "2021": 22.8,
+        "2022": 23.1,
+        "2023": 22.8,
+        "change_2008_2023": {
+          "absolute": 4.3,
+          "relative_pct": 23.2
+        }
+      },
+      "smi_prevalence_pct": {
+        "description": "Serious Mental Illness prevalence rate (%) among adults 18+",
+        "2008": 4.6,
+        "2009": 4.6,
+        "2010": 4.5,
+        "2011": 4.6,
+        "2012": 4.4,
+        "2013": 4.5,
+        "2014": 4.4,
+        "2015": 4.6,
+        "2016": 4.5,
+        "2017": 4.8,
+        "2018": 4.8,
+        "2019": 5.2,
+        "2020": 5.6,
+        "2021": 5.5,
+        "2022": 6.0,
+        "2023": 5.7,
+        "change_2008_2023": {
+          "absolute": 1.1,
+          "relative_pct": 23.9
+        }
+      },
+      "youth_mde_pct": {
+        "description": "Major Depressive Episode rate (%) among youth 12-17",
+        "2008": 8.3,
+        "2009": 8.1,
+        "2010": 8.0,
+        "2011": 8.2,
+        "2012": 9.1,
+        "2013": 10.7,
+        "2014": 11.4,
+        "2015": 12.5,
+        "2016": 12.8,
+        "2017": 13.3,
+        "2018": 14.4,
+        "2019": 15.7,
+        "2020": 17.0,
+        "2021": 20.1,
+        "2022": 19.5,
+        "2023": 18.1,
+        "change_2008_2023": {
+          "absolute": 9.8,
+          "relative_pct": 118.1
+        }
+      },
+      "adult_suicide_ideation_pct": {
+        "description": "Serious thoughts of suicide (%) among adults 18+",
+        "2008": 3.7,
+        "2009": 3.7,
+        "2010": 3.7,
+        "2011": 3.7,
+        "2012": 3.9,
+        "2013": 3.9,
+        "2014": 3.9,
+        "2015": 4.0,
+        "2016": 4.0,
+        "2017": 4.2,
+        "2018": 4.3,
+        "2019": 4.6,
+        "2020": 4.6,
+        "2021": 4.9,
+        "2022": 5.2,
+        "2023": 5.0,
+        "change_2008_2023": {
+          "absolute": 1.3,
+          "relative_pct": 35.1
+        }
+      },
+      "treatment_rate_pct": {
+        "description": "Received any mental health treatment (%) among adults 18+",
+        "2008": 13.5,
+        "2009": 13.8,
+        "2010": 14.1,
+        "2011": 14.5,
+        "2012": 14.8,
+        "2013": 14.7,
+        "2014": 15.8,
+        "2015": 16.2,
+        "2016": 16.4,
+        "2017": 16.8,
+        "2018": 17.0,
+        "2019": 19.2,
+        "2020": 19.7,
+        "2021": 21.6,
+        "2022": 21.8,
+        "2023": 23.0,
+        "change_2008_2023": {
+          "absolute": 9.5,
+          "relative_pct": 70.4
+        }
+      }
+    },
+    "year_over_year_changes": {
+      "2022_to_2023": {
+        "ami_adults": {
+          "direction": "decrease",
+          "change_pct_points": -0.3,
+          "note": "59.3M to 58.7M (-1.1%)"
+        },
+        "smi_adults": {
+          "direction": "decrease",
+          "change_pct_points": -0.3,
+          "note": "15.4M to 14.6M (-4.9%)"
+        },
+        "youth_mde": {
+          "direction": "decrease",
+          "change_pct_points": -1.4,
+          "note": "4.8M to 4.5M (-6.3%)"
+        },
+        "adult_suicide_ideation": {
+          "direction": "decrease",
+          "change_pct_points": -0.2,
+          "note": "13.2M to 12.8M (-2.9%)"
+        },
+        "treatment_rate": {
+          "direction": "increase",
+          "change_pct_points": 1.2,
+          "note": "55.8M to 59.2M (+6.0%)"
+        },
+        "unmet_need": {
+          "direction": "decrease",
+          "change_pct_points": -0.9,
+          "note": "12.1M to 10.1M (-16.5%) perceived unmet need"
+        }
+      },
+      "notable_long_term_trends": [
+        "Youth MDE rates more than doubled from 2008 (8.3%) to 2023 (18.1%)",
+        "Adult AMI rates increased 23% from 2008 (18.5%) to 2023 (22.8%)",
+        "Mental health treatment rates increased 70% from 2008 (13.5%) to 2023 (23.0%)",
+        "Telehealth treatment reached 31.3 million adults in 2023, reflecting post-pandemic persistence of virtual care",
+        "Gender gap persists: females consistently have higher AMI (26.4% vs 19.0%), SMI (6.9% vs 4.3%), and MDE (10.5% vs 6.3%) rates",
+        "Young adults 18-25 have the highest AMI rate (33.8%) of any age group",
+        "Treatment gap: 46% of adults with AMI and 29% of adults with SMI did not receive treatment in 2023",
+        "Prescription medication (41.9M) remains the most common treatment type, followed by telehealth (31.3M) and outpatient (36.4M)"
+      ]
+    }
+  },
+  "summary_statistics": {
+    "population_estimates_2023": {
+      "us_adult_population_18_plus": 257254,
+      "us_youth_population_12_17": 25865,
+      "adults_with_any_mental_illness": 58657,
+      "adults_with_serious_mental_illness": 14601,
+      "adults_with_major_depressive_episode": 21899,
+      "youth_with_major_depressive_episode": 4517,
+      "adults_with_serious_thoughts_of_suicide": 12821,
+      "youth_with_serious_thoughts_of_suicide": 3189,
+      "adults_who_received_mh_treatment": 59175,
+      "youth_who_received_mh_treatment": 8256,
+      "adults_co_occurring_sud_ami": 20440,
+      "adults_with_perceived_unmet_need": 10085,
+      "note": "All numbers in thousands"
+    },
+    "key_rates_2023": {
+      "adult_ami_rate": 22.8,
+      "adult_smi_rate": 5.7,
+      "adult_mde_rate": 8.5,
+      "youth_mde_rate": 18.1,
+      "adult_suicide_ideation_rate": 5.0,
+      "youth_suicide_ideation_rate": 12.3,
+      "adult_treatment_rate_overall": 23.0,
+      "adult_treatment_rate_among_ami": 53.9,
+      "adult_treatment_rate_among_smi": 71.1,
+      "youth_treatment_rate": 31.9,
+      "adult_unmet_need_rate": 5.2,
+      "co_occurring_sud_ami_rate": 7.9,
+      "telehealth_users_millions": 31.3,
+      "prescription_medication_users_millions": 41.9
+    },
+    "highest_risk_demographics_2023": {
+      "highest_ami_rate_age": {
+        "group": "18-25",
+        "rate": 33.8
+      },
+      "highest_ami_rate_sex": {
+        "group": "female",
+        "rate": 26.4
+      },
+      "highest_ami_rate_race": {
+        "group": "two_or_more_races",
+        "rate": 36.7
+      },
+      "highest_smi_rate_age": {
+        "group": "18-25",
+        "rate": 10.3
+      },
+      "highest_youth_mde_sex": {
+        "group": "female",
+        "rate": 27.3
+      },
+      "highest_suicide_ideation_adult_age": {
+        "group": "18-25",
+        "rate": 12.2
+      },
+      "highest_suicide_ideation_youth_sex": {
+        "group": "female",
+        "rate": 17.0
+      },
+      "lowest_treatment_rate_race": {
+        "group": "asian_non_hispanic",
+        "rate": 13.5
+      }
+    }
+  }
+}

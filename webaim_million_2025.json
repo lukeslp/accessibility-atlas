@@ -1,0 +1,343 @@
+{
+  "source": "WebAIM Million Report",
+  "url": "https://webaim.org/projects/million/",
+  "year": 2025,
+  "methodology": "WAVE automated analysis of top 1,000,000 website home pages",
+  "summary": {
+    "total_pages_tested": 1000000,
+    "total_errors_detected": 50960288,
+    "average_errors_per_page": 51,
+    "pages_with_wcag_failures_pct": 94.8,
+    "error_density_pct": 4.1,
+    "average_page_elements": 1257
+  },
+  "common_failures": [
+    {
+      "type": "low_contrast_text",
+      "pages_affected_pct": 79.1,
+      "avg_instances_per_page": 29.6
+    },
+    {
+      "type": "missing_alt_text",
+      "pages_affected_pct": 55.5,
+      "avg_instances_per_page": 11
+    },
+    {
+      "type": "missing_form_labels",
+      "pages_affected_pct": 48.2,
+      "avg_instances_per_page": null
+    },
+    {
+      "type": "empty_links",
+      "pages_affected_pct": 45.4,
+      "avg_instances_per_page": 6.8
+    },
+    {
+      "type": "empty_buttons",
+      "pages_affected_pct": 29.6,
+      "avg_instances_per_page": null
+    },
+    {
+      "type": "missing_language",
+      "pages_affected_pct": 15.8,
+      "avg_instances_per_page": null
+    }
+  ],
+  "yearly_trends": {
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "pages_with_failures_pct": [
+      97.8,
+      98.1,
+      97.4,
+      96.8,
+      96.3,
+      95.9,
+      94.8
+    ],
+    "avg_errors_per_page": [
+      59.6,
+      60.9,
+      51.4,
+      50.8,
+      56.8,
+      56.8,
+      51.0
+    ],
+    "avg_page_elements": [
+      782,
+      887,
+      955,
+      1050,
+      1107,
+      1173,
+      1257
+    ],
+    "low_contrast_pct": [
+      85.3,
+      86.3,
+      83.9,
+      83.6,
+      83.6,
+      81.0,
+      79.1
+    ],
+    "missing_alt_text_pct": [
+      68.0,
+      66.0,
+      60.6,
+      56.1,
+      58.2,
+      54.5,
+      55.5
+    ],
+    "empty_links_pct": [
+      58.1,
+      59.9,
+      51.3,
+      49.1,
+      50.1,
+      48.6,
+      45.4
+    ],
+    "missing_form_labels_pct": [
+      52.8,
+      53.8,
+      54.4,
+      49.7,
+      45.9,
+      47.6,
+      48.2
+    ],
+    "empty_buttons_pct": [
+      25.0,
+      28.7,
+      26.9,
+      27.2,
+      28.6,
+      28.2,
+      29.6
+    ],
+    "missing_language_pct": [
+      33.1,
+      28.9,
+      28.9,
+      22.3,
+      18.6,
+      17.1,
+      15.8
+    ]
+  },
+  "category_performance": [
+    {
+      "category": "Government",
+      "avg_errors": 37.2,
+      "vs_baseline_pct": -27.0
+    },
+    {
+      "category": "Personal Finance",
+      "avg_errors": 37.7,
+      "vs_baseline_pct": -26.0
+    },
+    {
+      "category": "Non-Profit",
+      "avg_errors": 40.0,
+      "vs_baseline_pct": -21.6
+    },
+    {
+      "category": "Education",
+      "avg_errors": 40.7,
+      "vs_baseline_pct": -20.2
+    },
+    {
+      "category": "Reference",
+      "avg_errors": 41.8,
+      "vs_baseline_pct": -18.0
+    },
+    {
+      "category": "Law & Government",
+      "avg_errors": 42.3,
+      "vs_baseline_pct": -17.0
+    },
+    {
+      "category": "Health",
+      "avg_errors": 43.2,
+      "vs_baseline_pct": -15.3
+    },
+    {
+      "category": "News & Media",
+      "avg_errors": 50.1,
+      "vs_baseline_pct": -1.8
+    },
+    {
+      "category": "Business",
+      "avg_errors": 52.8,
+      "vs_baseline_pct": 3.5
+    },
+    {
+      "category": "Entertainment",
+      "avg_errors": 55.2,
+      "vs_baseline_pct": 8.2
+    },
+    {
+      "category": "Travel",
+      "avg_errors": 58.1,
+      "vs_baseline_pct": 13.9
+    },
+    {
+      "category": "Food & Drink",
+      "avg_errors": 59.2,
+      "vs_baseline_pct": 16.1
+    },
+    {
+      "category": "Automotive",
+      "avg_errors": 62.1,
+      "vs_baseline_pct": 21.8
+    },
+    {
+      "category": "Style & Fashion",
+      "avg_errors": 64.7,
+      "vs_baseline_pct": 26.9
+    },
+    {
+      "category": "Sports",
+      "avg_errors": 66.3,
+      "vs_baseline_pct": 30.1
+    },
+    {
+      "category": "Shopping",
+      "avg_errors": 71.2,
+      "vs_baseline_pct": 39.8
+    }
+  ],
+  "tld_performance": [
+    {
+      "tld": ".gov",
+      "avg_errors": 19.6,
+      "vs_baseline_pct": -61.6
+    },
+    {
+      "tld": ".edu",
+      "avg_errors": 23.6,
+      "vs_baseline_pct": -53.7
+    },
+    {
+      "tld": ".org",
+      "avg_errors": 36.0,
+      "vs_baseline_pct": -29.4
+    },
+    {
+      "tld": ".com",
+      "avg_errors": 49.8,
+      "vs_baseline_pct": -2.2
+    },
+    {
+      "tld": ".net",
+      "avg_errors": 50.2,
+      "vs_baseline_pct": -1.5
+    },
+    {
+      "tld": ".co",
+      "avg_errors": 53.3,
+      "vs_baseline_pct": 4.5
+    },
+    {
+      "tld": ".io",
+      "avg_errors": 55.7,
+      "vs_baseline_pct": 9.2
+    },
+    {
+      "tld": ".ru",
+      "avg_errors": 72.4,
+      "vs_baseline_pct": 42.1
+    },
+    {
+      "tld": ".ua",
+      "avg_errors": 89.1,
+      "vs_baseline_pct": 74.8
+    }
+  ],
+  "cms_performance": [
+    {
+      "cms": "Divi",
+      "avg_errors": 27.6,
+      "vs_baseline_pct": -45.9
+    },
+    {
+      "cms": "Squarespace",
+      "avg_errors": 30.3,
+      "vs_baseline_pct": -40.6
+    },
+    {
+      "cms": "WordPress",
+      "avg_errors": 50.0,
+      "vs_baseline_pct": -1.9
+    },
+    {
+      "cms": "Joomla",
+      "avg_errors": 57.2,
+      "vs_baseline_pct": 12.2
+    },
+    {
+      "cms": "Drupal",
+      "avg_errors": 60.3,
+      "vs_baseline_pct": 18.2
+    },
+    {
+      "cms": "Wix",
+      "avg_errors": 66.3,
+      "vs_baseline_pct": 30.0
+    },
+    {
+      "cms": "1C-Bitrix",
+      "avg_errors": 97.0,
+      "vs_baseline_pct": 90.3
+    }
+  ],
+  "framework_performance": [
+    {
+      "framework": "Next.js",
+      "avg_errors": 38.6,
+      "vs_baseline_pct": -24.2
+    },
+    {
+      "framework": "React",
+      "avg_errors": 42.4,
+      "vs_baseline_pct": -16.8
+    },
+    {
+      "framework": "Vue.js",
+      "avg_errors": 52.7,
+      "vs_baseline_pct": 3.3
+    },
+    {
+      "framework": "jQuery",
+      "avg_errors": 54.3,
+      "vs_baseline_pct": 6.5
+    },
+    {
+      "framework": "Angular",
+      "avg_errors": 70.7,
+      "vs_baseline_pct": 38.8
+    }
+  ],
+  "aria_usage": {
+    "pages_using_aria_pct": 79.4,
+    "avg_attributes_per_page": 105.5,
+    "errors_with_aria": 57,
+    "errors_without_aria": 27
+  },
+  "heading_analysis": {
+    "avg_headings_per_page": 25,
+    "multiple_h1_pct": 16.3,
+    "skipped_levels_pct": 39.0,
+    "no_headings_pct": 9.8
+  }
+}

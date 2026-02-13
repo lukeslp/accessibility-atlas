@@ -1,0 +1,5422 @@
+{
+  "metadata": {
+    "title": "SSA Disability Program Statistics - SSDI and SSI Annual Data",
+    "description": "Comprehensive Social Security Administration disability statistics compiled from the DI Annual Statistical Report 2023, SSI Annual Statistical Report 2023, OACT beneficiary statistics, and SSA Statistical Snapshot (November 2024).",
+    "sources": [
+      {
+        "name": "DI Annual Statistical Report, 2023",
+        "url": "https://www.ssa.gov/policy/docs/statcomps/di_asr/2023/index.html",
+        "format": "Excel workbook (di_asr23.xlsx) with 69 tables",
+        "retrieved_via": "Wayback Machine (web.archive.org), archived 2024-12-25"
+      },
+      {
+        "name": "SSI Annual Statistical Report, 2023 - Section 2: SSI Recipients",
+        "url": "https://www.ssa.gov/policy/docs/statcomps/ssi_asr/2023/sect02.html",
+        "format": "HTML tables (Tables 4-14)",
+        "retrieved_via": "Wayback Machine (web.archive.org)"
+      },
+      {
+        "name": "OACT Disabled-Worker Beneficiary Statistics",
+        "url": "https://www.ssa.gov/oact/STATS/dibStat.html",
+        "format": "HTML table",
+        "retrieved_via": "Wayback Machine (web.archive.org), archived 2024-12-25"
+      },
+      {
+        "name": "OACT OASDI Beneficiaries 1970-2023",
+        "url": "https://www.ssa.gov/oact/STATS/OASDIbenies.html",
+        "format": "HTML table",
+        "retrieved_via": "Wayback Machine (web.archive.org)"
+      },
+      {
+        "name": "SSA Statistical Snapshot, November 2024",
+        "url": "https://www.ssa.gov/policy/docs/quickfacts/stat_snapshot/",
+        "format": "HTML tables",
+        "retrieved_via": "Wayback Machine (web.archive.org)"
+      }
+    ],
+    "fetch_date": "2026-02-12",
+    "years_covered": "1960-2024",
+    "notes": [
+      "SSDI (DI) = Social Security Disability Insurance - earned benefit for workers who become disabled",
+      "SSI = Supplemental Security Income - needs-based program for aged, blind, and disabled individuals",
+      "Some individuals receive both SSDI and SSI concurrently",
+      "All counts are December totals unless otherwise noted",
+      "Benefit amounts are in nominal dollars (not inflation-adjusted)",
+      "(L) in original data means less than 0.05%"
+    ]
+  },
+  "key_statistics": {
+    "as_of": "November 2024 (most recent snapshot)",
+    "total_people_receiving_disability_benefits": {
+      "total": 11349000,
+      "social_security_only": 6397000,
+      "ssi_only": 3815000,
+      "both_programs": 1136000,
+      "note": "All disabled under age 65, in thousands"
+    },
+    "ssdi": {
+      "total_di_beneficiaries": 8336000,
+      "disabled_workers": 7244000,
+      "spouses_of_disabled_workers": 86000,
+      "children_of_disabled_workers": 1006000,
+      "total_monthly_benefits_millions": 11708,
+      "avg_monthly_benefit_disabled_workers": 1542.35,
+      "avg_monthly_benefit_spouses": 421.55,
+      "avg_monthly_benefit_children": 496.04
+    },
+    "ssi": {
+      "total_recipients": 7414000,
+      "under_18": 993000,
+      "aged_18_64": 3958000,
+      "aged_65_plus": 2462000,
+      "total_payments_millions": 5507,
+      "avg_monthly_payment": 698.35,
+      "avg_monthly_under_18": 818.3,
+      "avg_monthly_18_64": 744.73,
+      "avg_monthly_65_plus": 575.85
+    },
+    "all_social_security": {
+      "total_beneficiaries": 72878000,
+      "total_social_security_only": 65464000,
+      "total_ssi_only": 4877000,
+      "total_both": 2537000
+    }
+  },
+  "ssdi": {
+    "beneficiaries_by_year": {
+      "1960": {
+        "total_all_disabled": 788543,
+        "disabled_workers_and_dependents": 455371,
+        "workers_spouses": 76599,
+        "workers_children": 152519,
+        "widowers": null,
+        "adult_children": 47267
+      },
+      "1965": {
+        "total_all_disabled": 1928460,
+        "disabled_workers_and_dependents": 988074,
+        "workers_spouses": 193362,
+        "workers_children": 532197,
+        "widowers": null,
+        "adult_children": 102287
+      },
+      "1970": {
+        "total_all_disabled": 2970538,
+        "disabled_workers_and_dependents": 1492948,
+        "workers_spouses": 283447,
+        "workers_children": 799111,
+        "widowers": 49281,
+        "adult_children": 154921
+      },
+      "1975": {
+        "total_all_disabled": 4799853,
+        "disabled_workers_and_dependents": 2488774,
+        "workers_spouses": 452922,
+        "workers_children": 1239058,
+        "widowers": 109511,
+        "adult_children": 219340
+      },
+      "1980": {
+        "total_all_disabled": 5223311,
+        "disabled_workers_and_dependents": 2858680,
+        "workers_spouses": 461878,
+        "workers_children": 1184846,
+        "widowers": 127580,
+        "adult_children": 276739
+      },
+      "1981": {
+        "total_all_disabled": 5008221,
+        "disabled_workers_and_dependents": 2776519,
+        "workers_spouses": 428212,
+        "workers_children": 1070000,
+        "widowers": 121590,
+        "adult_children": 286724
+      },
+      "1982": {
+        "total_all_disabled": 4532014,
+        "disabled_workers_and_dependents": 2603599,
+        "workers_spouses": 365862,
+        "workers_children": 894440,
+        "widowers": 116372,
+        "adult_children": 297917
+      },
+      "1983": {
+        "total_all_disabled": 4382745,
+        "disabled_workers_and_dependents": 2569029,
+        "workers_spouses": 308059,
+        "workers_children": 855560,
+        "widowers": 111591,
+        "adult_children": 309699
+      },
+      "1984": {
+        "total_all_disabled": 4406140,
+        "disabled_workers_and_dependents": 2596516,
+        "workers_spouses": 303982,
+        "workers_children": 858243,
+        "widowers": 109151,
+        "adult_children": 322541
+      },
+      "1985": {
+        "total_all_disabled": 4507083,
+        "disabled_workers_and_dependents": 2656638,
+        "workers_spouses": 305532,
+        "workers_children": 889730,
+        "widowers": 107005,
+        "adult_children": 335753
+      },
+      "1986": {
+        "total_all_disabled": 4613249,
+        "disabled_workers_and_dependents": 2728463,
+        "workers_spouses": 300826,
+        "workers_children": 911698,
+        "widowers": 106974,
+        "adult_children": 348647
+      },
+      "1987": {
+        "total_all_disabled": 4676852,
+        "disabled_workers_and_dependents": 2785859,
+        "workers_spouses": 290888,
+        "workers_children": 912367,
+        "widowers": 106282,
+        "adult_children": 360220
+      },
+      "1988": {
+        "total_all_disabled": 4709360,
+        "disabled_workers_and_dependents": 2821070,
+        "workers_spouses": 280780,
+        "workers_children": 898980,
+        "widowers": 105810,
+        "adult_children": 371890
+      },
+      "1989": {
+        "total_all_disabled": 4774160,
+        "disabled_workers_and_dependents": 2886590,
+        "workers_spouses": 269830,
+        "workers_children": 901400,
+        "widowers": 102650,
+        "adult_children": 381760
+      },
+      "1990": {
+        "total_all_disabled": 4934370,
+        "disabled_workers_and_dependents": 3011130,
+        "workers_spouses": 264230,
+        "workers_children": 929720,
+        "widowers": 101780,
+        "adult_children": 392000
+      },
+      "1991": {
+        "total_all_disabled": 5209600,
+        "disabled_workers_and_dependents": 3198610,
+        "workers_spouses": 263780,
+        "workers_children": 986710,
+        "widowers": 115010,
+        "adult_children": 402920
+      },
+      "1992": {
+        "total_all_disabled": 5633130,
+        "disabled_workers_and_dependents": 3473330,
+        "workers_spouses": 271510,
+        "workers_children": 1090920,
+        "widowers": 131620,
+        "adult_children": 416240
+      },
+      "1993": {
+        "total_all_disabled": 6026460,
+        "disabled_workers_and_dependents": 3729330,
+        "workers_spouses": 272190,
+        "workers_children": 1188330,
+        "widowers": 148070,
+        "adult_children": 428690
+      },
+      "1994": {
+        "total_all_disabled": 6381470,
+        "disabled_workers_and_dependents": 3966590,
+        "workers_spouses": 270220,
+        "workers_children": 1276740,
+        "widowers": 161650,
+        "adult_children": 440080
+      },
+      "1995": {
+        "total_all_disabled": 6674450,
+        "disabled_workers_and_dependents": 4186720,
+        "workers_spouses": 263130,
+        "workers_children": 1331110,
+        "widowers": 173240,
+        "adult_children": 449970
+      },
+      "1996": {
+        "total_all_disabled": 6906420,
+        "disabled_workers_and_dependents": 4386040,
+        "workers_spouses": 223300,
+        "workers_children": 1381200,
+        "widowers": 182020,
+        "adult_children": 457520
+      },
+      "1997": {
+        "total_all_disabled": 6998210,
+        "disabled_workers_and_dependents": 4505760,
+        "workers_spouses": 207290,
+        "workers_children": 1357340,
+        "widowers": 187220,
+        "adult_children": 464990
+      },
+      "1998": {
+        "total_all_disabled": 7192370,
+        "disabled_workers_and_dependents": 4697010,
+        "workers_spouses": 190120,
+        "workers_children": 1363910,
+        "widowers": 192400,
+        "adult_children": 472530
+      },
+      "1999": {
+        "total_all_disabled": 7391920,
+        "disabled_workers_and_dependents": 4873560,
+        "workers_spouses": 176370,
+        "workers_children": 1381200,
+        "widowers": 197520,
+        "adult_children": 479070
+      },
+      "2000": {
+        "total_all_disabled": 7550930,
+        "disabled_workers_and_dependents": 5035840,
+        "workers_spouses": 164850,
+        "workers_children": 1381500,
+        "widowers": 200130,
+        "adult_children": 483570
+      },
+      "2001": {
+        "total_all_disabled": 7790038,
+        "disabled_workers_and_dependents": 5268039,
+        "workers_spouses": 156978,
+        "workers_children": 1385374,
+        "widowers": 204255,
+        "adult_children": 486816
+      },
+      "2002": {
+        "total_all_disabled": 8109332,
+        "disabled_workers_and_dependents": 5539597,
+        "workers_spouses": 151626,
+        "workers_children": 1422296,
+        "widowers": 207365,
+        "adult_children": 492985
+      },
+      "2003": {
+        "total_all_disabled": 8490007,
+        "disabled_workers_and_dependents": 5868541,
+        "workers_spouses": 150889,
+        "workers_children": 1461635,
+        "widowers": 209360,
+        "adult_children": 498659
+      },
+      "2004": {
+        "total_all_disabled": 8854343,
+        "disabled_workers_and_dependents": 6197385,
+        "workers_spouses": 152995,
+        "workers_children": 1486422,
+        "widowers": 210736,
+        "adult_children": 503241
+      },
+      "2005": {
+        "total_all_disabled": 9224458,
+        "disabled_workers_and_dependents": 6519001,
+        "workers_spouses": 156552,
+        "workers_children": 1516519,
+        "widowers": 215866,
+        "adult_children": 507961
+      },
+      "2006": {
+        "total_all_disabled": 9536997,
+        "disabled_workers_and_dependents": 6806918,
+        "workers_spouses": 153456,
+        "workers_children": 1530254,
+        "widowers": 220178,
+        "adult_children": 512596
+      },
+      "2007": {
+        "total_all_disabled": 9858520,
+        "disabled_workers_and_dependents": 7098723,
+        "workers_spouses": 152796,
+        "workers_children": 1535009,
+        "widowers": 224982,
+        "adult_children": 521293
+      },
+      "2008": {
+        "total_all_disabled": 10289474,
+        "disabled_workers_and_dependents": 7426691,
+        "workers_spouses": 154225,
+        "workers_children": 1552104,
+        "widowers": 230007,
+        "adult_children": 564735
+      },
+      "2009": {
+        "total_all_disabled": 10760672,
+        "disabled_workers_and_dependents": 7788013,
+        "workers_spouses": 157584,
+        "workers_children": 1598189,
+        "widowers": 236480,
+        "adult_children": 589575
+      },
+      "2010": {
+        "total_all_disabled": 11280792,
+        "disabled_workers_and_dependents": 8203951,
+        "workers_spouses": 160300,
+        "workers_children": 1660196,
+        "widowers": 244953,
+        "adult_children": 601420
+      },
+      "2011": {
+        "total_all_disabled": 11736104,
+        "disabled_workers_and_dependents": 8575544,
+        "workers_spouses": 164030,
+        "workers_children": 1706029,
+        "widowers": 251011,
+        "adult_children": 612686
+      },
+      "2012": {
+        "total_all_disabled": 12038936,
+        "disabled_workers_and_dependents": 8826591,
+        "workers_spouses": 162550,
+        "workers_children": 1723728,
+        "widowers": 255472,
+        "adult_children": 624472
+      },
+      "2013": {
+        "total_all_disabled": 12156191,
+        "disabled_workers_and_dependents": 8940950,
+        "workers_spouses": 156672,
+        "workers_children": 1710618,
+        "widowers": 257248,
+        "adult_children": 633891
+      },
+      "2014": {
+        "total_all_disabled": 12118222,
+        "disabled_workers_and_dependents": 8954518,
+        "workers_spouses": 148955,
+        "workers_children": 1650364,
+        "widowers": 257871,
+        "adult_children": 641497
+      },
+      "2015": {
+        "total_all_disabled": 12012834,
+        "disabled_workers_and_dependents": 8909430,
+        "workers_spouses": 141760,
+        "workers_children": 1579890,
+        "widowers": 259331,
+        "adult_children": 648371
+      },
+      "2016": {
+        "total_all_disabled": 11832337,
+        "disabled_workers_and_dependents": 8808736,
+        "workers_spouses": 134680,
+        "workers_children": 1493476,
+        "widowers": 259207,
+        "adult_children": 654531
+      },
+      "2017": {
+        "total_all_disabled": 11651686,
+        "disabled_workers_and_dependents": 8695475,
+        "workers_spouses": 126154,
+        "workers_children": 1418446,
+        "widowers": 258286,
+        "adult_children": 662986
+      },
+      "2018": {
+        "total_all_disabled": 11420528,
+        "disabled_workers_and_dependents": 8537332,
+        "workers_spouses": 118514,
+        "workers_children": 1337019,
+        "widowers": 254581,
+        "adult_children": 671955
+      },
+      "2019": {
+        "total_all_disabled": 11189718,
+        "disabled_workers_and_dependents": 8378374,
+        "workers_spouses": 113435,
+        "workers_children": 1269566,
+        "widowers": 246142,
+        "adult_children": 677425
+      },
+      "2020": {
+        "total_all_disabled": 10884268,
+        "disabled_workers_and_dependents": 8151016,
+        "workers_spouses": 104014,
+        "workers_children": 1207900,
+        "widowers": 236923,
+        "adult_children": 682091
+      },
+      "2021": {
+        "total_all_disabled": 10470307,
+        "disabled_workers_and_dependents": 7877129,
+        "workers_spouses": 96063,
+        "workers_children": 1099178,
+        "widowers": 224171,
+        "adult_children": 683342
+      },
+      "2022": {
+        "total_all_disabled": 10082479,
+        "disabled_workers_and_dependents": 7604098,
+        "workers_spouses": 90972,
+        "workers_children": 1006838,
+        "widowers": 211301,
+        "adult_children": 685728
+      },
+      "2023": {
+        "total_all_disabled": 9751430,
+        "disabled_workers_and_dependents": 7365987,
+        "workers_spouses": 87898,
+        "workers_children": 926780,
+        "widowers": 200644,
+        "adult_children": 688149
+      }
+    },
+    "benefits_by_year": {
+      "1960": {
+        "total_beneficiaries": 559425,
+        "workers": 455371,
+        "widowers": null,
+        "adult_children": 104054,
+        "avg_monthly_benefit_workers": 89.31,
+        "avg_monthly_benefit_widowers": null,
+        "avg_monthly_benefit_adult_children": 44.15,
+        "total_monthly_benefits_workers_thousands": 40669,
+        "total_monthly_benefits_widowers_thousands": null,
+        "total_monthly_benefits_adult_children_thousands": 4594
+      },
+      "1961": {
+        "total_beneficiaries": 742296,
+        "workers": 618075,
+        "widowers": null,
+        "adult_children": 124221,
+        "avg_monthly_benefit_workers": 89.59,
+        "avg_monthly_benefit_widowers": null,
+        "avg_monthly_benefit_adult_children": 45.28,
+        "total_monthly_benefits_workers_thousands": 55373,
+        "total_monthly_benefits_widowers_thousands": null,
+        "total_monthly_benefits_adult_children_thousands": 5625
+      },
+      "1962": {
+        "total_beneficiaries": 888131,
+        "workers": 740867,
+        "widowers": null,
+        "adult_children": 147264,
+        "avg_monthly_benefit_workers": 89.99,
+        "avg_monthly_benefit_widowers": null,
+        "avg_monthly_benefit_adult_children": 45.67,
+        "total_monthly_benefits_workers_thousands": 66671,
+        "total_monthly_benefits_widowers_thousands": null,
+        "total_monthly_benefits_adult_children_thousands": 6726
+      },
+      "1963": {
+        "total_beneficiaries": 993656,
+        "workers": 827014,
+        "widowers": null,
+        "adult_children": 166642,
+        "avg_monthly_benefit_workers": 90.59,
+        "avg_monthly_benefit_widowers": null,
+        "avg_monthly_benefit_adult_children": 46.45,
+        "total_monthly_benefits_workers_thousands": 74919,
+        "total_monthly_benefits_widowers_thousands": null,
+        "total_monthly_benefits_adult_children_thousands": 7741
+      },
+      "1964": {
+        "total_beneficiaries": 1077695,
+        "workers": 894173,
+        "widowers": null,
+        "adult_children": 183522,
+        "avg_monthly_benefit_workers": 91.12,
+        "avg_monthly_benefit_widowers": null,
+        "avg_monthly_benefit_adult_children": 47.35,
+        "total_monthly_benefits_workers_thousands": 81477,
+        "total_monthly_benefits_widowers_thousands": null,
+        "total_monthly_benefits_adult_children_thousands": 8690
+      },
+      "1965": {
+        "total_beneficiaries": 1186464,
+        "workers": 988074,
+        "widowers": null,
+        "adult_children": 198390,
+        "avg_monthly_benefit_workers": 97.76,
+        "avg_monthly_benefit_widowers": null,
+        "avg_monthly_benefit_adult_children": 51.77,
+        "total_monthly_benefits_workers_thousands": 96594,
+        "total_monthly_benefits_widowers_thousands": null,
+        "total_monthly_benefits_adult_children_thousands": 10271
+      },
+      "1966": {
+        "total_beneficiaries": 1310911,
+        "workers": 1097190,
+        "widowers": null,
+        "adult_children": 213721,
+        "avg_monthly_benefit_workers": 98.09,
+        "avg_monthly_benefit_widowers": null,
+        "avg_monthly_benefit_adult_children": 52.42,
+        "total_monthly_benefits_workers_thousands": 107623,
+        "total_monthly_benefits_widowers_thousands": null,
+        "total_monthly_benefits_adult_children_thousands": 11203
+      },
+      "1967": {
+        "total_beneficiaries": 1422778,
+        "workers": 1193120,
+        "widowers": null,
+        "adult_children": 229658,
+        "avg_monthly_benefit_workers": 98.43,
+        "avg_monthly_benefit_widowers": null,
+        "avg_monthly_benefit_adult_children": 53.41,
+        "total_monthly_benefits_workers_thousands": 117439,
+        "total_monthly_benefits_widowers_thousands": null,
+        "total_monthly_benefits_adult_children_thousands": 12266
+      },
+      "1968": {
+        "total_beneficiaries": 1560517,
+        "workers": 1295300,
+        "widowers": 21563,
+        "adult_children": 243654,
+        "avg_monthly_benefit_workers": 111.86,
+        "avg_monthly_benefit_widowers": 72.25,
+        "avg_monthly_benefit_adult_children": 61.83,
+        "total_monthly_benefits_workers_thousands": 144892,
+        "total_monthly_benefits_widowers_thousands": 1558,
+        "total_monthly_benefits_adult_children_thousands": 15065
+      },
+      "1969": {
+        "total_beneficiaries": 1690982,
+        "workers": 1394291,
+        "widowers": 39469,
+        "adult_children": 257222,
+        "avg_monthly_benefit_workers": 112.74,
+        "avg_monthly_benefit_widowers": 71.02,
+        "avg_monthly_benefit_adult_children": 62.79,
+        "total_monthly_benefits_workers_thousands": 157192,
+        "total_monthly_benefits_widowers_thousands": 2803,
+        "total_monthly_benefits_adult_children_thousands": 16151
+      },
+      "1970": {
+        "total_beneficiaries": 1812786,
+        "workers": 1492948,
+        "widowers": 49281,
+        "adult_children": 270557,
+        "avg_monthly_benefit_workers": 131.26,
+        "avg_monthly_benefit_widowers": 82,
+        "avg_monthly_benefit_adult_children": 73.21,
+        "total_monthly_benefits_workers_thousands": 195964,
+        "total_monthly_benefits_widowers_thousands": 4041,
+        "total_monthly_benefits_adult_children_thousands": 19807
+      },
+      "1971": {
+        "total_beneficiaries": 1990098,
+        "workers": 1647684,
+        "widowers": 56743,
+        "adult_children": 285671,
+        "avg_monthly_benefit_workers": 146.52,
+        "avg_monthly_benefit_widowers": 90.11,
+        "avg_monthly_benefit_adult_children": 81.37,
+        "total_monthly_benefits_workers_thousands": 241419,
+        "total_monthly_benefits_widowers_thousands": 5113,
+        "total_monthly_benefits_adult_children_thousands": 23245
+      },
+      "1972": {
+        "total_beneficiaries": 2202090,
+        "workers": 1832916,
+        "widowers": 64167,
+        "adult_children": 305007,
+        "avg_monthly_benefit_workers": 179.32,
+        "avg_monthly_benefit_widowers": 109.54,
+        "avg_monthly_benefit_adult_children": 98.81,
+        "total_monthly_benefits_workers_thousands": 328678,
+        "total_monthly_benefits_widowers_thousands": 7029,
+        "total_monthly_benefits_adult_children_thousands": 30138
+      },
+      "1973": {
+        "total_beneficiaries": 2415383,
+        "workers": 2016626,
+        "widowers": 78769,
+        "adult_children": 319988,
+        "avg_monthly_benefit_workers": 183,
+        "avg_monthly_benefit_widowers": 111.14,
+        "avg_monthly_benefit_adult_children": 100.14,
+        "total_monthly_benefits_workers_thousands": 369043,
+        "total_monthly_benefits_widowers_thousands": 8754,
+        "total_monthly_benefits_adult_children_thousands": 32044
+      },
+      "1974": {
+        "total_beneficiaries": 2670092,
+        "workers": 2236882,
+        "widowers": 92128,
+        "adult_children": 341082,
+        "avg_monthly_benefit_workers": 205.7,
+        "avg_monthly_benefit_widowers": 125.87,
+        "avg_monthly_benefit_adult_children": 112.45,
+        "total_monthly_benefits_workers_thousands": 460127,
+        "total_monthly_benefits_widowers_thousands": 11596,
+        "total_monthly_benefits_adult_children_thousands": 38355
+      },
+      "1975": {
+        "total_beneficiaries": 2960620,
+        "workers": 2488774,
+        "widowers": 109511,
+        "adult_children": 362335,
+        "avg_monthly_benefit_workers": 225.9,
+        "avg_monthly_benefit_widowers": 137.7,
+        "avg_monthly_benefit_adult_children": 122.8,
+        "total_monthly_benefits_workers_thousands": 562214,
+        "total_monthly_benefits_widowers_thousands": 15080,
+        "total_monthly_benefits_adult_children_thousands": 44495
+      },
+      "1976": {
+        "total_beneficiaries": 3171198,
+        "workers": 2670208,
+        "widowers": 119427,
+        "adult_children": 381563,
+        "avg_monthly_benefit_workers": 245.17,
+        "avg_monthly_benefit_widowers": 147.01,
+        "avg_monthly_benefit_adult_children": 132.32,
+        "total_monthly_benefits_workers_thousands": 654655,
+        "total_monthly_benefits_widowers_thousands": 17557,
+        "total_monthly_benefits_adult_children_thousands": 50488
+      },
+      "1977": {
+        "total_beneficiaries": 3368954,
+        "workers": 2837432,
+        "widowers": 127276,
+        "adult_children": 404246,
+        "avg_monthly_benefit_workers": 265.3,
+        "avg_monthly_benefit_widowers": 156.11,
+        "avg_monthly_benefit_adult_children": 142.12,
+        "total_monthly_benefits_workers_thousands": 752771,
+        "total_monthly_benefits_widowers_thousands": 19869,
+        "total_monthly_benefits_adult_children_thousands": 57451
+      },
+      "1978": {
+        "total_beneficiaries": 3429421,
+        "workers": 2879774,
+        "widowers": 129751,
+        "adult_children": 419896,
+        "avg_monthly_benefit_workers": 288.3,
+        "avg_monthly_benefit_widowers": 165.46,
+        "avg_monthly_benefit_adult_children": 153.66,
+        "total_monthly_benefits_workers_thousands": 830239,
+        "total_monthly_benefits_widowers_thousands": 21469,
+        "total_monthly_benefits_adult_children_thousands": 64521
+      },
+      "1979": {
+        "total_beneficiaries": 3435761,
+        "workers": 2870590,
+        "widowers": 129833,
+        "adult_children": 435338,
+        "avg_monthly_benefit_workers": 322,
+        "avg_monthly_benefit_widowers": 180.52,
+        "avg_monthly_benefit_adult_children": 171.55,
+        "total_monthly_benefits_workers_thousands": 924330,
+        "total_monthly_benefits_widowers_thousands": 23437,
+        "total_monthly_benefits_adult_children_thousands": 74682
+      },
+      "1980": {
+        "total_beneficiaries": 3436429,
+        "workers": 2858680,
+        "widowers": 127580,
+        "adult_children": 450169,
+        "avg_monthly_benefit_workers": 370.7,
+        "avg_monthly_benefit_widowers": 205.02,
+        "avg_monthly_benefit_adult_children": 198.95,
+        "total_monthly_benefits_workers_thousands": 1059713,
+        "total_monthly_benefits_widowers_thousands": 26156,
+        "total_monthly_benefits_adult_children_thousands": 89561
+      },
+      "1981": {
+        "total_beneficiaries": 3361130,
+        "workers": 2776519,
+        "widowers": 121590,
+        "adult_children": 463021,
+        "avg_monthly_benefit_workers": 413.2,
+        "avg_monthly_benefit_widowers": 226.58,
+        "avg_monthly_benefit_adult_children": 224.51,
+        "total_monthly_benefits_workers_thousands": 1147258,
+        "total_monthly_benefits_widowers_thousands": 27550,
+        "total_monthly_benefits_adult_children_thousands": 103953
+      },
+      "1982": {
+        "total_beneficiaries": 3192379,
+        "workers": 2603599,
+        "widowers": 116372,
+        "adult_children": 472408,
+        "avg_monthly_benefit_workers": 440.6,
+        "avg_monthly_benefit_widowers": 242.11,
+        "avg_monthly_benefit_adult_children": 245.07,
+        "total_monthly_benefits_workers_thousands": 1147146,
+        "total_monthly_benefits_widowers_thousands": 28175,
+        "total_monthly_benefits_adult_children_thousands": 115773
+      },
+      "1983": {
+        "total_beneficiaries": 3168992,
+        "workers": 2569029,
+        "widowers": 111591,
+        "adult_children": 488372,
+        "avg_monthly_benefit_workers": 456.2,
+        "avg_monthly_benefit_widowers": 250.33,
+        "avg_monthly_benefit_adult_children": 257.78,
+        "total_monthly_benefits_workers_thousands": 1171991,
+        "total_monthly_benefits_widowers_thousands": 27935,
+        "total_monthly_benefits_adult_children_thousands": 125893
+      },
+      "1984": {
+        "total_beneficiaries": 3212040,
+        "workers": 2596516,
+        "widowers": 109151,
+        "adult_children": 506373,
+        "avg_monthly_benefit_workers": 470.7,
+        "avg_monthly_benefit_widowers": 306.24,
+        "avg_monthly_benefit_adult_children": 270.28,
+        "total_monthly_benefits_workers_thousands": 1222180,
+        "total_monthly_benefits_widowers_thousands": 33426,
+        "total_monthly_benefits_adult_children_thousands": 136862
+      },
+      "1985": {
+        "total_beneficiaries": 3289485,
+        "workers": 2656638,
+        "widowers": 107005,
+        "adult_children": 525842,
+        "avg_monthly_benefit_workers": 483.8,
+        "avg_monthly_benefit_widowers": 315.26,
+        "avg_monthly_benefit_adult_children": 281.92,
+        "total_monthly_benefits_workers_thousands": 1285281,
+        "total_monthly_benefits_widowers_thousands": 33734,
+        "total_monthly_benefits_adult_children_thousands": 148245
+      },
+      "1986": {
+        "total_beneficiaries": 3380480,
+        "workers": 2728463,
+        "widowers": 106974,
+        "adult_children": 545043,
+        "avg_monthly_benefit_workers": 487.9,
+        "avg_monthly_benefit_widowers": 319.74,
+        "avg_monthly_benefit_adult_children": 288.79,
+        "total_monthly_benefits_workers_thousands": 1331217,
+        "total_monthly_benefits_widowers_thousands": 34204,
+        "total_monthly_benefits_adult_children_thousands": 157403
+      },
+      "1987": {
+        "total_beneficiaries": 3453414,
+        "workers": 2785859,
+        "widowers": 106282,
+        "adult_children": 561273,
+        "avg_monthly_benefit_workers": 508.2,
+        "avg_monthly_benefit_widowers": 333.89,
+        "avg_monthly_benefit_adult_children": 304.32,
+        "total_monthly_benefits_workers_thousands": 1415774,
+        "total_monthly_benefits_widowers_thousands": 35486,
+        "total_monthly_benefits_adult_children_thousands": 170807
+      },
+      "1988": {
+        "total_beneficiaries": 3507707,
+        "workers": 2830284,
+        "widowers": 103123,
+        "adult_children": 574300,
+        "avg_monthly_benefit_workers": 529.5,
+        "avg_monthly_benefit_widowers": 348.05,
+        "avg_monthly_benefit_adult_children": 320.21,
+        "total_monthly_benefits_workers_thousands": 1498635,
+        "total_monthly_benefits_widowers_thousands": 35892,
+        "total_monthly_benefits_adult_children_thousands": 183897
+      },
+      "1989": {
+        "total_beneficiaries": 3583451,
+        "workers": 2895364,
+        "widowers": 101630,
+        "adult_children": 586457,
+        "avg_monthly_benefit_workers": 556,
+        "avg_monthly_benefit_widowers": 366.72,
+        "avg_monthly_benefit_adult_children": 339.47,
+        "total_monthly_benefits_workers_thousands": 1609822,
+        "total_monthly_benefits_widowers_thousands": 37270,
+        "total_monthly_benefits_adult_children_thousands": 199085
+      },
+      "1990": {
+        "total_beneficiaries": 3712763,
+        "workers": 3011294,
+        "widowers": 100989,
+        "adult_children": 600480,
+        "avg_monthly_benefit_workers": 587.2,
+        "avg_monthly_benefit_widowers": 388.93,
+        "avg_monthly_benefit_adult_children": 361.71,
+        "total_monthly_benefits_workers_thousands": 1768232,
+        "total_monthly_benefits_widowers_thousands": 39278,
+        "total_monthly_benefits_adult_children_thousands": 217200
+      },
+      "1991": {
+        "total_beneficiaries": 3925472,
+        "workers": 3194938,
+        "widowers": 114489,
+        "adult_children": 616045,
+        "avg_monthly_benefit_workers": 609.4,
+        "avg_monthly_benefit_widowers": 406.96,
+        "avg_monthly_benefit_adult_children": 378.86,
+        "total_monthly_benefits_workers_thousands": 1946995,
+        "total_monthly_benefits_widowers_thousands": 46592,
+        "total_monthly_benefits_adult_children_thousands": 233395
+      },
+      "1992": {
+        "total_beneficiaries": 4236080,
+        "workers": 3467783,
+        "widowers": 131324,
+        "adult_children": 636973,
+        "avg_monthly_benefit_workers": 626.1,
+        "avg_monthly_benefit_widowers": 422.65,
+        "avg_monthly_benefit_adult_children": 393.61,
+        "total_monthly_benefits_workers_thousands": 2171179,
+        "total_monthly_benefits_widowers_thousands": 55504,
+        "total_monthly_benefits_adult_children_thousands": 250719
+      },
+      "1993": {
+        "total_beneficiaries": 4529466,
+        "workers": 3725966,
+        "widowers": 147015,
+        "adult_children": 656485,
+        "avg_monthly_benefit_workers": 641.7,
+        "avg_monthly_benefit_widowers": 434.2,
+        "avg_monthly_benefit_adult_children": 407.2,
+        "total_monthly_benefits_workers_thousands": 2390952,
+        "total_monthly_benefits_widowers_thousands": 63834,
+        "total_monthly_benefits_adult_children_thousands": 267321
+      },
+      "1994": {
+        "total_beneficiaries": 4796313,
+        "workers": 3962954,
+        "widowers": 160676,
+        "adult_children": 672683,
+        "avg_monthly_benefit_workers": 661.4,
+        "avg_monthly_benefit_widowers": 446.3,
+        "avg_monthly_benefit_adult_children": 422.4,
+        "total_monthly_benefits_workers_thousands": 2621098,
+        "total_monthly_benefits_widowers_thousands": 71710,
+        "total_monthly_benefits_adult_children_thousands": 284141
+      },
+      "1995": {
+        "total_beneficiaries": 5044388,
+        "workers": 4185263,
+        "widowers": 173024,
+        "adult_children": 686101,
+        "avg_monthly_benefit_workers": 681.6,
+        "avg_monthly_benefit_widowers": 458.3,
+        "avg_monthly_benefit_adult_children": 437.3,
+        "total_monthly_benefits_workers_thousands": 2853512,
+        "total_monthly_benefits_widowers_thousands": 79297,
+        "total_monthly_benefits_adult_children_thousands": 300032
+      },
+      "1996": {
+        "total_beneficiaries": 5264321,
+        "workers": 4385623,
+        "widowers": 181911,
+        "adult_children": 696787,
+        "avg_monthly_benefit_workers": 703.9,
+        "avg_monthly_benefit_widowers": 471,
+        "avg_monthly_benefit_adult_children": 454.3,
+        "total_monthly_benefits_workers_thousands": 3087040,
+        "total_monthly_benefits_widowers_thousands": 85680,
+        "total_monthly_benefits_adult_children_thousands": 316550
+      },
+      "1997": {
+        "total_beneficiaries": 5400781,
+        "workers": 4508134,
+        "widowers": 187938,
+        "adult_children": 704709,
+        "avg_monthly_benefit_workers": 721.6,
+        "avg_monthly_benefit_widowers": 480.4,
+        "avg_monthly_benefit_adult_children": 468.6,
+        "total_monthly_benefits_workers_thousands": 3253069,
+        "total_monthly_benefits_widowers_thousands": 90285,
+        "total_monthly_benefits_adult_children_thousands": 330227
+      },
+      "1998": {
+        "total_beneficiaries": 5605272,
+        "workers": 4698319,
+        "widowers": 194181,
+        "adult_children": 712772,
+        "avg_monthly_benefit_workers": 733.1,
+        "avg_monthly_benefit_widowers": 487.3,
+        "avg_monthly_benefit_adult_children": 479.4,
+        "total_monthly_benefits_workers_thousands": 3444338,
+        "total_monthly_benefits_widowers_thousands": 94624,
+        "total_monthly_benefits_adult_children_thousands": 341703
+      },
+      "1999": {
+        "total_beneficiaries": 5798776,
+        "workers": 4879455,
+        "widowers": 198795,
+        "adult_children": 720526,
+        "avg_monthly_benefit_workers": 754.1,
+        "avg_monthly_benefit_widowers": 499.9,
+        "avg_monthly_benefit_adult_children": 495.6,
+        "total_monthly_benefits_workers_thousands": 3679597,
+        "total_monthly_benefits_widowers_thousands": 99378,
+        "total_monthly_benefits_adult_children_thousands": 357093
+      },
+      "2000": {
+        "total_beneficiaries": 5972468,
+        "workers": 5042333,
+        "widowers": 201446,
+        "adult_children": 728689,
+        "avg_monthly_benefit_workers": 786.4,
+        "avg_monthly_benefit_widowers": 519.7,
+        "avg_monthly_benefit_adult_children": 518.3,
+        "total_monthly_benefits_workers_thousands": 3965291,
+        "total_monthly_benefits_widowers_thousands": 104681,
+        "total_monthly_benefits_adult_children_thousands": 377650
+      },
+      "2001": {
+        "total_beneficiaries": 6208847,
+        "workers": 5268039,
+        "widowers": 204255,
+        "adult_children": 736553,
+        "avg_monthly_benefit_workers": 814.4,
+        "avg_monthly_benefit_widowers": 536.7,
+        "avg_monthly_benefit_adult_children": 537.6,
+        "total_monthly_benefits_workers_thousands": 4290449,
+        "total_monthly_benefits_widowers_thousands": 109622,
+        "total_monthly_benefits_adult_children_thousands": 395956
+      },
+      "2002": {
+        "total_beneficiaries": 6491494,
+        "workers": 5539597,
+        "widowers": 207365,
+        "adult_children": 744532,
+        "avg_monthly_benefit_workers": 834.3,
+        "avg_monthly_benefit_widowers": 548.1,
+        "avg_monthly_benefit_adult_children": 550.4,
+        "total_monthly_benefits_workers_thousands": 4621852,
+        "total_monthly_benefits_widowers_thousands": 113653,
+        "total_monthly_benefits_adult_children_thousands": 409813
+      },
+      "2003": {
+        "total_beneficiaries": 6830714,
+        "workers": 5868541,
+        "widowers": 209360,
+        "adult_children": 752813,
+        "avg_monthly_benefit_workers": 861.6,
+        "avg_monthly_benefit_widowers": 563.8,
+        "avg_monthly_benefit_adult_children": 567,
+        "total_monthly_benefits_workers_thousands": 5054332,
+        "total_monthly_benefits_widowers_thousands": 118010,
+        "total_monthly_benefits_adult_children_thousands": 426780
+      },
+      "2004": {
+        "total_beneficiaries": 7167375,
+        "workers": 6197385,
+        "widowers": 210736,
+        "adult_children": 759254,
+        "avg_monthly_benefit_workers": 894.1,
+        "avg_monthly_benefit_widowers": 582.7,
+        "avg_monthly_benefit_adult_children": 587.6,
+        "total_monthly_benefits_workers_thousands": 5540703,
+        "total_monthly_benefits_widowers_thousands": 122795,
+        "total_monthly_benefits_adult_children_thousands": 446096
+      },
+      "2005": {
+        "total_beneficiaries": 7503405,
+        "workers": 6519001,
+        "widowers": 215866,
+        "adult_children": 768538,
+        "avg_monthly_benefit_workers": 938,
+        "avg_monthly_benefit_widowers": 609.3,
+        "avg_monthly_benefit_adult_children": 616.3,
+        "total_monthly_benefits_workers_thousands": 6113106,
+        "total_monthly_benefits_widowers_thousands": 131508,
+        "total_monthly_benefits_adult_children_thousands": 473545
+      },
+      "2006": {
+        "total_beneficiaries": 7803692,
+        "workers": 6806918,
+        "widowers": 220178,
+        "adult_children": 776596,
+        "avg_monthly_benefit_workers": 977.7,
+        "avg_monthly_benefit_widowers": 630.7,
+        "avg_monthly_benefit_adult_children": 642.4,
+        "total_monthly_benefits_workers_thousands": 6655048,
+        "total_monthly_benefits_widowers_thousands": 138859,
+        "total_monthly_benefits_adult_children_thousands": 498891
+      },
+      "2007": {
+        "total_beneficiaries": 8118382,
+        "workers": 7098723,
+        "widowers": 224982,
+        "adult_children": 794677,
+        "avg_monthly_benefit_workers": 1004,
+        "avg_monthly_benefit_widowers": 645.5,
+        "avg_monthly_benefit_adult_children": 660.3,
+        "total_monthly_benefits_workers_thousands": 7127082,
+        "total_monthly_benefits_widowers_thousands": 145233,
+        "total_monthly_benefits_adult_children_thousands": 524763
+      },
+      "2008": {
+        "total_beneficiaries": 8528164,
+        "workers": 7426691,
+        "widowers": 230007,
+        "adult_children": 871466,
+        "avg_monthly_benefit_workers": 1063.1,
+        "avg_monthly_benefit_widowers": 683.6,
+        "avg_monthly_benefit_adult_children": 681.7,
+        "total_monthly_benefits_workers_thousands": 7895536,
+        "total_monthly_benefits_widowers_thousands": 157243,
+        "total_monthly_benefits_adult_children_thousands": 594115
+      },
+      "2009": {
+        "total_beneficiaries": 8945376,
+        "workers": 7788013,
+        "widowers": 236480,
+        "adult_children": 920883,
+        "avg_monthly_benefit_workers": 1064.3,
+        "avg_monthly_benefit_widowers": 682.7,
+        "avg_monthly_benefit_adult_children": 676.3,
+        "total_monthly_benefits_workers_thousands": 8288762,
+        "total_monthly_benefits_widowers_thousands": 161437,
+        "total_monthly_benefits_adult_children_thousands": 622827
+      },
+      "2010": {
+        "total_beneficiaries": 9398104,
+        "workers": 8203951,
+        "widowers": 244953,
+        "adult_children": 949200,
+        "avg_monthly_benefit_workers": 1067.8,
+        "avg_monthly_benefit_widowers": 681.3,
+        "avg_monthly_benefit_adult_children": 678.8,
+        "total_monthly_benefits_workers_thousands": 8759959,
+        "total_monthly_benefits_widowers_thousands": 166888,
+        "total_monthly_benefits_adult_children_thousands": 644297
+      },
+      "2011": {
+        "total_beneficiaries": 9803581,
+        "workers": 8575544,
+        "widowers": 251011,
+        "adult_children": 977026,
+        "avg_monthly_benefit_workers": 1110.5,
+        "avg_monthly_benefit_widowers": 703.54,
+        "avg_monthly_benefit_adult_children": 705.84,
+        "total_monthly_benefits_workers_thousands": 9523184,
+        "total_monthly_benefits_widowers_thousands": 176596,
+        "total_monthly_benefits_adult_children_thousands": 689622
+      },
+      "2012": {
+        "total_beneficiaries": 10088739,
+        "workers": 8826591,
+        "widowers": 255472,
+        "adult_children": 1006676,
+        "avg_monthly_benefit_workers": 1130.34,
+        "avg_monthly_benefit_widowers": 711.47,
+        "avg_monthly_benefit_adult_children": 720.47,
+        "total_monthly_benefits_workers_thousands": 9977027,
+        "total_monthly_benefits_widowers_thousands": 181760,
+        "total_monthly_benefits_adult_children_thousands": 725285
+      },
+      "2013": {
+        "total_beneficiaries": 10228364,
+        "workers": 8940950,
+        "widowers": 257248,
+        "adult_children": 1030166,
+        "avg_monthly_benefit_workers": 1146.42,
+        "avg_monthly_benefit_widowers": 716.79,
+        "avg_monthly_benefit_adult_children": 734.68,
+        "total_monthly_benefits_workers_thousands": 10250098,
+        "total_monthly_benefits_widowers_thousands": 184392,
+        "total_monthly_benefits_adult_children_thousands": 756839
+      },
+      "2014": {
+        "total_beneficiaries": 10261268,
+        "workers": 8954518,
+        "widowers": 257871,
+        "adult_children": 1048879,
+        "avg_monthly_benefit_workers": 1165.39,
+        "avg_monthly_benefit_widowers": 724.07,
+        "avg_monthly_benefit_adult_children": 751.12,
+        "total_monthly_benefits_workers_thousands": 10435524,
+        "total_monthly_benefits_widowers_thousands": 186717,
+        "total_monthly_benefits_adult_children_thousands": 787838
+      },
+      "2015": {
+        "total_beneficiaries": 10237204,
+        "workers": 8909430,
+        "widowers": 259331,
+        "adult_children": 1068443,
+        "avg_monthly_benefit_workers": 1165.79,
+        "avg_monthly_benefit_widowers": 719.11,
+        "avg_monthly_benefit_adult_children": 754.96,
+        "total_monthly_benefits_workers_thousands": 10386494,
+        "total_monthly_benefits_widowers_thousands": 186488,
+        "total_monthly_benefits_adult_children_thousands": 806630
+      },
+      "2016": {
+        "total_beneficiaries": 10153205,
+        "workers": 8808736,
+        "widowers": 259207,
+        "adult_children": 1085262,
+        "avg_monthly_benefit_workers": 1171.15,
+        "avg_monthly_benefit_widowers": 717.65,
+        "avg_monthly_benefit_adult_children": 761.87,
+        "total_monthly_benefits_workers_thousands": 10316342,
+        "total_monthly_benefits_widowers_thousands": 186020,
+        "total_monthly_benefits_adult_children_thousands": 826828
+      },
+      "2017": {
+        "total_beneficiaries": 10059166,
+        "workers": 8695475,
+        "widowers": 258286,
+        "adult_children": 1105405,
+        "avg_monthly_benefit_workers": 1196.87,
+        "avg_monthly_benefit_widowers": 729.44,
+        "avg_monthly_benefit_adult_children": 782.03,
+        "total_monthly_benefits_workers_thousands": 10407363,
+        "total_monthly_benefits_widowers_thousands": 188404,
+        "total_monthly_benefits_adult_children_thousands": 864459
+      },
+      "2018": {
+        "total_beneficiaries": 9919094,
+        "workers": 8537332,
+        "widowers": 254581,
+        "adult_children": 1127181,
+        "avg_monthly_benefit_workers": 1233.7,
+        "avg_monthly_benefit_widowers": 747.41,
+        "avg_monthly_benefit_adult_children": 808.18,
+        "total_monthly_benefits_workers_thousands": 10532470,
+        "total_monthly_benefits_widowers_thousands": 190276,
+        "total_monthly_benefits_adult_children_thousands": 910967
+      },
+      "2019": {
+        "total_beneficiaries": 9765096,
+        "workers": 8378374,
+        "widowers": 246142,
+        "adult_children": 1140580,
+        "avg_monthly_benefit_workers": 1257.65,
+        "avg_monthly_benefit_widowers": 760.03,
+        "avg_monthly_benefit_adult_children": 826.24,
+        "total_monthly_benefits_workers_thousands": 10537097,
+        "total_monthly_benefits_widowers_thousands": 187074,
+        "total_monthly_benefits_adult_children_thousands": 942397
+      },
+      "2020": {
+        "total_beneficiaries": 9537906,
+        "workers": 8151016,
+        "widowers": 236923,
+        "adult_children": 1149967,
+        "avg_monthly_benefit_workers": 1277.05,
+        "avg_monthly_benefit_widowers": 770.57,
+        "avg_monthly_benefit_adult_children": 843.9,
+        "total_monthly_benefits_workers_thousands": 10409235,
+        "total_monthly_benefits_widowers_thousands": 182566,
+        "total_monthly_benefits_adult_children_thousands": 970454
+      },
+      "2021": {
+        "total_beneficiaries": 9243999,
+        "workers": 7877129,
+        "widowers": 224171,
+        "adult_children": 1142699,
+        "avg_monthly_benefit_workers": 1358.3,
+        "avg_monthly_benefit_widowers": 817.88,
+        "avg_monthly_benefit_adult_children": 904.36,
+        "total_monthly_benefits_workers_thousands": 10699469,
+        "total_monthly_benefits_widowers_thousands": 183346,
+        "total_monthly_benefits_adult_children_thousands": 1033409
+      },
+      "2022": {
+        "total_beneficiaries": 8955174,
+        "workers": 7604098,
+        "widowers": 211301,
+        "adult_children": 1139775,
+        "avg_monthly_benefit_workers": 1483.1,
+        "avg_monthly_benefit_widowers": 892.87,
+        "avg_monthly_benefit_adult_children": 993.9,
+        "total_monthly_benefits_workers_thousands": 11277672,
+        "total_monthly_benefits_widowers_thousands": 188664,
+        "total_monthly_benefits_adult_children_thousands": 1132817
+      },
+      "2023": {
+        "total_beneficiaries": 8709006,
+        "workers": 7365987,
+        "widowers": 200644,
+        "adult_children": 1142375,
+        "avg_monthly_benefit_workers": 1537.13,
+        "avg_monthly_benefit_widowers": 925.78,
+        "avg_monthly_benefit_adult_children": 1035.35,
+        "total_monthly_benefits_workers_thousands": 11322496,
+        "total_monthly_benefits_widowers_thousands": 185753,
+        "total_monthly_benefits_adult_children_thousands": 1182764
+      }
+    },
+    "by_state_december_2023": {
+      "Alabama": {
+        "total": 221561,
+        "workers": 190348,
+        "widowers": 7242,
+        "adult_children": 23971
+      },
+      "Alaska": {
+        "total": 12300,
+        "workers": 10271,
+        "widowers": 224,
+        "adult_children": 1805
+      },
+      "Arizona": {
+        "total": 152360,
+        "workers": 131180,
+        "widowers": 2982,
+        "adult_children": 18198
+      },
+      "Arkansas": {
+        "total": 138217,
+        "workers": 119196,
+        "widowers": 4466,
+        "adult_children": 14555
+      },
+      "California": {
+        "total": 625317,
+        "workers": 514660,
+        "widowers": 11115,
+        "adult_children": 99542
+      },
+      "Colorado": {
+        "total": 92513,
+        "workers": 79912,
+        "widowers": 1699,
+        "adult_children": 10902
+      },
+      "Connecticut": {
+        "total": 86057,
+        "workers": 71433,
+        "widowers": 1407,
+        "adult_children": 13217
+      },
+      "Delaware": {
+        "total": 27499,
+        "workers": 23852,
+        "widowers": 569,
+        "adult_children": 3078
+      },
+      "District of Columbia": {
+        "total": 12892,
+        "workers": 11095,
+        "widowers": 190,
+        "adult_children": 1607
+      },
+      "Florida": {
+        "total": 550864,
+        "workers": 478403,
+        "widowers": 12035,
+        "adult_children": 60426
+      },
+      "Georgia": {
+        "total": 284680,
+        "workers": 243954,
+        "widowers": 8021,
+        "adult_children": 32705
+      },
+      "Hawaii": {
+        "total": 21924,
+        "workers": 18309,
+        "widowers": 347,
+        "adult_children": 3268
+      },
+      "Idaho": {
+        "total": 46532,
+        "workers": 39255,
+        "widowers": 880,
+        "adult_children": 6397
+      },
+      "Illinois": {
+        "total": 280821,
+        "workers": 231279,
+        "widowers": 5455,
+        "adult_children": 44087
+      },
+      "Indiana": {
+        "total": 210886,
+        "workers": 179875,
+        "widowers": 5333,
+        "adult_children": 25678
+      },
+      "Iowa": {
+        "total": 86437,
+        "workers": 71839,
+        "widowers": 1701,
+        "adult_children": 12897
+      },
+      "Kansas": {
+        "total": 74832,
+        "workers": 62691,
+        "widowers": 1737,
+        "adult_children": 10404
+      },
+      "Kentucky": {
+        "total": 199526,
+        "workers": 169747,
+        "widowers": 7301,
+        "adult_children": 22478
+      },
+      "Louisiana": {
+        "total": 161623,
+        "workers": 134154,
+        "widowers": 4948,
+        "adult_children": 22521
+      },
+      "Maine": {
+        "total": 57218,
+        "workers": 48170,
+        "widowers": 1175,
+        "adult_children": 7873
+      },
+      "Maryland": {
+        "total": 125692,
+        "workers": 106981,
+        "widowers": 2244,
+        "adult_children": 16467
+      },
+      "Massachusetts": {
+        "total": 190364,
+        "workers": 159741,
+        "widowers": 2834,
+        "adult_children": 27789
+      },
+      "Michigan": {
+        "total": 347202,
+        "workers": 290191,
+        "widowers": 8114,
+        "adult_children": 48897
+      },
+      "Minnesota": {
+        "total": 130828,
+        "workers": 110186,
+        "widowers": 1754,
+        "adult_children": 18888
+      },
+      "Mississippi": {
+        "total": 126720,
+        "workers": 106401,
+        "widowers": 4007,
+        "adult_children": 16312
+      },
+      "Missouri": {
+        "total": 216416,
+        "workers": 184298,
+        "widowers": 5854,
+        "adult_children": 26264
+      },
+      "Montana": {
+        "total": 27140,
+        "workers": 23073,
+        "widowers": 551,
+        "adult_children": 3516
+      },
+      "Nebraska": {
+        "total": 45172,
+        "workers": 37494,
+        "widowers": 762,
+        "adult_children": 6916
+      },
+      "Nevada": {
+        "total": 63239,
+        "workers": 55891,
+        "widowers": 1308,
+        "adult_children": 6040
+      },
+      "New Hampshire": {
+        "total": 47309,
+        "workers": 40808,
+        "widowers": 841,
+        "adult_children": 5660
+      },
+      "New Jersey": {
+        "total": 194857,
+        "workers": 162912,
+        "widowers": 3394,
+        "adult_children": 28551
+      },
+      "New Mexico": {
+        "total": 62387,
+        "workers": 54280,
+        "widowers": 1148,
+        "adult_children": 6959
+      },
+      "New York": {
+        "total": 506323,
+        "workers": 421997,
+        "widowers": 8570,
+        "adult_children": 75756
+      },
+      "North Carolina": {
+        "total": 326418,
+        "workers": 279258,
+        "widowers": 8967,
+        "adult_children": 38193
+      },
+      "North Dakota": {
+        "total": 16115,
+        "workers": 13383,
+        "widowers": 244,
+        "adult_children": 2488
+      },
+      "Ohio": {
+        "total": 363174,
+        "workers": 305732,
+        "widowers": 9437,
+        "adult_children": 48005
+      },
+      "Oklahoma": {
+        "total": 132777,
+        "workers": 114577,
+        "widowers": 3915,
+        "adult_children": 14285
+      },
+      "Oregon": {
+        "total": 106504,
+        "workers": 89855,
+        "widowers": 2263,
+        "adult_children": 14386
+      },
+      "Pennsylvania": {
+        "total": 409905,
+        "workers": 347464,
+        "widowers": 8844,
+        "adult_children": 53597
+      },
+      "Rhode Island": {
+        "total": 37049,
+        "workers": 31646,
+        "widowers": 637,
+        "adult_children": 4766
+      },
+      "South Carolina": {
+        "total": 176715,
+        "workers": 151280,
+        "widowers": 5507,
+        "adult_children": 19928
+      },
+      "South Dakota": {
+        "total": 20352,
+        "workers": 17108,
+        "widowers": 320,
+        "adult_children": 2924
+      },
+      "Tennessee": {
+        "total": 244082,
+        "workers": 208918,
+        "widowers": 8111,
+        "adult_children": 27053
+      },
+      "Texas": {
+        "total": 560598,
+        "workers": 477204,
+        "widowers": 13188,
+        "adult_children": 70206
+      },
+      "Utah": {
+        "total": 50255,
+        "workers": 41709,
+        "widowers": 912,
+        "adult_children": 7634
+      },
+      "Vermont": {
+        "total": 22730,
+        "workers": 19165,
+        "widowers": 350,
+        "adult_children": 3215
+      },
+      "Virginia": {
+        "total": 213071,
+        "workers": 181500,
+        "widowers": 5254,
+        "adult_children": 26317
+      },
+      "Washington": {
+        "total": 163686,
+        "workers": 138248,
+        "widowers": 3154,
+        "adult_children": 22284
+      },
+      "West Virginia": {
+        "total": 86540,
+        "workers": 72580,
+        "widowers": 3044,
+        "adult_children": 10916
+      },
+      "Wisconsin": {
+        "total": 166404,
+        "workers": 138863,
+        "widowers": 2701,
+        "adult_children": 24840
+      },
+      "Wyoming": {
+        "total": 13947,
+        "workers": 12076,
+        "widowers": 247,
+        "adult_children": 1624
+      },
+      "American Samoa": {
+        "total": 1402,
+        "workers": 1238,
+        "widowers": 60,
+        "adult_children": 104
+      },
+      "Guam": {
+        "total": 1633,
+        "workers": 1388,
+        "widowers": 27,
+        "adult_children": 218
+      },
+      "Northern Mariana Islands": {
+        "total": 363,
+        "workers": 285,
+        "widowers": 7,
+        "adult_children": 71
+      },
+      "Puerto Rico": {
+        "total": 153932,
+        "workers": 129953,
+        "widowers": 2966,
+        "adult_children": 21013
+      },
+      "U.S. Virgin Islands": {
+        "total": 1525,
+        "workers": 1206,
+        "widowers": 27,
+        "adult_children": 292
+      },
+      "Foreign countries": {
+        "total": 12074,
+        "workers": 7438,
+        "widowers": 253,
+        "adult_children": 4383
+      }
+    },
+    "by_diagnosis_december_2023": {
+      "Congenital anomalies": {
+        "total": 28160,
+        "percent": 0.6,
+        "workers": 8725,
+        "workers_percent": 0.2,
+        "widowers": 27,
+        "adult_children": 19408
+      },
+      "Endocrine, nutritional, and metabolic   diseases": {
+        "total": 82600,
+        "percent": 1.9,
+        "workers": 80176,
+        "workers_percent": 2.2,
+        "widowers": 492,
+        "adult_children": 1932
+      },
+      "Infectious and parasitic diseases": {
+        "total": 58669,
+        "percent": 1.3,
+        "workers": 56897,
+        "workers_percent": 1.5,
+        "widowers": 251,
+        "adult_children": 1521
+      },
+      "Injuries": {
+        "total": 195189,
+        "percent": 4.5,
+        "workers": 182932,
+        "workers_percent": 5,
+        "widowers": 713,
+        "adult_children": 11544
+      },
+      "Autism spectrum disorders": {
+        "total": 103647,
+        "percent": 2.4,
+        "workers": 27988,
+        "workers_percent": 0.8,
+        "widowers": 6,
+        "adult_children": 75653
+      },
+      "Developmental disorders": {
+        "total": 10580,
+        "percent": 0.2,
+        "workers": 5503,
+        "workers_percent": 0.1,
+        "widowers": 23,
+        "adult_children": 5054
+      },
+      "Intellectual disorders": {
+        "total": 792880,
+        "percent": 9.1,
+        "workers": 282603,
+        "workers_percent": 3.8,
+        "widowers": 6106,
+        "adult_children": 504171
+      },
+      "Depressive, bipolar, and related   disorders": {
+        "total": 1006311,
+        "percent": 11.6,
+        "workers": 912719,
+        "workers_percent": 12.4,
+        "widowers": 28820,
+        "adult_children": 64772
+      },
+      "Neurocognitive disorders": {
+        "total": 257971,
+        "percent": 3,
+        "workers": 217993,
+        "workers_percent": 3,
+        "widowers": 3969,
+        "adult_children": 36009
+      },
+      "Schizophrenia spectrum and other   psychotic disorders": {
+        "total": 409514,
+        "percent": 4.7,
+        "workers": 321030,
+        "workers_percent": 4.4,
+        "widowers": 4500,
+        "adult_children": 83984
+      },
+      "Other mental disorders": {
+        "total": 395433,
+        "percent": 4.5,
+        "workers": 331909,
+        "workers_percent": 4.5,
+        "widowers": 7754,
+        "adult_children": 55770
+      },
+      "Neoplasms": {
+        "total": 279604,
+        "percent": 3.2,
+        "workers": 271776,
+        "workers_percent": 3.7,
+        "widowers": 4742,
+        "adult_children": 3086
+      },
+      "Blood and blood-forming organs": {
+        "total": 23407,
+        "percent": 0.3,
+        "workers": 20088,
+        "workers_percent": 0.3,
+        "widowers": 378,
+        "adult_children": 2941
+      },
+      "Circulatory system": {
+        "total": 580710,
+        "percent": 6.7,
+        "workers": 561556,
+        "workers_percent": 7.6,
+        "widowers": 13247,
+        "adult_children": 5907
+      },
+      "Digestive system": {
+        "total": 122115,
+        "percent": 1.4,
+        "workers": 117494,
+        "workers_percent": 1.6,
+        "widowers": 2792,
+        "adult_children": 1829
+      },
+      "Genitourinary system": {
+        "total": 158224,
+        "percent": 1.8,
+        "workers": 153357,
+        "workers_percent": 2.1,
+        "widowers": 2095,
+        "adult_children": 2772
+      },
+      "Musculoskeletal system and   connective tissue": {
+        "total": 2610591,
+        "percent": 30,
+        "workers": 2512332,
+        "workers_percent": 34.1,
+        "widowers": 85093,
+        "adult_children": 13166
+      },
+      "Nervous system and sense organs": {
+        "total": 894754,
+        "percent": 10.3,
+        "workers": 746674,
+        "workers_percent": 10.1,
+        "widowers": 15655,
+        "adult_children": 132425
+      },
+      "Respiratory system": {
+        "total": 209908,
+        "percent": 2.4,
+        "workers": 199037,
+        "workers_percent": 2.7,
+        "widowers": 9246,
+        "adult_children": 1625
+      },
+      "Skin and subcutaneous tissue": {
+        "total": 20303,
+        "percent": 0.2,
+        "workers": 19148,
+        "workers_percent": 0.3,
+        "widowers": 444,
+        "adult_children": 711
+      },
+      "Other": {
+        "total": 13679,
+        "percent": 0.2,
+        "workers": 9877,
+        "workers_percent": 0.1,
+        "widowers": 199,
+        "adult_children": 3603
+      },
+      "Unknown": {
+        "total": 161023,
+        "percent": 1.8,
+        "workers": 95101,
+        "workers_percent": 1.3,
+        "widowers": 2213,
+        "adult_children": 63709
+      }
+    },
+    "diagnosis_trends_by_year": {
+      "1996": {
+        "total": 100,
+        "congenital_anomalies": 0.2,
+        "endocrine_nutritional_metabolic": 4.5,
+        "infectious_parasitic": 2,
+        "injuries": 4.9,
+        "mental_disorders_total": 30.8,
+        "mental_disorders_intellectual": 5.2,
+        "mental_disorders_other": 25.6,
+        "neoplasms": 2.8,
+        "blood_diseases": 0.2,
+        "circulatory_system": 11.8,
+        "digestive_system": 1.2,
+        "genitourinary_system": 1.5,
+        "musculoskeletal_system": 20.6,
+        "nervous_system_sense_organs": 9.2,
+        "respiratory_system": 3.5,
+        "skin_subcutaneous": 0.2,
+        "other": 1.9,
+        "unknown": 4.7
+      },
+      "1997": {
+        "total": 4508406,
+        "congenital_anomalies": 8813,
+        "endocrine_nutritional_metabolic": 215186,
+        "infectious_parasitic": 90175,
+        "injuries": 217882,
+        "mental_disorders_total": 1381178,
+        "mental_disorders_intellectual": 235130,
+        "mental_disorders_other": 1146048,
+        "neoplasms": 122775,
+        "blood_diseases": 10926,
+        "circulatory_system": 522047,
+        "digestive_system": 57383,
+        "genitourinary_system": 69300,
+        "musculoskeletal_system": 962915,
+        "nervous_system_sense_organs": 420755,
+        "respiratory_system": 155028,
+        "skin_subcutaneous": 11267,
+        "other": 95708,
+        "unknown": 167068
+      },
+      "1998": {
+        "total": 4698560,
+        "congenital_anomalies": 8719,
+        "endocrine_nutritional_metabolic": 233724,
+        "infectious_parasitic": 93776,
+        "injuries": 224388,
+        "mental_disorders_total": 1459118,
+        "mental_disorders_intellectual": 243745,
+        "mental_disorders_other": 1215373,
+        "neoplasms": 127174,
+        "blood_diseases": 11349,
+        "circulatory_system": 526573,
+        "digestive_system": 61541,
+        "genitourinary_system": 74888,
+        "musculoskeletal_system": 1024053,
+        "nervous_system_sense_organs": 441016,
+        "respiratory_system": 159869,
+        "skin_subcutaneous": 11826,
+        "other": 110377,
+        "unknown": 130169
+      },
+      "1999": {
+        "total": 4879454,
+        "congenital_anomalies": 8546,
+        "endocrine_nutritional_metabolic": 251998,
+        "infectious_parasitic": 96132,
+        "injuries": 228800,
+        "mental_disorders_total": 1532155,
+        "mental_disorders_intellectual": 249871,
+        "mental_disorders_other": 1282284,
+        "neoplasms": 131492,
+        "blood_diseases": 11687,
+        "circulatory_system": 528627,
+        "digestive_system": 65887,
+        "genitourinary_system": 79524,
+        "musculoskeletal_system": 1086432,
+        "nervous_system_sense_organs": 460133,
+        "respiratory_system": 162863,
+        "skin_subcutaneous": 12151,
+        "other": 117326,
+        "unknown": 105701
+      },
+      "2000": {
+        "total": 5042333,
+        "congenital_anomalies": 8540,
+        "endocrine_nutritional_metabolic": 244456,
+        "infectious_parasitic": 97919,
+        "injuries": 231066,
+        "mental_disorders_total": 1618758,
+        "mental_disorders_intellectual": 257601,
+        "mental_disorders_other": 1361157,
+        "neoplasms": 136404,
+        "blood_diseases": 12070,
+        "circulatory_system": 532998,
+        "digestive_system": 69735,
+        "genitourinary_system": 84687,
+        "musculoskeletal_system": 1152231,
+        "nervous_system_sense_organs": 479246,
+        "respiratory_system": 166054,
+        "skin_subcutaneous": 12351,
+        "other": 113167,
+        "unknown": 82651
+      },
+      "2001": {
+        "total": 5268039,
+        "congenital_anomalies": 8752,
+        "endocrine_nutritional_metabolic": 239614,
+        "infectious_parasitic": 100442,
+        "injuries": 240948,
+        "mental_disorders_total": 1731886,
+        "mental_disorders_intellectual": 273849,
+        "mental_disorders_other": 1458037,
+        "neoplasms": 142795,
+        "blood_diseases": 12847,
+        "circulatory_system": 543516,
+        "digestive_system": 74680,
+        "genitourinary_system": 88949,
+        "musculoskeletal_system": 1231184,
+        "nervous_system_sense_organs": 505162,
+        "respiratory_system": 170383,
+        "skin_subcutaneous": 12787,
+        "other": 113558,
+        "unknown": 50536
+      },
+      "2002": {
+        "total": 5539597,
+        "congenital_anomalies": 9226,
+        "endocrine_nutritional_metabolic": 237020,
+        "infectious_parasitic": 102589,
+        "injuries": 248544,
+        "mental_disorders_total": 1845138,
+        "mental_disorders_intellectual": 286210,
+        "mental_disorders_other": 1558928,
+        "neoplasms": 150138,
+        "blood_diseases": 13708,
+        "circulatory_system": 558736,
+        "digestive_system": 80396,
+        "genitourinary_system": 93645,
+        "musculoskeletal_system": 1324762,
+        "nervous_system_sense_organs": 533774,
+        "respiratory_system": 176941,
+        "skin_subcutaneous": 13429,
+        "other": 9447,
+        "unknown": 142104
+      },
+      "2003": {
+        "total": 5868541,
+        "congenital_anomalies": 9750,
+        "endocrine_nutritional_metabolic": 242517,
+        "infectious_parasitic": 106767,
+        "injuries": 260572,
+        "mental_disorders_total": 1961090,
+        "mental_disorders_intellectual": 298500,
+        "mental_disorders_other": 1662590,
+        "neoplasms": 160986,
+        "blood_diseases": 14711,
+        "circulatory_system": 579778,
+        "digestive_system": 87721,
+        "genitourinary_system": 98491,
+        "musculoskeletal_system": 1430357,
+        "nervous_system_sense_organs": 565244,
+        "respiratory_system": 185834,
+        "skin_subcutaneous": 14133,
+        "other": 10705,
+        "unknown": 139885
+      },
+      "2004": {
+        "total": 6197385,
+        "congenital_anomalies": 10392,
+        "endocrine_nutritional_metabolic": 247559,
+        "infectious_parasitic": 110178,
+        "injuries": 271626,
+        "mental_disorders_total": 2075867,
+        "mental_disorders_intellectual": 310240,
+        "mental_disorders_other": 1765627,
+        "neoplasms": 172844,
+        "blood_diseases": 15596,
+        "circulatory_system": 600144,
+        "digestive_system": 94566,
+        "genitourinary_system": 103427,
+        "musculoskeletal_system": 1540566,
+        "nervous_system_sense_organs": 596369,
+        "respiratory_system": 194592,
+        "skin_subcutaneous": 14963,
+        "other": 12038,
+        "unknown": 136658
+      },
+      "2005": {
+        "total": 6519001,
+        "congenital_anomalies": 11001,
+        "endocrine_nutritional_metabolic": 252933,
+        "infectious_parasitic": 111927,
+        "injuries": 281828,
+        "mental_disorders_total": 2183182,
+        "mental_disorders_intellectual": 320564,
+        "mental_disorders_other": 1862618,
+        "neoplasms": 185049,
+        "blood_diseases": 16270,
+        "circulatory_system": 620852,
+        "digestive_system": 100934,
+        "genitourinary_system": 108701,
+        "musculoskeletal_system": 1656997,
+        "nervous_system_sense_organs": 623948,
+        "respiratory_system": 202821,
+        "skin_subcutaneous": 15662,
+        "other": 13225,
+        "unknown": 133671
+      },
+      "2006": {
+        "total": 6806918,
+        "congenital_anomalies": 11544,
+        "endocrine_nutritional_metabolic": 258310,
+        "infectious_parasitic": 113410,
+        "injuries": 292161,
+        "mental_disorders_total": 2276814,
+        "mental_disorders_intellectual": 329540,
+        "mental_disorders_other": 1947274,
+        "neoplasms": 196075,
+        "blood_diseases": 17080,
+        "circulatory_system": 635807,
+        "digestive_system": 106714,
+        "genitourinary_system": 114079,
+        "musculoskeletal_system": 1765058,
+        "nervous_system_sense_organs": 649336,
+        "respiratory_system": 208991,
+        "skin_subcutaneous": 16343,
+        "other": 14384,
+        "unknown": 130812
+      },
+      "2007": {
+        "total": 7098723,
+        "congenital_anomalies": 12148,
+        "endocrine_nutritional_metabolic": 263724,
+        "infectious_parasitic": 115305,
+        "injuries": 303537,
+        "mental_disorders_total": 2368684,
+        "mental_disorders_intellectual": 338072,
+        "mental_disorders_other": 2030612,
+        "neoplasms": 208540,
+        "blood_diseases": 18004,
+        "circulatory_system": 651306,
+        "digestive_system": 112194,
+        "genitourinary_system": 119945,
+        "musculoskeletal_system": 1875931,
+        "nervous_system_sense_organs": 674096,
+        "respiratory_system": 214847,
+        "skin_subcutaneous": 17107,
+        "other": 15639,
+        "unknown": 127716
+      },
+      "2008": {
+        "total": 7426691,
+        "congenital_anomalies": 12801,
+        "endocrine_nutritional_metabolic": 270794,
+        "infectious_parasitic": 118282,
+        "injuries": 315365,
+        "mental_disorders_total": 2469423,
+        "mental_disorders_intellectual": 346967,
+        "mental_disorders_other": 2122456,
+        "neoplasms": 220871,
+        "blood_diseases": 18867,
+        "circulatory_system": 668281,
+        "digestive_system": 118111,
+        "genitourinary_system": 126491,
+        "musculoskeletal_system": 2005325,
+        "nervous_system_sense_organs": 702772,
+        "respiratory_system": 221138,
+        "skin_subcutaneous": 17776,
+        "other": 17104,
+        "unknown": 123290
+      },
+      "2009": {
+        "total": 7788013,
+        "congenital_anomalies": 13614,
+        "endocrine_nutritional_metabolic": 278565,
+        "infectious_parasitic": 119753,
+        "injuries": 330708,
+        "mental_disorders_total": 2579127,
+        "mental_disorders_intellectual": 358737,
+        "mental_disorders_other": 2220390,
+        "neoplasms": 237589,
+        "blood_diseases": 19977,
+        "circulatory_system": 683834,
+        "digestive_system": 125725,
+        "genitourinary_system": 132797,
+        "musculoskeletal_system": 2146952,
+        "nervous_system_sense_organs": 734496,
+        "respiratory_system": 227385,
+        "skin_subcutaneous": 18713,
+        "other": 18030,
+        "unknown": 120748
+      },
+      "2010": {
+        "total": 8203951,
+        "congenital_anomalies": 14431,
+        "endocrine_nutritional_metabolic": 288146,
+        "infectious_parasitic": 122411,
+        "injuries": 345309,
+        "mental_disorders_total": 2691639,
+        "mental_disorders_intellectual": 365957,
+        "mental_disorders_other": 2325682,
+        "neoplasms": 253850,
+        "blood_diseases": 21384,
+        "circulatory_system": 707291,
+        "digestive_system": 134467,
+        "genitourinary_system": 140128,
+        "musculoskeletal_system": 2316896,
+        "nervous_system_sense_organs": 770551,
+        "respiratory_system": 237621,
+        "skin_subcutaneous": 19896,
+        "other": 19537,
+        "unknown": 120394
+      },
+      "2011": {
+        "total": 8575544,
+        "congenital_anomalies": 15199,
+        "endocrine_nutritional_metabolic": 296207,
+        "infectious_parasitic": 125622,
+        "injuries": 356200,
+        "mental_disorders_total": 2768928,
+        "mental_disorders_intellectual": 369093,
+        "mental_disorders_other": 2399835,
+        "neoplasms": 264475,
+        "blood_diseases": 22556,
+        "circulatory_system": 732521,
+        "digestive_system": 142189,
+        "genitourinary_system": 145963,
+        "musculoskeletal_system": 2488374,
+        "nervous_system_sense_organs": 802935,
+        "respiratory_system": 248795,
+        "skin_subcutaneous": 20985,
+        "other": 20396,
+        "unknown": 124199
+      },
+      "2012": {
+        "total": 8826591,
+        "congenital_anomalies": 15727,
+        "endocrine_nutritional_metabolic": 299434,
+        "infectious_parasitic": 126044,
+        "injuries": 361999,
+        "mental_disorders_total": 2805202,
+        "mental_disorders_intellectual": 368821,
+        "mental_disorders_other": 2436381,
+        "neoplasms": 271304,
+        "blood_diseases": 23382,
+        "circulatory_system": 744939,
+        "digestive_system": 147472,
+        "genitourinary_system": 150260,
+        "musculoskeletal_system": 2634473,
+        "nervous_system_sense_organs": 823134,
+        "respiratory_system": 254415,
+        "skin_subcutaneous": 21814,
+        "other": 20758,
+        "unknown": 126234
+      },
+      "2013": {
+        "total": 8940950,
+        "congenital_anomalies": 15974,
+        "endocrine_nutritional_metabolic": 296624,
+        "infectious_parasitic": 125628,
+        "injuries": 361079,
+        "mental_disorders_total": 2803759,
+        "mental_disorders_intellectual": 366135,
+        "mental_disorders_other": 2437624,
+        "neoplasms": 276008,
+        "blood_diseases": 23966,
+        "circulatory_system": 745640,
+        "digestive_system": 150519,
+        "genitourinary_system": 153228,
+        "musculoskeletal_system": 2730954,
+        "nervous_system_sense_organs": 833553,
+        "respiratory_system": 255657,
+        "skin_subcutaneous": 22256,
+        "other": 20858,
+        "unknown": 125247
+      },
+      "2014": {
+        "total": 8954518,
+        "congenital_anomalies": 16134,
+        "endocrine_nutritional_metabolic": 290167,
+        "infectious_parasitic": 123858,
+        "injuries": 355614,
+        "mental_disorders_total": 2773514,
+        "mental_disorders_intellectual": 362677,
+        "mental_disorders_other": 2410837,
+        "neoplasms": 277383,
+        "blood_diseases": 24052,
+        "circulatory_system": 739812,
+        "digestive_system": 150811,
+        "genitourinary_system": 155527,
+        "musculoskeletal_system": 2790456,
+        "nervous_system_sense_organs": 836949,
+        "respiratory_system": 254811,
+        "skin_subcutaneous": 22344,
+        "other": 20739,
+        "unknown": 122347
+      },
+      "2015": {
+        "total": 8909430,
+        "congenital_anomalies": 16240,
+        "endocrine_nutritional_metabolic": 280280,
+        "infectious_parasitic": 120970,
+        "injuries": 347230,
+        "mental_disorders_total": 2727043,
+        "mental_disorders_intellectual": 357219,
+        "mental_disorders_other": 2369824,
+        "neoplasms": 278406,
+        "blood_diseases": 24061,
+        "circulatory_system": 729590,
+        "digestive_system": 149471,
+        "genitourinary_system": 157548,
+        "musculoskeletal_system": 2827673,
+        "nervous_system_sense_organs": 836534,
+        "respiratory_system": 252327,
+        "skin_subcutaneous": 22414,
+        "other": 20362,
+        "unknown": 119281
+      },
+      "2016": {
+        "total": 8808736,
+        "congenital_anomalies": 16251,
+        "endocrine_nutritional_metabolic": 269065,
+        "infectious_parasitic": 117203,
+        "injuries": 337772,
+        "mental_disorders_total": 2665344,
+        "mental_disorders_intellectual": 349537,
+        "mental_disorders_other": 2315807,
+        "neoplasms": 277531,
+        "blood_diseases": 23606,
+        "circulatory_system": 716119,
+        "digestive_system": 146645,
+        "genitourinary_system": 158911,
+        "musculoskeletal_system": 2842133,
+        "nervous_system_sense_organs": 831232,
+        "respiratory_system": 248896,
+        "skin_subcutaneous": 22251,
+        "other": 19806,
+        "unknown": 115971
+      },
+      "2017": {
+        "total": 8695475,
+        "congenital_anomalies": 16408,
+        "endocrine_nutritional_metabolic": 256676,
+        "infectious_parasitic": 113305,
+        "injuries": 330413,
+        "mental_disorders_total": 2608403,
+        "mental_disorders_intellectual": 343664,
+        "mental_disorders_other": 2264739,
+        "neoplasms": 276905,
+        "blood_diseases": 23281,
+        "circulatory_system": 696154,
+        "digestive_system": 143961,
+        "genitourinary_system": 159810,
+        "musculoskeletal_system": 2844928,
+        "nervous_system_sense_organs": 826878,
+        "respiratory_system": 244194,
+        "skin_subcutaneous": 21944,
+        "other": 19144,
+        "unknown": 113071
+      },
+      "2018": {
+        "total": 8537332,
+        "congenital_anomalies": 16502,
+        "endocrine_nutritional_metabolic": 243589,
+        "infectious_parasitic": 107808,
+        "injuries": 321988,
+        "mental_disorders_total": 2536569,
+        "mental_disorders_intellectual": 334782,
+        "mental_disorders_other": 2201787,
+        "neoplasms": 273932,
+        "blood_diseases": 23012,
+        "circulatory_system": 675110,
+        "digestive_system": 140199,
+        "genitourinary_system": 159735,
+        "musculoskeletal_system": 2833436,
+        "nervous_system_sense_organs": 818033,
+        "respiratory_system": 237345,
+        "skin_subcutaneous": 21630,
+        "other": 18349,
+        "unknown": 110095
+      },
+      "2019": {
+        "total": 8378374,
+        "congenital_anomalies": 16600,
+        "endocrine_nutritional_metabolic": 230752,
+        "infectious_parasitic": 102308,
+        "injuries": 313791,
+        "mental_disorders_total": 2466025,
+        "mental_disorders_intellectual": 325877,
+        "mental_disorders_other": 2140148,
+        "neoplasms": 274712,
+        "blood_diseases": 22746,
+        "circulatory_system": 656001,
+        "digestive_system": 136877,
+        "genitourinary_system": 159952,
+        "musculoskeletal_system": 2811240,
+        "nervous_system_sense_organs": 810548,
+        "respiratory_system": 230556,
+        "skin_subcutaneous": 21267,
+        "other": 17649,
+        "unknown": 107350
+      },
+      "2020": {
+        "total": 8151016,
+        "congenital_anomalies": 16803,
+        "endocrine_nutritional_metabolic": 215657,
+        "infectious_parasitic": 97084,
+        "injuries": 304141,
+        "mental_disorders_total": 2390471,
+        "mental_disorders_intellectual": 317076,
+        "mental_disorders_other": 2073395,
+        "neoplasms": 272667,
+        "blood_diseases": 22512,
+        "circulatory_system": 628816,
+        "digestive_system": 132660,
+        "genitourinary_system": 159104,
+        "musculoskeletal_system": 2753251,
+        "nervous_system_sense_organs": 794977,
+        "respiratory_system": 220009,
+        "skin_subcutaneous": 20953,
+        "other": 16897,
+        "unknown": 105014
+      },
+      "2021": {
+        "total": 7877129,
+        "congenital_anomalies": 16672,
+        "endocrine_nutritional_metabolic": 200473,
+        "infectious_parasitic": 91272,
+        "injuries": 293713,
+        "mental_disorders_total": 2291114,
+        "mental_disorders_intellectual": 304198,
+        "mental_disorders_other": 1986916,
+        "neoplasms": 268478,
+        "blood_diseases": 21511,
+        "circulatory_system": 603550,
+        "digestive_system": 127272,
+        "genitourinary_system": 155702,
+        "musculoskeletal_system": 2680034,
+        "nervous_system_sense_organs": 777395,
+        "respiratory_system": 212399,
+        "skin_subcutaneous": 20302,
+        "other": 16136,
+        "unknown": 101106
+      },
+      "2022": {
+        "total": 7604098,
+        "congenital_anomalies": 16585,
+        "endocrine_nutritional_metabolic": 187037,
+        "infectious_parasitic": 86524,
+        "injuries": 283759,
+        "mental_disorders_total": 2195441,
+        "mental_disorders_intellectual": 292545,
+        "mental_disorders_other": 1902896,
+        "neoplasms": 265830,
+        "blood_diseases": 20770,
+        "circulatory_system": 580059,
+        "digestive_system": 121950,
+        "genitourinary_system": 153263,
+        "musculoskeletal_system": 2593931,
+        "nervous_system_sense_organs": 760032,
+        "respiratory_system": 206005,
+        "skin_subcutaneous": 19701,
+        "other": 15436,
+        "unknown": 97775
+      },
+      "2023": {
+        "total": 7365987,
+        "congenital_anomalies": 16725,
+        "endocrine_nutritional_metabolic": 169538,
+        "infectious_parasitic": 81767,
+        "injuries": 280609,
+        "mental_disorders_total": 2110908,
+        "mental_disorders_intellectual": 282603,
+        "mental_disorders_other": 1828305,
+        "neoplasms": 271776,
+        "blood_diseases": 20088,
+        "circulatory_system": 561556,
+        "digestive_system": 117494,
+        "genitourinary_system": 153357,
+        "musculoskeletal_system": 2512332,
+        "nervous_system_sense_organs": 746674,
+        "respiratory_system": 199037,
+        "skin_subcutaneous": 19148,
+        "other": 9877,
+        "unknown": 95101
+      }
+    },
+    "new_awards_by_year": {
+      "1960": {
+        "total": 388861,
+        "workers_and_dependents": 207805,
+        "widowers": null,
+        "adult_children": 9819
+      },
+      "1965": {
+        "total": 538983,
+        "workers_and_dependents": 253499,
+        "widowers": null,
+        "adult_children": 8668
+      },
+      "1970": {
+        "total": 799616,
+        "workers_and_dependents": 350384,
+        "widowers": 15609,
+        "adult_children": 9425
+      },
+      "1975": {
+        "total": 1305345,
+        "workers_and_dependents": 592049,
+        "widowers": 23521,
+        "adult_children": 11182
+      },
+      "1980": {
+        "total": 933597,
+        "workers_and_dependents": 396559,
+        "widowers": 16054,
+        "adult_children": 10626
+      },
+      "1981": {
+        "total": 826340,
+        "workers_and_dependents": 351847,
+        "widowers": 14154,
+        "adult_children": 9745
+      },
+      "1982": {
+        "total": 672333,
+        "workers_and_dependents": 297131,
+        "widowers": 12440,
+        "adult_children": 9685
+      },
+      "1983": {
+        "total": 661467,
+        "workers_and_dependents": 311549,
+        "widowers": 14412,
+        "adult_children": 11223
+      },
+      "1984": {
+        "total": 730135,
+        "workers_and_dependents": 361998,
+        "widowers": 17165,
+        "adult_children": 12556
+      },
+      "1985": {
+        "total": 763363,
+        "workers_and_dependents": 377371,
+        "widowers": 17086,
+        "adult_children": 12709
+      },
+      "1986": {
+        "total": 809424,
+        "workers_and_dependents": 416865,
+        "widowers": 18418,
+        "adult_children": 13244
+      },
+      "1987": {
+        "total": 799180,
+        "workers_and_dependents": 415848,
+        "widowers": 16396,
+        "adult_children": 12117
+      },
+      "1988": {
+        "total": 795690,
+        "workers_and_dependents": 409490,
+        "widowers": 15328,
+        "adult_children": 11512
+      },
+      "1989": {
+        "total": 801893,
+        "workers_and_dependents": 425582,
+        "widowers": 15168,
+        "adult_children": 10975
+      },
+      "1990": {
+        "total": 868793,
+        "workers_and_dependents": 467977,
+        "widowers": 15424,
+        "adult_children": 11277
+      },
+      "1991": {
+        "total": 990500,
+        "workers_and_dependents": 536434,
+        "widowers": 29590,
+        "adult_children": 11684
+      },
+      "1992": {
+        "total": 1167001,
+        "workers_and_dependents": 636637,
+        "widowers": 33235,
+        "adult_children": 13846
+      },
+      "1993": {
+        "total": 1177268,
+        "workers_and_dependents": 635238,
+        "widowers": 31835,
+        "adult_children": 13819
+      },
+      "1994": {
+        "total": 1177236,
+        "workers_and_dependents": 631870,
+        "widowers": 29903,
+        "adult_children": 12590
+      },
+      "1995": {
+        "total": 1173317,
+        "workers_and_dependents": 645832,
+        "widowers": 29597,
+        "adult_children": 11930
+      },
+      "1996": {
+        "total": 1139054,
+        "workers_and_dependents": 624335,
+        "widowers": 28611,
+        "adult_children": 11061
+      },
+      "1997": {
+        "total": 1059556,
+        "workers_and_dependents": 587417,
+        "widowers": 28546,
+        "adult_children": 10616
+      },
+      "1998": {
+        "total": 1087352,
+        "workers_and_dependents": 608131,
+        "widowers": 29399,
+        "adult_children": 10914
+      },
+      "1999": {
+        "total": 1106343,
+        "workers_and_dependents": 620488,
+        "widowers": 29650,
+        "adult_children": 11430
+      },
+      "2000": {
+        "total": 1051900,
+        "workers_and_dependents": 610700,
+        "widowers": 27600,
+        "adult_children": 9200
+      },
+      "2001": {
+        "total": 1118300,
+        "workers_and_dependents": 661900,
+        "widowers": 26500,
+        "adult_children": 12200
+      },
+      "2002": {
+        "total": 1219670,
+        "workers_and_dependents": 730383,
+        "widowers": 28339,
+        "adult_children": 15284
+      },
+      "2003": {
+        "total": 1259672,
+        "workers_and_dependents": 755706,
+        "widowers": 27324,
+        "adult_children": 15225
+      },
+      "2004": {
+        "total": 1311031,
+        "workers_and_dependents": 775244,
+        "widowers": 27744,
+        "adult_children": 16455
+      },
+      "2005": {
+        "total": 1402509,
+        "workers_and_dependents": 821207,
+        "widowers": 29576,
+        "adult_children": 17973
+      },
+      "2006": {
+        "total": 1369044,
+        "workers_and_dependents": 798675,
+        "widowers": 28682,
+        "adult_children": 17467
+      },
+      "2007": {
+        "total": 1383199,
+        "workers_and_dependents": 804787,
+        "widowers": 28810,
+        "adult_children": 20368
+      },
+      "2008": {
+        "total": 1506563,
+        "workers_and_dependents": 877226,
+        "widowers": 30605,
+        "adult_children": 24369
+      },
+      "2009": {
+        "total": 1647013,
+        "workers_and_dependents": 970696,
+        "widowers": 31518,
+        "adult_children": 22821
+      },
+      "2010": {
+        "total": 1740729,
+        "workers_and_dependents": 1026988,
+        "widowers": 33259,
+        "adult_children": 21942
+      },
+      "2011": {
+        "total": 1695780,
+        "workers_and_dependents": 998979,
+        "widowers": 33183,
+        "adult_children": 21575
+      },
+      "2012": {
+        "total": 1603793,
+        "workers_and_dependents": 960206,
+        "widowers": 33197,
+        "adult_children": 18236
+      },
+      "2013": {
+        "total": 1442810,
+        "workers_and_dependents": 868965,
+        "widowers": 31599,
+        "adult_children": 16638
+      },
+      "2014": {
+        "total": 1287537,
+        "workers_and_dependents": 778796,
+        "widowers": 29673,
+        "adult_children": 15705
+      },
+      "2015": {
+        "total": 1230090,
+        "workers_and_dependents": 741478,
+        "widowers": 30397,
+        "adult_children": 16350
+      },
+      "2016": {
+        "total": 1167535,
+        "workers_and_dependents": 706448,
+        "widowers": 28514,
+        "adult_children": 16244
+      },
+      "2017": {
+        "total": 1171070,
+        "workers_and_dependents": 715921,
+        "widowers": 28450,
+        "adult_children": 18616
+      },
+      "2018": {
+        "total": 1119930,
+        "workers_and_dependents": 686723,
+        "widowers": 26143,
+        "adult_children": 20283
+      },
+      "2019": {
+        "total": 1081819,
+        "workers_and_dependents": 679449,
+        "widowers": 21244,
+        "adult_children": 16903
+      },
+      "2020": {
+        "total": 986093,
+        "workers_and_dependents": 619636,
+        "widowers": 21476,
+        "adult_children": 15877
+      },
+      "2021": {
+        "total": 830400,
+        "workers_and_dependents": 540353,
+        "widowers": 18998,
+        "adult_children": 14926
+      },
+      "2022": {
+        "total": 786458,
+        "workers_and_dependents": 509272,
+        "widowers": 17738,
+        "adult_children": 14704
+      },
+      "2023": {
+        "total": 800325,
+        "workers_and_dependents": 523834,
+        "widowers": 16301,
+        "adult_children": 15167
+      }
+    },
+    "terminations_by_year": {
+      "1960": {
+        "total": 91543,
+        "rate_per_1000": 164
+      },
+      "1961": {
+        "total": 118842,
+        "rate_per_1000": 160
+      },
+      "1962": {
+        "total": 132144,
+        "rate_per_1000": 149
+      },
+      "1963": {
+        "total": 143008,
+        "rate_per_1000": 144
+      },
+      "1964": {
+        "total": 144422,
+        "rate_per_1000": 134
+      },
+      "1965": {
+        "total": 163276,
+        "rate_per_1000": 138
+      },
+      "1966": {
+        "total": 175959,
+        "rate_per_1000": 134
+      },
+      "1967": {
+        "total": 218077,
+        "rate_per_1000": 153
+      },
+      "1968": {
+        "total": 232817,
+        "rate_per_1000": 151
+      },
+      "1969": {
+        "total": 263191,
+        "rate_per_1000": 159
+      },
+      "1970": {
+        "total": 272239,
+        "rate_per_1000": 154
+      },
+      "1971": {
+        "total": 278092,
+        "rate_per_1000": 144
+      },
+      "1972": {
+        "total": 275663,
+        "rate_per_1000": 129
+      },
+      "1973": {
+        "total": 317237,
+        "rate_per_1000": 136
+      },
+      "1974": {
+        "total": 336246,
+        "rate_per_1000": 130
+      },
+      "1975": {
+        "total": 344727,
+        "rate_per_1000": 121
+      },
+      "1976": {
+        "total": 367608,
+        "rate_per_1000": 120
+      },
+      "1977": {
+        "total": 418394,
+        "rate_per_1000": 129
+      },
+      "1978": {
+        "total": 431067,
+        "rate_per_1000": 131
+      },
+      "1979": {
+        "total": 441101,
+        "rate_per_1000": 133
+      },
+      "1980": {
+        "total": 422612,
+        "rate_per_1000": 128
+      },
+      "1981": {
+        "total": 449669,
+        "rate_per_1000": 139
+      },
+      "1982": {
+        "total": 500282,
+        "rate_per_1000": 163
+      },
+      "1983": {
+        "total": 473327,
+        "rate_per_1000": 155
+      },
+      "1984": {
+        "total": 391190,
+        "rate_per_1000": 126
+      },
+      "1985": {
+        "total": 357006,
+        "rate_per_1000": 112
+      },
+      "1986": {
+        "total": 358289,
+        "rate_per_1000": 109
+      },
+      "1987": {
+        "total": 365004,
+        "rate_per_1000": 109
+      },
+      "1988": {
+        "total": 375621,
+        "rate_per_1000": 110
+      },
+      "1989": {
+        "total": 371128,
+        "rate_per_1000": 107
+      },
+      "1990": {
+        "total": 368208,
+        "rate_per_1000": 102
+      },
+      "1991": {
+        "total": 369026,
+        "rate_per_1000": 97
+      },
+      "1992": {
+        "total": 379653,
+        "rate_per_1000": 92
+      },
+      "1993": {
+        "total": 391159,
+        "rate_per_1000": 89
+      },
+      "1994": {
+        "total": 404624,
+        "rate_per_1000": 87
+      },
+      "1995": {
+        "total": 422114,
+        "rate_per_1000": 87
+      },
+      "1996": {
+        "total": 420756,
+        "rate_per_1000": 83
+      },
+      "1997": {
+        "total": 491194,
+        "rate_per_1000": 94
+      },
+      "1998": {
+        "total": 436244,
+        "rate_per_1000": 81
+      },
+      "1999": {
+        "total": 463394,
+        "rate_per_1000": 83
+      },
+      "2000": {
+        "total": 493651,
+        "rate_per_1000": 86
+      },
+      "2001": {
+        "total": 513472,
+        "rate_per_1000": 83
+      },
+      "2002": {
+        "total": 535465,
+        "rate_per_1000": 82
+      },
+      "2003": {
+        "total": 501222,
+        "rate_per_1000": 73
+      },
+      "2004": {
+        "total": 525418,
+        "rate_per_1000": 73
+      },
+      "2005": {
+        "total": 556745,
+        "rate_per_1000": 74
+      },
+      "2006": {
+        "total": 569146,
+        "rate_per_1000": 73
+      },
+      "2007": {
+        "total": 580721,
+        "rate_per_1000": 72
+      },
+      "2008": {
+        "total": 627423,
+        "rate_per_1000": 74
+      },
+      "2009": {
+        "total": 695216,
+        "rate_per_1000": 78
+      },
+      "2010": {
+        "total": 706008,
+        "rate_per_1000": 75
+      },
+      "2011": {
+        "total": 723188,
+        "rate_per_1000": 74
+      },
+      "2012": {
+        "total": 795699,
+        "rate_per_1000": 79
+      },
+      "2013": {
+        "total": 839099,
+        "rate_per_1000": 82
+      },
+      "2014": {
+        "total": 849739,
+        "rate_per_1000": 83
+      },
+      "2015": {
+        "total": 872137,
+        "rate_per_1000": 85
+      },
+      "2016": {
+        "total": 892974,
+        "rate_per_1000": 88
+      },
+      "2017": {
+        "total": 936391,
+        "rate_per_1000": 93
+      },
+      "2018": {
+        "total": 956400,
+        "rate_per_1000": 96
+      },
+      "2019": {
+        "total": 952273,
+        "rate_per_1000": 98
+      },
+      "2020": {
+        "total": 979293,
+        "rate_per_1000": 103
+      },
+      "2021": {
+        "total": 931123,
+        "rate_per_1000": 101
+      },
+      "2022": {
+        "total": 902313,
+        "rate_per_1000": 101
+      },
+      "2023": {
+        "total": 878426,
+        "rate_per_1000": 101
+      }
+    },
+    "applications_and_status": {
+      "2009": {
+        "applications_field_office": 2816244,
+        "applications_initial_dds": 1798975,
+        "awards": 985940,
+        "in_current_payment_status": null,
+        "terminations": 7789113
+      },
+      "2010": {
+        "applications_field_office": 2935798,
+        "applications_initial_dds": 1926398,
+        "awards": 1052551,
+        "in_current_payment_status": null,
+        "terminations": 8204710
+      },
+      "2011": {
+        "applications_field_office": 2878920,
+        "applications_initial_dds": 1859591,
+        "awards": 1025003,
+        "in_current_payment_status": null,
+        "terminations": 8576067
+      },
+      "2012": {
+        "applications_field_office": 2824024,
+        "applications_initial_dds": 1808863,
+        "awards": 979973,
+        "in_current_payment_status": null,
+        "terminations": 8827795
+      },
+      "2013": {
+        "applications_field_office": 2653939,
+        "applications_initial_dds": 1702700,
+        "awards": 884894,
+        "in_current_payment_status": null,
+        "terminations": 8942584
+      },
+      "2014": {
+        "applications_field_office": 2536174,
+        "applications_initial_dds": 1633652,
+        "awards": 810973,
+        "in_current_payment_status": null,
+        "terminations": 8954518
+      },
+      "2015": {
+        "applications_field_office": 2427443,
+        "applications_initial_dds": 1552119,
+        "awards": 775739,
+        "in_current_payment_status": null,
+        "terminations": 8909430
+      },
+      "2016": {
+        "applications_field_office": 2321583,
+        "applications_initial_dds": 1473700,
+        "awards": 744268,
+        "in_current_payment_status": null,
+        "terminations": 8808736
+      },
+      "2017": {
+        "applications_field_office": 2179928,
+        "applications_initial_dds": 1377803,
+        "awards": 762141,
+        "in_current_payment_status": null,
+        "terminations": 8695475
+      },
+      "2018": {
+        "applications_field_office": 2073293,
+        "applications_initial_dds": 1300668,
+        "awards": 733879,
+        "in_current_payment_status": null,
+        "terminations": 8537332
+      },
+      "2019": {
+        "applications_field_office": 2015182,
+        "applications_initial_dds": 1309863,
+        "awards": 723858,
+        "in_current_payment_status": null,
+        "terminations": 8378374
+      },
+      "2020": {
+        "applications_field_office": 1838893,
+        "applications_initial_dds": 1226236,
+        "awards": 648121,
+        "in_current_payment_status": null,
+        "terminations": 8151016
+      },
+      "2021": {
+        "applications_field_office": 1820282,
+        "applications_initial_dds": 1210545,
+        "awards": 571952,
+        "in_current_payment_status": null,
+        "terminations": 7877129
+      },
+      "2022": {
+        "applications_field_office": 1804384,
+        "applications_initial_dds": 1205686,
+        "awards": 543445,
+        "in_current_payment_status": null,
+        "terminations": 7604098
+      },
+      "2023": {
+        "applications_field_office": 1904635,
+        "applications_initial_dds": 1248378,
+        "awards": 561585,
+        "in_current_payment_status": null,
+        "terminations": 7365987
+      }
+    }
+  },
+  "ssi": {
+    "recipients_by_year": {
+      "1974": {
+        "total": 3996064,
+        "under_18": 70900,
+        "under_18_pct": 1.8,
+        "aged_18_64": 1503155,
+        "aged_18_64_pct": 37.6,
+        "aged_65_plus": 2422009,
+        "aged_65_plus_pct": 60.6
+      },
+      "1975": {
+        "total": 4314275,
+        "under_18": 107026,
+        "under_18_pct": 2.5,
+        "aged_18_64": 1699394,
+        "aged_18_64_pct": 39.4,
+        "aged_65_plus": 2507855,
+        "aged_65_plus_pct": 58.1
+      },
+      "1976": {
+        "total": 4235939,
+        "under_18": 125412,
+        "under_18_pct": 3.0,
+        "aged_18_64": 1713594,
+        "aged_18_64_pct": 40.5,
+        "aged_65_plus": 2396933,
+        "aged_65_plus_pct": 56.6
+      },
+      "1977": {
+        "total": 4237692,
+        "under_18": 147355,
+        "under_18_pct": 3.5,
+        "aged_18_64": 1736879,
+        "aged_18_64_pct": 41.0,
+        "aged_65_plus": 2353458,
+        "aged_65_plus_pct": 55.5
+      },
+      "1978": {
+        "total": 4216925,
+        "under_18": 165899,
+        "under_18_pct": 3.9,
+        "aged_18_64": 1747126,
+        "aged_18_64_pct": 41.4,
+        "aged_65_plus": 2303900,
+        "aged_65_plus_pct": 54.6
+      },
+      "1979": {
+        "total": 4149575,
+        "under_18": 177306,
+        "under_18_pct": 4.3,
+        "aged_18_64": 1726553,
+        "aged_18_64_pct": 41.6,
+        "aged_65_plus": 2245716,
+        "aged_65_plus_pct": 54.1
+      },
+      "1980": {
+        "total": 4142017,
+        "under_18": 190394,
+        "under_18_pct": 4.6,
+        "aged_18_64": 1730847,
+        "aged_18_64_pct": 41.8,
+        "aged_65_plus": 2220776,
+        "aged_65_plus_pct": 53.6
+      },
+      "1981": {
+        "total": 4018875,
+        "under_18": 194890,
+        "under_18_pct": 4.8,
+        "aged_18_64": 1702895,
+        "aged_18_64_pct": 42.4,
+        "aged_65_plus": 2121090,
+        "aged_65_plus_pct": 52.8
+      },
+      "1982": {
+        "total": 3857590,
+        "under_18": 191570,
+        "under_18_pct": 5.0,
+        "aged_18_64": 1655279,
+        "aged_18_64_pct": 42.9,
+        "aged_65_plus": 2010741,
+        "aged_65_plus_pct": 52.1
+      },
+      "1983": {
+        "total": 3901497,
+        "under_18": 198323,
+        "under_18_pct": 5.1,
+        "aged_18_64": 1699774,
+        "aged_18_64_pct": 43.6,
+        "aged_65_plus": 2003400,
+        "aged_65_plus_pct": 51.3
+      },
+      "1984": {
+        "total": 4029333,
+        "under_18": 211587,
+        "under_18_pct": 5.3,
+        "aged_18_64": 1780459,
+        "aged_18_64_pct": 44.2,
+        "aged_65_plus": 2037287,
+        "aged_65_plus_pct": 50.6
+      },
+      "1985": {
+        "total": 4138021,
+        "under_18": 227384,
+        "under_18_pct": 5.5,
+        "aged_18_64": 1879168,
+        "aged_18_64_pct": 45.4,
+        "aged_65_plus": 2031469,
+        "aged_65_plus_pct": 49.1
+      },
+      "1986": {
+        "total": 4269184,
+        "under_18": 241198,
+        "under_18_pct": 5.6,
+        "aged_18_64": 2010458,
+        "aged_18_64_pct": 47.1,
+        "aged_65_plus": 2017528,
+        "aged_65_plus_pct": 47.3
+      },
+      "1987": {
+        "total": 4384999,
+        "under_18": 250902,
+        "under_18_pct": 5.7,
+        "aged_18_64": 2118710,
+        "aged_18_64_pct": 48.3,
+        "aged_65_plus": 2015387,
+        "aged_65_plus_pct": 46.0
+      },
+      "1988": {
+        "total": 4463869,
+        "under_18": 255135,
+        "under_18_pct": 5.7,
+        "aged_18_64": 2202714,
+        "aged_18_64_pct": 49.3,
+        "aged_65_plus": 2006020,
+        "aged_65_plus_pct": 44.9
+      },
+      "1989": {
+        "total": 4593059,
+        "under_18": 264890,
+        "under_18_pct": 5.8,
+        "aged_18_64": 2301926,
+        "aged_18_64_pct": 50.1,
+        "aged_65_plus": 2026243,
+        "aged_65_plus_pct": 44.1
+      },
+      "1990": {
+        "total": 4817127,
+        "under_18": 308589,
+        "under_18_pct": 6.4,
+        "aged_18_64": 2449897,
+        "aged_18_64_pct": 50.9,
+        "aged_65_plus": 2058641,
+        "aged_65_plus_pct": 42.7
+      },
+      "1991": {
+        "total": 5118470,
+        "under_18": 397162,
+        "under_18_pct": 7.8,
+        "aged_18_64": 2641524,
+        "aged_18_64_pct": 51.6,
+        "aged_65_plus": 2079784,
+        "aged_65_plus_pct": 40.6
+      },
+      "1992": {
+        "total": 5566189,
+        "under_18": 556470,
+        "under_18_pct": 10.0,
+        "aged_18_64": 2910016,
+        "aged_18_64_pct": 52.3,
+        "aged_65_plus": 2099703,
+        "aged_65_plus_pct": 37.7
+      },
+      "1993": {
+        "total": 5984330,
+        "under_18": 722678,
+        "under_18_pct": 12.1,
+        "aged_18_64": 3148413,
+        "aged_18_64_pct": 52.6,
+        "aged_65_plus": 2113239,
+        "aged_65_plus_pct": 35.3
+      },
+      "1994": {
+        "total": 6295786,
+        "under_18": 841474,
+        "under_18_pct": 13.4,
+        "aged_18_64": 3335255,
+        "aged_18_64_pct": 53.0,
+        "aged_65_plus": 2119057,
+        "aged_65_plus_pct": 33.7
+      },
+      "1995": {
+        "total": 6514134,
+        "under_18": 917048,
+        "under_18_pct": 14.1,
+        "aged_18_64": 3482256,
+        "aged_18_64_pct": 53.5,
+        "aged_65_plus": 2114830,
+        "aged_65_plus_pct": 32.5
+      },
+      "1996": {
+        "total": 6613718,
+        "under_18": 955174,
+        "under_18_pct": 14.4,
+        "aged_18_64": 3568393,
+        "aged_18_64_pct": 54.0,
+        "aged_65_plus": 2090151,
+        "aged_65_plus_pct": 31.6
+      },
+      "1997": {
+        "total": 6494985,
+        "under_18": 879828,
+        "under_18_pct": 13.5,
+        "aged_18_64": 3561625,
+        "aged_18_64_pct": 54.8,
+        "aged_65_plus": 2053532,
+        "aged_65_plus_pct": 31.6
+      },
+      "1998": {
+        "total": 6566069,
+        "under_18": 887066,
+        "under_18_pct": 13.5,
+        "aged_18_64": 3646020,
+        "aged_18_64_pct": 55.5,
+        "aged_65_plus": 2032983,
+        "aged_65_plus_pct": 31.0
+      },
+      "1999": {
+        "total": 6556634,
+        "under_18": 847063,
+        "under_18_pct": 12.9,
+        "aged_18_64": 3690970,
+        "aged_18_64_pct": 56.3,
+        "aged_65_plus": 2018601,
+        "aged_65_plus_pct": 30.8
+      },
+      "2000": {
+        "total": 6601686,
+        "under_18": 846784,
+        "under_18_pct": 12.8,
+        "aged_18_64": 3744022,
+        "aged_18_64_pct": 56.7,
+        "aged_65_plus": 2010880,
+        "aged_65_plus_pct": 30.5
+      },
+      "2001": {
+        "total": 6688489,
+        "under_18": 881836,
+        "under_18_pct": 13.2,
+        "aged_18_64": 3811494,
+        "aged_18_64_pct": 57.0,
+        "aged_65_plus": 1995159,
+        "aged_65_plus_pct": 29.8
+      },
+      "2002": {
+        "total": 6787857,
+        "under_18": 914821,
+        "under_18_pct": 13.5,
+        "aged_18_64": 3877752,
+        "aged_18_64_pct": 57.1,
+        "aged_65_plus": 1995284,
+        "aged_65_plus_pct": 29.4
+      },
+      "2003": {
+        "total": 6902364,
+        "under_18": 959379,
+        "under_18_pct": 13.9,
+        "aged_18_64": 3953248,
+        "aged_18_64_pct": 57.3,
+        "aged_65_plus": 1989737,
+        "aged_65_plus_pct": 28.8
+      },
+      "2004": {
+        "total": 6987845,
+        "under_18": 993127,
+        "under_18_pct": 14.2,
+        "aged_18_64": 4017108,
+        "aged_18_64_pct": 57.5,
+        "aged_65_plus": 1977610,
+        "aged_65_plus_pct": 28.3
+      },
+      "2005": {
+        "total": 7113879,
+        "under_18": 1036498,
+        "under_18_pct": 14.6,
+        "aged_18_64": 4082870,
+        "aged_18_64_pct": 57.4,
+        "aged_65_plus": 1994511,
+        "aged_65_plus_pct": 28.0
+      },
+      "2006": {
+        "total": 7235583,
+        "under_18": 1078977,
+        "under_18_pct": 14.9,
+        "aged_18_64": 4152130,
+        "aged_18_64_pct": 57.4,
+        "aged_65_plus": 2004476,
+        "aged_65_plus_pct": 27.7
+      },
+      "2007": {
+        "total": 7359525,
+        "under_18": 1121017,
+        "under_18_pct": 15.2,
+        "aged_18_64": 4221920,
+        "aged_18_64_pct": 57.4,
+        "aged_65_plus": 2016588,
+        "aged_65_plus_pct": 27.4
+      },
+      "2008": {
+        "total": 7520501,
+        "under_18": 1153844,
+        "under_18_pct": 15.3,
+        "aged_18_64": 4333096,
+        "aged_18_64_pct": 57.6,
+        "aged_65_plus": 2033561,
+        "aged_65_plus_pct": 27.0
+      },
+      "2009": {
+        "total": 7676686,
+        "under_18": 1199788,
+        "under_18_pct": 15.6,
+        "aged_18_64": 4451288,
+        "aged_18_64_pct": 58.0,
+        "aged_65_plus": 2025610,
+        "aged_65_plus_pct": 26.4
+      },
+      "2010": {
+        "total": 7912266,
+        "under_18": 1239269,
+        "under_18_pct": 15.7,
+        "aged_18_64": 4631507,
+        "aged_18_64_pct": 58.5,
+        "aged_65_plus": 2041490,
+        "aged_65_plus_pct": 25.8
+      },
+      "2011": {
+        "total": 8112773,
+        "under_18": 1277122,
+        "under_18_pct": 15.7,
+        "aged_18_64": 4777010,
+        "aged_18_64_pct": 58.9,
+        "aged_65_plus": 2058641,
+        "aged_65_plus_pct": 25.4
+      },
+      "2012": {
+        "total": 8262877,
+        "under_18": 1311861,
+        "under_18_pct": 15.9,
+        "aged_18_64": 4869484,
+        "aged_18_64_pct": 58.9,
+        "aged_65_plus": 2081532,
+        "aged_65_plus_pct": 25.2
+      },
+      "2013": {
+        "total": 8363477,
+        "under_18": 1321681,
+        "under_18_pct": 15.8,
+        "aged_18_64": 4934272,
+        "aged_18_64_pct": 59.0,
+        "aged_65_plus": 2107524,
+        "aged_65_plus_pct": 25.2
+      },
+      "2014": {
+        "total": 8335704,
+        "under_18": 1299761,
+        "under_18_pct": 15.6,
+        "aged_18_64": 4913072,
+        "aged_18_64_pct": 58.9,
+        "aged_65_plus": 2122871,
+        "aged_65_plus_pct": 25.5
+      },
+      "2015": {
+        "total": 8309564,
+        "under_18": 1267160,
+        "under_18_pct": 15.2,
+        "aged_18_64": 4888555,
+        "aged_18_64_pct": 58.8,
+        "aged_65_plus": 2153849,
+        "aged_65_plus_pct": 25.9
+      },
+      "2016": {
+        "total": 8251161,
+        "under_18": 1213079,
+        "under_18_pct": 14.7,
+        "aged_18_64": 4845735,
+        "aged_18_64_pct": 58.7,
+        "aged_65_plus": 2192347,
+        "aged_65_plus_pct": 26.6
+      },
+      "2017": {
+        "total": 8227676,
+        "under_18": 1182593,
+        "under_18_pct": 14.4,
+        "aged_18_64": 4805112,
+        "aged_18_64_pct": 58.4,
+        "aged_65_plus": 2239971,
+        "aged_65_plus_pct": 27.2
+      },
+      "2018": {
+        "total": 8128652,
+        "under_18": 1148038,
+        "under_18_pct": 14.1,
+        "aged_18_64": 4714234,
+        "aged_18_64_pct": 58.0,
+        "aged_65_plus": 2266380,
+        "aged_65_plus_pct": 27.9
+      },
+      "2019": {
+        "total": 8076867,
+        "under_18": 1132080,
+        "under_18_pct": 14.0,
+        "aged_18_64": 4646559,
+        "aged_18_64_pct": 57.5,
+        "aged_65_plus": 2298228,
+        "aged_65_plus_pct": 28.5
+      },
+      "2020": {
+        "total": 7959766,
+        "under_18": 1108612,
+        "under_18_pct": 13.9,
+        "aged_18_64": 4556131,
+        "aged_18_64_pct": 57.2,
+        "aged_65_plus": 2295023,
+        "aged_65_plus_pct": 28.8
+      },
+      "2021": {
+        "total": 7695900,
+        "under_18": 1038149,
+        "under_18_pct": 13.5,
+        "aged_18_64": 4363898,
+        "aged_18_64_pct": 56.7,
+        "aged_65_plus": 2293853,
+        "aged_65_plus_pct": 29.8
+      },
+      "2022": {
+        "total": 7542222,
+        "under_18": 997109,
+        "under_18_pct": 13.2,
+        "aged_18_64": 4195789,
+        "aged_18_64_pct": 55.6,
+        "aged_65_plus": 2349324,
+        "aged_65_plus_pct": 31.1
+      },
+      "2023": {
+        "total": 7425331,
+        "under_18": 983169,
+        "under_18_pct": 13.2,
+        "aged_18_64": 4039319,
+        "aged_18_64_pct": 54.4,
+        "aged_65_plus": 2402843,
+        "aged_65_plus_pct": 32.4
+      }
+    },
+    "by_state_december_2023": {
+      "Alabama": {
+        "total": 142650,
+        "aged": 7556,
+        "blind": 979,
+        "disabled": 134115,
+        "under_18": 17844,
+        "aged_18_64": 93341,
+        "aged_65_plus": 31465
+      },
+      "Alaska": {
+        "total": 10758,
+        "aged": 1570,
+        "blind": 69,
+        "disabled": 9119,
+        "under_18": 852,
+        "aged_18_64": 6623,
+        "aged_65_plus": 3283
+      },
+      "Arizona": {
+        "total": 111780,
+        "aged": 18185,
+        "blind": 1106,
+        "disabled": 92489,
+        "under_18": 14655,
+        "aged_18_64": 61808,
+        "aged_65_plus": 35317
+      },
+      "Arkansas": {
+        "total": 95811,
+        "aged": 4503,
+        "blind": 687,
+        "disabled": 90621,
+        "under_18": 21759,
+        "aged_18_64": 57920,
+        "aged_65_plus": 16132
+      },
+      "California": {
+        "total": 1114946,
+        "aged": 341913,
+        "blind": 14164,
+        "disabled": 758869,
+        "under_18": 82509,
+        "aged_18_64": 451313,
+        "aged_65_plus": 581124
+      },
+      "Colorado": {
+        "total": 66772,
+        "aged": 11171,
+        "blind": 537,
+        "disabled": 55064,
+        "under_18": 6819,
+        "aged_18_64": 38797,
+        "aged_65_plus": 21156
+      },
+      "Connecticut": {
+        "total": 65337,
+        "aged": 7889,
+        "blind": 434,
+        "disabled": 57014,
+        "under_18": 8530,
+        "aged_18_64": 37773,
+        "aged_65_plus": 19034
+      },
+      "Delaware": {
+        "total": 16015,
+        "aged": 1446,
+        "blind": 122,
+        "disabled": 14447,
+        "under_18": 2856,
+        "aged_18_64": 9579,
+        "aged_65_plus": 3580
+      },
+      "District of Columbia": {
+        "total": 22939,
+        "aged": 2447,
+        "blind": 145,
+        "disabled": 20347,
+        "under_18": 3202,
+        "aged_18_64": 12813,
+        "aged_65_plus": 6924
+      },
+      "Florida": {
+        "total": 539255,
+        "aged": 151875,
+        "blind": 3569,
+        "disabled": 383811,
+        "under_18": 81343,
+        "aged_18_64": 227101,
+        "aged_65_plus": 230811
+      },
+      "Georgia": {
+        "total": 245978,
+        "aged": 27618,
+        "blind": 2189,
+        "disabled": 216171,
+        "under_18": 42656,
+        "aged_18_64": 138300,
+        "aged_65_plus": 65022
+      },
+      "Hawaii": {
+        "total": 21009,
+        "aged": 5170,
+        "blind": 184,
+        "disabled": 15655,
+        "under_18": 1064,
+        "aged_18_64": 10719,
+        "aged_65_plus": 9226
+      },
+      "Idaho": {
+        "total": 27763,
+        "aged": 1696,
+        "blind": 234,
+        "disabled": 25833,
+        "under_18": 3613,
+        "aged_18_64": 18995,
+        "aged_65_plus": 5155
+      },
+      "Illinois": {
+        "total": 240653,
+        "aged": 30814,
+        "blind": 2231,
+        "disabled": 207608,
+        "under_18": 30275,
+        "aged_18_64": 137440,
+        "aged_65_plus": 72938
+      },
+      "Indiana": {
+        "total": 119965,
+        "aged": 6603,
+        "blind": 945,
+        "disabled": 112417,
+        "under_18": 19091,
+        "aged_18_64": 80005,
+        "aged_65_plus": 20869
+      },
+      "Iowa": {
+        "total": 48890,
+        "aged": 2989,
+        "blind": 594,
+        "disabled": 45307,
+        "under_18": 7784,
+        "aged_18_64": 32468,
+        "aged_65_plus": 8638
+      },
+      "Kansas": {
+        "total": 44685,
+        "aged": 2897,
+        "blind": 369,
+        "disabled": 41419,
+        "under_18": 7547,
+        "aged_18_64": 28840,
+        "aged_65_plus": 8298
+      },
+      "Kentucky": {
+        "total": 153857,
+        "aged": 8647,
+        "blind": 1000,
+        "disabled": 144210,
+        "under_18": 21724,
+        "aged_18_64": 98086,
+        "aged_65_plus": 34047
+      },
+      "Louisiana": {
+        "total": 157219,
+        "aged": 10390,
+        "blind": 1326,
+        "disabled": 145503,
+        "under_18": 27905,
+        "aged_18_64": 92406,
+        "aged_65_plus": 36908
+      },
+      "Maine": {
+        "total": 33050,
+        "aged": 1719,
+        "blind": 193,
+        "disabled": 31138,
+        "under_18": 3194,
+        "aged_18_64": 23386,
+        "aged_65_plus": 6470
+      },
+      "Maryland": {
+        "total": 113354,
+        "aged": 15788,
+        "blind": 780,
+        "disabled": 96786,
+        "under_18": 16318,
+        "aged_18_64": 65508,
+        "aged_65_plus": 31528
+      },
+      "Massachusetts": {
+        "total": 164783,
+        "aged": 25757,
+        "blind": 1883,
+        "disabled": 137143,
+        "under_18": 17815,
+        "aged_18_64": 88806,
+        "aged_65_plus": 58162
+      },
+      "Michigan": {
+        "total": 248307,
+        "aged": 20541,
+        "blind": 1697,
+        "disabled": 226069,
+        "under_18": 31571,
+        "aged_18_64": 155783,
+        "aged_65_plus": 60953
+      },
+      "Minnesota": {
+        "total": 88376,
+        "aged": 11761,
+        "blind": 727,
+        "disabled": 75888,
+        "under_18": 10003,
+        "aged_18_64": 51923,
+        "aged_65_plus": 26450
+      },
+      "Mississippi": {
+        "total": 105342,
+        "aged": 6951,
+        "blind": 930,
+        "disabled": 97461,
+        "under_18": 16266,
+        "aged_18_64": 64505,
+        "aged_65_plus": 24571
+      },
+      "Missouri": {
+        "total": 126973,
+        "aged": 6960,
+        "blind": 971,
+        "disabled": 119042,
+        "under_18": 18203,
+        "aged_18_64": 84417,
+        "aged_65_plus": 24353
+      },
+      "Montana": {
+        "total": 15923,
+        "aged": 1574,
+        "blind": 136,
+        "disabled": 14213,
+        "under_18": 1683,
+        "aged_18_64": 10100,
+        "aged_65_plus": 4140
+      },
+      "Nebraska": {
+        "total": 27855,
+        "aged": 2457,
+        "blind": 251,
+        "disabled": 25147,
+        "under_18": 3826,
+        "aged_18_64": 18216,
+        "aged_65_plus": 5813
+      },
+      "Nevada": {
+        "total": 52976,
+        "aged": 15795,
+        "blind": 695,
+        "disabled": 36486,
+        "under_18": 8112,
+        "aged_18_64": 27669,
+        "aged_65_plus": 17195
+      },
+      "New Hampshire": {
+        "total": 15852,
+        "aged": 866,
+        "blind": 116,
+        "disabled": 14870,
+        "under_18": 1571,
+        "aged_18_64": 11720,
+        "aged_65_plus": 2561
+      },
+      "New Jersey": {
+        "total": 163661,
+        "aged": 34970,
+        "blind": 884,
+        "disabled": 127807,
+        "under_18": 22469,
+        "aged_18_64": 79752,
+        "aged_65_plus": 61440
+      },
+      "New Mexico": {
+        "total": 55294,
+        "aged": 7223,
+        "blind": 477,
+        "disabled": 47594,
+        "under_18": 6582,
+        "aged_18_64": 31593,
+        "aged_65_plus": 17119
+      },
+      "New York": {
+        "total": 562755,
+        "aged": 112111,
+        "blind": 2924,
+        "disabled": 447720,
+        "under_18": 68541,
+        "aged_18_64": 263064,
+        "aged_65_plus": 231150
+      },
+      "North Carolina": {
+        "total": 214549,
+        "aged": 17365,
+        "blind": 1843,
+        "disabled": 195341,
+        "under_18": 32141,
+        "aged_18_64": 133342,
+        "aged_65_plus": 49066
+      },
+      "North Dakota": {
+        "total": 7865,
+        "aged": 605,
+        "blind": 70,
+        "disabled": 7190,
+        "under_18": 1044,
+        "aged_18_64": 5183,
+        "aged_65_plus": 1638
+      },
+      "Ohio": {
+        "total": 288748,
+        "aged": 18448,
+        "blind": 2013,
+        "disabled": 268287,
+        "under_18": 40551,
+        "aged_18_64": 184676,
+        "aged_65_plus": 63521
+      },
+      "Oklahoma": {
+        "total": 92237,
+        "aged": 6027,
+        "blind": 770,
+        "disabled": 85440,
+        "under_18": 13759,
+        "aged_18_64": 60508,
+        "aged_65_plus": 17970
+      },
+      "Oregon": {
+        "total": 81715,
+        "aged": 9509,
+        "blind": 559,
+        "disabled": 71647,
+        "under_18": 8197,
+        "aged_18_64": 50946,
+        "aged_65_plus": 22572
+      },
+      "Pennsylvania": {
+        "total": 324958,
+        "aged": 26819,
+        "blind": 2117,
+        "disabled": 296022,
+        "under_18": 51324,
+        "aged_18_64": 190175,
+        "aged_65_plus": 83459
+      },
+      "Rhode Island": {
+        "total": 30283,
+        "aged": 3286,
+        "blind": 158,
+        "disabled": 26839,
+        "under_18": 3344,
+        "aged_18_64": 18377,
+        "aged_65_plus": 8562
+      },
+      "South Carolina": {
+        "total": 104801,
+        "aged": 8148,
+        "blind": 1181,
+        "disabled": 95472,
+        "under_18": 15127,
+        "aged_18_64": 64285,
+        "aged_65_plus": 25389
+      },
+      "South Dakota": {
+        "total": 13799,
+        "aged": 1590,
+        "blind": 137,
+        "disabled": 12072,
+        "under_18": 2003,
+        "aged_18_64": 8346,
+        "aged_65_plus": 3450
+      },
+      "Tennessee": {
+        "total": 160167,
+        "aged": 10499,
+        "blind": 1483,
+        "disabled": 148185,
+        "under_18": 21842,
+        "aged_18_64": 102975,
+        "aged_65_plus": 35350
+      },
+      "Texas": {
+        "total": 582001,
+        "aged": 98977,
+        "blind": 6411,
+        "disabled": 476613,
+        "under_18": 102891,
+        "aged_18_64": 294416,
+        "aged_65_plus": 184694
+      },
+      "Utah": {
+        "total": 29948,
+        "aged": 2838,
+        "blind": 282,
+        "disabled": 26828,
+        "under_18": 3873,
+        "aged_18_64": 19859,
+        "aged_65_plus": 6216
+      },
+      "Vermont": {
+        "total": 13709,
+        "aged": 849,
+        "blind": 80,
+        "disabled": 12780,
+        "under_18": 1145,
+        "aged_18_64": 9620,
+        "aged_65_plus": 2944
+      },
+      "Virginia": {
+        "total": 146622,
+        "aged": 17906,
+        "blind": 1076,
+        "disabled": 127640,
+        "under_18": 19815,
+        "aged_18_64": 88794,
+        "aged_65_plus": 38013
+      },
+      "Washington": {
+        "total": 134979,
+        "aged": 18359,
+        "blind": 864,
+        "disabled": 115756,
+        "under_18": 13189,
+        "aged_18_64": 79911,
+        "aged_65_plus": 41879
+      },
+      "West Virginia": {
+        "total": 63130,
+        "aged": 2340,
+        "blind": 414,
+        "disabled": 60376,
+        "under_18": 5995,
+        "aged_18_64": 43612,
+        "aged_65_plus": 13523
+      },
+      "Wisconsin": {
+        "total": 107428,
+        "aged": 6827,
+        "blind": 811,
+        "disabled": 99790,
+        "under_18": 17786,
+        "aged_18_64": 68288,
+        "aged_65_plus": 21354
+      },
+      "Wyoming": {
+        "total": 6580,
+        "aged": 364,
+        "blind": 60,
+        "disabled": 6156,
+        "under_18": 742,
+        "aged_18_64": 4681,
+        "aged_65_plus": 1157
+      },
+      "Northern Mariana Islands": {
+        "total": 1029,
+        "aged": 181,
+        "blind": 9,
+        "disabled": 839,
+        "under_18": 219,
+        "aged_18_64": 556,
+        "aged_65_plus": 254
+      }
+    },
+    "avg_monthly_payment_by_state_december_2023": {
+      "Alabama": {
+        "avg_total": 640.72,
+        "avg_aged": 365.38,
+        "avg_blind": 634.03,
+        "avg_disabled": 656.28,
+        "avg_under_18": 792.08,
+        "avg_18_64": 680.18,
+        "avg_65_plus": 438.12
+      },
+      "Alaska": {
+        "avg_total": 623.01,
+        "avg_aged": 382.42,
+        "avg_blind": 630.43,
+        "avg_disabled": 664.45,
+        "avg_under_18": 755.23,
+        "avg_18_64": 692.2,
+        "avg_65_plus": 448.86
+      },
+      "Arizona": {
+        "avg_total": 656.21,
+        "avg_aged": 478.52,
+        "avg_blind": 691.27,
+        "avg_disabled": 690.8,
+        "avg_under_18": 786.2,
+        "avg_18_64": 714.33,
+        "avg_65_plus": 500.83
+      },
+      "Arkansas": {
+        "avg_total": 657.74,
+        "avg_aged": 335.93,
+        "avg_blind": 634.95,
+        "avg_disabled": 673.9,
+        "avg_under_18": 802.56,
+        "avg_18_64": 671.71,
+        "avg_65_plus": 412.77
+      },
+      "California": {
+        "avg_total": 778.33,
+        "avg_aged": 653.03,
+        "avg_blind": 863.31,
+        "avg_disabled": 833.15,
+        "avg_under_18": 869.9,
+        "avg_18_64": 878.97,
+        "avg_65_plus": 687.12
+      },
+      "Colorado": {
+        "avg_total": 642.63,
+        "avg_aged": 494.47,
+        "avg_blind": 651.94,
+        "avg_disabled": 672.68,
+        "avg_under_18": 752.19,
+        "avg_18_64": 704.7,
+        "avg_65_plus": 494.01
+      },
+      "Connecticut": {
+        "avg_total": 659.8,
+        "avg_aged": 496.6,
+        "avg_blind": 679.11,
+        "avg_disabled": 682.23,
+        "avg_under_18": 781.86,
+        "avg_18_64": 700.23,
+        "avg_65_plus": 524.86
+      },
+      "Delaware": {
+        "avg_total": 673.87,
+        "avg_aged": 486.35,
+        "avg_blind": 631.41,
+        "avg_disabled": 693.11,
+        "avg_under_18": 771.11,
+        "avg_18_64": 712.0,
+        "avg_65_plus": 495.0
+      },
+      "District of Columbia": {
+        "avg_total": 702.74,
+        "avg_aged": 511.43,
+        "avg_blind": 685.62,
+        "avg_disabled": 725.81,
+        "avg_under_18": 796.93,
+        "avg_18_64": 756.31,
+        "avg_65_plus": 559.79
+      },
+      "Florida": {
+        "avg_total": 646.07,
+        "avg_aged": 558.61,
+        "avg_blind": 658.14,
+        "avg_disabled": 680.61,
+        "avg_under_18": 776.22,
+        "avg_18_64": 698.28,
+        "avg_65_plus": 549.01
+      },
+      "Georgia": {
+        "avg_total": 648.68,
+        "avg_aged": 421.17,
+        "avg_blind": 644.24,
+        "avg_disabled": 677.8,
+        "avg_under_18": 785.04,
+        "avg_18_64": 700.04,
+        "avg_65_plus": 450.26
+      },
+      "Hawaii": {
+        "avg_total": 653.98,
+        "avg_aged": 498.55,
+        "avg_blind": 661.83,
+        "avg_disabled": 705.29,
+        "avg_under_18": 772.28,
+        "avg_18_64": 735.61,
+        "avg_65_plus": 545.54
+      },
+      "Idaho": {
+        "avg_total": 650.86,
+        "avg_aged": 422.96,
+        "avg_blind": 662.69,
+        "avg_disabled": 665.82,
+        "avg_under_18": 753.06,
+        "avg_18_64": 685.92,
+        "avg_65_plus": 451.92
+      },
+      "Illinois": {
+        "avg_total": 670.11,
+        "avg_aged": 503.45,
+        "avg_blind": 673.49,
+        "avg_disabled": 694.82,
+        "avg_under_18": 799.43,
+        "avg_18_64": 709.05,
+        "avg_65_plus": 543.16
+      },
+      "Indiana": {
+        "avg_total": 667.86,
+        "avg_aged": 447.91,
+        "avg_blind": 646.68,
+        "avg_disabled": 680.97,
+        "avg_under_18": 786.46,
+        "avg_18_64": 691.03,
+        "avg_65_plus": 471.32
+      },
+      "Iowa": {
+        "avg_total": 647.68,
+        "avg_aged": 425.96,
+        "avg_blind": 619.83,
+        "avg_disabled": 662.69,
+        "avg_under_18": 780.53,
+        "avg_18_64": 666.61,
+        "avg_65_plus": 457.92
+      },
+      "Kansas": {
+        "avg_total": 655.13,
+        "avg_aged": 446.48,
+        "avg_blind": 672.62,
+        "avg_disabled": 669.59,
+        "avg_under_18": 775.8,
+        "avg_18_64": 680.01,
+        "avg_65_plus": 459.95
+      },
+      "Kentucky": {
+        "avg_total": 656.11,
+        "avg_aged": 411.55,
+        "avg_blind": 650.78,
+        "avg_disabled": 670.83,
+        "avg_under_18": 797.93,
+        "avg_18_64": 690.03,
+        "avg_65_plus": 468.41
+      },
+      "Louisiana": {
+        "avg_total": 663.61,
+        "avg_aged": 390.58,
+        "avg_blind": 626.66,
+        "avg_disabled": 683.4,
+        "avg_under_18": 805.86,
+        "avg_18_64": 699.74,
+        "avg_65_plus": 465.32
+      },
+      "Maine": {
+        "avg_total": 637.99,
+        "avg_aged": 383.96,
+        "avg_blind": 624.44,
+        "avg_disabled": 652.12,
+        "avg_under_18": 778.05,
+        "avg_18_64": 673.15,
+        "avg_65_plus": 442.39
+      },
+      "Maryland": {
+        "avg_total": 681.51,
+        "avg_aged": 526.02,
+        "avg_blind": 674.5,
+        "avg_disabled": 706.87,
+        "avg_under_18": 771.8,
+        "avg_18_64": 730.81,
+        "avg_65_plus": 532.14
+      },
+      "Massachusetts": {
+        "avg_total": 655.87,
+        "avg_aged": 556.56,
+        "avg_blind": 628.13,
+        "avg_disabled": 674.88,
+        "avg_under_18": 777.8,
+        "avg_18_64": 691.75,
+        "avg_65_plus": 563.69
+      },
+      "Michigan": {
+        "avg_total": 679.74,
+        "avg_aged": 526.05,
+        "avg_blind": 672.98,
+        "avg_disabled": 693.74,
+        "avg_under_18": 795.95,
+        "avg_18_64": 710.5,
+        "avg_65_plus": 541.21
+      },
+      "Minnesota": {
+        "avg_total": 683.01,
+        "avg_aged": 612.07,
+        "avg_blind": 686.03,
+        "avg_disabled": 694.01,
+        "avg_under_18": 772.04,
+        "avg_18_64": 701.15,
+        "avg_65_plus": 613.96
+      },
+      "Mississippi": {
+        "avg_total": 636.53,
+        "avg_aged": 328.0,
+        "avg_blind": 629.67,
+        "avg_disabled": 658.58,
+        "avg_under_18": 792.29,
+        "avg_18_64": 680.18,
+        "avg_65_plus": 419.09
+      },
+      "Missouri": {
+        "avg_total": 644.84,
+        "avg_aged": 433.82,
+        "avg_blind": 638.23,
+        "avg_disabled": 657.22,
+        "avg_under_18": 780.71,
+        "avg_18_64": 669.52,
+        "avg_65_plus": 458.07
+      },
+      "Montana": {
+        "avg_total": 615.26,
+        "avg_aged": 402.78,
+        "avg_blind": 604.33,
+        "avg_disabled": 638.92,
+        "avg_under_18": 768.0,
+        "avg_18_64": 662.54,
+        "avg_65_plus": 438.5
+      },
+      "Nebraska": {
+        "avg_total": 636.96,
+        "avg_aged": 461.04,
+        "avg_blind": 637.99,
+        "avg_disabled": 654.11,
+        "avg_under_18": 750.76,
+        "avg_18_64": 668.99,
+        "avg_65_plus": 462.27
+      },
+      "Nevada": {
+        "avg_total": 667.52,
+        "avg_aged": 527.16,
+        "avg_blind": 738.54,
+        "avg_disabled": 727.34,
+        "avg_under_18": 785.1,
+        "avg_18_64": 722.65,
+        "avg_65_plus": 524.0
+      },
+      "New Hampshire": {
+        "avg_total": 624.73,
+        "avg_aged": 449.74,
+        "avg_blind": 582.0,
+        "avg_disabled": 635.35,
+        "avg_under_18": 743.64,
+        "avg_18_64": 645.53,
+        "avg_65_plus": 457.99
+      },
+      "New Jersey": {
+        "avg_total": 646.41,
+        "avg_aged": 509.22,
+        "avg_blind": 642.35,
+        "avg_disabled": 683.89,
+        "avg_under_18": 784.93,
+        "avg_18_64": 703.03,
+        "avg_65_plus": 522.19
+      },
+      "New Mexico": {
+        "avg_total": 631.13,
+        "avg_aged": 399.24,
+        "avg_blind": 675.08,
+        "avg_disabled": 665.77,
+        "avg_under_18": 787.51,
+        "avg_18_64": 694.36,
+        "avg_65_plus": 454.17
+      },
+      "New York": {
+        "avg_total": 658.95,
+        "avg_aged": 506.89,
+        "avg_blind": 667.17,
+        "avg_disabled": 696.99,
+        "avg_under_18": 803.81,
+        "avg_18_64": 712.62,
+        "avg_65_plus": 555.02
+      },
+      "North Carolina": {
+        "avg_total": 639.26,
+        "avg_aged": 390.84,
+        "avg_blind": 644.82,
+        "avg_disabled": 661.3,
+        "avg_under_18": 776.29,
+        "avg_18_64": 683.11,
+        "avg_65_plus": 430.66
+      },
+      "North Dakota": {
+        "avg_total": 610.19,
+        "avg_aged": 493.64,
+        "avg_blind": 567.43,
+        "avg_disabled": 620.45,
+        "avg_under_18": 724.34,
+        "avg_18_64": 630.15,
+        "avg_65_plus": 474.41
+      },
+      "Ohio": {
+        "avg_total": 677.79,
+        "avg_aged": 496.93,
+        "avg_blind": 672.82,
+        "avg_disabled": 690.25,
+        "avg_under_18": 795.91,
+        "avg_18_64": 703.63,
+        "avg_65_plus": 527.71
+      },
+      "Oklahoma": {
+        "avg_total": 657.16,
+        "avg_aged": 372.59,
+        "avg_blind": 648.16,
+        "avg_disabled": 677.29,
+        "avg_under_18": 796.58,
+        "avg_18_64": 691.09,
+        "avg_65_plus": 436.27
+      },
+      "Oregon": {
+        "avg_total": 661.1,
+        "avg_aged": 491.78,
+        "avg_blind": 662.27,
+        "avg_disabled": 683.54,
+        "avg_under_18": 774.82,
+        "avg_18_64": 714.5,
+        "avg_65_plus": 499.64
+      },
+      "Pennsylvania": {
+        "avg_total": 687.16,
+        "avg_aged": 517.33,
+        "avg_blind": 665.18,
+        "avg_disabled": 702.71,
+        "avg_under_18": 792.98,
+        "avg_18_64": 713.7,
+        "avg_65_plus": 562.03
+      },
+      "Rhode Island": {
+        "avg_total": 658.23,
+        "avg_aged": 475.18,
+        "avg_blind": 659.86,
+        "avg_disabled": 680.68,
+        "avg_under_18": 782.59,
+        "avg_18_64": 701.22,
+        "avg_65_plus": 518.06
+      },
+      "South Carolina": {
+        "avg_total": 635.84,
+        "avg_aged": 369.33,
+        "avg_blind": 635.93,
+        "avg_disabled": 658.59,
+        "avg_under_18": 775.93,
+        "avg_18_64": 682.14,
+        "avg_65_plus": 435.44
+      },
+      "South Dakota": {
+        "avg_total": 628.74,
+        "avg_aged": 467.07,
+        "avg_blind": 653.66,
+        "avg_disabled": 649.9,
+        "avg_under_18": 746.4,
+        "avg_18_64": 660.52,
+        "avg_65_plus": 484.73
+      },
+      "Tennessee": {
+        "avg_total": 650.45,
+        "avg_aged": 389.38,
+        "avg_blind": 650.66,
+        "avg_disabled": 668.99,
+        "avg_under_18": 777.41,
+        "avg_18_64": 690.81,
+        "avg_65_plus": 455.12
+      },
+      "Texas": {
+        "avg_total": 631.96,
+        "avg_aged": 431.26,
+        "avg_blind": 645.61,
+        "avg_disabled": 673.44,
+        "avg_under_18": 783.28,
+        "avg_18_64": 694.35,
+        "avg_65_plus": 448.24
+      },
+      "Utah": {
+        "avg_total": 651.08,
+        "avg_aged": 499.46,
+        "avg_blind": 636.8,
+        "avg_disabled": 667.21,
+        "avg_under_18": 730.89,
+        "avg_18_64": 683.65,
+        "avg_65_plus": 497.1
+      },
+      "Vermont": {
+        "avg_total": 659.17,
+        "avg_aged": 444.1,
+        "avg_blind": 660.82,
+        "avg_disabled": 673.37,
+        "avg_under_18": 842.19,
+        "avg_18_64": 691.82,
+        "avg_65_plus": 480.55
+      },
+      "Virginia": {
+        "avg_total": 654.22,
+        "avg_aged": 499.39,
+        "avg_blind": 655.67,
+        "avg_disabled": 675.94,
+        "avg_under_18": 772.29,
+        "avg_18_64": 694.86,
+        "avg_65_plus": 497.84
+      },
+      "Washington": {
+        "avg_total": 677.57,
+        "avg_aged": 572.22,
+        "avg_blind": 676.66,
+        "avg_disabled": 694.29,
+        "avg_under_18": 766.4,
+        "avg_18_64": 720.49,
+        "avg_65_plus": 567.92
+      },
+      "West Virginia": {
+        "avg_total": 664.47,
+        "avg_aged": 381.72,
+        "avg_blind": 645.15,
+        "avg_disabled": 675.58,
+        "avg_under_18": 790.19,
+        "avg_18_64": 702.61,
+        "avg_65_plus": 485.72
+      },
+      "Wisconsin": {
+        "avg_total": 664.44,
+        "avg_aged": 436.9,
+        "avg_blind": 654.69,
+        "avg_disabled": 680.1,
+        "avg_under_18": 787.75,
+        "avg_18_64": 685.38,
+        "avg_65_plus": 495.45
+      },
+      "Wyoming": {
+        "avg_total": 632.36,
+        "avg_aged": 338.38,
+        "avg_blind": 618.76,
+        "avg_disabled": 649.78,
+        "avg_under_18": 772.64,
+        "avg_18_64": 663.94,
+        "avg_65_plus": 415.11
+      },
+      "Northern Mariana Islands": {
+        "avg_total": 742.83,
+        "avg_aged": 534.27,
+        "avg_blind": 827.22,
+        "avg_disabled": 787.39,
+        "avg_under_18": 862.53,
+        "avg_18_64": 777.72,
+        "avg_65_plus": 563.79
+      }
+    },
+    "pct_of_population_by_state_december_2023": {
+      "United States": {
+        "resident_population": 334914895,
+        "recipients": 7424302,
+        "pct_of_population": 2.2
+      },
+      "Alabama": {
+        "resident_population": 5108468,
+        "recipients": 142650,
+        "pct_of_population": 2.8
+      },
+      "Alaska": {
+        "resident_population": 733406,
+        "recipients": 10758,
+        "pct_of_population": 1.5
+      },
+      "Arizona": {
+        "resident_population": 7431344,
+        "recipients": 111780,
+        "pct_of_population": 1.5
+      },
+      "Arkansas": {
+        "resident_population": 3067732,
+        "recipients": 95811,
+        "pct_of_population": 3.1
+      },
+      "California": {
+        "resident_population": 38965193,
+        "recipients": 1114946,
+        "pct_of_population": 2.9
+      },
+      "Colorado": {
+        "resident_population": 5877610,
+        "recipients": 66772,
+        "pct_of_population": 1.1
+      },
+      "Connecticut": {
+        "resident_population": 3617176,
+        "recipients": 65337,
+        "pct_of_population": 1.8
+      },
+      "Delaware": {
+        "resident_population": 1031890,
+        "recipients": 16015,
+        "pct_of_population": 1.6
+      },
+      "District of Columbia": {
+        "resident_population": 678972,
+        "recipients": 22939,
+        "pct_of_population": 3.4
+      },
+      "Florida": {
+        "resident_population": 22610726,
+        "recipients": 539255,
+        "pct_of_population": 2.4
+      },
+      "Georgia": {
+        "resident_population": 11029227,
+        "recipients": 245978,
+        "pct_of_population": 2.2
+      },
+      "Hawaii": {
+        "resident_population": 1435138,
+        "recipients": 21009,
+        "pct_of_population": 1.5
+      },
+      "Idaho": {
+        "resident_population": 1964726,
+        "recipients": 27763,
+        "pct_of_population": 1.4
+      },
+      "Illinois": {
+        "resident_population": 12549689,
+        "recipients": 240653,
+        "pct_of_population": 1.9
+      },
+      "Indiana": {
+        "resident_population": 6862199,
+        "recipients": 119965,
+        "pct_of_population": 1.7
+      },
+      "Iowa": {
+        "resident_population": 3207004,
+        "recipients": 48890,
+        "pct_of_population": 1.5
+      },
+      "Kansas": {
+        "resident_population": 2940546,
+        "recipients": 44685,
+        "pct_of_population": 1.5
+      },
+      "Kentucky": {
+        "resident_population": 4526154,
+        "recipients": 153857,
+        "pct_of_population": 3.4
+      },
+      "Louisiana": {
+        "resident_population": 4573749,
+        "recipients": 157219,
+        "pct_of_population": 3.4
+      },
+      "Maine": {
+        "resident_population": 1395722,
+        "recipients": 33050,
+        "pct_of_population": 2.4
+      },
+      "Maryland": {
+        "resident_population": 6180253,
+        "recipients": 113354,
+        "pct_of_population": 1.8
+      },
+      "Massachusetts": {
+        "resident_population": 7001399,
+        "recipients": 164783,
+        "pct_of_population": 2.4
+      },
+      "Michigan": {
+        "resident_population": 10037261,
+        "recipients": 248307,
+        "pct_of_population": 2.5
+      },
+      "Minnesota": {
+        "resident_population": 5737915,
+        "recipients": 88376,
+        "pct_of_population": 1.5
+      },
+      "Mississippi": {
+        "resident_population": 2939690,
+        "recipients": 105342,
+        "pct_of_population": 3.6
+      },
+      "Missouri": {
+        "resident_population": 6196156,
+        "recipients": 126973,
+        "pct_of_population": 2.0
+      },
+      "Montana": {
+        "resident_population": 1132812,
+        "recipients": 15923,
+        "pct_of_population": 1.4
+      },
+      "Nebraska": {
+        "resident_population": 1978379,
+        "recipients": 27855,
+        "pct_of_population": 1.4
+      },
+      "Nevada": {
+        "resident_population": 3194176,
+        "recipients": 52976,
+        "pct_of_population": 1.7
+      },
+      "New Hampshire": {
+        "resident_population": 1402054,
+        "recipients": 15852,
+        "pct_of_population": 1.1
+      },
+      "New Jersey": {
+        "resident_population": 9290841,
+        "recipients": 163661,
+        "pct_of_population": 1.8
+      },
+      "New Mexico": {
+        "resident_population": 2114371,
+        "recipients": 55294,
+        "pct_of_population": 2.6
+      },
+      "New York": {
+        "resident_population": 19571216,
+        "recipients": 562755,
+        "pct_of_population": 2.9
+      },
+      "North Carolina": {
+        "resident_population": 10835491,
+        "recipients": 214549,
+        "pct_of_population": 2.0
+      },
+      "North Dakota": {
+        "resident_population": 783926,
+        "recipients": 7865,
+        "pct_of_population": 1.0
+      },
+      "Ohio": {
+        "resident_population": 11785935,
+        "recipients": 288748,
+        "pct_of_population": 2.4
+      },
+      "Oklahoma": {
+        "resident_population": 4053824,
+        "recipients": 92237,
+        "pct_of_population": 2.3
+      },
+      "Oregon": {
+        "resident_population": 4233358,
+        "recipients": 81715,
+        "pct_of_population": 1.9
+      },
+      "Pennsylvania": {
+        "resident_population": 12961683,
+        "recipients": 324958,
+        "pct_of_population": 2.5
+      },
+      "Rhode Island": {
+        "resident_population": 1095962,
+        "recipients": 30283,
+        "pct_of_population": 2.8
+      },
+      "South Carolina": {
+        "resident_population": 5373555,
+        "recipients": 104801,
+        "pct_of_population": 2.0
+      },
+      "South Dakota": {
+        "resident_population": 919318,
+        "recipients": 13799,
+        "pct_of_population": 1.5
+      },
+      "Tennessee": {
+        "resident_population": 7126489,
+        "recipients": 160167,
+        "pct_of_population": 2.2
+      },
+      "Texas": {
+        "resident_population": 30503301,
+        "recipients": 582001,
+        "pct_of_population": 1.9
+      },
+      "Utah": {
+        "resident_population": 3417734,
+        "recipients": 29948,
+        "pct_of_population": 0.9
+      },
+      "Vermont": {
+        "resident_population": 647464,
+        "recipients": 13709,
+        "pct_of_population": 2.1
+      },
+      "Virginia": {
+        "resident_population": 8715698,
+        "recipients": 146622,
+        "pct_of_population": 1.7
+      },
+      "Washington": {
+        "resident_population": 7812880,
+        "recipients": 134979,
+        "pct_of_population": 1.7
+      },
+      "West Virginia": {
+        "resident_population": 1770071,
+        "recipients": 63130,
+        "pct_of_population": 3.6
+      },
+      "Wisconsin": {
+        "resident_population": 5910955,
+        "recipients": 107428,
+        "pct_of_population": 1.8
+      },
+      "Wyoming": {
+        "resident_population": 584057,
+        "recipients": 6580,
+        "pct_of_population": 1.1
+      }
+    }
+  },
+  "combined_trends": {
+    "1970": {
+      "oasdi_total_beneficiaries": 25700924,
+      "di_beneficiaries": 2665629,
+      "di_avg_monthly_benefit_workers": 131.26,
+      "di_total_monthly_benefits_workers_thousands": 195964
+    },
+    "1971": {
+      "oasdi_total_beneficiaries": 26817466,
+      "di_beneficiaries": 2929900,
+      "di_avg_monthly_benefit_workers": 146.52,
+      "di_total_monthly_benefits_workers_thousands": 241419
+    },
+    "1972": {
+      "oasdi_total_beneficiaries": 28075659,
+      "di_beneficiaries": 3271486,
+      "di_avg_monthly_benefit_workers": 179.32,
+      "di_total_monthly_benefits_workers_thousands": 328678
+    },
+    "1973": {
+      "oasdi_total_beneficiaries": 29513677,
+      "di_beneficiaries": 3560706,
+      "di_avg_monthly_benefit_workers": 183,
+      "di_total_monthly_benefits_workers_thousands": 369043
+    },
+    "1974": {
+      "oasdi_total_beneficiaries": 30575739,
+      "di_beneficiaries": 3911951,
+      "ssi_total_recipients": 3996064,
+      "di_avg_monthly_benefit_workers": 205.7,
+      "di_total_monthly_benefits_workers_thousands": 460127
+    },
+    "1975": {
+      "oasdi_total_beneficiaries": 31861668,
+      "di_beneficiaries": 4352498,
+      "ssi_total_recipients": 4314275,
+      "di_avg_monthly_benefit_workers": 225.9,
+      "di_total_monthly_benefits_workers_thousands": 562214
+    },
+    "1976": {
+      "oasdi_total_beneficiaries": 32835497,
+      "di_beneficiaries": 4623827,
+      "ssi_total_recipients": 4235939,
+      "di_avg_monthly_benefit_workers": 245.17,
+      "di_total_monthly_benefits_workers_thousands": 654655
+    },
+    "1977": {
+      "oasdi_total_beneficiaries": 33923098,
+      "di_beneficiaries": 4854206,
+      "ssi_total_recipients": 4237692,
+      "di_avg_monthly_benefit_workers": 265.3,
+      "di_total_monthly_benefits_workers_thousands": 752771
+    },
+    "1978": {
+      "oasdi_total_beneficiaries": 34453027,
+      "di_beneficiaries": 4868576,
+      "ssi_total_recipients": 4216925,
+      "di_avg_monthly_benefit_workers": 288.3,
+      "di_total_monthly_benefits_workers_thousands": 830239
+    },
+    "1979": {
+      "oasdi_total_beneficiaries": 35012958,
+      "di_beneficiaries": 4777218,
+      "ssi_total_recipients": 4149575,
+      "di_avg_monthly_benefit_workers": 322,
+      "di_total_monthly_benefits_workers_thousands": 924330
+    },
+    "1980": {
+      "oasdi_total_beneficiaries": 35526086,
+      "di_beneficiaries": 4682172,
+      "ssi_total_recipients": 4142017,
+      "di_avg_monthly_benefit_workers": 370.7,
+      "di_total_monthly_benefits_workers_thousands": 1059713
+    },
+    "1981": {
+      "oasdi_total_beneficiaries": 35930048,
+      "di_beneficiaries": 4456274,
+      "ssi_total_recipients": 4018875,
+      "di_avg_monthly_benefit_workers": 413.2,
+      "di_total_monthly_benefits_workers_thousands": 1147258
+    },
+    "1982": {
+      "oasdi_total_beneficiaries": 35777795,
+      "di_beneficiaries": 3973465,
+      "ssi_total_recipients": 3857590,
+      "di_avg_monthly_benefit_workers": 440.6,
+      "di_total_monthly_benefits_workers_thousands": 1147146
+    },
+    "1983": {
+      "oasdi_total_beneficiaries": 36033976,
+      "di_beneficiaries": 3812930,
+      "ssi_total_recipients": 3901497,
+      "di_avg_monthly_benefit_workers": 456.2,
+      "di_total_monthly_benefits_workers_thousands": 1171991
+    },
+    "1984": {
+      "oasdi_total_beneficiaries": 36438574,
+      "di_beneficiaries": 3821804,
+      "ssi_total_recipients": 4029333,
+      "di_avg_monthly_benefit_workers": 470.7,
+      "di_total_monthly_benefits_workers_thousands": 1222180
+    },
+    "1985": {
+      "oasdi_total_beneficiaries": 37026698,
+      "di_beneficiaries": 3907169,
+      "ssi_total_recipients": 4138021,
+      "di_avg_monthly_benefit_workers": 483.8,
+      "di_total_monthly_benefits_workers_thousands": 1285281
+    },
+    "1986": {
+      "oasdi_total_beneficiaries": 37683434,
+      "di_beneficiaries": 3993279,
+      "ssi_total_recipients": 4269184,
+      "di_avg_monthly_benefit_workers": 487.9,
+      "di_total_monthly_benefits_workers_thousands": 1331217
+    },
+    "1987": {
+      "oasdi_total_beneficiaries": 38171185,
+      "di_beneficiaries": 4044724,
+      "ssi_total_recipients": 4384999,
+      "di_avg_monthly_benefit_workers": 508.2,
+      "di_total_monthly_benefits_workers_thousands": 1415774
+    },
+    "1988": {
+      "oasdi_total_beneficiaries": 38612903,
+      "di_beneficiaries": 4074300,
+      "ssi_total_recipients": 4463869,
+      "di_avg_monthly_benefit_workers": 529.5,
+      "di_total_monthly_benefits_workers_thousands": 1498635
+    },
+    "1989": {
+      "oasdi_total_beneficiaries": 39141080,
+      "di_beneficiaries": 4128827,
+      "ssi_total_recipients": 4593059,
+      "di_avg_monthly_benefit_workers": 556,
+      "di_total_monthly_benefits_workers_thousands": 1609822
+    },
+    "1990": {
+      "oasdi_total_beneficiaries": 39824692,
+      "di_beneficiaries": 4265981,
+      "ssi_total_recipients": 4817127,
+      "di_avg_monthly_benefit_workers": 587.2,
+      "di_total_monthly_benefits_workers_thousands": 1768232
+    },
+    "1991": {
+      "oasdi_total_beneficiaries": 40586874,
+      "di_beneficiaries": 4513040,
+      "ssi_total_recipients": 5118470,
+      "di_avg_monthly_benefit_workers": 609.4,
+      "di_total_monthly_benefits_workers_thousands": 1946995
+    },
+    "1992": {
+      "oasdi_total_beneficiaries": 41503506,
+      "di_beneficiaries": 4889696,
+      "ssi_total_recipients": 5566189,
+      "di_avg_monthly_benefit_workers": 626.1,
+      "di_total_monthly_benefits_workers_thousands": 2171179
+    },
+    "1993": {
+      "oasdi_total_beneficiaries": 42243262,
+      "di_beneficiaries": 5253566,
+      "ssi_total_recipients": 5984330,
+      "di_avg_monthly_benefit_workers": 641.7,
+      "di_total_monthly_benefits_workers_thousands": 2390952
+    },
+    "1994": {
+      "oasdi_total_beneficiaries": 42881850,
+      "di_beneficiaries": 5583519,
+      "ssi_total_recipients": 6295786,
+      "di_avg_monthly_benefit_workers": 661.4,
+      "di_total_monthly_benefits_workers_thousands": 2621098
+    },
+    "1995": {
+      "oasdi_total_beneficiaries": 43386232,
+      "di_beneficiaries": 5857656,
+      "ssi_total_recipients": 6514134,
+      "di_avg_monthly_benefit_workers": 681.6,
+      "di_total_monthly_benefits_workers_thousands": 2853512
+    },
+    "1996": {
+      "oasdi_total_beneficiaries": 43736183,
+      "di_beneficiaries": 6072034,
+      "ssi_total_recipients": 6613718,
+      "di_avg_monthly_benefit_workers": 703.9,
+      "di_total_monthly_benefits_workers_thousands": 3087040
+    },
+    "1997": {
+      "oasdi_total_beneficiaries": 43970692,
+      "di_beneficiaries": 6153039,
+      "ssi_total_recipients": 6494985,
+      "di_avg_monthly_benefit_workers": 721.6,
+      "di_total_monthly_benefits_workers_thousands": 3253069
+    },
+    "1998": {
+      "oasdi_total_beneficiaries": 44245506,
+      "di_beneficiaries": 6334570,
+      "ssi_total_recipients": 6566069,
+      "di_avg_monthly_benefit_workers": 733.1,
+      "di_total_monthly_benefits_workers_thousands": 3444338
+    },
+    "1999": {
+      "oasdi_total_beneficiaries": 44595481,
+      "di_beneficiaries": 6523730,
+      "ssi_total_recipients": 6556634,
+      "di_avg_monthly_benefit_workers": 754.1,
+      "di_total_monthly_benefits_workers_thousands": 3679597
+    },
+    "2000": {
+      "oasdi_total_beneficiaries": 45414705,
+      "di_beneficiaries": 6673362,
+      "ssi_total_recipients": 6601686,
+      "di_avg_monthly_benefit_workers": 786.4,
+      "di_total_monthly_benefits_workers_thousands": 3965291
+    },
+    "2001": {
+      "oasdi_total_beneficiaries": 45877465,
+      "di_beneficiaries": 6913243,
+      "ssi_total_recipients": 6688489,
+      "di_avg_monthly_benefit_workers": 814.4,
+      "di_total_monthly_benefits_workers_thousands": 4290449
+    },
+    "2002": {
+      "oasdi_total_beneficiaries": 46444296,
+      "di_beneficiaries": 7221268,
+      "ssi_total_recipients": 6787857,
+      "di_avg_monthly_benefit_workers": 834.3,
+      "di_total_monthly_benefits_workers_thousands": 4621852
+    },
+    "2003": {
+      "oasdi_total_beneficiaries": 47038475,
+      "di_beneficiaries": 7595452,
+      "ssi_total_recipients": 6902364,
+      "di_avg_monthly_benefit_workers": 861.6,
+      "di_total_monthly_benefits_workers_thousands": 5054332
+    },
+    "2004": {
+      "oasdi_total_beneficiaries": 47687713,
+      "di_beneficiaries": 7949272,
+      "ssi_total_recipients": 6987845,
+      "di_avg_monthly_benefit_workers": 894.1,
+      "di_total_monthly_benefits_workers_thousands": 5540703
+    },
+    "2005": {
+      "oasdi_total_beneficiaries": 48434436,
+      "di_beneficiaries": 8314314,
+      "ssi_total_recipients": 7113879,
+      "di_avg_monthly_benefit_workers": 938,
+      "di_total_monthly_benefits_workers_thousands": 6113106
+    },
+    "2006": {
+      "oasdi_total_beneficiaries": 49122826,
+      "di_beneficiaries": 8619385,
+      "ssi_total_recipients": 7235583,
+      "di_avg_monthly_benefit_workers": 977.7,
+      "di_total_monthly_benefits_workers_thousands": 6655048
+    },
+    "2007": {
+      "oasdi_total_beneficiaries": 49864978,
+      "di_beneficiaries": 8920371,
+      "ssi_total_recipients": 7359525,
+      "di_avg_monthly_benefit_workers": 1004,
+      "di_total_monthly_benefits_workers_thousands": 7127082
+    },
+    "2008": {
+      "oasdi_total_beneficiaries": 50898396,
+      "di_beneficiaries": 9273839,
+      "ssi_total_recipients": 7520501,
+      "di_avg_monthly_benefit_workers": 1063.1,
+      "di_total_monthly_benefits_workers_thousands": 7895536
+    },
+    "2009": {
+      "oasdi_total_beneficiaries": 52522819,
+      "di_beneficiaries": 9696398,
+      "ssi_total_recipients": 7676686,
+      "di_avg_monthly_benefit_workers": 1064.3,
+      "di_total_monthly_benefits_workers_thousands": 8288762
+    },
+    "2010": {
+      "oasdi_total_beneficiaries": 54032097,
+      "di_beneficiaries": 10185886,
+      "ssi_total_recipients": 7912266,
+      "di_avg_monthly_benefit_workers": 1067.8,
+      "di_total_monthly_benefits_workers_thousands": 8759959
+    },
+    "2011": {
+      "oasdi_total_beneficiaries": 55404480,
+      "di_beneficiaries": 10614398,
+      "ssi_total_recipients": 8112773,
+      "di_avg_monthly_benefit_workers": 1110.5,
+      "di_total_monthly_benefits_workers_thousands": 9523184
+    },
+    "2012": {
+      "oasdi_total_beneficiaries": 56758185,
+      "di_beneficiaries": 10890896,
+      "ssi_total_recipients": 8262877,
+      "di_avg_monthly_benefit_workers": 1130.34,
+      "di_total_monthly_benefits_workers_thousands": 9977027
+    },
+    "2013": {
+      "oasdi_total_beneficiaries": 57978610,
+      "di_beneficiaries": 10988269,
+      "ssi_total_recipients": 8363477,
+      "di_avg_monthly_benefit_workers": 1146.42,
+      "di_total_monthly_benefits_workers_thousands": 10250098
+    },
+    "2014": {
+      "oasdi_total_beneficiaries": 59007158,
+      "di_beneficiaries": 10931092,
+      "ssi_total_recipients": 8335704,
+      "di_avg_monthly_benefit_workers": 1165.39,
+      "di_total_monthly_benefits_workers_thousands": 10435524
+    },
+    "2015": {
+      "oasdi_total_beneficiaries": 59963425,
+      "di_beneficiaries": 10806466,
+      "ssi_total_recipients": 8309564,
+      "di_avg_monthly_benefit_workers": 1165.79,
+      "di_total_monthly_benefits_workers_thousands": 10386494
+    },
+    "2016": {
+      "oasdi_total_beneficiaries": 60907307,
+      "di_beneficiaries": 10610070,
+      "ssi_total_recipients": 8251161,
+      "di_avg_monthly_benefit_workers": 1171.15,
+      "di_total_monthly_benefits_workers_thousands": 10316342
+    },
+    "2017": {
+      "oasdi_total_beneficiaries": 61903360,
+      "di_beneficiaries": 10411252,
+      "ssi_total_recipients": 8227676,
+      "di_avg_monthly_benefit_workers": 1196.87,
+      "di_total_monthly_benefits_workers_thousands": 10407363
+    },
+    "2018": {
+      "oasdi_total_beneficiaries": 62906222,
+      "di_beneficiaries": 10162488,
+      "ssi_total_recipients": 8128652,
+      "di_avg_monthly_benefit_workers": 1233.7,
+      "di_total_monthly_benefits_workers_thousands": 10532470
+    },
+    "2019": {
+      "oasdi_total_beneficiaries": 64064496,
+      "di_beneficiaries": 9925468,
+      "ssi_total_recipients": 8076867,
+      "di_avg_monthly_benefit_workers": 1257.65,
+      "di_total_monthly_benefits_workers_thousands": 10537097
+    },
+    "2020": {
+      "oasdi_total_beneficiaries": 64850867,
+      "di_beneficiaries": 9618387,
+      "ssi_total_recipients": 7959766,
+      "di_avg_monthly_benefit_workers": 1277.05,
+      "di_total_monthly_benefits_workers_thousands": 10409235
+    },
+    "2021": {
+      "oasdi_total_beneficiaries": 65228238,
+      "di_beneficiaries": 9218080,
+      "ssi_total_recipients": 7695900,
+      "di_avg_monthly_benefit_workers": 1358.3,
+      "di_total_monthly_benefits_workers_thousands": 10699469
+    },
+    "2022": {
+      "oasdi_total_beneficiaries": 65994457,
+      "di_beneficiaries": 8840733,
+      "ssi_total_recipients": 7542222,
+      "di_avg_monthly_benefit_workers": 1483.1,
+      "di_total_monthly_benefits_workers_thousands": 11277672
+    },
+    "2023": {
+      "oasdi_total_beneficiaries": 67076966,
+      "di_beneficiaries": 8513724,
+      "ssi_total_recipients": 7425331,
+      "di_avg_monthly_benefit_workers": 1537.13,
+      "di_total_monthly_benefits_workers_thousands": 11322496
+    }
+  },
+  "oasdi_beneficiaries_by_year": {
+    "1970": {
+      "total": 25700924,
+      "oasi_total": 23035295,
+      "oasi_retired_and_dependents": 16566674,
+      "oasi_survivors": 6468621,
+      "di_total": 2665629
+    },
+    "1971": {
+      "total": 26817466,
+      "oasi_total": 23887566,
+      "oasi_retired_and_dependents": 17188035,
+      "oasi_survivors": 6699531,
+      "di_total": 2929900
+    },
+    "1972": {
+      "total": 28075659,
+      "oasi_total": 24804173,
+      "oasi_retired_and_dependents": 17870175,
+      "oasi_survivors": 6933998,
+      "di_total": 3271486
+    },
+    "1973": {
+      "total": 29513677,
+      "oasi_total": 25952971,
+      "oasi_retired_and_dependents": 18793039,
+      "oasi_survivors": 7159932,
+      "di_total": 3560706
+    },
+    "1974": {
+      "total": 30575739,
+      "oasi_total": 26663788,
+      "oasi_retired_and_dependents": 19409560,
+      "oasi_survivors": 7254228,
+      "di_total": 3911951
+    },
+    "1975": {
+      "total": 31861668,
+      "oasi_total": 27509170,
+      "oasi_retired_and_dependents": 20140731,
+      "oasi_survivors": 7368439,
+      "di_total": 4352498
+    },
+    "1976": {
+      "total": 32835497,
+      "oasi_total": 28211670,
+      "oasi_retired_and_dependents": 20715021,
+      "oasi_survivors": 7496649,
+      "di_total": 4623827
+    },
+    "1977": {
+      "total": 33923098,
+      "oasi_total": 29068892,
+      "oasi_retired_and_dependents": 21476517,
+      "oasi_survivors": 7592375,
+      "di_total": 4854206
+    },
+    "1978": {
+      "total": 34453027,
+      "oasi_total": 29584451,
+      "oasi_retired_and_dependents": 22006468,
+      "oasi_survivors": 7577983,
+      "di_total": 4868576
+    },
+    "1979": {
+      "total": 35012958,
+      "oasi_total": 30235740,
+      "oasi_retired_and_dependents": 22617898,
+      "oasi_survivors": 7617842,
+      "di_total": 4777218
+    },
+    "1980": {
+      "total": 35526086,
+      "oasi_total": 30843914,
+      "oasi_retired_and_dependents": 23243078,
+      "oasi_survivors": 7600836,
+      "di_total": 4682172
+    },
+    "1981": {
+      "total": 35930048,
+      "oasi_total": 31473774,
+      "oasi_retired_and_dependents": 23859047,
+      "oasi_survivors": 7614727,
+      "di_total": 4456274
+    },
+    "1982": {
+      "total": 35777795,
+      "oasi_total": 31804330,
+      "oasi_retired_and_dependents": 24362481,
+      "oasi_survivors": 7441849,
+      "di_total": 3973465
+    },
+    "1983": {
+      "total": 36033976,
+      "oasi_total": 32221046,
+      "oasi_retired_and_dependents": 24971472,
+      "oasi_survivors": 7249574,
+      "di_total": 3812930
+    },
+    "1984": {
+      "total": 36438574,
+      "oasi_total": 32616770,
+      "oasi_retired_and_dependents": 25435753,
+      "oasi_survivors": 7181017,
+      "di_total": 3821804
+    },
+    "1985": {
+      "total": 37026698,
+      "oasi_total": 33119529,
+      "oasi_retired_and_dependents": 25958585,
+      "oasi_survivors": 7160944,
+      "di_total": 3907169
+    },
+    "1986": {
+      "total": 37683434,
+      "oasi_total": 33690155,
+      "oasi_retired_and_dependents": 26524806,
+      "oasi_survivors": 7165349,
+      "di_total": 3993279
+    },
+    "1987": {
+      "total": 38171185,
+      "oasi_total": 34126461,
+      "oasi_retired_and_dependents": 26970080,
+      "oasi_survivors": 7156381,
+      "di_total": 4044724
+    },
+    "1988": {
+      "total": 38612903,
+      "oasi_total": 34538603,
+      "oasi_retired_and_dependents": 27375814,
+      "oasi_survivors": 7162789,
+      "di_total": 4074300
+    },
+    "1989": {
+      "total": 39141080,
+      "oasi_total": 35012253,
+      "oasi_retired_and_dependents": 27842330,
+      "oasi_survivors": 7169923,
+      "di_total": 4128827
+    },
+    "1990": {
+      "total": 39824692,
+      "oasi_total": 35558711,
+      "oasi_retired_and_dependents": 28361385,
+      "oasi_survivors": 7197326,
+      "di_total": 4265981
+    },
+    "1991": {
+      "total": 40586874,
+      "oasi_total": 36073834,
+      "oasi_retired_and_dependents": 28818483,
+      "oasi_survivors": 7255351,
+      "di_total": 4513040
+    },
+    "1992": {
+      "total": 41503506,
+      "oasi_total": 36613810,
+      "oasi_retired_and_dependents": 29301178,
+      "oasi_survivors": 7312632,
+      "di_total": 4889696
+    },
+    "1993": {
+      "total": 42243262,
+      "oasi_total": 36989696,
+      "oasi_retired_and_dependents": 29635117,
+      "oasi_survivors": 7354579,
+      "di_total": 5253566
+    },
+    "1994": {
+      "total": 42881850,
+      "oasi_total": 37298331,
+      "oasi_retired_and_dependents": 29914265,
+      "oasi_survivors": 7384066,
+      "di_total": 5583519
+    },
+    "1995": {
+      "total": 43386232,
+      "oasi_total": 37528576,
+      "oasi_retired_and_dependents": 30140418,
+      "oasi_survivors": 7388158,
+      "di_total": 5857656
+    },
+    "1996": {
+      "total": 43736183,
+      "oasi_total": 37664149,
+      "oasi_retired_and_dependents": 30310865,
+      "oasi_survivors": 7353284,
+      "di_total": 6072034
+    },
+    "1997": {
+      "total": 43970692,
+      "oasi_total": 37817653,
+      "oasi_retired_and_dependents": 30637863,
+      "oasi_survivors": 7179790,
+      "di_total": 6153039
+    },
+    "1998": {
+      "total": 44245506,
+      "oasi_total": 37910936,
+      "oasi_retired_and_dependents": 30813491,
+      "oasi_survivors": 7097445,
+      "di_total": 6334570
+    },
+    "1999": {
+      "total": 44595481,
+      "oasi_total": 38071751,
+      "oasi_retired_and_dependents": 31027701,
+      "oasi_survivors": 7044050,
+      "di_total": 6523730
+    },
+    "2000": {
+      "total": 45414705,
+      "oasi_total": 38741343,
+      "oasi_retired_and_dependents": 31756099,
+      "oasi_survivors": 6985244,
+      "di_total": 6673362
+    },
+    "2001": {
+      "total": 45877465,
+      "oasi_total": 38964222,
+      "oasi_retired_and_dependents": 32045800,
+      "oasi_survivors": 6918422,
+      "di_total": 6913243
+    },
+    "2002": {
+      "total": 46444296,
+      "oasi_total": 39223028,
+      "oasi_retired_and_dependents": 32347974,
+      "oasi_survivors": 6875054,
+      "di_total": 7221268
+    },
+    "2003": {
+      "total": 47038475,
+      "oasi_total": 39443023,
+      "oasi_retired_and_dependents": 32633335,
+      "oasi_survivors": 6809688,
+      "di_total": 7595452
+    },
+    "2004": {
+      "total": 47687713,
+      "oasi_total": 39738441,
+      "oasi_retired_and_dependents": 33004844,
+      "oasi_survivors": 6733597,
+      "di_total": 7949272
+    },
+    "2005": {
+      "total": 48434436,
+      "oasi_total": 40120122,
+      "oasi_retired_and_dependents": 33467225,
+      "oasi_survivors": 6652897,
+      "di_total": 8314314
+    },
+    "2006": {
+      "total": 49122826,
+      "oasi_total": 40503441,
+      "oasi_retired_and_dependents": 33937576,
+      "oasi_survivors": 6565865,
+      "di_total": 8619385
+    },
+    "2007": {
+      "total": 49864978,
+      "oasi_total": 40944607,
+      "oasi_retired_and_dependents": 34450034,
+      "oasi_survivors": 6494573,
+      "di_total": 8920371
+    },
+    "2008": {
+      "total": 50898396,
+      "oasi_total": 41624557,
+      "oasi_retired_and_dependents": 35168515,
+      "oasi_survivors": 6456042,
+      "di_total": 9273839
+    },
+    "2009": {
+      "total": 52522819,
+      "oasi_total": 42826421,
+      "oasi_retired_and_dependents": 36416781,
+      "oasi_survivors": 6409640,
+      "di_total": 9696398
+    },
+    "2010": {
+      "total": 54032097,
+      "oasi_total": 43846211,
+      "oasi_retired_and_dependents": 37487862,
+      "oasi_survivors": 6358349,
+      "di_total": 10185886
+    },
+    "2011": {
+      "total": 55404480,
+      "oasi_total": 44790082,
+      "oasi_retired_and_dependents": 38484666,
+      "oasi_survivors": 6305416,
+      "di_total": 10614398
+    },
+    "2012": {
+      "total": 56758185,
+      "oasi_total": 45867289,
+      "oasi_retired_and_dependents": 39611707,
+      "oasi_survivors": 6255582,
+      "di_total": 10890896
+    },
+    "2013": {
+      "total": 57978610,
+      "oasi_total": 46990341,
+      "oasi_retired_and_dependents": 40801365,
+      "oasi_survivors": 6188976,
+      "di_total": 10988269
+    },
+    "2014": {
+      "total": 59007158,
+      "oasi_total": 48076066,
+      "oasi_retired_and_dependents": 41947747,
+      "oasi_survivors": 6128319,
+      "di_total": 10931092
+    },
+    "2015": {
+      "total": 59963425,
+      "oasi_total": 49156959,
+      "oasi_retired_and_dependents": 43073398,
+      "oasi_survivors": 6083561,
+      "di_total": 10806466
+    },
+    "2016": {
+      "total": 60907307,
+      "oasi_total": 50297237,
+      "oasi_retired_and_dependents": 44266144,
+      "oasi_survivors": 6031093,
+      "di_total": 10610070
+    },
+    "2017": {
+      "total": 61903360,
+      "oasi_total": 51492108,
+      "oasi_retired_and_dependents": 45497828,
+      "oasi_survivors": 5994280,
+      "di_total": 10411252
+    },
+    "2018": {
+      "total": 62906222,
+      "oasi_total": 52743734,
+      "oasi_retired_and_dependents": 46803244,
+      "oasi_survivors": 5940490,
+      "di_total": 10162488
+    },
+    "2019": {
+      "total": 64064496,
+      "oasi_total": 54139028,
+      "oasi_retired_and_dependents": 48227020,
+      "oasi_survivors": 5912008,
+      "di_total": 9925468
+    },
+    "2020": {
+      "total": 64850867,
+      "oasi_total": 55232480,
+      "oasi_retired_and_dependents": 49357832,
+      "oasi_survivors": 5874648,
+      "di_total": 9618387
+    },
+    "2021": {
+      "total": 65228238,
+      "oasi_total": 56010158,
+      "oasi_retired_and_dependents": 50146111,
+      "oasi_survivors": 5864047,
+      "di_total": 9218080
+    },
+    "2022": {
+      "total": 65994457,
+      "oasi_total": 57153724,
+      "oasi_retired_and_dependents": 51293070,
+      "oasi_survivors": 5860654,
+      "di_total": 8840733
+    },
+    "2023": {
+      "total": 67076966,
+      "oasi_total": 58563242,
+      "oasi_retired_and_dependents": 52729819,
+      "oasi_survivors": 5833423,
+      "di_total": 8513724
+    }
+  }
+}
