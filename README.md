@@ -1,35 +1,3 @@
----
-license: mit
-task_categories:
-  - tabular-classification
-  - visual-question-answering
-language:
-  - en
-tags:
-  - accessibility
-  - disability
-  - wcag
-  - screen-readers
-  - assistive-technology
-  - census
-  - who
-  - oecd
-  - webaim
-  - aac
-  - sign-language
-  - special-education
-  - idea
-  - ada
-  - section-508
-  - paratransit
-  - medicaid
-  - ssdi
-  - veteran-disability
-  - mental-health
-size_categories:
-  - 10K<n<100K
----
-
 # Accessibility Atlas
 
 55 datasets covering disability demographics, employment gaps, web accessibility compliance, assistive technology patents, special education, healthcare, housing discrimination, transportation, government benefits, and more -- across 16 categories.
@@ -37,7 +5,9 @@ size_categories:
 Built for researchers, journalists, policy analysts, and anyone building tools for disabled communities.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Data Trove](https://img.shields.io/badge/data--trove-dr.eamer.dev-orange)](https://dr.eamer.dev/datavis/data_trove/)
+[![Datasets](https://img.shields.io/badge/datasets-55-green)](dataset_index.json)
+[![Notebooks](https://img.shields.io/badge/notebooks-10-purple)](notebooks/)
+[![Live Site](https://img.shields.io/badge/live-dr.eamer.dev-orange)](https://dr.eamer.dev/datavis/data_trove/)
 
 ## What's Inside
 
@@ -173,8 +143,26 @@ Built for researchers, journalists, policy analysts, and anyone building tools f
 | File | Description |
 |------|-------------|
 | `dataset_index.json` | Full catalog of all 55 datasets with sources, coverage, and key findings |
-| `accessibility_atlas_demo.ipynb` | Jupyter notebook with analysis examples |
 | `aac_100words.pdf` | AAC core vocabulary reference |
+
+## Notebooks
+
+10 Jupyter notebooks in `notebooks/` that load the data, run basic analysis, and produce charts. Each covers a category:
+
+| Notebook | Datasets | What It Does |
+|----------|----------|--------------|
+| `census_disability_demographics.ipynb` | 8 Census files | Maps, trends, demographic breakdowns |
+| `disability_employment.ipynb` | BLS, FRED, EEOC, JAN | Employment gap over time, discrimination charges |
+| `web_accessibility.ipynb` | WebAIM, ADA lawsuits, Section 508 | WCAG failure trends, screen reader market share |
+| `international_disability.ipynb` | WHO, OECD, Eurostat, World Bank, CRPD | Cross-country prevalence and policy comparisons |
+| `special_education_idea.ipynb` | IDEA Part B, CRDC | Enrollment trends, discipline disparities |
+| `government_benefits.ipynb` | SSA SSDI/SSI, VA disability | Benefit trends, state-level processing |
+| `healthcare_mental_health.ipynb` | CMS Medicaid, SAMHSA | Enrollment, treatment gaps |
+| `housing_transportation_education.ipynb` | HUD, NTD paratransit, CRDC | Fair housing complaints, transit costs |
+| `assistive_technology.ipynb` | WIPO patents | Patent growth by category |
+| `sign_language_vision_aac.ipynb` | WLASL, VizWiz, AAC vocab | Sign language coverage, VQA analysis |
+
+Plus `accessibility_atlas_demo.ipynb` in the root as a quick-start sampler.
 
 ## Quick Start
 
@@ -309,11 +297,9 @@ USA,Americas,2021,65.2
 
 ## About
 
-Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection.
+Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection. I built this because disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. Having it all in one place -- with consistent formatting and analysis notebooks -- makes it actually usable.
 
-**Luke Steuber**
-- Web: [lukesteuber.com](https://lukesteuber.com)
-- Bluesky: [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com)
+**Luke Steuber** | [lukesteuber.com](https://lukesteuber.com) | [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com) | [dr.eamer.dev](https://dr.eamer.dev)
 
 ## License
 
