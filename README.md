@@ -5,7 +5,7 @@
 Built for researchers, journalists, policy analysts, and anyone building tools for disabled communities.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Datasets](https://img.shields.io/badge/datasets-55-green)](dataset_index.json)
+[![Datasets](https://img.shields.io/badge/datasets-42-green)](dataset_index.json)
 [![Notebooks](https://img.shields.io/badge/notebooks-10-purple)](notebooks/)
 [![Live Site](https://img.shields.io/badge/live-dr.eamer.dev-orange)](https://dr.eamer.dev/datavis/data_trove/)
 
