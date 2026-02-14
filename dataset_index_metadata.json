@@ -1,0 +1,20 @@
+{
+  "dataset_name": "Accessibility Dataset Index",
+  "last_updated": "2025-12-21",
+  "source": "Curated catalog of accessibility research datasets",
+  "record_count": 15,
+  "fields": {
+    "metadata.created_at": "ISO 8601 timestamp when the index was created",
+    "metadata.version": "Schema version (1.0)",
+    "metadata.total_datasets": "Total number of datasets cataloged (15)",
+    "categories": "Dictionary of dataset categories, each containing:",
+    "categories.*.description": "Description of the category",
+    "categories.*.datasets[]": "Array of dataset entries within the category",
+    "categories.*.datasets[].name": "Dataset name",
+    "categories.*.datasets[].url": "URL to the dataset homepage or access point",
+    "categories.*.datasets[].size": "Dataset size description (e.g., '400+ hours', '2,000 signs')",
+    "categories.*.datasets[].access": "Access requirements (e.g., 'Data Use Agreement required', 'Open')",
+    "categories.*.datasets[].format": "Data format (e.g., 'Audio + transcripts', 'Video + annotations')"
+  },
+  "notes": "Curated reference catalog of 15 accessibility research datasets organized by category (speech_disorders, sign_language, aac, visual_accessibility, etc.). This file is an index/catalog, not raw data -- it describes external datasets available for research. Includes datasets like TORGO, WLASL, VizWiz, Speech Accessibility Project, and others."
+}

@@ -1,0 +1,27 @@
+{
+  "dataset_name": "US Census Disability Statistics by State (2021)",
+  "last_updated": "2026-01-15",
+  "source": "US Census Bureau, American Community Survey (ACS) 5-Year Estimates, 2021",
+  "record_count": 52,
+  "fields": {
+    "state_name": "Full state name (e.g., 'Alabama', 'Alaska')",
+    "state_fips": "2-digit FIPS state code (e.g., '01' for Alabama)",
+    "year": "Survey year (2021)",
+    "total_population": "Total civilian noninstitutionalized population",
+    "disability_total": "Total number of people with any disability",
+    "disability_rate": "Overall disability rate as a percentage of total population",
+    "hearing_difficulty": "Number of people with hearing difficulty",
+    "hearing_rate": "Hearing difficulty rate as a percentage",
+    "vision_difficulty": "Number of people with vision difficulty",
+    "vision_rate": "Vision difficulty rate as a percentage",
+    "cognitive_difficulty": "Number of people with cognitive difficulty",
+    "cognitive_rate": "Cognitive difficulty rate as a percentage",
+    "ambulatory_difficulty": "Number of people with ambulatory (walking) difficulty",
+    "ambulatory_rate": "Ambulatory difficulty rate as a percentage",
+    "self_care_difficulty": "Number of people with self-care difficulty",
+    "self_care_rate": "Self-care difficulty rate as a percentage",
+    "independent_living_difficulty": "Number of people with independent living difficulty",
+    "independent_living_rate": "Independent living difficulty rate as a percentage"
+  },
+  "notes": "State-level disability prevalence data from the ACS covering 50 states plus DC and PR (52 rows). Breaks down disability into 6 categories: hearing, vision, cognitive, ambulatory, self-care, and independent living. Rates are percentages of the total civilian noninstitutionalized population. Used for accessibility awareness visualizations."
+}

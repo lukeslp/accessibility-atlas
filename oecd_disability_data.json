@@ -1,0 +1,446 @@
+{
+  "metadata": {
+    "source": "OECD (Organisation for Economic Co-operation and Development)",
+    "fetch_date": "2026-02-13T05:18:55.769612Z",
+    "coverage": "38 OECD member countries",
+    "description": "OECD disability data: prevalence by country, employment rates, incapacity spending, compiled from published reports and SOCX database",
+    "source_reports": [
+      "OECD Disability, Work and Inclusion (2022)",
+      "OECD Social Expenditure Database (SOCX) 2024",
+      "OECD Employment Outlook 2024",
+      "EU-SILC via OECD"
+    ],
+    "license": "OECD Terms and Conditions",
+    "note": "Legacy OECD SDMX API (stats.oecd.org) deprecated; new API (sdmx.oecd.org) has complex query format. Data compiled from published statistics."
+  },
+  "oecd_disability_statistics": {
+    "description": "OECD disability and incapacity statistics compiled from published reports and data",
+    "source_reports": [
+      "OECD (2022), Disability, Work and Inclusion: Mainstreaming in All Policies and Practices",
+      "OECD Social Expenditure Database (SOCX)",
+      "OECD Employment Outlook 2024",
+      "OECD Health at a Glance 2023"
+    ],
+    "disability_prevalence_by_country": [
+      {
+        "country": "Australia",
+        "rate_pct": 17.7,
+        "year": 2018,
+        "source": "SDAC"
+      },
+      {
+        "country": "Austria",
+        "rate_pct": 18.4,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Belgium",
+        "rate_pct": 16.1,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Canada",
+        "rate_pct": 22.3,
+        "year": 2017,
+        "source": "CSD"
+      },
+      {
+        "country": "Czech Republic",
+        "rate_pct": 10.4,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Denmark",
+        "rate_pct": 17.3,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Estonia",
+        "rate_pct": 26.2,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Finland",
+        "rate_pct": 18.2,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "France",
+        "rate_pct": 15.4,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Germany",
+        "rate_pct": 20.0,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Greece",
+        "rate_pct": 16.3,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Hungary",
+        "rate_pct": 17.1,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Iceland",
+        "rate_pct": 10.5,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Ireland",
+        "rate_pct": 17.7,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Italy",
+        "rate_pct": 15.5,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Japan",
+        "rate_pct": 7.4,
+        "year": 2021,
+        "source": "MHLW"
+      },
+      {
+        "country": "Korea",
+        "rate_pct": 5.1,
+        "year": 2020,
+        "source": "MOHW"
+      },
+      {
+        "country": "Latvia",
+        "rate_pct": 26.1,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Lithuania",
+        "rate_pct": 21.5,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Luxembourg",
+        "rate_pct": 16.6,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Mexico",
+        "rate_pct": 16.5,
+        "year": 2020,
+        "source": "Census"
+      },
+      {
+        "country": "Netherlands",
+        "rate_pct": 19.9,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "New Zealand",
+        "rate_pct": 24.0,
+        "year": 2013,
+        "source": "DSS"
+      },
+      {
+        "country": "Norway",
+        "rate_pct": 16.8,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Poland",
+        "rate_pct": 17.9,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Portugal",
+        "rate_pct": 20.6,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Slovak Republic",
+        "rate_pct": 18.5,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Slovenia",
+        "rate_pct": 18.8,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Spain",
+        "rate_pct": 17.7,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Sweden",
+        "rate_pct": 12.7,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Switzerland",
+        "rate_pct": 17.4,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "Turkey",
+        "rate_pct": 12.3,
+        "year": 2011,
+        "source": "Census"
+      },
+      {
+        "country": "United Kingdom",
+        "rate_pct": 20.7,
+        "year": 2019,
+        "source": "EU-SILC"
+      },
+      {
+        "country": "United States",
+        "rate_pct": 13.0,
+        "year": 2019,
+        "source": "ACS"
+      }
+    ],
+    "employment_rates_by_country": [
+      {
+        "country": "Australia",
+        "disabled_pct": 48.0,
+        "non_disabled_pct": 80.3,
+        "gap_pp": 32.3
+      },
+      {
+        "country": "Austria",
+        "disabled_pct": 53.9,
+        "non_disabled_pct": 77.6,
+        "gap_pp": 23.7
+      },
+      {
+        "country": "Canada",
+        "disabled_pct": 59.4,
+        "non_disabled_pct": 80.1,
+        "gap_pp": 20.7
+      },
+      {
+        "country": "Denmark",
+        "disabled_pct": 48.9,
+        "non_disabled_pct": 81.4,
+        "gap_pp": 32.5
+      },
+      {
+        "country": "Finland",
+        "disabled_pct": 48.6,
+        "non_disabled_pct": 78.2,
+        "gap_pp": 29.6
+      },
+      {
+        "country": "France",
+        "disabled_pct": 45.0,
+        "non_disabled_pct": 73.0,
+        "gap_pp": 28.0
+      },
+      {
+        "country": "Germany",
+        "disabled_pct": 55.8,
+        "non_disabled_pct": 80.6,
+        "gap_pp": 24.8
+      },
+      {
+        "country": "Ireland",
+        "disabled_pct": 36.5,
+        "non_disabled_pct": 76.8,
+        "gap_pp": 40.3
+      },
+      {
+        "country": "Italy",
+        "disabled_pct": 32.5,
+        "non_disabled_pct": 63.3,
+        "gap_pp": 30.8
+      },
+      {
+        "country": "Japan",
+        "disabled_pct": 48.0,
+        "non_disabled_pct": 78.0,
+        "gap_pp": 30.0
+      },
+      {
+        "country": "Korea",
+        "disabled_pct": 36.9,
+        "non_disabled_pct": 70.5,
+        "gap_pp": 33.6
+      },
+      {
+        "country": "Netherlands",
+        "disabled_pct": 48.6,
+        "non_disabled_pct": 82.4,
+        "gap_pp": 33.8
+      },
+      {
+        "country": "Norway",
+        "disabled_pct": 43.8,
+        "non_disabled_pct": 82.5,
+        "gap_pp": 38.7
+      },
+      {
+        "country": "Sweden",
+        "disabled_pct": 59.2,
+        "non_disabled_pct": 85.0,
+        "gap_pp": 25.8
+      },
+      {
+        "country": "Switzerland",
+        "disabled_pct": 60.8,
+        "non_disabled_pct": 83.4,
+        "gap_pp": 22.6
+      },
+      {
+        "country": "United Kingdom",
+        "disabled_pct": 53.6,
+        "non_disabled_pct": 81.0,
+        "gap_pp": 27.4
+      },
+      {
+        "country": "United States",
+        "disabled_pct": 37.4,
+        "non_disabled_pct": 77.2,
+        "gap_pp": 39.8
+      }
+    ],
+    "incapacity_spending_pct_gdp": [
+      {
+        "country": "Norway",
+        "pct_gdp": 4.5,
+        "year": 2019
+      },
+      {
+        "country": "Denmark",
+        "pct_gdp": 4.1,
+        "year": 2019
+      },
+      {
+        "country": "Finland",
+        "pct_gdp": 3.5,
+        "year": 2019
+      },
+      {
+        "country": "Sweden",
+        "pct_gdp": 3.4,
+        "year": 2019
+      },
+      {
+        "country": "Netherlands",
+        "pct_gdp": 3.2,
+        "year": 2019
+      },
+      {
+        "country": "Belgium",
+        "pct_gdp": 2.8,
+        "year": 2019
+      },
+      {
+        "country": "Luxembourg",
+        "pct_gdp": 2.7,
+        "year": 2019
+      },
+      {
+        "country": "Austria",
+        "pct_gdp": 2.4,
+        "year": 2019
+      },
+      {
+        "country": "Switzerland",
+        "pct_gdp": 2.3,
+        "year": 2019
+      },
+      {
+        "country": "Germany",
+        "pct_gdp": 2.2,
+        "year": 2019
+      },
+      {
+        "country": "United Kingdom",
+        "pct_gdp": 2.0,
+        "year": 2019
+      },
+      {
+        "country": "France",
+        "pct_gdp": 1.9,
+        "year": 2019
+      },
+      {
+        "country": "Italy",
+        "pct_gdp": 1.7,
+        "year": 2019
+      },
+      {
+        "country": "Spain",
+        "pct_gdp": 1.6,
+        "year": 2019
+      },
+      {
+        "country": "Ireland",
+        "pct_gdp": 1.5,
+        "year": 2019
+      },
+      {
+        "country": "Australia",
+        "pct_gdp": 1.4,
+        "year": 2019
+      },
+      {
+        "country": "United States",
+        "pct_gdp": 1.4,
+        "year": 2019
+      },
+      {
+        "country": "Canada",
+        "pct_gdp": 1.0,
+        "year": 2019
+      },
+      {
+        "country": "Japan",
+        "pct_gdp": 0.9,
+        "year": 2019
+      },
+      {
+        "country": "Korea",
+        "pct_gdp": 0.6,
+        "year": 2019
+      }
+    ],
+    "oecd_averages": {
+      "disability_prevalence_pct": 15.0,
+      "disabled_employment_rate_pct": 44.0,
+      "non_disabled_employment_rate_pct": 78.0,
+      "employment_gap_pp": 34.0,
+      "disability_poverty_rate_pct": 22.0,
+      "incapacity_spending_pct_gdp": 2.0,
+      "note": "OECD-wide averages for working-age population (15/18-64)"
+    }
+  }
+}

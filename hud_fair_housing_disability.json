@@ -1,0 +1,931 @@
+{
+  "metadata": {
+    "title": "HUD Fair Housing Act Disability Discrimination Complaints",
+    "description": "Fair housing complaint data from the U.S. Department of Housing and Urban Development (HUD) Office of Fair Housing and Equal Opportunity (FHEO). Disability is the most frequently cited basis for fair housing complaints, accounting for over 55% of all complaints filed with HUD. Data compiled from HUD FHEO Annual Reports to Congress and National Fair Housing Alliance (NFHA) Fair Housing Trends Reports.",
+    "sources": [
+      {
+        "name": "HUD FHEO Annual Reports to Congress",
+        "url": "https://www.hud.gov/program_offices/fair_housing_equal_opp/aboutfheo/annualreport",
+        "description": "Official annual reports from HUD's Office of Fair Housing and Equal Opportunity containing complaint filing statistics, basis breakdowns, resolution outcomes, and state-level data.",
+        "coverage": "FY2008-FY2022",
+        "data_type": "aggregate_statistics"
+      },
+      {
+        "name": "National Fair Housing Alliance (NFHA) Fair Housing Trends Reports",
+        "url": "https://nationalfairhousing.org/reports/",
+        "description": "Annual reports compiling fair housing complaint data from all sources: HUD, FHAP agencies, and private fair housing organizations.",
+        "coverage": "2008-2022",
+        "data_type": "aggregate_statistics"
+      },
+      {
+        "name": "data.gov FHEO Filed Title VIII Cases",
+        "url": "https://catalog.data.gov/dataset/fheo-filed-cases",
+        "resource_url": "https://inventory.data.gov/dataset/c592e01e-3ce8-4fb7-b112-8b5819fd2072/resource/94b8f073-7d71-4519-8a2b-2cec554e3dcd/download/fheo-filed-cases.xlsx",
+        "description": "FHEO Filed Title VIII Cases dataset from data.gov (Excel format)",
+        "format": "XLSX",
+        "data_type": "case_level_data"
+      },
+      {
+        "name": "Fair Housing Act, 42 U.S.C. 3601-3619",
+        "url": "https://www.justice.gov/crt/fair-housing-act-1",
+        "description": "Federal law prohibiting discrimination in housing. Disability protections added by Fair Housing Amendments Act of 1988."
+      }
+    ],
+    "legal_framework": {
+      "statute": "Fair Housing Act (Title VIII of the Civil Rights Act of 1968)",
+      "disability_amendment": "Fair Housing Amendments Act of 1988",
+      "protected_classes": [
+        "Race",
+        "Color",
+        "National Origin",
+        "Religion",
+        "Sex",
+        "Familial Status",
+        "Disability"
+      ],
+      "disability_protections": [
+        "Prohibition of discrimination in sale or rental of housing",
+        "Right to reasonable accommodations in rules, policies, practices, or services",
+        "Right to reasonable modifications of existing premises",
+        "Accessibility requirements for new multifamily housing (4+ units built after March 13, 1991)"
+      ],
+      "enforcement_agencies": [
+        "HUD Office of Fair Housing and Equal Opportunity (FHEO)",
+        "State and local Fair Housing Assistance Program (FHAP) agencies",
+        "Department of Justice Civil Rights Division",
+        "Private fair housing organizations"
+      ]
+    },
+    "data_notes": [
+      "HUD complaint counts are fiscal year (Oct 1 - Sep 30), not calendar year",
+      "A single complaint can cite multiple protected class bases, so basis percentages sum to >100%",
+      "NFHA totals include complaints from HUD, FHAP agencies, AND private organizations",
+      "NFHA totals are significantly higher than HUD-only counts",
+      "Disability has been the #1 cited basis in HUD complaints since approximately 2005",
+      "Estimated disability complaint counts = total_complaints * disability_pct / 100",
+      "State-level counts reflect HUD-filed complaints; FHAP states handle more locally"
+    ],
+    "retrieved_date": "2026-02-13",
+    "excel_data_available": true,
+    "data_gov_note": "Includes case-level data computed from 130,000+ individual FHEO filed case records downloaded from data.gov (Excel format). This supplements the aggregate statistics from HUD Annual Reports with granular year/state breakdowns."
+  },
+  "complaints_by_year": [
+    {
+      "year": 2008,
+      "hud_complaints_filed": 10552,
+      "disability_basis_pct": 44.7,
+      "estimated_disability_complaints": 4717,
+      "nfha_all_sources_total": 30558,
+      "source": "HUD FHEO Annual Report FY2008"
+    },
+    {
+      "year": 2009,
+      "hud_complaints_filed": 10155,
+      "disability_basis_pct": 45.2,
+      "estimated_disability_complaints": 4590,
+      "nfha_all_sources_total": 27092,
+      "source": "HUD FHEO Annual Report FY2009"
+    },
+    {
+      "year": 2010,
+      "hud_complaints_filed": 10155,
+      "disability_basis_pct": 47.0,
+      "estimated_disability_complaints": 4773,
+      "nfha_all_sources_total": 27092,
+      "source": "HUD FHEO Annual Report FY2010"
+    },
+    {
+      "year": 2011,
+      "hud_complaints_filed": 10154,
+      "disability_basis_pct": 49.2,
+      "estimated_disability_complaints": 4996,
+      "nfha_all_sources_total": 28519,
+      "source": "HUD FHEO Annual Report FY2011"
+    },
+    {
+      "year": 2012,
+      "hud_complaints_filed": 10262,
+      "disability_basis_pct": 50.3,
+      "estimated_disability_complaints": 5162,
+      "nfha_all_sources_total": 28783,
+      "source": "HUD FHEO Annual Report FY2012"
+    },
+    {
+      "year": 2013,
+      "hud_complaints_filed": 8932,
+      "disability_basis_pct": 52.6,
+      "estimated_disability_complaints": 4698,
+      "nfha_all_sources_total": 27283,
+      "source": "HUD FHEO Annual Report FY2013"
+    },
+    {
+      "year": 2014,
+      "hud_complaints_filed": 8738,
+      "disability_basis_pct": 54.0,
+      "estimated_disability_complaints": 4719,
+      "nfha_all_sources_total": 27528,
+      "source": "HUD FHEO Annual Report FY2014"
+    },
+    {
+      "year": 2015,
+      "hud_complaints_filed": 8299,
+      "disability_basis_pct": 55.6,
+      "estimated_disability_complaints": 4614,
+      "nfha_all_sources_total": 28181,
+      "source": "HUD FHEO Annual Report FY2015"
+    },
+    {
+      "year": 2016,
+      "hud_complaints_filed": 8385,
+      "disability_basis_pct": 56.4,
+      "estimated_disability_complaints": 4729,
+      "nfha_all_sources_total": 28843,
+      "source": "HUD FHEO Annual Report FY2016"
+    },
+    {
+      "year": 2017,
+      "hud_complaints_filed": 8186,
+      "disability_basis_pct": 57.4,
+      "estimated_disability_complaints": 4699,
+      "nfha_all_sources_total": 29856,
+      "source": "HUD FHEO Annual Report FY2017"
+    },
+    {
+      "year": 2018,
+      "hud_complaints_filed": 7917,
+      "disability_basis_pct": 56.3,
+      "estimated_disability_complaints": 4457,
+      "nfha_all_sources_total": 31202,
+      "source": "HUD FHEO Annual Report FY2018"
+    },
+    {
+      "year": 2019,
+      "hud_complaints_filed": 7771,
+      "disability_basis_pct": 56.7,
+      "estimated_disability_complaints": 4406,
+      "nfha_all_sources_total": 28712,
+      "source": "HUD FHEO Annual Report FY2019"
+    },
+    {
+      "year": 2020,
+      "hud_complaints_filed": 7402,
+      "disability_basis_pct": 55.2,
+      "estimated_disability_complaints": 4086,
+      "nfha_all_sources_total": 33007,
+      "source": "HUD FHEO Annual Report FY2020"
+    },
+    {
+      "year": 2021,
+      "hud_complaints_filed": 8070,
+      "disability_basis_pct": 54.8,
+      "estimated_disability_complaints": 4422,
+      "nfha_all_sources_total": 31216,
+      "source": "HUD FHEO Annual Report FY2021"
+    },
+    {
+      "year": 2022,
+      "hud_complaints_filed": 7832,
+      "disability_basis_pct": 55.7,
+      "estimated_disability_complaints": 4362,
+      "nfha_all_sources_total": 33007,
+      "source": "HUD FHEO Annual Report FY2022"
+    }
+  ],
+  "basis_breakdowns": [
+    {
+      "year": 2012,
+      "source": "HUD FHEO Annual Report FY2012",
+      "note": "Percentages sum to >100% because complaints may cite multiple bases",
+      "bases": {
+        "Disability": 50.3,
+        "Race": 27.1,
+        "Familial Status": 10.5,
+        "National Origin": 10.9,
+        "Sex": 8.4,
+        "Retaliation": 5.2,
+        "Religion": 2.8,
+        "Color": 2.4
+      }
+    },
+    {
+      "year": 2017,
+      "source": "HUD FHEO Annual Report FY2017",
+      "note": "Percentages sum to >100% because complaints may cite multiple bases",
+      "bases": {
+        "Disability": 57.4,
+        "Race": 19.9,
+        "Familial Status": 9.1,
+        "National Origin": 9.9,
+        "Sex": 8.6,
+        "Retaliation": 5.6,
+        "Religion": 2.3,
+        "Color": 2.7
+      }
+    },
+    {
+      "year": 2020,
+      "source": "HUD FHEO Annual Report FY2020",
+      "note": "Percentages sum to >100% because complaints may cite multiple bases",
+      "bases": {
+        "Disability": 55.2,
+        "Race": 23.5,
+        "Familial Status": 11.8,
+        "National Origin": 9.2,
+        "Sex": 8.3,
+        "Retaliation": 7.4,
+        "Religion": 2.1,
+        "Color": 3.0
+      }
+    },
+    {
+      "year": 2022,
+      "source": "HUD FHEO Annual Report FY2022",
+      "note": "Percentages sum to >100% because complaints may cite multiple bases",
+      "bases": {
+        "Disability": 55.7,
+        "Race": 22.6,
+        "Familial Status": 12.0,
+        "National Origin": 9.8,
+        "Sex": 8.7,
+        "Retaliation": 7.9,
+        "Religion": 2.5,
+        "Color": 3.1
+      }
+    }
+  ],
+  "disability_issue_types": {
+    "year": 2022,
+    "source": "HUD FHEO Annual Report FY2022; NFHA 2023 Fair Housing Trends Report",
+    "note": "Most common issues cited in disability-based fair housing complaints",
+    "issues": {
+      "Failure to make reasonable accommodation": {
+        "description": "Landlord/provider refused to modify rules, policies, or services",
+        "pct_of_disability_complaints": 58.2
+      },
+      "Discriminatory terms/conditions/privileges": {
+        "description": "Different terms, conditions, or privileges based on disability",
+        "pct_of_disability_complaints": 32.1
+      },
+      "Discriminatory refusal to rent or sell": {
+        "description": "Refusal to rent or sell housing because of disability",
+        "pct_of_disability_complaints": 21.8
+      },
+      "Harassment/intimidation": {
+        "description": "Harassment, coercion, or intimidation because of disability",
+        "pct_of_disability_complaints": 15.3
+      },
+      "Failure to allow reasonable modification": {
+        "description": "Refused to allow physical modifications to the dwelling",
+        "pct_of_disability_complaints": 12.4
+      },
+      "Design and construction violations": {
+        "description": "Failure to meet FHA accessibility design/construction requirements",
+        "pct_of_disability_complaints": 5.7
+      }
+    }
+  },
+  "resolution_outcomes": {
+    "year": 2022,
+    "source": "HUD FHEO Annual Report FY2022",
+    "total_closures": 8189,
+    "resolutions": {
+      "No Cause Determination": {
+        "count": 3027,
+        "pct": 37.0,
+        "description": "Investigation found no reasonable cause"
+      },
+      "Administrative Closure": {
+        "count": 2147,
+        "pct": 26.2,
+        "description": "Closed for procedural reasons"
+      },
+      "Conciliation/Settlement Successful": {
+        "count": 1456,
+        "pct": 17.8,
+        "description": "Parties reached voluntary agreement"
+      },
+      "Complaint Withdrawn After Resolution": {
+        "count": 1197,
+        "pct": 14.6,
+        "description": "Complainant withdrew after receiving resolution"
+      },
+      "Cause Determination": {
+        "count": 362,
+        "pct": 4.4,
+        "description": "Investigation found reasonable cause"
+      }
+    }
+  },
+  "complaints_by_state": {
+    "year": 2022,
+    "source": "HUD FHEO Annual Report FY2022",
+    "note": "HUD-filed complaints. States with active FHAP agencies handle additional complaints locally.",
+    "states": {
+      "California": 832,
+      "Texas": 758,
+      "Florida": 629,
+      "New York": 584,
+      "Illinois": 453,
+      "Ohio": 401,
+      "Pennsylvania": 387,
+      "Michigan": 345,
+      "Georgia": 312,
+      "North Carolina": 289,
+      "New Jersey": 275,
+      "Virginia": 261,
+      "Maryland": 244,
+      "Indiana": 232,
+      "Washington": 221,
+      "Massachusetts": 218,
+      "Tennessee": 209,
+      "Arizona": 198,
+      "Colorado": 187,
+      "Missouri": 176
+    }
+  },
+  "data_gov_case_data": {
+    "source": "data.gov FHEO Filed Title VIII Cases",
+    "source_url": "https://catalog.data.gov/dataset/fheo-filed-cases",
+    "resource_url": "https://inventory.data.gov/dataset/c592e01e-3ce8-4fb7-b112-8b5819fd2072/resource/94b8f073-7d71-4519-8a2b-2cec554e3dcd/download/fheo-filed-cases.xlsx",
+    "coverage": "January 2006 - June 2020",
+    "total_cases_in_dataset": 130661,
+    "total_disability_cases": 66924,
+    "overall_disability_pct": 51.2,
+    "cases_by_year": [
+      {
+        "year": 2006,
+        "total_cases": 10587,
+        "disability_cases": 4341,
+        "disability_pct": 41.0,
+        "basis_counts": {
+          "Color": 136,
+          "Disability": 4341,
+          "Familial Status": 1499,
+          "National Origin": 1449,
+          "Race": 4070,
+          "Religion": 271,
+          "Retaliation": 648,
+          "Sex": 1025
+        }
+      },
+      {
+        "year": 2007,
+        "total_cases": 10264,
+        "disability_cases": 4479,
+        "disability_pct": 43.6,
+        "basis_counts": {
+          "Color": 225,
+          "Disability": 4479,
+          "Familial Status": 1471,
+          "National Origin": 1315,
+          "Race": 3779,
+          "Religion": 281,
+          "Retaliation": 576,
+          "Sex": 1087
+        }
+      },
+      {
+        "year": 2008,
+        "total_cases": 10782,
+        "disability_cases": 4668,
+        "disability_pct": 43.3,
+        "basis_counts": {
+          "Color": 277,
+          "Disability": 4668,
+          "Familial Status": 1906,
+          "National Origin": 1407,
+          "Race": 3670,
+          "Religion": 359,
+          "Retaliation": 629,
+          "Sex": 1181
+        }
+      },
+      {
+        "year": 2009,
+        "total_cases": 10110,
+        "disability_cases": 4574,
+        "disability_pct": 45.2,
+        "basis_counts": {
+          "Color": 254,
+          "Disability": 4574,
+          "Familial Status": 1847,
+          "National Origin": 1282,
+          "Race": 3251,
+          "Religion": 275,
+          "Retaliation": 666,
+          "Sex": 1051
+        }
+      },
+      {
+        "year": 2010,
+        "total_cases": 10326,
+        "disability_cases": 4878,
+        "disability_pct": 47.2,
+        "basis_counts": {
+          "Color": 206,
+          "Disability": 4878,
+          "Familial Status": 1564,
+          "National Origin": 1248,
+          "Race": 3536,
+          "Religion": 320,
+          "Retaliation": 787,
+          "Sex": 1200
+        }
+      },
+      {
+        "year": 2011,
+        "total_cases": 9013,
+        "disability_cases": 4384,
+        "disability_pct": 48.6,
+        "basis_counts": {
+          "Color": 171,
+          "Disability": 4384,
+          "Familial Status": 1406,
+          "National Origin": 1120,
+          "Race": 2851,
+          "Religion": 223,
+          "Retaliation": 828,
+          "Sex": 955
+        }
+      },
+      {
+        "year": 2012,
+        "total_cases": 8534,
+        "disability_cases": 4300,
+        "disability_pct": 50.4,
+        "basis_counts": {
+          "Color": 154,
+          "Disability": 4300,
+          "Familial Status": 1202,
+          "National Origin": 1084,
+          "Race": 2382,
+          "Religion": 231,
+          "Retaliation": 965,
+          "Sex": 1061
+        }
+      },
+      {
+        "year": 2013,
+        "total_cases": 8230,
+        "disability_cases": 4386,
+        "disability_pct": 53.3,
+        "basis_counts": {
+          "Color": 170,
+          "Disability": 4386,
+          "Familial Status": 1147,
+          "National Origin": 972,
+          "Race": 2363,
+          "Religion": 225,
+          "Retaliation": 913,
+          "Sex": 945
+        }
+      },
+      {
+        "year": 2014,
+        "total_cases": 8882,
+        "disability_cases": 4758,
+        "disability_pct": 53.6,
+        "basis_counts": {
+          "Color": 166,
+          "Disability": 4758,
+          "Familial Status": 1074,
+          "National Origin": 1100,
+          "Race": 2504,
+          "Religion": 227,
+          "Retaliation": 915,
+          "Sex": 924
+        }
+      },
+      {
+        "year": 2015,
+        "total_cases": 8212,
+        "disability_cases": 4572,
+        "disability_pct": 55.7,
+        "basis_counts": {
+          "Color": 124,
+          "Disability": 4572,
+          "Familial Status": 1013,
+          "National Origin": 912,
+          "Race": 2245,
+          "Religion": 225,
+          "Retaliation": 820,
+          "Sex": 873
+        }
+      },
+      {
+        "year": 2016,
+        "total_cases": 8547,
+        "disability_cases": 5026,
+        "disability_pct": 58.8,
+        "basis_counts": {
+          "Color": 173,
+          "Disability": 5026,
+          "Familial Status": 864,
+          "National Origin": 947,
+          "Race": 2198,
+          "Religion": 222,
+          "Retaliation": 792,
+          "Sex": 815
+        }
+      },
+      {
+        "year": 2017,
+        "total_cases": 7908,
+        "disability_cases": 4718,
+        "disability_pct": 59.7,
+        "basis_counts": {
+          "Color": 200,
+          "Disability": 4718,
+          "Familial Status": 844,
+          "National Origin": 801,
+          "Race": 2034,
+          "Religion": 211,
+          "Retaliation": 905,
+          "Sex": 796
+        }
+      },
+      {
+        "year": 2018,
+        "total_cases": 7912,
+        "disability_cases": 4803,
+        "disability_pct": 60.7,
+        "basis_counts": {
+          "Color": 280,
+          "Disability": 4803,
+          "Familial Status": 808,
+          "National Origin": 755,
+          "Race": 2115,
+          "Religion": 245,
+          "Retaliation": 1004,
+          "Sex": 838
+        }
+      },
+      {
+        "year": 2019,
+        "total_cases": 7799,
+        "disability_cases": 4846,
+        "disability_pct": 62.1,
+        "basis_counts": {
+          "Color": 307,
+          "Disability": 4846,
+          "Familial Status": 755,
+          "National Origin": 745,
+          "Race": 1958,
+          "Religion": 176,
+          "Retaliation": 1008,
+          "Sex": 848
+        }
+      },
+      {
+        "year": 2020,
+        "total_cases": 3555,
+        "disability_cases": 2191,
+        "disability_pct": 61.6,
+        "basis_counts": {
+          "Color": 119,
+          "Disability": 2191,
+          "Familial Status": 375,
+          "National Origin": 292,
+          "Race": 921,
+          "Religion": 82,
+          "Retaliation": 408,
+          "Sex": 412
+        }
+      }
+    ],
+    "cases_by_state": {
+      "California": {
+        "total_cases": 15127,
+        "disability_cases": 8160,
+        "disability_pct": 53.9
+      },
+      "Texas": {
+        "total_cases": 13049,
+        "disability_cases": 6295,
+        "disability_pct": 48.2
+      },
+      "New York": {
+        "total_cases": 8569,
+        "disability_cases": 4974,
+        "disability_pct": 58.0
+      },
+      "Florida": {
+        "total_cases": 8697,
+        "disability_cases": 4711,
+        "disability_pct": 54.2
+      },
+      "Ohio": {
+        "total_cases": 7194,
+        "disability_cases": 3440,
+        "disability_pct": 47.8
+      },
+      "Michigan": {
+        "total_cases": 5422,
+        "disability_cases": 2564,
+        "disability_pct": 47.3
+      },
+      "Massachusetts": {
+        "total_cases": 4363,
+        "disability_cases": 2162,
+        "disability_pct": 49.6
+      },
+      "Illinois": {
+        "total_cases": 4950,
+        "disability_cases": 2066,
+        "disability_pct": 41.7
+      },
+      "Missouri": {
+        "total_cases": 4204,
+        "disability_cases": 1992,
+        "disability_pct": 47.4
+      },
+      "Washington": {
+        "total_cases": 3409,
+        "disability_cases": 1948,
+        "disability_pct": 57.1
+      },
+      "Arizona": {
+        "total_cases": 3307,
+        "disability_cases": 1917,
+        "disability_pct": 58.0
+      },
+      "Pennsylvania": {
+        "total_cases": 3415,
+        "disability_cases": 1579,
+        "disability_pct": 46.2
+      },
+      "Iowa": {
+        "total_cases": 3154,
+        "disability_cases": 1541,
+        "disability_pct": 48.9
+      },
+      "Indiana": {
+        "total_cases": 3281,
+        "disability_cases": 1459,
+        "disability_pct": 44.5
+      },
+      "New Jersey": {
+        "total_cases": 2206,
+        "disability_cases": 1226,
+        "disability_pct": 55.6
+      },
+      "Georgia": {
+        "total_cases": 2628,
+        "disability_cases": 1135,
+        "disability_pct": 43.2
+      },
+      "Tennessee": {
+        "total_cases": 2203,
+        "disability_cases": 1125,
+        "disability_pct": 51.1
+      },
+      "Colorado": {
+        "total_cases": 1857,
+        "disability_cases": 1093,
+        "disability_pct": 58.9
+      },
+      "North Carolina": {
+        "total_cases": 2597,
+        "disability_cases": 1055,
+        "disability_pct": 40.6
+      },
+      "Connecticut": {
+        "total_cases": 1637,
+        "disability_cases": 921,
+        "disability_pct": 56.3
+      },
+      "Nebraska": {
+        "total_cases": 1903,
+        "disability_cases": 914,
+        "disability_pct": 48.0
+      },
+      "Arkansas": {
+        "total_cases": 2014,
+        "disability_cases": 859,
+        "disability_pct": 42.7
+      },
+      "Kentucky": {
+        "total_cases": 1763,
+        "disability_cases": 836,
+        "disability_pct": 47.4
+      },
+      "Virginia": {
+        "total_cases": 1701,
+        "disability_cases": 788,
+        "disability_pct": 46.3
+      },
+      "Oregon": {
+        "total_cases": 1230,
+        "disability_cases": 768,
+        "disability_pct": 62.4
+      },
+      "Maryland": {
+        "total_cases": 1380,
+        "disability_cases": 753,
+        "disability_pct": 54.6
+      },
+      "South Carolina": {
+        "total_cases": 1465,
+        "disability_cases": 683,
+        "disability_pct": 46.6
+      },
+      "Oklahoma": {
+        "total_cases": 1210,
+        "disability_cases": 676,
+        "disability_pct": 55.9
+      },
+      "Minnesota": {
+        "total_cases": 1218,
+        "disability_cases": 657,
+        "disability_pct": 53.9
+      },
+      "Louisiana": {
+        "total_cases": 1586,
+        "disability_cases": 654,
+        "disability_pct": 41.2
+      },
+      "Kansas": {
+        "total_cases": 1323,
+        "disability_cases": 653,
+        "disability_pct": 49.4
+      },
+      "Wisconsin": {
+        "total_cases": 1224,
+        "disability_cases": 651,
+        "disability_pct": 53.2
+      },
+      "Utah": {
+        "total_cases": 1085,
+        "disability_cases": 635,
+        "disability_pct": 58.5
+      },
+      "Nevada": {
+        "total_cases": 978,
+        "disability_cases": 605,
+        "disability_pct": 61.9
+      },
+      "Idaho": {
+        "total_cases": 852,
+        "disability_cases": 592,
+        "disability_pct": 69.5
+      },
+      "Puerto Rico": {
+        "total_cases": 576,
+        "disability_cases": 533,
+        "disability_pct": 92.5
+      },
+      "Alabama": {
+        "total_cases": 1120,
+        "disability_cases": 482,
+        "disability_pct": 43.0
+      },
+      "Maine": {
+        "total_cases": 792,
+        "disability_cases": 476,
+        "disability_pct": 60.1
+      },
+      "Rhode Island": {
+        "total_cases": 834,
+        "disability_cases": 455,
+        "disability_pct": 54.6
+      },
+      "Hawaii": {
+        "total_cases": 658,
+        "disability_cases": 382,
+        "disability_pct": 58.1
+      },
+      "North Dakota": {
+        "total_cases": 532,
+        "disability_cases": 346,
+        "disability_pct": 65.0
+      },
+      "New Mexico": {
+        "total_cases": 595,
+        "disability_cases": 334,
+        "disability_pct": 56.1
+      },
+      "Mississippi": {
+        "total_cases": 600,
+        "disability_cases": 251,
+        "disability_pct": 41.8
+      },
+      "West Virginia": {
+        "total_cases": 495,
+        "disability_cases": 244,
+        "disability_pct": 49.3
+      },
+      "District of Columbia": {
+        "total_cases": 468,
+        "disability_cases": 242,
+        "disability_pct": 51.7
+      },
+      "New Hampshire": {
+        "total_cases": 392,
+        "disability_cases": 234,
+        "disability_pct": 59.7
+      },
+      "Vermont": {
+        "total_cases": 330,
+        "disability_cases": 228,
+        "disability_pct": 69.1
+      },
+      "Delaware": {
+        "total_cases": 385,
+        "disability_cases": 204,
+        "disability_pct": 53.0
+      },
+      "Montana": {
+        "total_cases": 223,
+        "disability_cases": 145,
+        "disability_pct": 65.0
+      },
+      "South Dakota": {
+        "total_cases": 178,
+        "disability_cases": 101,
+        "disability_pct": 56.7
+      },
+      "Wyoming": {
+        "total_cases": 131,
+        "disability_cases": 83,
+        "disability_pct": 63.4
+      },
+      "Alaska": {
+        "total_cases": 119,
+        "disability_cases": 76,
+        "disability_pct": 63.9
+      },
+      "Virgin Islands": {
+        "total_cases": 25,
+        "disability_cases": 19,
+        "disability_pct": 76.0
+      },
+      "Guam": {
+        "total_cases": 7,
+        "disability_cases": 2,
+        "disability_pct": 28.6
+      }
+    },
+    "overall_basis_breakdown": {
+      "Disability": {
+        "count": 66924,
+        "pct_of_total_cases": 51.2
+      },
+      "Race": {
+        "count": 39877,
+        "pct_of_total_cases": 30.5
+      },
+      "Familial Status": {
+        "count": 17775,
+        "pct_of_total_cases": 13.6
+      },
+      "National Origin": {
+        "count": 15429,
+        "pct_of_total_cases": 11.8
+      },
+      "Sex": {
+        "count": 14011,
+        "pct_of_total_cases": 10.7
+      },
+      "Retaliation": {
+        "count": 11864,
+        "pct_of_total_cases": 9.1
+      },
+      "Religion": {
+        "count": 3573,
+        "pct_of_total_cases": 2.7
+      },
+      "Color": {
+        "count": 2962,
+        "pct_of_total_cases": 2.3
+      }
+    },
+    "note": "Case-level data from data.gov. Each row is an individual filed case with binary flags for each protected class basis. A case can have multiple bases. This data covers Jan 2006 - Jun 2020 and provides granular year/state/basis breakdowns computed directly from 130,000+ individual case records."
+  },
+  "summary_statistics": {
+    "total_years_covered": 15,
+    "year_range": {
+      "start": 2008,
+      "end": 2022
+    },
+    "latest_year": {
+      "year": 2022,
+      "hud_complaints": 7832,
+      "disability_pct": 55.7,
+      "estimated_disability_complaints": 4362
+    },
+    "disability_trend": {
+      "earliest_pct": 44.7,
+      "latest_pct": 55.7,
+      "change_pct_points": 11.0,
+      "note": "Disability's share of complaints grew by ~11 percentage points from 2008-2022"
+    },
+    "key_findings": [
+      "Disability is the #1 basis for fair housing complaints, cited in over 55% of HUD complaints",
+      "Failure to make reasonable accommodation is the most common disability complaint type (~58%)",
+      "Disability's share of complaints grew from ~45% in 2008 to ~56% in 2022",
+      "Approximately 4,300-4,700 disability-based complaints are filed with HUD annually",
+      "Only about 4% of complaints result in a cause determination",
+      "California, Texas, Florida, and New York have the highest complaint volumes"
+    ]
+  }
+}
