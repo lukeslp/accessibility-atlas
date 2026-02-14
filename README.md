@@ -1,6 +1,6 @@
 # Accessibility Atlas
 
-55 datasets covering disability demographics, employment gaps, web accessibility compliance, assistive technology patents, special education, healthcare, housing discrimination, transportation, government benefits, and more -- across 16 categories.
+42 datasets covering disability demographics, employment gaps, web accessibility compliance, assistive technology patents, special education, healthcare, housing discrimination, transportation, government benefits, and more -- across 15 categories.
 
 Built for researchers, journalists, policy analysts, and anyone building tools for disabled communities.
 
@@ -245,8 +245,7 @@ for year, pct in zip(trends["years"], trends["pages_with_failures_pct"]):
 | UsableNet / Accessibility.works | Fair use (summary stats) | https://info.usablenet.com/ada-website-compliance-lawsuit-tracker |
 | GlobalSymbols | Various CC licenses | https://globalsymbols.com |
 | ARASAAC | CC BY-NC-SA 4.0 | https://arasaac.org |
-| VizWiz | Research use | https://vizwiz.org |
-| WLASL | Research use | https://dxli94.github.io/WLASL/ |
+| VizWiz | CC BY 4.0 | https://vizwiz.org |
 
 ## Record Format Examples
 
@@ -292,4 +291,4 @@ Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection. I
 
 MIT License -- see [LICENSE](LICENSE) for details.
 
-Individual datasets carry their own licenses (see Sources table). Most US government data is public domain. WHO data is CC BY-NC-SA 3.0 IGO. WebAIM data is structured from published reports. ARASAAC symbols are CC BY-NC-SA 4.0. VizWiz and WLASL are for research use.
+Individual datasets carry their own licenses (see Sources table). Most US government data is public domain. WHO data is CC BY-NC-SA 3.0 IGO. WebAIM data is structured from published reports under fair use. VizWiz is CC BY 4.0.
