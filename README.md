@@ -147,7 +147,7 @@ Built for researchers, journalists, policy analysts, and anyone building tools f
 | `healthcare_mental_health.ipynb` | CMS Medicaid, SAMHSA | Enrollment, treatment gaps |
 | `housing_transportation_education.ipynb` | HUD, NTD paratransit, CRDC | Fair housing complaints, transit costs |
 | `assistive_technology.ipynb` | WIPO patents | Patent growth by category |
-| `sign_language_vision_aac.ipynb` | WLASL, VizWiz, AAC vocab | Sign language coverage, VQA analysis |
+| `sign_language_vision_aac.ipynb` | VizWiz | Visual question answering analysis |
 
 Plus `accessibility_atlas_demo.ipynb` in the root as a quick-start sampler.
 
