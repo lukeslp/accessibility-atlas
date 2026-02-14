@@ -120,30 +120,17 @@ Built for researchers, journalists, policy analysts, and anyone building tools f
 |------|---------------|----------|
 | `patentsview_assistive_tech.json` | WIPO assistive tech patents 1985-2026 (696KB) | 10 patents (2010-14) to 519 (2020-24); prostheses, hearing, computing |
 
-### Sign Language
-
-| File | Records | Source |
-|------|---------|--------|
-| `wlasl_index.csv` | 21,083 videos, 2,000 signs | WLASL Dataset |
-
 ### Visual Accessibility
 
 | File | Records | Source |
 |------|---------|--------|
 | `vizwiz_val_annotations.csv` | 4,319 VQA pairs from blind users | VizWiz VQA |
 
-### AAC (Augmentative & Alternative Communication)
-
-| File | Records | Source |
-|------|---------|--------|
-| `aac_vocabulary_data.json` | 34 symbol libraries, core word lists | GlobalSymbols, ARASAAC, research lit |
-
 ### Reference Files
 
 | File | Description |
 |------|-------------|
-| `dataset_index.json` | Full catalog of all 55 datasets with sources, coverage, and key findings |
-| `aac_100words.pdf` | AAC core vocabulary reference |
+| `dataset_index.json` | Full catalog of datasets with sources, coverage, and key findings |
 
 ## Notebooks
 
