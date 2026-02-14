@@ -1,0 +1,1243 @@
+{
+  "metadata": {
+    "title": "VA Disability Compensation Data",
+    "description": "Veterans Affairs disability compensation data including claims processing metrics, veterans by state, compensation rates, and historical trends. Compiled from VA Benefits Administration weekly Monday Morning Workload Reports (MMWR), National Center for Veterans Analysis and Statistics (NCVAS) special reports, and official VA published statistics.",
+    "sources": [
+      {
+        "name": "VA Monday Morning Workload Report (MMWR)",
+        "url": "https://www.benefits.va.gov/reports/detailed_claims_data.asp",
+        "description": "Weekly reports from 56 regional offices showing progress in processing compensation, pension, and education benefits",
+        "file_used": "MMWR-02-07-2026.xlsm",
+        "reporting_date": "2026-02-07"
+      },
+      {
+        "name": "VA Compensation and Pension by State (FY2019)",
+        "url": "https://www.va.gov/vetdata/docs/SpecialReports/Comp_n_Pen_by_State_2019.xlsx",
+        "description": "FY 2019 VA Disability Pension Recipients by State from NCVAS"
+      },
+      {
+        "name": "VetPop2023 Veteran Population Model",
+        "url": "https://www.va.gov/VETDATA/docs/Demographics/New_Vetpop_Model/6L_VetPop2023_State_NCVAS.xlsx",
+        "description": "VetPop2023 Living Veterans by State projections from NCVAS"
+      },
+      {
+        "name": "VA Annual Benefits Report",
+        "url": "https://www.benefits.va.gov/REPORTS/abr/",
+        "description": "Annual compilation of VA benefits administration statistics"
+      },
+      {
+        "name": "VA Disability Compensation Rates",
+        "url": "https://www.va.gov/disability/compensation-rates/veteran-rates/",
+        "description": "Current VA disability compensation rate tables effective December 1, 2024"
+      },
+      {
+        "name": "Historical MMWR Reports (2022-2026)",
+        "url": "https://www.benefits.va.gov/reports/detailed_claims_data.asp",
+        "description": "Weekly workload reports used for historical trends analysis"
+      }
+    ],
+    "fetch_date": "2026-02-12",
+    "data_currency": {
+      "claims_data": "Week ending February 7, 2026",
+      "pension_by_state": "Fiscal Year 2019",
+      "veteran_population": "VetPop2023 model (September 30, 2023 baseline)",
+      "compensation_rates": "Effective December 1, 2024 (3.2% COLA increase)"
+    },
+    "notes": [
+      "MMWR data represents the Monday Morning Workload Report, published weekly by the VA Benefits Administration",
+      "Rating Bundle claims include disability compensation, dependency and indemnity compensation, and pension benefits requiring a rating decision",
+      "ADP = Average Days Pending; ADC = Average Days to Complete; FYTD = Fiscal Year to Date",
+      "Claims pending over 125 days are considered part of the VA backlog",
+      "Total veterans receiving VA disability compensation as of FY2024: approximately 5.7 million",
+      "The PACT Act (signed August 2022) significantly expanded eligibility for toxic exposure-related conditions"
+    ]
+  },
+  "veterans_by_rating": {
+    "description": "Veterans receiving VA disability compensation by combined disability rating percentage. Based on VA Annual Benefits Report FY2024 and published VA statistics.",
+    "total_veterans_receiving_compensation": 5709126,
+    "fiscal_year": 2024,
+    "note": "Combined disability rating determines monthly compensation amount. Rating percentages reflect the degree of disability as determined by VA evaluation.",
+    "by_rating_percentage": {
+      "0_percent": {
+        "veterans": 89547,
+        "pct_of_total": 1.6,
+        "description": "Service-connected but non-compensable (may still receive healthcare)"
+      },
+      "10_percent": {
+        "veterans": 757114,
+        "pct_of_total": 13.3,
+        "description": "Lowest compensable rating"
+      },
+      "20_percent": {
+        "veterans": 465210,
+        "pct_of_total": 8.1,
+        "description": ""
+      },
+      "30_percent": {
+        "veterans": 505884,
+        "pct_of_total": 8.9,
+        "description": "Additional allowances for dependents begin at 30%"
+      },
+      "40_percent": {
+        "veterans": 395072,
+        "pct_of_total": 6.9,
+        "description": ""
+      },
+      "50_percent": {
+        "veterans": 444167,
+        "pct_of_total": 7.8,
+        "description": ""
+      },
+      "60_percent": {
+        "veterans": 387240,
+        "pct_of_total": 6.8,
+        "description": ""
+      },
+      "70_percent": {
+        "veterans": 683251,
+        "pct_of_total": 12.0,
+        "description": ""
+      },
+      "80_percent": {
+        "veterans": 356870,
+        "pct_of_total": 6.2,
+        "description": ""
+      },
+      "90_percent": {
+        "veterans": 341003,
+        "pct_of_total": 6.0,
+        "description": ""
+      },
+      "100_percent": {
+        "veterans": 1283768,
+        "pct_of_total": 22.5,
+        "description": "Total disability - includes both schedular and TDIU (Total Disability Individual Unemployability)"
+      }
+    },
+    "summary": {
+      "veterans_at_50pct_or_higher": 3496299,
+      "pct_at_50pct_or_higher": 61.2,
+      "veterans_at_100pct": 1283768,
+      "pct_at_100pct": 22.5,
+      "average_combined_rating_estimate": 57.4
+    }
+  },
+  "compensation_amounts": {
+    "description": "Monthly VA disability compensation rates for veterans with no dependents, effective December 1, 2024 (3.2% COLA increase)",
+    "effective_date": "2024-12-01",
+    "cola_increase_pct": 3.2,
+    "veteran_alone_rates": {
+      "10_percent": {
+        "monthly": 171.23,
+        "annual": 2054.76
+      },
+      "20_percent": {
+        "monthly": 338.49,
+        "annual": 4061.88
+      },
+      "30_percent": {
+        "monthly": 524.31,
+        "annual": 6291.72
+      },
+      "40_percent": {
+        "monthly": 755.28,
+        "annual": 9063.36
+      },
+      "50_percent": {
+        "monthly": 1075.16,
+        "annual": 12901.92
+      },
+      "60_percent": {
+        "monthly": 1361.88,
+        "annual": 16342.56
+      },
+      "70_percent": {
+        "monthly": 1716.28,
+        "annual": 20595.36
+      },
+      "80_percent": {
+        "monthly": 1995.01,
+        "annual": 23940.12
+      },
+      "90_percent": {
+        "monthly": 2241.91,
+        "annual": 26902.92
+      },
+      "100_percent": {
+        "monthly": 3737.85,
+        "annual": 44854.2
+      }
+    },
+    "additional_for_spouse_at_30pct_plus": {
+      "30_percent": 60.0,
+      "40_percent": 80.0,
+      "50_percent": 100.0,
+      "60_percent": 120.0,
+      "70_percent": 141.0,
+      "80_percent": 161.0,
+      "90_percent": 181.0,
+      "100_percent": 201.42
+    },
+    "smc_special_monthly_compensation": {
+      "description": "Special Monthly Compensation for veterans with severe disabilities (loss of limbs, blindness, etc.)",
+      "smc_k": 135.66,
+      "smc_s": 4059.17,
+      "note": "Multiple SMC levels exist (K through T) with varying amounts"
+    },
+    "total_annual_va_compensation_expenditures": {
+      "fy2024_billions": 136.2,
+      "fy2023_billions": 126.8,
+      "fy2022_billions": 107.5,
+      "note": "Includes all compensation and pension payments"
+    }
+  },
+  "claims_data": {
+    "description": "VA disability claims processing metrics from the Monday Morning Workload Report (MMWR)",
+    "reporting_date": "2026-02-07",
+    "rating_bundle_national": {
+      "total_pending": 574185,
+      "pending_over_125_days": 98813,
+      "pct_pending_over_125_days": 17.2,
+      "avg_days_pending": 77.63,
+      "completed_month_to_date": 64712,
+      "avg_days_to_complete_mtd": 77.09,
+      "completed_fiscal_year_to_date": 1058077,
+      "avg_days_to_complete_fytd": 83.4
+    },
+    "by_claim_type": {
+      "original_entitlement": {
+        "total_pending": 145515,
+        "pending_over_125_days": 41833,
+        "pct_over_125_days": 28.7,
+        "breakdown": {
+          "initial_8_plus_issues": {
+            "ep": "010",
+            "pending": 60446,
+            "backlog": 20706,
+            "pct_backlog": 34.3
+          },
+          "initial_7_or_fewer_issues": {
+            "ep": "110",
+            "pending": 75242,
+            "backlog": 18680,
+            "pct_backlog": 24.8
+          },
+          "veteran_pension": {
+            "ep": "180",
+            "pending": 1709,
+            "backlog": 111,
+            "pct_backlog": 6.5
+          },
+          "survivors_claims": {
+            "ep": "140",
+            "pending": 8118,
+            "backlog": 2336,
+            "pct_backlog": 28.8
+          }
+        }
+      },
+      "supplemental_entitlement": {
+        "total_pending": 420335,
+        "pending_over_125_days": 50619,
+        "pct_over_125_days": 12.0,
+        "breakdown": {
+          "increased_evaluation": {
+            "ep": "020",
+            "pending": 246840,
+            "backlog": 31296,
+            "pct_backlog": 12.7
+          },
+          "supplemental_claims_ama": {
+            "ep": "040",
+            "pending": 163654,
+            "backlog": 18703,
+            "pct_backlog": 11.4
+          },
+          "future_exams": {
+            "ep": "310G",
+            "pending": 8078,
+            "backlog": 157,
+            "pct_backlog": 1.9
+          },
+          "pension_reconsideration": {
+            "ep": "120",
+            "pending": 1083,
+            "backlog": 75,
+            "pct_backlog": 6.9
+          },
+          "hospitalization_increase": {
+            "ep": "320",
+            "pending": 283,
+            "backlog": 6,
+            "pct_backlog": 2.1
+          }
+        }
+      },
+      "agent_orange_related": {
+        "blue_water_navy": {
+          "ep": "335",
+          "pending": 8335,
+          "backlog": 6361,
+          "pct_backlog": 76.3
+        },
+        "ndaa_nehmer_reviews": {
+          "ep": "688",
+          "pending": 375,
+          "backlog": 371,
+          "pct_backlog": 98.9
+        },
+        "nehmer_stipulation": {
+          "ep": "681",
+          "pending": 20,
+          "backlog": 10,
+          "pct_backlog": 50.0
+        }
+      }
+    },
+    "by_district": {
+      "northeast": {
+        "pending": 141373,
+        "backlog": 25040,
+        "pct_backlog": 17.7,
+        "adp": 79.88
+      },
+      "southeast": {
+        "pending": 211453,
+        "backlog": 35856,
+        "pct_backlog": 17.0,
+        "adp": 76.64
+      },
+      "midwest": {
+        "pending": 112872,
+        "backlog": 18589,
+        "pct_backlog": 16.5,
+        "adp": 74.79
+      },
+      "western": {
+        "pending": 101566,
+        "backlog": 17676,
+        "pct_backlog": 17.4,
+        "adp": 78.58
+      }
+    }
+  },
+  "claims_by_state": {
+    "description": "Disability compensation claims pending by state, from MMWR February 7, 2026. Codes ending in '100' represent all claims for that state; codes ending in '499' represent claims at regional offices assigned to that state.",
+    "reporting_date": "2026-02-07",
+    "states": {
+      "SC": {
+        "state_name": "South Carolina",
+        "total_pending": 14708,
+        "backlog_over_125_days": 2521,
+        "avg_days_pending": 78.6,
+        "pct_backlog": 17.1
+      },
+      "SD": {
+        "state_name": "South Dakota",
+        "total_pending": 2008,
+        "backlog_over_125_days": 412,
+        "avg_days_pending": 84.3,
+        "pct_backlog": 20.5
+      },
+      "TN": {
+        "state_name": "Tennessee",
+        "total_pending": 14456,
+        "backlog_over_125_days": 2315,
+        "avg_days_pending": 76.7,
+        "pct_backlog": 16.0
+      },
+      "TX": {
+        "state_name": "Texas",
+        "total_pending": 65265,
+        "backlog_over_125_days": 10467,
+        "avg_days_pending": 73.8,
+        "pct_backlog": 16.0
+      },
+      "UT": {
+        "state_name": "Utah",
+        "total_pending": 3647,
+        "backlog_over_125_days": 562,
+        "avg_days_pending": 71.8,
+        "pct_backlog": 15.4
+      },
+      "VA": {
+        "state_name": "Virginia",
+        "total_pending": 21645,
+        "backlog_over_125_days": 3825,
+        "avg_days_pending": 77.5,
+        "pct_backlog": 17.7
+      },
+      "VT": {
+        "state_name": "Vermont",
+        "total_pending": 704,
+        "backlog_over_125_days": 169,
+        "avg_days_pending": 98.1,
+        "pct_backlog": 24.0
+      },
+      "WA": {
+        "state_name": "Washington",
+        "total_pending": 12427,
+        "backlog_over_125_days": 2097,
+        "avg_days_pending": 78.3,
+        "pct_backlog": 16.9
+      },
+      "WI": {
+        "state_name": "Wisconsin",
+        "total_pending": 7965,
+        "backlog_over_125_days": 1290,
+        "avg_days_pending": 75.4,
+        "pct_backlog": 16.2
+      },
+      "WV": {
+        "state_name": "West Virginia",
+        "total_pending": 3627,
+        "backlog_over_125_days": 606,
+        "avg_days_pending": 80.8,
+        "pct_backlog": 16.7
+      },
+      "WY": {
+        "state_name": "Wyoming",
+        "total_pending": 1330,
+        "backlog_over_125_days": 284,
+        "avg_days_pending": 81.9,
+        "pct_backlog": 21.4
+      },
+      "AK": {
+        "state_name": "Alaska",
+        "total_pending": 1842,
+        "backlog_over_125_days": 354,
+        "avg_days_pending": 81.8,
+        "pct_backlog": 19.2
+      },
+      "AL": {
+        "state_name": "Alabama",
+        "total_pending": 13667,
+        "backlog_over_125_days": 2320,
+        "avg_days_pending": 77.5,
+        "pct_backlog": 17.0
+      },
+      "AR": {
+        "state_name": "Arkansas",
+        "total_pending": 6870,
+        "backlog_over_125_days": 1251,
+        "avg_days_pending": 83.1,
+        "pct_backlog": 18.2
+      },
+      "AZ": {
+        "state_name": "Arizona",
+        "total_pending": 14629,
+        "backlog_over_125_days": 2515,
+        "avg_days_pending": 76.7,
+        "pct_backlog": 17.2
+      },
+      "CA": {
+        "state_name": "California",
+        "total_pending": 43467,
+        "backlog_over_125_days": 7662,
+        "avg_days_pending": 79.5,
+        "pct_backlog": 17.6
+      },
+      "CO": {
+        "state_name": "Colorado",
+        "total_pending": 10076,
+        "backlog_over_125_days": 1516,
+        "avg_days_pending": 71.1,
+        "pct_backlog": 15.0
+      },
+      "CT": {
+        "state_name": "Connecticut",
+        "total_pending": 3454,
+        "backlog_over_125_days": 637,
+        "avg_days_pending": 84.6,
+        "pct_backlog": 18.4
+      },
+      "DC": {
+        "state_name": "District of Columbia",
+        "total_pending": 724,
+        "backlog_over_125_days": 134,
+        "avg_days_pending": 76.8,
+        "pct_backlog": 18.5
+      },
+      "DE": {
+        "state_name": "Delaware",
+        "total_pending": 1657,
+        "backlog_over_125_days": 318,
+        "avg_days_pending": 77.6,
+        "pct_backlog": 19.2
+      },
+      "FL": {
+        "state_name": "Florida",
+        "total_pending": 55085,
+        "backlog_over_125_days": 9619,
+        "avg_days_pending": 77.9,
+        "pct_backlog": 17.5
+      },
+      "GA": {
+        "state_name": "Georgia",
+        "total_pending": 27498,
+        "backlog_over_125_days": 4345,
+        "avg_days_pending": 72.0,
+        "pct_backlog": 15.8
+      },
+      "HI": {
+        "state_name": "Hawaii",
+        "total_pending": 3663,
+        "backlog_over_125_days": 642,
+        "avg_days_pending": 76.1,
+        "pct_backlog": 17.5
+      },
+      "IA": {
+        "state_name": "Iowa",
+        "total_pending": 5204,
+        "backlog_over_125_days": 950,
+        "avg_days_pending": 80.7,
+        "pct_backlog": 18.3
+      },
+      "ID": {
+        "state_name": "Idaho",
+        "total_pending": 3803,
+        "backlog_over_125_days": 614,
+        "avg_days_pending": 75.4,
+        "pct_backlog": 16.1
+      },
+      "IL": {
+        "state_name": "Illinois",
+        "total_pending": 13624,
+        "backlog_over_125_days": 2402,
+        "avg_days_pending": 79.7,
+        "pct_backlog": 17.6
+      },
+      "IN": {
+        "state_name": "Indiana",
+        "total_pending": 10560,
+        "backlog_over_125_days": 1642,
+        "avg_days_pending": 73.7,
+        "pct_backlog": 15.5
+      },
+      "KS": {
+        "state_name": "Kansas",
+        "total_pending": 5044,
+        "backlog_over_125_days": 899,
+        "avg_days_pending": 76.8,
+        "pct_backlog": 17.8
+      },
+      "KY": {
+        "state_name": "Kentucky",
+        "total_pending": 7386,
+        "backlog_over_125_days": 1300,
+        "avg_days_pending": 78.9,
+        "pct_backlog": 17.6
+      },
+      "LA": {
+        "state_name": "Louisiana",
+        "total_pending": 10279,
+        "backlog_over_125_days": 1758,
+        "avg_days_pending": 74.9,
+        "pct_backlog": 17.1
+      },
+      "MA": {
+        "state_name": "Massachusetts",
+        "total_pending": 6109,
+        "backlog_over_125_days": 1180,
+        "avg_days_pending": 89,
+        "pct_backlog": 19.3
+      },
+      "MD": {
+        "state_name": "Maryland",
+        "total_pending": 11050,
+        "backlog_over_125_days": 1970,
+        "avg_days_pending": 78.2,
+        "pct_backlog": 17.8
+      },
+      "ME": {
+        "state_name": "Maine",
+        "total_pending": 2345,
+        "backlog_over_125_days": 495,
+        "avg_days_pending": 88.7,
+        "pct_backlog": 21.1
+      },
+      "MI": {
+        "state_name": "Michigan",
+        "total_pending": 12626,
+        "backlog_over_125_days": 2245,
+        "avg_days_pending": 79.0,
+        "pct_backlog": 17.8
+      },
+      "MN": {
+        "state_name": "Minnesota",
+        "total_pending": 7011,
+        "backlog_over_125_days": 1204,
+        "avg_days_pending": 78.8,
+        "pct_backlog": 17.2
+      },
+      "MO": {
+        "state_name": "Missouri",
+        "total_pending": 10800,
+        "backlog_over_125_days": 1756,
+        "avg_days_pending": 76.3,
+        "pct_backlog": 16.3
+      },
+      "MS": {
+        "state_name": "Mississippi",
+        "total_pending": 8077,
+        "backlog_over_125_days": 1418,
+        "avg_days_pending": 76.9,
+        "pct_backlog": 17.6
+      },
+      "MT": {
+        "state_name": "Montana",
+        "total_pending": 2467,
+        "backlog_over_125_days": 471,
+        "avg_days_pending": 79.5,
+        "pct_backlog": 19.1
+      },
+      "NC": {
+        "state_name": "North Carolina",
+        "total_pending": 24091,
+        "backlog_over_125_days": 4012,
+        "avg_days_pending": 76.3,
+        "pct_backlog": 16.7
+      },
+      "ND": {
+        "state_name": "North Dakota",
+        "total_pending": 1433,
+        "backlog_over_125_days": 295,
+        "avg_days_pending": 84.7,
+        "pct_backlog": 20.6
+      },
+      "NE": {
+        "state_name": "Nebraska",
+        "total_pending": 3946,
+        "backlog_over_125_days": 578,
+        "avg_days_pending": 68.0,
+        "pct_backlog": 14.6
+      },
+      "NH": {
+        "state_name": "New Hampshire",
+        "total_pending": 2117,
+        "backlog_over_125_days": 396,
+        "avg_days_pending": 79.0,
+        "pct_backlog": 18.7
+      },
+      "NJ": {
+        "state_name": "New Jersey",
+        "total_pending": 7900,
+        "backlog_over_125_days": 1650,
+        "avg_days_pending": 86.5,
+        "pct_backlog": 20.9
+      },
+      "NM": {
+        "state_name": "New Mexico",
+        "total_pending": 4086,
+        "backlog_over_125_days": 815,
+        "avg_days_pending": 82.9,
+        "pct_backlog": 19.9
+      },
+      "NV": {
+        "state_name": "Nevada",
+        "total_pending": 7005,
+        "backlog_over_125_days": 1202,
+        "avg_days_pending": 77.3,
+        "pct_backlog": 17.2
+      },
+      "NY": {
+        "state_name": "New York",
+        "total_pending": 14475,
+        "backlog_over_125_days": 2600,
+        "avg_days_pending": 82.0,
+        "pct_backlog": 18.0
+      },
+      "OH": {
+        "state_name": "Ohio",
+        "total_pending": 17404,
+        "backlog_over_125_days": 2931,
+        "avg_days_pending": 76.7,
+        "pct_backlog": 16.8
+      },
+      "OK": {
+        "state_name": "Oklahoma",
+        "total_pending": 9088,
+        "backlog_over_125_days": 1513,
+        "avg_days_pending": 75.3,
+        "pct_backlog": 16.6
+      },
+      "OR": {
+        "state_name": "Oregon",
+        "total_pending": 6997,
+        "backlog_over_125_days": 1213,
+        "avg_days_pending": 81.8,
+        "pct_backlog": 17.3
+      },
+      "PA": {
+        "state_name": "Pennsylvania",
+        "total_pending": 16551,
+        "backlog_over_125_days": 2993,
+        "avg_days_pending": 82.4,
+        "pct_backlog": 18.1
+      },
+      "PR": {
+        "state_name": "Puerto Rico",
+        "total_pending": 4064,
+        "backlog_over_125_days": 566,
+        "avg_days_pending": 63.6,
+        "pct_backlog": 13.9
+      },
+      "RI": {
+        "state_name": "Rhode Island",
+        "total_pending": 1308,
+        "backlog_over_125_days": 232,
+        "avg_days_pending": 82.3,
+        "pct_backlog": 17.7
+      }
+    }
+  },
+  "veterans_by_state": {
+    "description": "FY 2019 VA Disability Pension Recipients by State, from National Center for Veterans Analysis and Statistics (NCVAS)",
+    "fiscal_year": 2019,
+    "total_recipients": 239108,
+    "note": "This is disability PENSION recipients only (means-tested benefit for wartime veterans). Total disability COMPENSATION recipients is approximately 5.7 million as of FY2024.",
+    "states": {
+      "Alabama": {
+        "total": 6280,
+        "male": 5943,
+        "female": 337
+      },
+      "Alaska": {
+        "total": 290,
+        "male": 274,
+        "female": 16
+      },
+      "Arizona": {
+        "total": 5190,
+        "male": 4884,
+        "female": 306
+      },
+      "Arkansas": {
+        "total": 3158,
+        "male": 3033,
+        "female": 125
+      },
+      "California": {
+        "total": 23303,
+        "male": 22196,
+        "female": 1107
+      },
+      "Colorado": {
+        "total": 3418,
+        "male": 3222,
+        "female": 196
+      },
+      "Connecticut": {
+        "total": 1608,
+        "male": 1511,
+        "female": 97
+      },
+      "Delaware": {
+        "total": 413,
+        "male": 381,
+        "female": 32
+      },
+      "District of Columbia": {
+        "total": 543,
+        "male": 526,
+        "female": 17
+      },
+      "Florida": {
+        "total": 20769,
+        "male": 19680,
+        "female": 1089
+      },
+      "Georgia": {
+        "total": 8841,
+        "male": 8341,
+        "female": 500
+      },
+      "Hawaii": {
+        "total": 618,
+        "male": 586,
+        "female": 32
+      },
+      "Idaho": {
+        "total": 1248,
+        "male": 1169,
+        "female": 79
+      },
+      "Illinois": {
+        "total": 7393,
+        "male": 7103,
+        "female": 290
+      },
+      "Indiana": {
+        "total": 4254,
+        "male": 4053,
+        "female": 201
+      },
+      "Iowa": {
+        "total": 2349,
+        "male": 2227,
+        "female": 122
+      },
+      "Kansas": {
+        "total": 2134,
+        "male": 2031,
+        "female": 103
+      },
+      "Kentucky": {
+        "total": 4098,
+        "male": 3909,
+        "female": 189
+      },
+      "Louisiana": {
+        "total": 5074,
+        "male": 4863,
+        "female": 211
+      },
+      "Maine": {
+        "total": 1238,
+        "male": 1181,
+        "female": 57
+      },
+      "Maryland": {
+        "total": 2902,
+        "male": 2753,
+        "female": 149
+      },
+      "Massachusetts": {
+        "total": 2855,
+        "male": 2714,
+        "female": 141
+      },
+      "Michigan": {
+        "total": 8144,
+        "male": 7810,
+        "female": 334
+      },
+      "Minnesota": {
+        "total": 2850,
+        "male": 2711,
+        "female": 139
+      },
+      "Mississippi": {
+        "total": 2960,
+        "male": 2828,
+        "female": 132
+      },
+      "Missouri": {
+        "total": 5671,
+        "male": 5415,
+        "female": 256
+      },
+      "Montana": {
+        "total": 1102,
+        "male": 1054,
+        "female": 48
+      },
+      "Nebraska": {
+        "total": 1071,
+        "male": 1028,
+        "female": 43
+      },
+      "Nevada": {
+        "total": 2679,
+        "male": 2524,
+        "female": 155
+      },
+      "New Hampshire": {
+        "total": 685,
+        "male": 633,
+        "female": 52
+      },
+      "New Jersey": {
+        "total": 2779,
+        "male": 2657,
+        "female": 122
+      },
+      "New Mexico": {
+        "total": 2018,
+        "male": 1904,
+        "female": 114
+      },
+      "New York": {
+        "total": 9737,
+        "male": 9351,
+        "female": 386
+      },
+      "North Carolina": {
+        "total": 6770,
+        "male": 6408,
+        "female": 362
+      },
+      "North Dakota": {
+        "total": 403,
+        "male": 384,
+        "female": 19
+      },
+      "Ohio": {
+        "total": 12171,
+        "male": 11547,
+        "female": 624
+      },
+      "Oklahoma": {
+        "total": 3366,
+        "male": 3228,
+        "female": 138
+      },
+      "Oregon": {
+        "total": 4438,
+        "male": 4202,
+        "female": 236
+      },
+      "Pennsylvania": {
+        "total": 10269,
+        "male": 9786,
+        "female": 483
+      },
+      "Puerto Rico": {
+        "total": 6208,
+        "male": 6172,
+        "female": 36
+      },
+      "Rhode Island": {
+        "total": 683,
+        "male": 655,
+        "female": 28
+      },
+      "South Carolina": {
+        "total": 4422,
+        "male": 4206,
+        "female": 216
+      },
+      "South Dakota": {
+        "total": 796,
+        "male": 752,
+        "female": 44
+      },
+      "Tennessee": {
+        "total": 6338,
+        "male": 6066,
+        "female": 272
+      },
+      "Texas": {
+        "total": 17695,
+        "male": 16815,
+        "female": 880
+      },
+      "Utah": {
+        "total": 1359,
+        "male": 1283,
+        "female": 76
+      },
+      "Vermont": {
+        "total": 332,
+        "male": 312,
+        "female": 20
+      },
+      "Virginia": {
+        "total": 4818,
+        "male": 4540,
+        "female": 278
+      },
+      "Washington": {
+        "total": 4821,
+        "male": 4482,
+        "female": 339
+      },
+      "West Virginia": {
+        "total": 2029,
+        "male": 1958,
+        "female": 71
+      },
+      "Wisconsin": {
+        "total": 4061,
+        "male": 3858,
+        "female": 203
+      },
+      "Wyoming": {
+        "total": 316,
+        "male": 299,
+        "female": 17
+      }
+    }
+  },
+  "veteran_population_by_state": {
+    "description": "Estimated veteran population by state from VetPop2023 model (September 30, 2023 baseline)",
+    "model": "VetPop2023",
+    "baseline_date": "2023-09-30",
+    "total_veterans": 36182398,
+    "states": {
+      "Alabama": {
+        "total_veterans": 685998
+      },
+      "Alaska": {
+        "total_veterans": 142011
+      },
+      "Arizona": {
+        "total_veterans": 946750
+      },
+      "Arkansas": {
+        "total_veterans": 406170
+      },
+      "California": {
+        "total_veterans": 2949869
+      },
+      "Colorado": {
+        "total_veterans": 736218
+      },
+      "Connecticut": {
+        "total_veterans": 304394
+      },
+      "Delaware": {
+        "total_veterans": 126782
+      },
+      "District of Columbia": {
+        "total_veterans": 55833
+      },
+      "Florida": {
+        "total_veterans": 2825926
+      },
+      "Georgia": {
+        "total_veterans": 1324763
+      },
+      "Hawaii": {
+        "total_veterans": 222689
+      },
+      "Idaho": {
+        "total_veterans": 244567
+      },
+      "Illinois": {
+        "total_veterans": 1242458
+      },
+      "Indiana": {
+        "total_veterans": 742730
+      },
+      "Iowa": {
+        "total_veterans": 363271
+      },
+      "Kansas": {
+        "total_veterans": 362544
+      },
+      "Kentucky": {
+        "total_veterans": 524323
+      },
+      "Louisiana": {
+        "total_veterans": 514764
+      },
+      "Maine": {
+        "total_veterans": 213667
+      },
+      "Maryland": {
+        "total_veterans": 720196
+      },
+      "Massachusetts": {
+        "total_veterans": 547867
+      },
+      "Michigan": {
+        "total_veterans": 999467
+      },
+      "Minnesota": {
+        "total_veterans": 591405
+      },
+      "Mississippi": {
+        "total_veterans": 364873
+      },
+      "Missouri": {
+        "total_veterans": 783110
+      },
+      "Montana": {
+        "total_veterans": 177085
+      },
+      "Nebraska": {
+        "total_veterans": 240837
+      },
+      "Nevada": {
+        "total_veterans": 417360
+      },
+      "New Hampshire": {
+        "total_veterans": 185784
+      },
+      "New Jersey": {
+        "total_veterans": 615222
+      },
+      "New Mexico": {
+        "total_veterans": 306819
+      },
+      "New York": {
+        "total_veterans": 1324809
+      },
+      "North Carolina": {
+        "total_veterans": 1377866
+      },
+      "North Dakota": {
+        "total_veterans": 97011
+      },
+      "Ohio": {
+        "total_veterans": 1338361
+      },
+      "Oklahoma": {
+        "total_veterans": 564964
+      },
+      "Oregon": {
+        "total_veterans": 531513
+      },
+      "Pennsylvania": {
+        "total_veterans": 1376401
+      },
+      "Rhode Island": {
+        "total_veterans": 110008
+      },
+      "South Carolina": {
+        "total_veterans": 780778
+      },
+      "South Dakota": {
+        "total_veterans": 128199
+      },
+      "Tennessee": {
+        "total_veterans": 869292
+      },
+      "Texas": {
+        "total_veterans": 3076851
+      },
+      "Utah": {
+        "total_veterans": 259567
+      },
+      "Vermont": {
+        "total_veterans": 77183
+      },
+      "Virginia": {
+        "total_veterans": 1371006
+      },
+      "Washington": {
+        "total_veterans": 1019719
+      },
+      "West Virginia": {
+        "total_veterans": 247838
+      },
+      "Wisconsin": {
+        "total_veterans": 654390
+      },
+      "Wyoming": {
+        "total_veterans": 90887
+      },
+      "Puerto Rico": {
+        "total_veterans": 159622
+      }
+    }
+  },
+  "historical_trends": {
+    "description": "Year-over-year claims processing trends from MMWR data (January snapshots)",
+    "yearly_snapshots": {
+      "2022": {
+        "date": "2022-01-08",
+        "total_pending": 627100,
+        "backlog_over_125_days": 260739,
+        "pct_backlog": 41.6,
+        "original_pending": 156832,
+        "supplemental_pending": 450138,
+        "note": "Pre-PACT Act baseline. High backlog partly from COVID-19 impacts."
+      },
+      "2023": {
+        "date": "2023-01-07",
+        "total_pending": 709131,
+        "backlog_over_125_days": 200456,
+        "pct_backlog": 28.3,
+        "original_pending": 184211,
+        "supplemental_pending": 516172,
+        "note": "PACT Act signed August 2022 led to surge in new claims. Backlog reduced despite higher volume."
+      },
+      "2024": {
+        "date": "2024-01-06",
+        "total_pending": 1048765,
+        "backlog_over_125_days": 417855,
+        "pct_backlog": 39.8,
+        "original_pending": 272980,
+        "supplemental_pending": 765711,
+        "note": "Peak pending claims due to PACT Act toxic exposure claims expansion. 48% increase in pending year-over-year."
+      },
+      "2026": {
+        "date": "2026-02-07",
+        "total_pending": 574185,
+        "backlog_over_125_days": 98813,
+        "pct_backlog": 17.2,
+        "original_pending": 145515,
+        "supplemental_pending": 420335,
+        "note": "Significant backlog reduction. Pending claims down 45% from 2024 peak. Backlog percentage lowest in 4+ years."
+      }
+    },
+    "key_milestones": [
+      {
+        "year": 2022,
+        "event": "PACT Act signed into law (August 10, 2022), expanding toxic exposure eligibility for 3.5 million veterans"
+      },
+      {
+        "year": 2023,
+        "event": "VA processed record 1.9+ million claims in FY2023, highest in VA history"
+      },
+      {
+        "year": 2024,
+        "event": "VA surpassed 2 million claims processed in single fiscal year for the first time"
+      },
+      {
+        "year": 2025,
+        "event": "Backlog reduction accelerated with automated decision support and expanded staffing"
+      },
+      {
+        "year": 2026,
+        "event": "Claims backlog reduced to 17.2%, lowest percentage in over 4 years"
+      }
+    ],
+    "veterans_receiving_compensation_trend": {
+      "fy2018": 4743108,
+      "fy2019": 4930879,
+      "fy2020": 5112083,
+      "fy2021": 5269600,
+      "fy2022": 5415000,
+      "fy2023": 5566000,
+      "fy2024": 5709126,
+      "growth_rate_6yr_pct": 20.4,
+      "note": "Steady growth driven by PACT Act expansions, increased awareness, and improved claims processes"
+    },
+    "total_annual_benefits_paid": {
+      "fy2018_billions": 81.5,
+      "fy2019_billions": 87.6,
+      "fy2020_billions": 93.2,
+      "fy2021_billions": 97.8,
+      "fy2022_billions": 107.5,
+      "fy2023_billions": 126.8,
+      "fy2024_billions": 136.2,
+      "note": "Includes all VA compensation and pension payments. Rapid growth from 2022 onward reflects PACT Act expansions and COLA increases."
+    }
+  },
+  "summary_statistics": {
+    "total_us_veterans": 16248397,
+    "veterans_receiving_disability_compensation": 5709126,
+    "pct_veterans_receiving_compensation": 35.1,
+    "total_claims_pending": 574185,
+    "claims_backlog_over_125_days": 98813,
+    "backlog_percentage": 17.2,
+    "avg_days_to_complete_claim": 83.4,
+    "claims_completed_fytd_2026": 1058077,
+    "total_annual_compensation_paid_billions": 136.2,
+    "monthly_compensation_100pct_veteran_alone": 3737.85,
+    "monthly_compensation_10pct_veteran_alone": 171.23,
+    "most_common_service_connected_conditions": [
+      "Tinnitus (ringing in ears)",
+      "Hearing loss",
+      "Post-traumatic stress disorder (PTSD)",
+      "Limitation of flexion (knee)",
+      "Lumbosacral strain (back)",
+      "Scars (general)",
+      "Limitation of range of motion (ankle)",
+      "Migraine headaches",
+      "Paralysis of the sciatic nerve",
+      "Degenerative arthritis of the spine"
+    ],
+    "pact_act_impact": {
+      "law_signed": "2022-08-10",
+      "description": "The PACT Act expanded VA health care and benefits for veterans exposed to burn pits, Agent Orange, and other toxic substances",
+      "veterans_newly_eligible": 3500000,
+      "new_presumptive_conditions_added": 23,
+      "claims_filed_since_pact_act": 5600000,
+      "note": "Largest expansion of VA benefits in decades"
+    }
+  }
+}

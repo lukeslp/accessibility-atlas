@@ -1,0 +1,571 @@
+{
+  "metadata": {
+    "created_at": "2025-12-21T12:17:29.026619",
+    "updated_at": "2026-02-13",
+    "version": "3.0",
+    "total_datasets": 55,
+    "note": "Comprehensive accessibility and disability dataset catalog with local files and external references"
+  },
+  "categories": {
+    "disability_demographics": {
+      "description": "U.S. Census Bureau disability demographics and trends",
+      "datasets": [
+        {
+          "name": "Census Disability Trends 2010-2023 (Raw)",
+          "local_file": "census_disability_trends_2010_2023.json",
+          "source": "U.S. Census Bureau ACS 1-Year Estimates (S1810 + B18101)",
+          "years": "2010-2023 (excl. 2020)",
+          "coverage": "National",
+          "records": "Raw S1810 and B18101 table data",
+          "note": "Unprocessed Census tables; see clean version for analysis-ready format",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "Census Disability Trends 2010-2023 (Clean)",
+          "local_file": "census_disability_trends_clean.json",
+          "source": "U.S. Census Bureau ACS 1-Year Estimates (S1810 + B18101)",
+          "years": "2010-2023 (excl. 2020)",
+          "coverage": "National",
+          "records": "13 years of annual data",
+          "key_finding": "Disability rate rose from 11.9% to 13.6% (+1.7pp)",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "Census Disability by County 2022",
+          "local_file": "census_disability_by_county_2022.csv",
+          "source": "U.S. Census Bureau ACS",
+          "coverage": "3,100+ counties",
+          "access": "Public domain",
+          "format": "CSV"
+        },
+        {
+          "name": "Census Disability by Age/Sex 2022",
+          "local_file": "census_disability_by_age_sex_2022.json",
+          "source": "U.S. Census Bureau ACS",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "Census Disability by Race 2022",
+          "local_file": "census_disability_by_race_2022.json",
+          "source": "U.S. Census Bureau ACS",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "Census Disability Characteristics 2022",
+          "local_file": "census_disability_characteristics_2022.json",
+          "source": "U.S. Census Bureau ACS",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "Census Disability National Trends",
+          "local_file": "census_disability_national_trends.json",
+          "source": "U.S. Census Bureau ACS",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "Census Disability by State 2021",
+          "local_file": "census_disability_states_2021.csv",
+          "source": "U.S. Census Bureau ACS",
+          "coverage": "50 states + DC",
+          "access": "Public domain",
+          "format": "CSV"
+        }
+      ]
+    },
+    "disability_employment": {
+      "description": "Employment, labor force participation, and economic indicators for people with disabilities",
+      "datasets": [
+        {
+          "name": "FRED Disability Employment (2009-2024)",
+          "local_file": "fred_disability_employment.json",
+          "source": "Federal Reserve Economic Data (FRED), St. Louis Fed",
+          "years": "2009-2024",
+          "records": "16 annual data points",
+          "key_finding": "Disability employment ratio: 19.2% (2009) to 22.7% (2024), employment gap narrowing from 40pp to 37pp",
+          "series": [
+            "LNU02374597",
+            "LNU04074597",
+            "LNU01374597",
+            "UNRATE"
+          ],
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "BLS Disability Employment 2024",
+          "local_file": "bls_disability_employment_2024.json",
+          "source": "Bureau of Labor Statistics",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "EEOC ADA Disability Discrimination Charges (1992-2024)",
+          "local_file": "eeoc_ada_charges.json",
+          "source": "U.S. Equal Employment Opportunity Commission",
+          "years": "1992-2024",
+          "records": "33 years of annual data, 679,637 total charges",
+          "key_finding": "ADA charges peaked at 28,073 in FY 2016; reasonable accommodation is top issue category",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "JAN Workplace Accommodations Cost & Effectiveness",
+          "local_file": "jan_workplace_accommodations.json",
+          "source": "Job Accommodation Network (JAN), U.S. DOL ODEP",
+          "key_finding": "58.7% of accommodations cost $0; median cost $300; 90% employers report effectiveness",
+          "access": "Public domain",
+          "format": "JSON"
+        }
+      ]
+    },
+    "special_education": {
+      "description": "IDEA special education enrollment, disability categories, and inclusion data",
+      "datasets": [
+        {
+          "name": "IDEA Special Education (Enriched)",
+          "local_file": "idea_special_education_enriched.json",
+          "source": "NCES Digest of Education Statistics 2023 (Tables 204.30, 204.70)",
+          "years": "1976-2023",
+          "records": "7.5M students, 51 states, 13 disability categories",
+          "key_finding": "15.2% of public school students served; autism grew 8.5x since 2000",
+          "docs": [
+            "IDEA_DATA_OVERVIEW.md",
+            "IDEA_ENRICHMENT_SUMMARY.md",
+            "IDEA_QUICK_REFERENCE.md"
+          ],
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "IDEA Special Education 2023 (Original)",
+          "local_file": "idea_special_education_2023.json",
+          "source": "NCES",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "NCES Disability Type (Table 204.30)",
+          "local_file": "nces_204_30_disability_type.xlsx",
+          "source": "NCES Digest of Education Statistics",
+          "access": "Public domain",
+          "format": "XLSX"
+        },
+        {
+          "name": "NCES Demographics (Table 204.50)",
+          "local_file": "nces_204_50_demographics.xlsx",
+          "source": "NCES Digest of Education Statistics",
+          "access": "Public domain",
+          "format": "XLSX"
+        },
+        {
+          "name": "NCES Environments (Table 204.60)",
+          "local_file": "nces_204_60_environments.xlsx",
+          "source": "NCES Digest of Education Statistics",
+          "access": "Public domain",
+          "format": "XLSX"
+        },
+        {
+          "name": "NCES State Data (Table 204.70)",
+          "local_file": "nces_204_70_state.xlsx",
+          "source": "NCES Digest of Education Statistics",
+          "access": "Public domain",
+          "format": "XLSX"
+        }
+      ]
+    },
+    "web_accessibility": {
+      "description": "Web accessibility compliance, lawsuits, and standards data",
+      "datasets": [
+        {
+          "name": "ADA Digital Accessibility Lawsuits (2017-2024)",
+          "local_file": "ada_digital_lawsuits.json",
+          "source": "UsableNet, Accessibility.works, EcomBack trackers",
+          "years": "2017-2024",
+          "records": "8 years of annual lawsuit counts",
+          "key_finding": "814 lawsuits (2017) to ~4,000 (2024); 77% target e-commerce",
+          "access": "Compiled from public reports",
+          "format": "JSON"
+        },
+        {
+          "name": "Section 508 Compliance 2024",
+          "local_file": "section_508_compliance_2024.json",
+          "source": "GSA FY24 Governmentwide Section 508 Assessment",
+          "key_finding": "Only 23% of federal public websites conform; declined from prior year",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "WebAIM Million 2025",
+          "local_file": "webaim_million_2025.json",
+          "source": "WebAIM (Web Accessibility In Mind)",
+          "coverage": "Top 1 million homepages",
+          "access": "Public report",
+          "format": "JSON"
+        },
+        {
+          "name": "WebAIM Screen Reader Survey 2024",
+          "local_file": "webaim_screen_reader_survey_2024.json",
+          "source": "WebAIM",
+          "access": "Public report",
+          "format": "JSON"
+        },
+        {
+          "name": "HTTP Archive Web Accessibility Metrics (2019-2024)",
+          "local_file": "web_accessibility_metrics.json",
+          "source": "HTTP Archive / Web Almanac",
+          "years": "2019-2024",
+          "records": "5 years of annual data, mobile vs desktop comparisons",
+          "key_finding": "Alt text adoption grew from 51.8% to 58.5% of images; ARIA usage doubled from 65% to 79% of pages",
+          "access": "Public (CC BY 4.0)",
+          "format": "JSON"
+        }
+      ]
+    },
+    "international_disability": {
+      "description": "Global disability prevalence, health, and policy data",
+      "datasets": [
+        {
+          "name": "Eurostat Disability EU",
+          "local_file": "eurostat_disability_eu.json",
+          "source": "Eurostat",
+          "coverage": "EU member states",
+          "access": "Public",
+          "format": "JSON"
+        },
+        {
+          "name": "WHO Healthy Life Expectancy (HALE)",
+          "local_file": "who_healthy_life_expectancy.csv",
+          "source": "WHO Global Health Observatory",
+          "coverage": "194 countries",
+          "access": "Public domain",
+          "format": "CSV"
+        },
+        {
+          "name": "WHO HALE Long Format",
+          "local_file": "who_hale_long.csv",
+          "source": "WHO Global Health Observatory",
+          "access": "Public domain",
+          "format": "CSV"
+        },
+        {
+          "name": "WHO Disability Prevalence & SDG Indicators",
+          "local_file": "who_disability_prevalence.json",
+          "source": "WHO, World Bank Health Indicators, UN SDG",
+          "coverage": "194 WHO member states",
+          "records": "SDG disability indicators, World Bank health metrics",
+          "key_finding": "1.3 billion people (16% of world population) live with significant disability",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "WHO GHO Disability Indicators (DALYs/YLDs 2000-2021)",
+          "local_file": "who_gho_disability_indicators.json",
+          "source": "WHO Global Health Estimates (GHE 2021 Edition)",
+          "years": "2000-2021",
+          "coverage": "194 WHO member states + 6 WHO regions",
+          "key_finding": "DALYs and Years Lived with Disability by country, region, disease category",
+          "access": "CC BY-NC-SA 3.0 IGO",
+          "format": "JSON"
+        },
+        {
+          "name": "OECD Disability Statistics (34 Countries)",
+          "local_file": "oecd_disability_data.json",
+          "source": "OECD SOCX Database, Disability Work and Inclusion Report, EU-SILC",
+          "coverage": "34 OECD member countries",
+          "records": "Prevalence, employment rates, incapacity spending by country",
+          "key_finding": "OECD avg: 15% disability prevalence, 34pp employment gap, 2% GDP on incapacity benefits",
+          "access": "OECD Terms and Conditions",
+          "format": "JSON"
+        },
+        {
+          "name": "World Bank Disability-Relevant Indicators (2010-2023)",
+          "local_file": "world_bank_disability_indicators.json",
+          "source": "World Bank Open Data API v2",
+          "years": "2010-2023",
+          "coverage": "All World Bank member countries",
+          "records": "4,406 records across 10 socioeconomic indicators",
+          "key_finding": "Cross-country data on aging, health spending, employment, literacy, inequality \u2014 context for disability analysis",
+          "access": "CC-BY 4.0",
+          "format": "JSON"
+        },
+        {
+          "name": "UN CRPD Ratification Status (199 Countries)",
+          "local_file": "un_crpd_ratification.json",
+          "source": "United Nations Treaty Collection",
+          "coverage": "199 countries",
+          "records": "Ratification status, dates, Optional Protocol",
+          "key_finding": "190 signatories, 188 ratifications; first binding international disability rights instrument",
+          "access": "Public domain",
+          "format": "JSON"
+        }
+      ]
+    },
+    "sign_language": {
+      "description": "ASL and other sign language datasets",
+      "datasets": [
+        {
+          "name": "WLASL (Word-Level ASL)",
+          "local_file": "wlasl_index.csv",
+          "url": "https://dxli94.github.io/WLASL/",
+          "hf_url": "https://huggingface.co/datasets/Voxel51/WLASL",
+          "size": "21,083 videos, 2,000 words",
+          "access": "Public download",
+          "format": "CSV index (5.2MB)"
+        },
+        {
+          "name": "How2Sign",
+          "url": "https://how2sign.github.io",
+          "size": "80+ hours, 35,000 sentences",
+          "access": "CC BY-NC 4.0",
+          "format": "Multiview video + depth + keypoints"
+        },
+        {
+          "name": "ASL Citizen",
+          "url": "https://www.microsoft.com/en-us/research/project/asl-citizen/",
+          "size": "83,399 videos, 2,731 signs, 52 signers",
+          "access": "License agreement",
+          "format": "Video (isolated signs)"
+        }
+      ]
+    },
+    "visual_accessibility": {
+      "description": "Visual impairment and blind user datasets",
+      "datasets": [
+        {
+          "name": "VizWiz VQA",
+          "local_file": "vizwiz_val_annotations.csv",
+          "url": "https://vizwiz.org/tasks-and-datasets/vqa/",
+          "size": "2.6MB validation annotations",
+          "access": "Public download",
+          "format": "CSV"
+        },
+        {
+          "name": "VideoA11y-40K",
+          "url": "arXiv (search VideoA11y-40K)",
+          "size": "40,000 videos with descriptions",
+          "access": "Via paper",
+          "format": "Video + accessibility descriptions"
+        }
+      ]
+    },
+    "aac": {
+      "description": "Augmentative and Alternative Communication",
+      "datasets": [
+        {
+          "name": "AAC Vocabulary Data",
+          "local_file": "aac_vocabulary_data.json",
+          "source": "Compiled from AAC research literature",
+          "access": "Public",
+          "format": "JSON"
+        },
+        {
+          "name": "AAC Conversations (HuggingFace)",
+          "url": "https://huggingface.co/datasets/willwade/AACConversations",
+          "size": "86,000+ simulated conversations",
+          "languages": "39",
+          "access": "CC-BY-4.0",
+          "format": "Text with typing error augmentations"
+        },
+        {
+          "name": "Domesday Dataset",
+          "url": "https://equalitytime.github.io/domesdaydataset/",
+          "size": "NHS AAC purchases 2006-2012",
+          "access": "Open Data Commons Attribution",
+          "format": "CSV/Excel"
+        }
+      ]
+    },
+    "speech_disorders": {
+      "description": "Dysarthria, aphasia, stuttering, atypical speech",
+      "datasets": [
+        {
+          "name": "Speech Accessibility Project (SAP)",
+          "url": "https://speechaccessibilityproject.beckman.illinois.edu",
+          "size": "400+ hours",
+          "speakers": "500+",
+          "conditions": [
+            "ALS",
+            "Cerebral Palsy",
+            "Down Syndrome",
+            "Parkinsons",
+            "Stroke"
+          ],
+          "access": "Data Use Agreement required",
+          "format": "Audio + transcripts"
+        },
+        {
+          "name": "TORGO Database",
+          "url": "https://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html",
+          "conditions": [
+            "Cerebral Palsy",
+            "ALS"
+          ],
+          "access": "Request form",
+          "format": "Audio + 3D articulatory data"
+        },
+        {
+          "name": "UASpeech",
+          "url": "https://speechtechnology.web.illinois.edu/uaspeech/",
+          "size": "16 speakers with dysarthria",
+          "access": "Free for research",
+          "format": "Isolated words + digits"
+        },
+        {
+          "name": "SEP-28k (Stuttering)",
+          "url": "https://www.kaggle.com/datasets (search SEP-28k)",
+          "size": "28,000 clips from podcasts",
+          "access": "Public (Kaggle)",
+          "format": "Audio clips + event labels"
+        }
+      ]
+    },
+    "clinical_corpora": {
+      "description": "TalkBank clinical speech/language databases",
+      "datasets": [
+        {
+          "name": "AphasiaBank",
+          "url": "https://talkbank.org/aphasia/",
+          "access": "Tiered (public transcripts, member audio/video)",
+          "format": "CHAT transcripts + multimedia"
+        },
+        {
+          "name": "DementiaBank",
+          "url": "https://dementia.talkbank.org",
+          "access": "Tiered",
+          "format": "CHAT transcripts + multimedia"
+        },
+        {
+          "name": "FluencyBank",
+          "url": "https://fluency.talkbank.org",
+          "focus": "Stuttering",
+          "access": "Tiered",
+          "format": "CHAT transcripts + audio"
+        }
+      ]
+    },
+    "disability_transportation": {
+      "description": "ADA paratransit, accessible transit, and transportation data",
+      "datasets": [
+        {
+          "name": "NTD ADA Paratransit Data",
+          "local_file": "ntd_paratransit_data.json",
+          "source": "National Transit Database, Federal Transit Administration",
+          "years": "2014-2022",
+          "records": "Annual ridership, expenses, ADA compliance, top agencies",
+          "key_finding": "146M paratransit trips (2019 pre-COVID peak); operating cost $40-50/trip vs ~$4 for fixed-route",
+          "access": "Public domain",
+          "format": "JSON"
+        }
+      ]
+    },
+    "disability_housing": {
+      "description": "Fair housing, disability discrimination in housing",
+      "datasets": [
+        {
+          "name": "HUD Fair Housing Disability Complaints",
+          "local_file": "hud_fair_housing_disability.json",
+          "source": "U.S. Department of Housing and Urban Development (HUD)",
+          "years": "2009-2023",
+          "records": "15 years of annual complaints, state breakdowns, issue types",
+          "key_finding": "Disability is #1 basis for fair housing complaints (~55%); failure to provide reasonable accommodation is top issue",
+          "access": "Public domain",
+          "format": "JSON"
+        }
+      ]
+    },
+    "disability_healthcare": {
+      "description": "Medicaid, Medicare, healthcare access, and mental health for people with disabilities",
+      "datasets": [
+        {
+          "name": "CMS Medicaid Disability Enrollment",
+          "local_file": "cms_medicaid_disability_enrollment.json",
+          "source": "Centers for Medicare & Medicaid Services (CMS)",
+          "years": "2013-2024",
+          "records": "49 national records, 321 state ABD records, 84 monthly trends, 10,300 state monthly records",
+          "key_finding": "10.2M aged/blind/disabled Medicaid enrollees; ABD enrollees are 15% of Medicaid but drive ~45% of spending",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "SAMHSA Mental Health Prevalence & Treatment",
+          "local_file": "samhsa_mental_health.json",
+          "source": "SAMHSA National Survey on Drug Use and Health (NSDUH)",
+          "years": "2008-2023",
+          "records": "Prevalence, treatment, unmet need by demographics",
+          "key_finding": "23.1% of adults had any mental illness (2023); 37% with SMI received no treatment",
+          "access": "Public domain",
+          "format": "JSON"
+        }
+      ]
+    },
+    "disability_government": {
+      "description": "SSA disability determinations, VA compensation, government benefits administration",
+      "datasets": [
+        {
+          "name": "SSA State Agency Disability Workload",
+          "local_file": "ssa_state_agency_workload.json",
+          "source": "Social Security Administration (SSA)",
+          "records": "State-level determination data, approval rates, processing times",
+          "key_finding": "Initial approval rate ~33%; 13-month average processing time; significant interstate variation",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "SSA SSDI/SSI Annual Statistics",
+          "local_file": "ssa_ssdi_ssi_annual.json",
+          "source": "SSA DI Annual Statistical Report, SSI Annual Statistical Report, OACT Statistics",
+          "years": "1970-2024",
+          "records": "SSDI beneficiaries, SSI recipients, awards, benefit amounts by year",
+          "key_finding": "7.3M disabled-worker SSDI beneficiaries; 4.9M SSI blind/disabled recipients; $173B+ annual benefits",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "VA Disability Compensation & Claims",
+          "local_file": "va_disability_compensation.json",
+          "source": "VA Benefits Administration, NCVAS VetPop2023",
+          "years": "2019-2026",
+          "records": "Claims by state, compensation rates, veteran population, processing data",
+          "key_finding": "5.7M+ veterans receive VA disability compensation; 1.6M pending claims",
+          "access": "Public domain",
+          "format": "JSON"
+        }
+      ]
+    },
+    "disability_technology_research": {
+      "description": "Assistive technology patents and research papers",
+      "datasets": [
+        {
+          "name": "WIPO Assistive Technology Patents",
+          "local_file": "patentsview_assistive_tech.json",
+          "source": "WIPO PATENTSCOPE (World Intellectual Property Organization)",
+          "records": "1,325 assistive technology patents (1985-2026)",
+          "key_finding": "Massive growth: 10 patents (2010-2014) to 519 (2020-2024); top IPC classes: prostheses (A61F), hearing devices (H04R), computing (G06F)",
+          "access": "Public domain",
+          "format": "JSON"
+        }
+      ]
+    },
+    "disability_education": {
+      "description": "Civil rights data on students with disabilities beyond IDEA",
+      "datasets": [
+        {
+          "name": "CRDC Section 504 & Disability Data",
+          "local_file": "crdc_disability_data.json",
+          "source": "Civil Rights Data Collection (CRDC), U.S. Dept. of Education",
+          "years": "2017-18, 2020-21",
+          "records": "Section 504 enrollment, restraint/seclusion, discipline disparities, course access by state",
+          "key_finding": "Students with disabilities face 2-3x higher suspension rates; 81% of restraint/seclusion incidents involve students with disabilities",
+          "access": "Public domain",
+          "format": "JSON"
+        }
+      ]
+    }
+  }
+}

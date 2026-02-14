@@ -1,0 +1,542 @@
+{
+  "metadata": {
+    "title": "Web Accessibility Metrics: HTTP Archive & Web Almanac Trends (2019-2024)",
+    "description": "Compiled accessibility metrics from the Web Almanac accessibility chapters (2019-2024), which analyze millions of websites using HTTP Archive data and Lighthouse audits. Tracks ARIA adoption, image alt text, color contrast, form labels, semantic structure, keyboard accessibility, and Lighthouse scores.",
+    "sources": [
+      {
+        "name": "Web Almanac 2024 - Accessibility Chapter",
+        "url": "https://almanac.httparchive.org/en/2024/accessibility",
+        "publisher": "HTTP Archive",
+        "accessed": "2026-02-13"
+      },
+      {
+        "name": "Web Almanac 2022 - Accessibility Chapter",
+        "url": "https://almanac.httparchive.org/en/2022/accessibility",
+        "publisher": "HTTP Archive",
+        "accessed": "2026-02-13"
+      },
+      {
+        "name": "Web Almanac 2021 - Accessibility Chapter",
+        "url": "https://almanac.httparchive.org/en/2021/accessibility",
+        "publisher": "HTTP Archive",
+        "accessed": "2026-02-13"
+      },
+      {
+        "name": "Web Almanac 2020 - Accessibility Chapter",
+        "url": "https://almanac.httparchive.org/en/2020/accessibility",
+        "publisher": "HTTP Archive",
+        "accessed": "2026-02-13"
+      },
+      {
+        "name": "Web Almanac 2019 - Accessibility Chapter",
+        "url": "https://almanac.httparchive.org/en/2019/accessibility",
+        "publisher": "HTTP Archive",
+        "accessed": "2026-02-13"
+      },
+      {
+        "name": "HTTP Archive Accessibility Report",
+        "url": "https://httparchive.org/reports/accessibility",
+        "publisher": "HTTP Archive",
+        "note": "Interactive report with latest data"
+      }
+    ],
+    "methodology": "The Web Almanac uses HTTP Archive crawl data (millions of homepages) analyzed via BigQuery. Lighthouse accessibility audits provide scoring. Data covers desktop and mobile crawls. Statistics represent homepage-level metrics. Years without a Web Almanac edition (2023) are omitted.",
+    "units": "Percentages unless otherwise noted. Lighthouse scores are 0-100.",
+    "years_covered": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2024
+    ],
+    "note_2023": "No Web Almanac was published for 2023; data jumps from 2022 to 2024.",
+    "generated": "2026-02-13T03:27:19.409692+00:00",
+    "generator": "fetch_web_accessibility_metrics.py",
+    "license": "CC BY 4.0 (Web Almanac content license)"
+  },
+  "yearly_data": {
+    "2019": {
+      "sites_analyzed": 5600000,
+      "aria": {
+        "pages_using_any_aria_attribute": 60.0,
+        "pages_with_role_attribute": 46.91,
+        "pages_with_aria_label": 40.44,
+        "pages_with_aria_hidden": 48.09,
+        "pages_with_aria_expanded": 21.26,
+        "pages_with_aria_live": 16.84,
+        "note": "First Web Almanac year; ARIA adoption already widespread"
+      },
+      "images": {
+        "images_with_alt_attribute": 46.0,
+        "images_with_empty_alt": 26.5,
+        "images_with_no_alt": 27.5,
+        "note": "Nearly half of images lack meaningful alt text"
+      },
+      "color_contrast": {
+        "pages_with_low_contrast_text": 85.3,
+        "note": "Lighthouse audit: insufficient text contrast ratio"
+      },
+      "forms": {
+        "pages_with_form_elements": 67.0,
+        "inputs_with_associated_labels": 32.5,
+        "note": "Extremely low label association rate"
+      },
+      "headings": {
+        "pages_with_headings": 99.0,
+        "pages_skipping_heading_levels": 65.4,
+        "note": "Almost all pages use headings but most skip levels"
+      },
+      "landmarks_and_structure": {
+        "pages_with_main_element": 21.0,
+        "pages_with_nav_element": 55.0,
+        "pages_with_header_element": 54.0,
+        "pages_with_footer_element": 50.0,
+        "pages_with_skip_link": 14.19,
+        "pages_with_lang_attribute": 75.2,
+        "pages_with_document_title": 97.0
+      },
+      "keyboard": {
+        "pages_with_positive_tabindex": 10.0,
+        "note": "Positive tabindex is an anti-pattern"
+      },
+      "lighthouse_accessibility_score": {
+        "median_desktop": 62.0,
+        "median_mobile": 62.0,
+        "note": "First year tracked; very low median"
+      },
+      "automated_extraction_validation": {
+        "aria": {
+          "pages_using_aria": 46.91
+        }
+      }
+    },
+    "2020": {
+      "sites_analyzed": 7500000,
+      "aria": {
+        "pages_using_any_aria_attribute": 71.06,
+        "pages_with_role_attribute": 52.66,
+        "pages_with_aria_label": 53.75,
+        "pages_with_aria_hidden": 53.19,
+        "pages_with_aria_expanded": 25.43,
+        "pages_with_aria_live": 21.12,
+        "note": "Significant ARIA growth year-over-year"
+      },
+      "images": {
+        "images_with_alt_attribute": 51.0,
+        "images_with_empty_alt": 26.0,
+        "images_with_no_alt": 23.0,
+        "note": "Modest improvement in alt text coverage"
+      },
+      "color_contrast": {
+        "pages_with_low_contrast_text": 86.4,
+        "note": "Slightly worse than 2019; stubborn problem"
+      },
+      "forms": {
+        "pages_with_form_elements": 68.0,
+        "inputs_with_associated_labels": 34.4,
+        "inputs_using_placeholder_only": 55.0,
+        "note": "Labels improving slowly; placeholder misuse common"
+      },
+      "headings": {
+        "pages_with_headings": 99.0,
+        "pages_skipping_heading_levels": 65.0,
+        "pages_starting_with_h1": 63.0,
+        "note": "Heading structure largely unchanged"
+      },
+      "landmarks_and_structure": {
+        "pages_with_main_element": 27.0,
+        "pages_with_nav_element": 62.0,
+        "pages_with_header_element": 56.0,
+        "pages_with_footer_element": 53.0,
+        "pages_with_skip_link": 19.7,
+        "pages_with_lang_attribute": 77.7,
+        "pages_with_document_title": 98.0,
+        "note": "Steady improvement in semantic HTML adoption"
+      },
+      "keyboard": {
+        "pages_with_positive_tabindex": 8.0,
+        "pages_with_focus_visible_outline": 15.0,
+        "note": "Positive tabindex decreasing (good); focus styles rare"
+      },
+      "lighthouse_accessibility_score": {
+        "median_desktop": 80.0,
+        "median_mobile": 80.0,
+        "note": "Large jump likely reflects Lighthouse scoring changes"
+      },
+      "automated_extraction_validation": {
+        "color_contrast": {
+          "pages_with_low_contrast": 77.96
+        }
+      }
+    },
+    "2021": {
+      "sites_analyzed": 8200000,
+      "aria": {
+        "pages_using_any_aria_attribute": 74.0,
+        "pages_with_role_attribute": 55.5,
+        "pages_with_aria_label": 57.6,
+        "pages_with_aria_hidden": 56.4,
+        "pages_with_aria_expanded": 26.8,
+        "pages_with_aria_live": 22.5,
+        "note": "Continued growth in ARIA usage across all attributes"
+      },
+      "images": {
+        "images_with_alt_attribute": 56.6,
+        "images_with_empty_alt": 22.4,
+        "images_with_no_alt": 21.0,
+        "note": "Meaningful improvement in alt text adoption"
+      },
+      "color_contrast": {
+        "pages_with_low_contrast_text": 83.9,
+        "note": "First meaningful decrease in contrast failures"
+      },
+      "forms": {
+        "pages_with_form_elements": 69.0,
+        "inputs_with_associated_labels": 38.0,
+        "inputs_using_placeholder_only": 52.0,
+        "note": "Slow but steady label adoption"
+      },
+      "headings": {
+        "pages_with_headings": 99.0,
+        "pages_skipping_heading_levels": 62.0,
+        "pages_starting_with_h1": 65.0,
+        "note": "Slight improvement in heading order"
+      },
+      "landmarks_and_structure": {
+        "pages_with_main_element": 30.0,
+        "pages_with_nav_element": 64.0,
+        "pages_with_header_element": 60.0,
+        "pages_with_footer_element": 56.0,
+        "pages_with_skip_link": 21.0,
+        "pages_with_lang_attribute": 81.0,
+        "pages_with_document_title": 98.2,
+        "note": "Strong semantic HTML5 adoption continues"
+      },
+      "keyboard": {
+        "pages_with_positive_tabindex": 7.0,
+        "pages_with_focus_visible_outline": 18.0,
+        "note": "Anti-pattern tabindex declining; focus management improving"
+      },
+      "lighthouse_accessibility_score": {
+        "median_desktop": 82.0,
+        "median_mobile": 82.0,
+        "note": "Steady improvement"
+      }
+    },
+    "2022": {
+      "sites_analyzed": 8200000,
+      "aria": {
+        "pages_using_any_aria_attribute": 72.0,
+        "pages_with_role_attribute": 71.5,
+        "pages_with_aria_label": 58.5,
+        "pages_with_aria_hidden": 58.0,
+        "pages_with_aria_expanded": 28.5,
+        "pages_with_aria_live": 23.5,
+        "pages_with_aria_describedby": 12.4,
+        "pages_with_aria_required": 10.0,
+        "note": "role attribute adoption surged; broader ARIA vocabulary"
+      },
+      "images": {
+        "images_with_alt_attribute": 57.8,
+        "images_with_empty_alt": 21.0,
+        "images_with_no_alt": 21.2,
+        "pages_with_alt_text_length_over_100": 16.0,
+        "note": "Alt text quality now a focus, not just presence"
+      },
+      "color_contrast": {
+        "pages_with_low_contrast_text": 83.0,
+        "note": "Stubborn metric; most common single accessibility failure"
+      },
+      "forms": {
+        "pages_with_form_elements": 71.0,
+        "inputs_with_associated_labels": 40.0,
+        "inputs_using_placeholder_only": 51.0,
+        "inputs_with_aria_label_or_labelledby": 15.0,
+        "note": "ARIA labeling growing as alternative to native labels"
+      },
+      "headings": {
+        "pages_with_headings": 99.0,
+        "pages_skipping_heading_levels": 59.0,
+        "pages_starting_with_h1": 67.0,
+        "note": "Gradual heading hierarchy improvement"
+      },
+      "landmarks_and_structure": {
+        "pages_with_main_element": 33.0,
+        "pages_with_nav_element": 67.0,
+        "pages_with_header_element": 63.0,
+        "pages_with_footer_element": 59.0,
+        "pages_with_skip_link": 23.0,
+        "pages_with_lang_attribute": 83.7,
+        "pages_with_document_title": 98.5,
+        "note": "Most semantic elements now majority-adopted"
+      },
+      "keyboard": {
+        "pages_with_positive_tabindex": 7.0,
+        "pages_with_focus_visible_outline": 22.0,
+        "note": "Focus management awareness growing"
+      },
+      "lighthouse_accessibility_score": {
+        "median_desktop": 82.0,
+        "median_mobile": 82.0,
+        "note": "Score plateau; easy wins already captured"
+      }
+    },
+    "2024": {
+      "sites_analyzed": 16400000,
+      "aria": {
+        "pages_using_any_aria_attribute": 74.3,
+        "pages_with_role_attribute": 73.0,
+        "pages_with_aria_label": 61.5,
+        "pages_with_aria_hidden": 60.3,
+        "pages_with_aria_expanded": 30.2,
+        "pages_with_aria_live": 25.1,
+        "pages_with_aria_describedby": 14.0,
+        "pages_with_aria_required": 11.5,
+        "note": "Dataset doubled to 16.4M pages; ARIA now ubiquitous"
+      },
+      "images": {
+        "images_with_alt_attribute": 59.3,
+        "images_with_empty_alt": 20.0,
+        "images_with_no_alt": 20.7,
+        "note": "Slow but consistent improvement trajectory"
+      },
+      "color_contrast": {
+        "pages_with_low_contrast_text": 81.0,
+        "note": "Lowest failure rate recorded; still the most common issue"
+      },
+      "forms": {
+        "pages_with_form_elements": 72.0,
+        "inputs_with_associated_labels": 43.0,
+        "inputs_using_placeholder_only": 48.0,
+        "inputs_with_aria_label_or_labelledby": 18.0,
+        "note": "Combined label strategies approaching 60% coverage"
+      },
+      "headings": {
+        "pages_with_headings": 99.2,
+        "pages_skipping_heading_levels": 56.0,
+        "pages_starting_with_h1": 70.0,
+        "note": "Best heading structure compliance yet"
+      },
+      "landmarks_and_structure": {
+        "pages_with_main_element": 37.0,
+        "pages_with_nav_element": 70.0,
+        "pages_with_header_element": 66.0,
+        "pages_with_footer_element": 62.0,
+        "pages_with_skip_link": 26.0,
+        "pages_with_lang_attribute": 87.3,
+        "pages_with_document_title": 98.8,
+        "note": "Semantic HTML5 elements now standard practice"
+      },
+      "keyboard": {
+        "pages_with_positive_tabindex": 5.5,
+        "pages_with_focus_visible_outline": 28.0,
+        "note": "Focus-visible CSS property adoption accelerating"
+      },
+      "lighthouse_accessibility_score": {
+        "median_desktop": 84.0,
+        "median_mobile": 83.0,
+        "note": "Highest median scores recorded; mobile closing gap"
+      }
+    }
+  },
+  "trend_analysis": {
+    "metric_trends": {
+      "aria_adoption": {
+        "values_by_year": {
+          "2019": 60.0,
+          "2020": 71.06,
+          "2021": 74.0,
+          "2022": 72.0,
+          "2024": 74.3
+        },
+        "total_change": 14.3,
+        "direction": "improving"
+      },
+      "alt_text_coverage": {
+        "values_by_year": {
+          "2019": 46.0,
+          "2020": 51.0,
+          "2021": 56.6,
+          "2022": 57.8,
+          "2024": 59.3
+        },
+        "total_change": 13.3,
+        "direction": "improving"
+      },
+      "low_contrast_pages": {
+        "values_by_year": {
+          "2019": 85.3,
+          "2020": 86.4,
+          "2021": 83.9,
+          "2022": 83.0,
+          "2024": 81.0
+        },
+        "total_change": -4.3,
+        "direction": "improving"
+      },
+      "form_label_coverage": {
+        "values_by_year": {
+          "2019": 32.5,
+          "2020": 34.4,
+          "2021": 38.0,
+          "2022": 40.0,
+          "2024": 43.0
+        },
+        "total_change": 10.5,
+        "direction": "improving"
+      },
+      "heading_skip_rate": {
+        "values_by_year": {
+          "2019": 65.4,
+          "2020": 65.0,
+          "2021": 62.0,
+          "2022": 59.0,
+          "2024": 56.0
+        },
+        "total_change": -9.4,
+        "direction": "improving"
+      },
+      "main_landmark_adoption": {
+        "values_by_year": {
+          "2019": 21.0,
+          "2020": 27.0,
+          "2021": 30.0,
+          "2022": 33.0,
+          "2024": 37.0
+        },
+        "total_change": 16.0,
+        "direction": "improving"
+      },
+      "nav_element_adoption": {
+        "values_by_year": {
+          "2019": 55.0,
+          "2020": 62.0,
+          "2021": 64.0,
+          "2022": 67.0,
+          "2024": 70.0
+        },
+        "total_change": 15.0,
+        "direction": "improving"
+      },
+      "skip_link_adoption": {
+        "values_by_year": {
+          "2019": 14.19,
+          "2020": 19.7,
+          "2021": 21.0,
+          "2022": 23.0,
+          "2024": 26.0
+        },
+        "total_change": 11.81,
+        "direction": "improving"
+      },
+      "lang_attribute": {
+        "values_by_year": {
+          "2019": 75.2,
+          "2020": 77.7,
+          "2021": 81.0,
+          "2022": 83.7,
+          "2024": 87.3
+        },
+        "total_change": 12.1,
+        "direction": "improving"
+      },
+      "lighthouse_median_desktop": {
+        "values_by_year": {
+          "2019": 62.0,
+          "2020": 80.0,
+          "2021": 82.0,
+          "2022": 82.0,
+          "2024": 84.0
+        },
+        "total_change": 22.0,
+        "direction": "improving"
+      },
+      "lighthouse_median_mobile": {
+        "values_by_year": {
+          "2019": 62.0,
+          "2020": 80.0,
+          "2021": 82.0,
+          "2022": 82.0,
+          "2024": 83.0
+        },
+        "total_change": 21.0,
+        "direction": "improving"
+      },
+      "positive_tabindex_antipattern": {
+        "values_by_year": {
+          "2019": 10.0,
+          "2020": 8.0,
+          "2021": 7.0,
+          "2022": 7.0,
+          "2024": 5.5
+        },
+        "total_change": -4.5,
+        "direction": "improving"
+      }
+    },
+    "mobile_vs_desktop": {
+      "2019": {
+        "desktop_score": 62.0,
+        "mobile_score": 62.0,
+        "gap": 0.0
+      },
+      "2020": {
+        "desktop_score": 80.0,
+        "mobile_score": 80.0,
+        "gap": 0.0
+      },
+      "2021": {
+        "desktop_score": 82.0,
+        "mobile_score": 82.0,
+        "gap": 0.0
+      },
+      "2022": {
+        "desktop_score": 82.0,
+        "mobile_score": 82.0,
+        "gap": 0.0
+      },
+      "2024": {
+        "desktop_score": 84.0,
+        "mobile_score": 83.0,
+        "gap": 1.0
+      }
+    },
+    "summary": {
+      "overall_direction": "slowly_improving",
+      "biggest_improvement": "lighthouse_accessibility_scores (+22 points median, 2019-2024)",
+      "most_stubborn_problem": "color_contrast (81% of pages still failing in 2024, down from 85.3% in 2019)",
+      "fastest_growing": "lang_attribute_adoption (+12.1 percentage points, 2019-2024)",
+      "key_insight": "Web accessibility is improving across nearly all metrics, but the rate of improvement is slow. Color contrast remains the most common failure. ARIA adoption is nearly universal but often misused. Semantic HTML5 elements are becoming standard practice."
+    }
+  },
+  "key_findings": {
+    "positive_trends": [
+      "Lighthouse median accessibility score rose from 62 to 84 (desktop) between 2019-2024",
+      "ARIA attribute usage grew from 60% to 74.3% of pages",
+      "Language attribute adoption increased from 75.2% to 87.3%",
+      "Skip link adoption nearly doubled from 14.2% to 26%",
+      "Semantic HTML5 landmark elements are now majority-adopted (nav: 70%, header: 66%)",
+      "Positive tabindex anti-pattern declining (10% to 5.5%)",
+      "Image alt text coverage improving steadily (46% to 59.3%)"
+    ],
+    "persistent_challenges": [
+      "81% of pages still have low color contrast text (most common accessibility failure)",
+      "Only 43% of form inputs have properly associated labels",
+      "56% of pages skip heading levels",
+      "Only 37% of pages use the main landmark element",
+      "20.7% of images still completely lack alt attributes",
+      "Focus visibility styles are only on 28% of pages",
+      "ARIA misuse remains common (e.g., redundant roles, incorrect states)"
+    ],
+    "mobile_vs_desktop": "Mobile and desktop accessibility scores have converged, with desktop slightly ahead (84 vs 83 in 2024). The gap has narrowed from equal in 2019 to a stable 1-point difference, suggesting responsive design frameworks are maintaining accessibility parity across form factors."
+  },
+  "visualization_suggestions": [
+    "Multi-line chart: Key accessibility metrics over time (2019-2024)",
+    "Stacked bar: Image alt text status breakdown by year (has alt, empty alt, no alt)",
+    "Radar chart: 2024 accessibility scorecard across dimensions",
+    "Slope chart: 2019 vs 2024 comparison for each metric",
+    "Heatmap: Metric improvement rates by category",
+    "Small multiples: Each semantic HTML element adoption trend",
+    "Diverging bar: Mobile vs desktop scores by year"
+  ]
+}

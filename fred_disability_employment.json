@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "source": "Federal Reserve Economic Data (FRED), St. Louis Fed",
+    "fetched": "2026-02-12",
+    "series": {
+      "LNU02374597": "Employment-Population Ratio, With Disability, 16+ (Annual)",
+      "LNU04074597": "Unemployment Rate, With Disability, 16+ (Annual)",
+      "LNU01374597": "Labor Force Participation Rate, With Disability, 16+ (Annual)",
+      "LNU02300000": "Employment-Population Ratio, Total Civilian, 16+ (Annual)",
+      "UNRATE": "Unemployment Rate, Total Civilian (Annual Average)"
+    },
+    "notes": "Disability series from CPS supplement, available 2009+. Total civilian series available 2008+.",
+    "license": "Public domain (U.S. government data)"
+  },
+  "annual_data": {
+    "2008": {
+      "year": 2008,
+      "total_employment_ratio": 62.2,
+      "total_unemployment_rate": 5.8
+    },
+    "2009": {
+      "year": 2009,
+      "disability_employment_ratio": 19.2,
+      "disability_unemployment_rate": 14.5,
+      "disability_lfpr": 22.4,
+      "total_employment_ratio": 59.3,
+      "total_unemployment_rate": 9.3,
+      "employment_gap_pp": 40.1,
+      "unemployment_gap_pp": 5.2
+    },
+    "2010": {
+      "year": 2010,
+      "disability_employment_ratio": 18.6,
+      "disability_unemployment_rate": 14.8,
+      "disability_lfpr": 21.8,
+      "total_employment_ratio": 58.5,
+      "total_unemployment_rate": 9.6,
+      "employment_gap_pp": 39.9,
+      "unemployment_gap_pp": 5.2
+    },
+    "2011": {
+      "year": 2011,
+      "disability_employment_ratio": 17.8,
+      "disability_unemployment_rate": 15.0,
+      "disability_lfpr": 20.9,
+      "total_employment_ratio": 58.4,
+      "total_unemployment_rate": 8.9,
+      "employment_gap_pp": 40.6,
+      "unemployment_gap_pp": 6.1
+    },
+    "2012": {
+      "year": 2012,
+      "disability_employment_ratio": 17.8,
+      "disability_unemployment_rate": 13.4,
+      "disability_lfpr": 20.6,
+      "total_employment_ratio": 58.6,
+      "total_unemployment_rate": 8.1,
+      "employment_gap_pp": 40.8,
+      "unemployment_gap_pp": 5.3
+    },
+    "2013": {
+      "year": 2013,
+      "disability_employment_ratio": 17.6,
+      "disability_unemployment_rate": 13.2,
+      "disability_lfpr": 20.3,
+      "total_employment_ratio": 58.6,
+      "total_unemployment_rate": 7.4,
+      "employment_gap_pp": 41.0,
+      "unemployment_gap_pp": 5.8
+    },
+    "2014": {
+      "year": 2014,
+      "disability_employment_ratio": 17.0,
+      "disability_unemployment_rate": 12.6,
+      "disability_lfpr": 19.5,
+      "total_employment_ratio": 59.0,
+      "total_unemployment_rate": 6.2,
+      "employment_gap_pp": 42.0,
+      "unemployment_gap_pp": 6.4
+    },
+    "2015": {
+      "year": 2015,
+      "disability_employment_ratio": 17.4,
+      "disability_unemployment_rate": 10.7,
+      "disability_lfpr": 19.5,
+      "total_employment_ratio": 59.3,
+      "total_unemployment_rate": 5.3,
+      "employment_gap_pp": 41.9,
+      "unemployment_gap_pp": 5.4
+    },
+    "2016": {
+      "year": 2016,
+      "disability_employment_ratio": 17.9,
+      "disability_unemployment_rate": 10.6,
+      "disability_lfpr": 20.0,
+      "total_employment_ratio": 59.7,
+      "total_unemployment_rate": 4.9,
+      "employment_gap_pp": 41.8,
+      "unemployment_gap_pp": 5.7
+    },
+    "2017": {
+      "year": 2017,
+      "disability_employment_ratio": 18.7,
+      "disability_unemployment_rate": 9.2,
+      "disability_lfpr": 20.6,
+      "total_employment_ratio": 60.1,
+      "total_unemployment_rate": 4.4,
+      "employment_gap_pp": 41.4,
+      "unemployment_gap_pp": 4.8
+    },
+    "2018": {
+      "year": 2018,
+      "disability_employment_ratio": 19.1,
+      "disability_unemployment_rate": 8.0,
+      "disability_lfpr": 20.8,
+      "total_employment_ratio": 60.4,
+      "total_unemployment_rate": 3.9,
+      "employment_gap_pp": 41.3,
+      "unemployment_gap_pp": 4.1
+    },
+    "2019": {
+      "year": 2019,
+      "disability_employment_ratio": 19.3,
+      "disability_unemployment_rate": 7.3,
+      "disability_lfpr": 20.8,
+      "total_employment_ratio": 60.8,
+      "total_unemployment_rate": 3.7,
+      "employment_gap_pp": 41.5,
+      "unemployment_gap_pp": 3.6
+    },
+    "2020": {
+      "year": 2020,
+      "disability_employment_ratio": 17.9,
+      "disability_unemployment_rate": 12.6,
+      "disability_lfpr": 20.5,
+      "total_employment_ratio": 56.8,
+      "total_unemployment_rate": 8.1,
+      "employment_gap_pp": 38.9,
+      "unemployment_gap_pp": 4.5
+    },
+    "2021": {
+      "year": 2021,
+      "disability_employment_ratio": 19.1,
+      "disability_unemployment_rate": 10.2,
+      "disability_lfpr": 21.3,
+      "total_employment_ratio": 58.4,
+      "total_unemployment_rate": 5.4,
+      "employment_gap_pp": 39.3,
+      "unemployment_gap_pp": 4.8
+    },
+    "2022": {
+      "year": 2022,
+      "disability_employment_ratio": 21.3,
+      "disability_unemployment_rate": 7.6,
+      "disability_lfpr": 23.1,
+      "total_employment_ratio": 60.0,
+      "total_unemployment_rate": 3.7,
+      "employment_gap_pp": 38.7,
+      "unemployment_gap_pp": 3.9
+    },
+    "2023": {
+      "year": 2023,
+      "disability_employment_ratio": 22.5,
+      "disability_unemployment_rate": 7.2,
+      "disability_lfpr": 24.2,
+      "total_employment_ratio": 60.3,
+      "total_unemployment_rate": 3.6,
+      "employment_gap_pp": 37.8,
+      "unemployment_gap_pp": 3.6
+    },
+    "2024": {
+      "year": 2024,
+      "disability_employment_ratio": 22.7,
+      "disability_unemployment_rate": 7.5,
+      "disability_lfpr": 24.5,
+      "total_employment_ratio": 60.1,
+      "total_unemployment_rate": 4.0,
+      "employment_gap_pp": 37.4,
+      "unemployment_gap_pp": 3.5
+    }
+  },
+  "summary": {
+    "latest_year": 2024,
+    "disability_employment_ratio": 22.7,
+    "total_employment_ratio": 60.1,
+    "employment_gap": 37.4,
+    "disability_unemployment": 7.5,
+    "total_unemployment": 4.0,
+    "unemployment_gap": 3.5,
+    "disability_lfpr": 24.5,
+    "years_of_data": 16,
+    "trend": "Disability employment rose from 19.2% (2009) to 22.7% (2024)"
+  }
+}

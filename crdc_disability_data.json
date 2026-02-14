@@ -1,0 +1,2037 @@
+{
+  "metadata": {
+    "source": "Civil Rights Data Collection (CRDC)",
+    "publisher": "U.S. Department of Education, Office for Civil Rights",
+    "api_base_url": "https://civilrightsdata.ed.gov/api/v1.0",
+    "website": "https://civilrightsdata.ed.gov/",
+    "data_gov_url": "https://catalog.data.gov/dataset/civil-rights-data-collection-crdc",
+    "collection_years_available": {
+      "10": "2020-21",
+      "9": "2017-18",
+      "8": "2015-16",
+      "7": "2013-14",
+      "6": "2011-12"
+    },
+    "primary_collection_year": "2020-21",
+    "primary_year_key": 10,
+    "fetch_date": "2026-02-12",
+    "description": "The CRDC collects data from all public schools and districts on student enrollment, access to courses and programs, and school climate factors. Data is disaggregated by race, ethnicity, sex, disability (IDEA and Section 504), and English Learner status.",
+    "notes": [
+      "IDEA = Individuals with Disabilities Education Act - students with IEPs",
+      "Section 504 = Section 504 of the Rehabilitation Act - students with 504 plans (separate from IDEA)",
+      "b_ prefix = both genders, m_ = male, f_ = female in raw API",
+      "Dis = IDEA disability, DIS5 = Section 504 disability in raw API",
+      "2019-20 was skipped due to COVID-19; 2020-21 is the most recent available in this API",
+      "The 2021-22 CRDC has been collected but data not yet available in this API as of Feb 2026"
+    ]
+  },
+  "states_reference": [
+    {
+      "state_Id": 1,
+      "state_Code": "AK",
+      "stateName": "Alaska",
+      "regionKey": 12,
+      "region": "Western - Seattle"
+    },
+    {
+      "state_Id": 2,
+      "state_Code": "AL",
+      "stateName": "Alabama",
+      "regionKey": 7,
+      "region": "Southern - Atlanta"
+    },
+    {
+      "state_Id": 3,
+      "state_Code": "AR",
+      "stateName": "Arkansas",
+      "regionKey": 8,
+      "region": "Southern - Dallas"
+    },
+    {
+      "state_Id": 4,
+      "state_Code": "AZ",
+      "stateName": "Arizona",
+      "regionKey": 10,
+      "region": "Western - Denver"
+    },
+    {
+      "state_Id": 5,
+      "state_Code": "CA",
+      "stateName": "California",
+      "regionKey": 11,
+      "region": "Western - San Francisco"
+    },
+    {
+      "state_Id": 6,
+      "state_Code": "CO",
+      "stateName": "Colorado",
+      "regionKey": 10,
+      "region": "Western - Denver"
+    },
+    {
+      "state_Id": 7,
+      "state_Code": "CT",
+      "stateName": "Connecticut",
+      "regionKey": 1,
+      "region": "Eastern - Boston"
+    },
+    {
+      "state_Id": 8,
+      "state_Code": "DC",
+      "stateName": "District of Columbia",
+      "regionKey": 9,
+      "region": "Southern - District of Columbia"
+    },
+    {
+      "state_Id": 9,
+      "state_Code": "DE",
+      "stateName": "Delaware",
+      "regionKey": 3,
+      "region": "Eastern - Philadelphia"
+    },
+    {
+      "state_Id": 10,
+      "state_Code": "FL",
+      "stateName": "Florida",
+      "regionKey": 7,
+      "region": "Southern - Atlanta"
+    },
+    {
+      "state_Id": 11,
+      "state_Code": "GA",
+      "stateName": "Georgia",
+      "regionKey": 7,
+      "region": "Southern - Atlanta"
+    },
+    {
+      "state_Id": 12,
+      "state_Code": "HI",
+      "stateName": "Hawaii",
+      "regionKey": 12,
+      "region": "Western - Seattle"
+    },
+    {
+      "state_Id": 13,
+      "state_Code": "IA",
+      "stateName": "Iowa",
+      "regionKey": 4,
+      "region": "Midwestern - Chicago"
+    },
+    {
+      "state_Id": 14,
+      "state_Code": "ID",
+      "stateName": "Idaho",
+      "regionKey": 12,
+      "region": "Western - Seattle"
+    },
+    {
+      "state_Id": 15,
+      "state_Code": "IL",
+      "stateName": "Illinois",
+      "regionKey": 4,
+      "region": "Midwestern - Chicago"
+    },
+    {
+      "state_Id": 16,
+      "state_Code": "IN",
+      "stateName": "Indiana",
+      "regionKey": 4,
+      "region": "Midwestern - Chicago"
+    },
+    {
+      "state_Id": 17,
+      "state_Code": "KS",
+      "stateName": "Kansas",
+      "regionKey": 6,
+      "region": "Midwestern - Kansas City"
+    },
+    {
+      "state_Id": 18,
+      "state_Code": "KY",
+      "stateName": "Kentucky",
+      "regionKey": 3,
+      "region": "Eastern - Philadelphia"
+    },
+    {
+      "state_Id": 19,
+      "state_Code": "LA",
+      "stateName": "Louisiana",
+      "regionKey": 8,
+      "region": "Southern - Dallas"
+    },
+    {
+      "state_Id": 20,
+      "state_Code": "MA",
+      "stateName": "Massachusetts",
+      "regionKey": 1,
+      "region": "Eastern - Boston"
+    },
+    {
+      "state_Id": 21,
+      "state_Code": "MD",
+      "stateName": "Maryland",
+      "regionKey": 3,
+      "region": "Eastern - Philadelphia"
+    },
+    {
+      "state_Id": 22,
+      "state_Code": "ME",
+      "stateName": "Maine",
+      "regionKey": 1,
+      "region": "Eastern - Boston"
+    },
+    {
+      "state_Id": 23,
+      "state_Code": "MI",
+      "stateName": "Michigan",
+      "regionKey": 5,
+      "region": "Midwestern - Cleveland"
+    },
+    {
+      "state_Id": 24,
+      "state_Code": "MN",
+      "stateName": "Minnesota",
+      "regionKey": 4,
+      "region": "Midwestern - Chicago"
+    },
+    {
+      "state_Id": 25,
+      "state_Code": "MO",
+      "stateName": "Missouri",
+      "regionKey": 6,
+      "region": "Midwestern - Kansas City"
+    },
+    {
+      "state_Id": 26,
+      "state_Code": "MS",
+      "stateName": "Mississippi",
+      "regionKey": 8,
+      "region": "Southern - Dallas"
+    },
+    {
+      "state_Id": 27,
+      "state_Code": "MT",
+      "stateName": "Montana",
+      "regionKey": 12,
+      "region": "Western - Seattle"
+    },
+    {
+      "state_Id": 28,
+      "state_Code": "NC",
+      "stateName": "North Carolina",
+      "regionKey": 9,
+      "region": "Southern - District of Columbia"
+    },
+    {
+      "state_Id": 29,
+      "state_Code": "ND",
+      "stateName": "North Dakota",
+      "regionKey": 4,
+      "region": "Midwestern - Chicago"
+    },
+    {
+      "state_Id": 30,
+      "state_Code": "NE",
+      "stateName": "Nebraska",
+      "regionKey": 6,
+      "region": "Midwestern - Kansas City"
+    },
+    {
+      "state_Id": 31,
+      "state_Code": "NH",
+      "stateName": "New Hampshire",
+      "regionKey": 1,
+      "region": "Eastern - Boston"
+    },
+    {
+      "state_Id": 32,
+      "state_Code": "NJ",
+      "stateName": "New Jersey",
+      "regionKey": 2,
+      "region": "Eastern - New York"
+    },
+    {
+      "state_Id": 33,
+      "state_Code": "NM",
+      "stateName": "New Mexico",
+      "regionKey": 10,
+      "region": "Western - Denver"
+    },
+    {
+      "state_Id": 34,
+      "state_Code": "NV",
+      "stateName": "Nevada",
+      "regionKey": 12,
+      "region": "Western - Seattle"
+    },
+    {
+      "state_Id": 35,
+      "state_Code": "NY",
+      "stateName": "New York",
+      "regionKey": 2,
+      "region": "Eastern - New York"
+    },
+    {
+      "state_Id": 36,
+      "state_Code": "OH",
+      "stateName": "Ohio",
+      "regionKey": 5,
+      "region": "Midwestern - Cleveland"
+    },
+    {
+      "state_Id": 37,
+      "state_Code": "OK",
+      "stateName": "Oklahoma",
+      "regionKey": 6,
+      "region": "Midwestern - Kansas City"
+    },
+    {
+      "state_Id": 38,
+      "state_Code": "OR",
+      "stateName": "Oregon",
+      "regionKey": 12,
+      "region": "Western - Seattle"
+    },
+    {
+      "state_Id": 39,
+      "state_Code": "PA",
+      "stateName": "Pennsylvania",
+      "regionKey": 3,
+      "region": "Eastern - Philadelphia"
+    },
+    {
+      "state_Id": 52,
+      "state_Code": "PR",
+      "stateName": "Puerto Rico",
+      "regionKey": 7,
+      "region": "Southern - Atlanta"
+    },
+    {
+      "state_Id": 40,
+      "state_Code": "RI",
+      "stateName": "Rhode Island",
+      "regionKey": 1,
+      "region": "Eastern - Boston"
+    },
+    {
+      "state_Id": 41,
+      "state_Code": "SC",
+      "stateName": "South Carolina",
+      "regionKey": 9,
+      "region": "Southern - District of Columbia"
+    },
+    {
+      "state_Id": 42,
+      "state_Code": "SD",
+      "stateName": "South Dakota",
+      "regionKey": 6,
+      "region": "Midwestern - Kansas City"
+    },
+    {
+      "state_Id": 43,
+      "state_Code": "TN",
+      "stateName": "Tennessee",
+      "regionKey": 7,
+      "region": "Southern - Atlanta"
+    },
+    {
+      "state_Id": 44,
+      "state_Code": "TX",
+      "stateName": "Texas",
+      "regionKey": 8,
+      "region": "Southern - Dallas"
+    },
+    {
+      "state_Id": 45,
+      "state_Code": "UT",
+      "stateName": "Utah",
+      "regionKey": 10,
+      "region": "Western - Denver"
+    },
+    {
+      "state_Id": 46,
+      "state_Code": "VA",
+      "stateName": "Virginia",
+      "regionKey": 9,
+      "region": "Southern - District of Columbia"
+    },
+    {
+      "state_Id": 47,
+      "state_Code": "VT",
+      "stateName": "Vermont",
+      "regionKey": 1,
+      "region": "Eastern - Boston"
+    },
+    {
+      "state_Id": 48,
+      "state_Code": "WA",
+      "stateName": "Washington",
+      "regionKey": 12,
+      "region": "Western - Seattle"
+    },
+    {
+      "state_Id": 49,
+      "state_Code": "WI",
+      "stateName": "Wisconsin",
+      "regionKey": 4,
+      "region": "Midwestern - Chicago"
+    },
+    {
+      "state_Id": 50,
+      "state_Code": "WV",
+      "stateName": "West Virginia",
+      "regionKey": 3,
+      "region": "Eastern - Philadelphia"
+    },
+    {
+      "state_Id": 51,
+      "state_Code": "WY",
+      "stateName": "Wyoming",
+      "regionKey": 10,
+      "region": "Western - Denver"
+    }
+  ],
+  "national_overview_2020_21": {
+    "total_enrollment": {
+      "total_students": 49150566,
+      "male": 25236331,
+      "female": 23914235,
+      "idea_students": 6853313,
+      "section_504_students": 1605564,
+      "pct_idea": 13.94,
+      "pct_504": 3.27,
+      "non_disabled_idea": 42297253,
+      "non_disabled_504": 47545002,
+      "english_learners": 5198677,
+      "by_race": {
+        "american_indian": 457993,
+        "asian": 2605592,
+        "hispanic": 13982344,
+        "black": 7386606,
+        "white": 22386744,
+        "hawaiian_pacific_islander": 159581,
+        "two_or_more_races": 2171706
+      },
+      "participated_schools": 96983,
+      "participation_rate_pct": 99.39
+    }
+  },
+  "section_504_enrollment": {
+    "AK": {
+      "state_code": "AK",
+      "state_name": "Alaska",
+      "total_enrollment": 111906,
+      "idea_students": 15580,
+      "section_504_students": 1774,
+      "pct_idea": 13.92,
+      "pct_504": 1.59,
+      "idea_male": 10276,
+      "idea_female": 5304,
+      "s504_male": 1003,
+      "s504_female": 771,
+      "participated_schools": 484
+    },
+    "AL": {
+      "state_code": "AL",
+      "state_name": "Alabama",
+      "total_enrollment": 730852,
+      "idea_students": 105940,
+      "section_504_students": 12962,
+      "pct_idea": 14.5,
+      "pct_504": 1.77,
+      "idea_male": 67099,
+      "idea_female": 38841,
+      "s504_male": 7458,
+      "s504_female": 5504,
+      "participated_schools": 1392
+    },
+    "AR": {
+      "state_code": "AR",
+      "state_name": "Arkansas",
+      "total_enrollment": 481443,
+      "idea_students": 62399,
+      "section_504_students": 27109,
+      "pct_idea": 12.96,
+      "pct_504": 5.63,
+      "idea_male": 40529,
+      "idea_female": 21870,
+      "s504_male": 15924,
+      "s504_female": 11185,
+      "participated_schools": 1066
+    },
+    "AZ": {
+      "state_code": "AZ",
+      "state_name": "Arizona",
+      "total_enrollment": 1089578,
+      "idea_students": 136897,
+      "section_504_students": 20252,
+      "pct_idea": 12.56,
+      "pct_504": 1.86,
+      "idea_male": 89655,
+      "idea_female": 47242,
+      "s504_male": 11893,
+      "s504_female": 8359,
+      "participated_schools": 2019
+    },
+    "CA": {
+      "state_code": "CA",
+      "state_name": "California",
+      "total_enrollment": 5981470,
+      "idea_students": 749055,
+      "section_504_students": 102574,
+      "pct_idea": 12.52,
+      "pct_504": 1.71,
+      "idea_male": 501651,
+      "idea_female": 247404,
+      "s504_male": 60469,
+      "s504_female": 42105,
+      "participated_schools": 10141
+    },
+    "CO": {
+      "state_code": "CO",
+      "state_name": "Colorado",
+      "total_enrollment": 881493,
+      "idea_students": 104430,
+      "section_504_students": 28009,
+      "pct_idea": 11.85,
+      "pct_504": 3.18,
+      "idea_male": 67843,
+      "idea_female": 36587,
+      "s504_male": 16434,
+      "s504_female": 11575,
+      "participated_schools": 1923
+    },
+    "CT": {
+      "state_code": "CT",
+      "state_name": "Connecticut",
+      "total_enrollment": 507822,
+      "idea_students": 79460,
+      "section_504_students": 30988,
+      "pct_idea": 15.65,
+      "pct_504": 6.1,
+      "idea_male": 52112,
+      "idea_female": 27348,
+      "s504_male": 18149,
+      "s504_female": 12839,
+      "participated_schools": 1176
+    },
+    "DC": {
+      "state_code": "DC",
+      "state_name": "District of Columbia",
+      "total_enrollment": 89225,
+      "idea_students": 14222,
+      "section_504_students": 2269,
+      "pct_idea": 15.94,
+      "pct_504": 2.54,
+      "idea_male": 9311,
+      "idea_female": 4911,
+      "s504_male": 1316,
+      "s504_female": 953,
+      "participated_schools": 240
+    },
+    "DE": {
+      "state_code": "DE",
+      "state_name": "Delaware",
+      "total_enrollment": 139187,
+      "idea_students": 23247,
+      "section_504_students": 6720,
+      "pct_idea": 16.7,
+      "pct_504": 4.83,
+      "idea_male": 15076,
+      "idea_female": 8171,
+      "s504_male": 4344,
+      "s504_female": 2376,
+      "participated_schools": 232
+    },
+    "FL": {
+      "state_code": "FL",
+      "state_name": "Florida",
+      "total_enrollment": 2764513,
+      "idea_students": 400666,
+      "section_504_students": 120788,
+      "pct_idea": 14.49,
+      "pct_504": 4.37,
+      "idea_male": 264184,
+      "idea_female": 136482,
+      "s504_male": 72999,
+      "s504_female": 47789,
+      "participated_schools": 3979
+    },
+    "GA": {
+      "state_code": "GA",
+      "state_name": "Georgia",
+      "total_enrollment": 1725285,
+      "idea_students": 220701,
+      "section_504_students": 60469,
+      "pct_idea": 12.79,
+      "pct_504": 3.5,
+      "idea_male": 147183,
+      "idea_female": 73518,
+      "s504_male": 35558,
+      "s504_female": 24911,
+      "participated_schools": 2391
+    },
+    "HI": {
+      "state_code": "HI",
+      "state_name": "Hawaii",
+      "total_enrollment": 101481,
+      "idea_students": 11219,
+      "section_504_students": 2407,
+      "pct_idea": 11.06,
+      "pct_504": 2.37,
+      "idea_male": 7748,
+      "idea_female": 3471,
+      "s504_male": 1582,
+      "s504_female": 825,
+      "participated_schools": 222
+    },
+    "IA": {
+      "state_code": "IA",
+      "state_name": "Iowa",
+      "total_enrollment": 495771,
+      "idea_students": 61654,
+      "section_504_students": 9696,
+      "pct_idea": 12.44,
+      "pct_504": 1.96,
+      "idea_male": 40140,
+      "idea_female": 21514,
+      "s504_male": 5809,
+      "s504_female": 3887,
+      "participated_schools": 1308
+    },
+    "ID": {
+      "state_code": "ID",
+      "state_name": "Idaho",
+      "total_enrollment": 308998,
+      "idea_students": 34460,
+      "section_504_students": 11931,
+      "pct_idea": 11.15,
+      "pct_504": 3.86,
+      "idea_male": 22187,
+      "idea_female": 12273,
+      "s504_male": 7122,
+      "s504_female": 4809,
+      "participated_schools": 754
+    },
+    "IL": {
+      "state_code": "IL",
+      "state_name": "Illinois",
+      "total_enrollment": 1857697,
+      "idea_students": 265264,
+      "section_504_students": 67961,
+      "pct_idea": 14.28,
+      "pct_504": 3.66,
+      "idea_male": 174073,
+      "idea_female": 91191,
+      "s504_male": 39504,
+      "s504_female": 28457,
+      "participated_schools": 4167
+    },
+    "IN": {
+      "state_code": "IN",
+      "state_name": "Indiana",
+      "total_enrollment": 1025327,
+      "idea_students": 150736,
+      "section_504_students": 26521,
+      "pct_idea": 14.7,
+      "pct_504": 2.59,
+      "idea_male": 97818,
+      "idea_female": 52918,
+      "s504_male": 15304,
+      "s504_female": 11217,
+      "participated_schools": 1857
+    },
+    "KS": {
+      "state_code": "KS",
+      "state_name": "Kansas",
+      "total_enrollment": 472996,
+      "idea_students": 71641,
+      "section_504_students": 8395,
+      "pct_idea": 15.15,
+      "pct_504": 1.77,
+      "idea_male": 46305,
+      "idea_female": 25336,
+      "s504_male": 5031,
+      "s504_female": 3364,
+      "participated_schools": 1336
+    },
+    "KY": {
+      "state_code": "KY",
+      "state_name": "Kentucky",
+      "total_enrollment": 659694,
+      "idea_students": 103206,
+      "section_504_students": 15866,
+      "pct_idea": 15.64,
+      "pct_504": 2.41,
+      "idea_male": 68833,
+      "idea_female": 34373,
+      "s504_male": 9300,
+      "s504_female": 6566,
+      "participated_schools": 1399
+    },
+    "LA": {
+      "state_code": "LA",
+      "state_name": "Louisiana",
+      "total_enrollment": 684940,
+      "idea_students": 84745,
+      "section_504_students": 42726,
+      "pct_idea": 12.37,
+      "pct_504": 6.24,
+      "idea_male": 56573,
+      "idea_female": 28172,
+      "s504_male": 25497,
+      "s504_female": 17229,
+      "participated_schools": 1342
+    },
+    "MA": {
+      "state_code": "MA",
+      "state_name": "Massachusetts",
+      "total_enrollment": 905104,
+      "idea_students": 163539,
+      "section_504_students": 44246,
+      "pct_idea": 18.07,
+      "pct_504": 4.89,
+      "idea_male": 105655,
+      "idea_female": 57884,
+      "s504_male": 26743,
+      "s504_female": 17503,
+      "participated_schools": 1850
+    },
+    "MD": {
+      "state_code": "MD",
+      "state_name": "Maryland",
+      "total_enrollment": 883399,
+      "idea_students": 102499,
+      "section_504_students": 34270,
+      "pct_idea": 11.6,
+      "pct_504": 3.88,
+      "idea_male": 69182,
+      "idea_female": 33317,
+      "s504_male": 21362,
+      "s504_female": 12908,
+      "participated_schools": 1406
+    },
+    "ME": {
+      "state_code": "ME",
+      "state_name": "Maine",
+      "total_enrollment": 167150,
+      "idea_students": 31257,
+      "section_504_students": 8634,
+      "pct_idea": 18.7,
+      "pct_504": 5.17,
+      "idea_male": 20444,
+      "idea_female": 10813,
+      "s504_male": 5076,
+      "s504_female": 3558,
+      "participated_schools": 568
+    },
+    "MI": {
+      "state_code": "MI",
+      "state_name": "Michigan",
+      "total_enrollment": 1435832,
+      "idea_students": 187064,
+      "section_504_students": 32576,
+      "pct_idea": 13.03,
+      "pct_504": 2.27,
+      "idea_male": 120740,
+      "idea_female": 66324,
+      "s504_male": 19313,
+      "s504_female": 13263,
+      "participated_schools": 3496
+    },
+    "MN": {
+      "state_code": "MN",
+      "state_name": "Minnesota",
+      "total_enrollment": 884451,
+      "idea_students": 141819,
+      "section_504_students": 19483,
+      "pct_idea": 16.03,
+      "pct_504": 2.2,
+      "idea_male": 94405,
+      "idea_female": 47414,
+      "s504_male": 10532,
+      "s504_female": 8951,
+      "participated_schools": 2235
+    },
+    "MO": {
+      "state_code": "MO",
+      "state_name": "Missouri",
+      "total_enrollment": 891721,
+      "idea_students": 122743,
+      "section_504_students": 21180,
+      "pct_idea": 13.76,
+      "pct_504": 2.38,
+      "idea_male": 82249,
+      "idea_female": 40494,
+      "s504_male": 12250,
+      "s504_female": 8930,
+      "participated_schools": 2354
+    },
+    "MS": {
+      "state_code": "MS",
+      "state_name": "Mississippi",
+      "total_enrollment": 442882,
+      "idea_students": 58673,
+      "section_504_students": 5304,
+      "pct_idea": 13.25,
+      "pct_504": 1.2,
+      "idea_male": 38832,
+      "idea_female": 19841,
+      "s504_male": 2849,
+      "s504_female": 2455,
+      "participated_schools": 929
+    },
+    "MT": {
+      "state_code": "MT",
+      "state_name": "Montana",
+      "total_enrollment": 148015,
+      "idea_students": 17870,
+      "section_504_students": 4216,
+      "pct_idea": 12.07,
+      "pct_504": 2.85,
+      "idea_male": 11549,
+      "idea_female": 6321,
+      "s504_male": 2306,
+      "s504_female": 1910,
+      "participated_schools": 817
+    },
+    "NC": {
+      "state_code": "NC",
+      "state_name": "North Carolina",
+      "total_enrollment": 1520247,
+      "idea_students": 183471,
+      "section_504_students": 32202,
+      "pct_idea": 12.07,
+      "pct_504": 2.12,
+      "idea_male": 121255,
+      "idea_female": 62216,
+      "s504_male": 19687,
+      "s504_female": 12515,
+      "participated_schools": 2683
+    },
+    "ND": {
+      "state_code": "ND",
+      "state_name": "North Dakota",
+      "total_enrollment": 118609,
+      "idea_students": 16777,
+      "section_504_students": 3207,
+      "pct_idea": 14.14,
+      "pct_504": 2.7,
+      "idea_male": 10811,
+      "idea_female": 5966,
+      "s504_male": 1866,
+      "s504_female": 1341,
+      "participated_schools": 482
+    },
+    "NE": {
+      "state_code": "NE",
+      "state_name": "Nebraska",
+      "total_enrollment": 325052,
+      "idea_students": 50702,
+      "section_504_students": 4919,
+      "pct_idea": 15.6,
+      "pct_504": 1.51,
+      "idea_male": 33027,
+      "idea_female": 17675,
+      "s504_male": 2840,
+      "s504_female": 2079,
+      "participated_schools": 1046
+    },
+    "NH": {
+      "state_code": "NH",
+      "state_name": "New Hampshire",
+      "total_enrollment": 168706,
+      "idea_students": 28424,
+      "section_504_students": 11286,
+      "pct_idea": 16.85,
+      "pct_504": 6.69,
+      "idea_male": 18322,
+      "idea_female": 10102,
+      "s504_male": 6755,
+      "s504_female": 4531,
+      "participated_schools": 493
+    },
+    "NJ": {
+      "state_code": "NJ",
+      "state_name": "New Jersey",
+      "total_enrollment": 1344876,
+      "idea_students": 215486,
+      "section_504_students": 41259,
+      "pct_idea": 16.02,
+      "pct_504": 3.07,
+      "idea_male": 143047,
+      "idea_female": 72439,
+      "s504_male": 24582,
+      "s504_female": 16677,
+      "participated_schools": 2552
+    },
+    "NM": {
+      "state_code": "NM",
+      "state_name": "New Mexico",
+      "total_enrollment": 311132,
+      "idea_students": 51402,
+      "section_504_students": 3482,
+      "pct_idea": 16.52,
+      "pct_504": 1.12,
+      "idea_male": 33018,
+      "idea_female": 18384,
+      "s504_male": 1809,
+      "s504_female": 1673,
+      "participated_schools": 875
+    },
+    "NV": {
+      "state_code": "NV",
+      "state_name": "Nevada",
+      "total_enrollment": 473375,
+      "idea_students": 60010,
+      "section_504_students": 7531,
+      "pct_idea": 12.68,
+      "pct_504": 1.59,
+      "idea_male": 39951,
+      "idea_female": 20059,
+      "s504_male": 4449,
+      "s504_female": 3082,
+      "participated_schools": 726
+    },
+    "NY": {
+      "state_code": "NY",
+      "state_name": "New York",
+      "total_enrollment": 2561406,
+      "idea_students": 449282,
+      "section_504_students": 67333,
+      "pct_idea": 17.54,
+      "pct_504": 2.63,
+      "idea_male": 294359,
+      "idea_female": 154923,
+      "s504_male": 41095,
+      "s504_female": 26238,
+      "participated_schools": 4872
+    },
+    "OH": {
+      "state_code": "OH",
+      "state_name": "Ohio",
+      "total_enrollment": 1668109,
+      "idea_students": 255996,
+      "section_504_students": 57021,
+      "pct_idea": 15.35,
+      "pct_504": 3.42,
+      "idea_male": 165578,
+      "idea_female": 90418,
+      "s504_male": 34546,
+      "s504_female": 22475,
+      "participated_schools": 3498
+    },
+    "OK": {
+      "state_code": "OK",
+      "state_name": "Oklahoma",
+      "total_enrollment": 675107,
+      "idea_students": 108617,
+      "section_504_students": 13280,
+      "pct_idea": 16.09,
+      "pct_504": 1.97,
+      "idea_male": 69700,
+      "idea_female": 38917,
+      "s504_male": 7944,
+      "s504_female": 5336,
+      "participated_schools": 1775
+    },
+    "OR": {
+      "state_code": "OR",
+      "state_name": "Oregon",
+      "total_enrollment": 549129,
+      "idea_students": 76826,
+      "section_504_students": 17410,
+      "pct_idea": 13.99,
+      "pct_504": 3.17,
+      "idea_male": 50773,
+      "idea_female": 26053,
+      "s504_male": 10066,
+      "s504_female": 7344,
+      "participated_schools": 1305
+    },
+    "PA": {
+      "state_code": "PA",
+      "state_name": "Pennsylvania",
+      "total_enrollment": 1689202,
+      "idea_students": 297971,
+      "section_504_students": 47558,
+      "pct_idea": 17.64,
+      "pct_504": 2.82,
+      "idea_male": 191373,
+      "idea_female": 106598,
+      "s504_male": 28561,
+      "s504_female": 18997,
+      "participated_schools": 2925
+    },
+    "PR": {
+      "state_code": "PR",
+      "state_name": "Puerto Rico",
+      "total_enrollment": 276436,
+      "idea_students": 83139,
+      "section_504_students": 1014,
+      "pct_idea": 30.08,
+      "pct_504": 0.37,
+      "idea_male": 54032,
+      "idea_female": 29107,
+      "s504_male": 554,
+      "s504_female": 460,
+      "participated_schools": 841
+    },
+    "RI": {
+      "state_code": "RI",
+      "state_name": "Rhode Island",
+      "total_enrollment": 137363,
+      "idea_students": 20834,
+      "section_504_students": 5669,
+      "pct_idea": 15.17,
+      "pct_504": 4.13,
+      "idea_male": 13779,
+      "idea_female": 7055,
+      "s504_male": 3530,
+      "s504_female": 2139,
+      "participated_schools": 307
+    },
+    "SC": {
+      "state_code": "SC",
+      "state_name": "South Carolina",
+      "total_enrollment": 766747,
+      "idea_students": 103094,
+      "section_504_students": 22471,
+      "pct_idea": 13.45,
+      "pct_504": 2.93,
+      "idea_male": 68080,
+      "idea_female": 35014,
+      "s504_male": 13733,
+      "s504_female": 8738,
+      "participated_schools": 1249
+    },
+    "SD": {
+      "state_code": "SD",
+      "state_name": "South Dakota",
+      "total_enrollment": 140077,
+      "idea_students": 19868,
+      "section_504_students": 3377,
+      "pct_idea": 14.18,
+      "pct_504": 2.41,
+      "idea_male": 12782,
+      "idea_female": 7086,
+      "s504_male": 1946,
+      "s504_female": 1431,
+      "participated_schools": 694
+    },
+    "TN": {
+      "state_code": "TN",
+      "state_name": "Tennessee",
+      "total_enrollment": 974570,
+      "idea_students": 121554,
+      "section_504_students": 20706,
+      "pct_idea": 12.47,
+      "pct_504": 2.12,
+      "idea_male": 79910,
+      "idea_female": 41644,
+      "s504_male": 12237,
+      "s504_female": 8469,
+      "participated_schools": 1827
+    },
+    "TX": {
+      "state_code": "TX",
+      "state_name": "Texas",
+      "total_enrollment": 5329177,
+      "idea_students": 594796,
+      "section_504_students": 369629,
+      "pct_idea": 11.16,
+      "pct_504": 6.94,
+      "idea_male": 391774,
+      "idea_female": 203022,
+      "s504_male": 213088,
+      "s504_female": 156541,
+      "participated_schools": 8773
+    },
+    "UT": {
+      "state_code": "UT",
+      "state_name": "Utah",
+      "total_enrollment": 671631,
+      "idea_students": 86230,
+      "section_504_students": 14020,
+      "pct_idea": 12.84,
+      "pct_504": 2.09,
+      "idea_male": 54793,
+      "idea_female": 31437,
+      "s504_male": 7971,
+      "s504_female": 6049,
+      "participated_schools": 1057
+    },
+    "VA": {
+      "state_code": "VA",
+      "state_name": "Virginia",
+      "total_enrollment": 1248416,
+      "idea_students": 170521,
+      "section_504_students": 32466,
+      "pct_idea": 13.66,
+      "pct_504": 2.6,
+      "idea_male": 114663,
+      "idea_female": 55858,
+      "s504_male": 19316,
+      "s504_female": 13150,
+      "participated_schools": 1984
+    },
+    "VT": {
+      "state_code": "VT",
+      "state_name": "Vermont",
+      "total_enrollment": 78255,
+      "idea_students": 13782,
+      "section_504_students": 4579,
+      "pct_idea": 17.61,
+      "pct_504": 5.85,
+      "idea_male": 8808,
+      "idea_female": 4974,
+      "s504_male": 2734,
+      "s504_female": 1845,
+      "participated_schools": 298
+    },
+    "WA": {
+      "state_code": "WA",
+      "state_name": "Washington",
+      "total_enrollment": 1085645,
+      "idea_students": 145964,
+      "section_504_students": 36030,
+      "pct_idea": 13.44,
+      "pct_504": 3.32,
+      "idea_male": 96889,
+      "idea_female": 49075,
+      "s504_male": 20890,
+      "s504_female": 15140,
+      "participated_schools": 2403
+    },
+    "WI": {
+      "state_code": "WI",
+      "state_name": "Wisconsin",
+      "total_enrollment": 820887,
+      "idea_students": 118771,
+      "section_504_students": 11775,
+      "pct_idea": 14.47,
+      "pct_504": 1.43,
+      "idea_male": 79965,
+      "idea_female": 38806,
+      "s504_male": 6882,
+      "s504_female": 4893,
+      "participated_schools": 2196
+    },
+    "WV": {
+      "state_code": "WV",
+      "state_name": "West Virginia",
+      "total_enrollment": 253715,
+      "idea_students": 45213,
+      "section_504_students": 5950,
+      "pct_idea": 17.82,
+      "pct_504": 2.35,
+      "idea_male": 29141,
+      "idea_female": 16072,
+      "s504_male": 3652,
+      "s504_female": 2298,
+      "participated_schools": 678
+    },
+    "WY": {
+      "state_code": "WY",
+      "state_name": "Wyoming",
+      "total_enrollment": 94465,
+      "idea_students": 13597,
+      "section_504_students": 2064,
+      "pct_idea": 14.39,
+      "pct_504": 2.18,
+      "idea_male": 8790,
+      "idea_female": 4807,
+      "s504_male": 1212,
+      "s504_female": 852,
+      "participated_schools": 361
+    }
+  },
+  "restraint_seclusion": {
+    "IDEA students subjected to physical restraint": {
+      "measure_id": 141,
+      "national_total": 28390,
+      "male": 23799,
+      "female": 4591,
+      "by_race": {
+        "american_indian": 308,
+        "asian": 358,
+        "hispanic": 3626,
+        "black": 5387,
+        "white": 16709,
+        "hawaiian_pacific_islander": 25,
+        "two_or_more_races": 1977
+      },
+      "participated_schools": 75978,
+      "participation_rate": 79.39
+    },
+    "IDEA students subjected to mechanical restraint": {
+      "measure_id": 140,
+      "national_total": 683,
+      "male": 562,
+      "female": 121,
+      "by_race": {
+        "american_indian": 6,
+        "asian": 6,
+        "hispanic": 128,
+        "black": 208,
+        "white": 309,
+        "hawaiian_pacific_islander": 1,
+        "two_or_more_races": 25
+      },
+      "participated_schools": 76003,
+      "participation_rate": 79.42
+    },
+    "IDEA students subjected to seclusion": {
+      "measure_id": 142,
+      "national_total": 11809,
+      "male": 9937,
+      "female": 1872,
+      "by_race": {
+        "american_indian": 171,
+        "asian": 114,
+        "hispanic": 1157,
+        "black": 1854,
+        "white": 7597,
+        "hawaiian_pacific_islander": 10,
+        "two_or_more_races": 906
+      },
+      "participated_schools": 75995,
+      "participation_rate": 79.41
+    },
+    "Non-IDEA students subjected to physical restraint": {
+      "measure_id": 138,
+      "national_total": 6676,
+      "male": 5121,
+      "female": 1555,
+      "by_race": {
+        "american_indian": 71,
+        "asian": 24,
+        "hispanic": 856,
+        "black": 1946,
+        "white": 3271,
+        "hawaiian_pacific_islander": 15,
+        "two_or_more_races": 493
+      },
+      "participated_schools": 75948,
+      "participation_rate": 79.36
+    },
+    "Non-IDEA students subjected to mechanical restraint": {
+      "measure_id": 137,
+      "national_total": 1483,
+      "male": 1212,
+      "female": 271,
+      "by_race": {
+        "american_indian": 3,
+        "asian": 4,
+        "hispanic": 363,
+        "black": 717,
+        "white": 359,
+        "hawaiian_pacific_islander": 4,
+        "two_or_more_races": 33
+      },
+      "participated_schools": 76000,
+      "participation_rate": 79.41
+    },
+    "Non-IDEA students subjected to seclusion": {
+      "measure_id": 139,
+      "national_total": 3900,
+      "male": 2970,
+      "female": 930,
+      "by_race": {
+        "american_indian": 66,
+        "asian": 31,
+        "hispanic": 513,
+        "black": 1076,
+        "white": 1943,
+        "hawaiian_pacific_islander": 8,
+        "two_or_more_races": 263
+      },
+      "participated_schools": 75985,
+      "participation_rate": 79.4
+    }
+  },
+  "discipline_disparities": {
+    "IDEA Students Receiving One or More In-School Suspension": {
+      "measure_id": 67,
+      "national_total": 186499,
+      "male": 144586,
+      "female": 41913,
+      "by_race": {
+        "american_indian": 2387,
+        "asian": 637,
+        "hispanic": 32661,
+        "black": 41956,
+        "white": 99205,
+        "hawaiian_pacific_islander": 212,
+        "two_or_more_races": 9441
+      },
+      "participated_schools": 84291,
+      "participation_rate": 88.66
+    },
+    "IDEA Total Students Receiving Out-of-School Suspensions": {
+      "measure_id": 350,
+      "national_total": 187220,
+      "male": 148170,
+      "female": 39050,
+      "by_race": {
+        "american_indian": 2424,
+        "asian": 809,
+        "hispanic": 28068,
+        "black": 47144,
+        "white": 97759,
+        "hawaiian_pacific_islander": 209,
+        "two_or_more_races": 10807
+      },
+      "participated_schools": 84787,
+      "participation_rate": 88.69
+    },
+    "IDEA Students Expulsions With Educational Services": {
+      "measure_id": 70,
+      "national_total": 4936,
+      "male": 3943,
+      "female": 993,
+      "by_race": {
+        "american_indian": 65,
+        "asian": 14,
+        "hispanic": 890,
+        "black": 1377,
+        "white": 2395,
+        "hawaiian_pacific_islander": 2,
+        "two_or_more_races": 193
+      },
+      "participated_schools": 83744,
+      "participation_rate": 88.09
+    },
+    "IDEA Students Expulsions Without Educational Services": {
+      "measure_id": 71,
+      "national_total": 1051,
+      "male": 823,
+      "female": 228,
+      "by_race": {
+        "american_indian": 5,
+        "asian": 3,
+        "hispanic": 215,
+        "black": 176,
+        "white": 576,
+        "hawaiian_pacific_islander": 4,
+        "two_or_more_races": 72
+      },
+      "participated_schools": 84854,
+      "participation_rate": 88.76
+    },
+    "IDEA Students Referred to Law Enforcement": {
+      "measure_id": 73,
+      "national_total": 17905,
+      "male": 13738,
+      "female": 4167,
+      "by_race": {
+        "american_indian": 320,
+        "asian": 86,
+        "hispanic": 2988,
+        "black": 3524,
+        "white": 9900,
+        "hawaiian_pacific_islander": 13,
+        "two_or_more_races": 1074
+      },
+      "participated_schools": 80440,
+      "participation_rate": 84.62
+    },
+    "IDEA Students With School Related Arrest": {
+      "measure_id": 74,
+      "national_total": 2600,
+      "male": 1988,
+      "female": 612,
+      "by_race": {
+        "american_indian": 33,
+        "asian": 11,
+        "hispanic": 474,
+        "black": 591,
+        "white": 1338,
+        "hawaiian_pacific_islander": 3,
+        "two_or_more_races": 150
+      },
+      "participated_schools": 80259,
+      "participation_rate": 84.42
+    },
+    "IDEA Students Corporal Punishment": {
+      "measure_id": 66,
+      "national_total": 3214,
+      "male": 2798,
+      "female": 416,
+      "by_race": {
+        "american_indian": 72,
+        "asian": 4,
+        "hispanic": 370,
+        "black": 642,
+        "white": 2010,
+        "hawaiian_pacific_islander": 0,
+        "two_or_more_races": 116
+      },
+      "participated_schools": 2776,
+      "participation_rate": 16.76
+    },
+    "Non-IDEA Students Receiving One or More In-School Suspension": {
+      "measure_id": 76,
+      "national_total": 603046,
+      "male": 405420,
+      "female": 197626,
+      "by_race": {
+        "american_indian": 7893,
+        "asian": 4568,
+        "hispanic": 123423,
+        "black": 137511,
+        "white": 299375,
+        "hawaiian_pacific_islander": 1530,
+        "two_or_more_races": 28746
+      },
+      "participated_schools": 84239,
+      "participation_rate": 88.6
+    },
+    "Non-IDEA Total Students Receiving Out-of-School Suspensions": {
+      "measure_id": 349,
+      "national_total": 454716,
+      "male": 307469,
+      "female": 147247,
+      "by_race": {
+        "american_indian": 6404,
+        "asian": 3776,
+        "hispanic": 82290,
+        "black": 121202,
+        "white": 215822,
+        "hawaiian_pacific_islander": 1130,
+        "two_or_more_races": 24092
+      },
+      "participated_schools": 84744,
+      "participation_rate": 89.71
+    },
+    "Non-IDEA Students Expulsions With Educational Services": {
+      "measure_id": 79,
+      "national_total": 17493,
+      "male": 11956,
+      "female": 5537,
+      "by_race": {
+        "american_indian": 165,
+        "asian": 131,
+        "hispanic": 3404,
+        "black": 5072,
+        "white": 7870,
+        "hawaiian_pacific_islander": 43,
+        "two_or_more_races": 808
+      },
+      "participated_schools": 83566,
+      "participation_rate": 87.9
+    },
+    "Non-IDEA Students Expulsions Without Educational Services": {
+      "measure_id": 80,
+      "national_total": 5214,
+      "male": 3532,
+      "female": 1682,
+      "by_race": {
+        "american_indian": 69,
+        "asian": 65,
+        "hispanic": 1177,
+        "black": 931,
+        "white": 2687,
+        "hawaiian_pacific_islander": 15,
+        "two_or_more_races": 270
+      },
+      "participated_schools": 84844,
+      "participation_rate": 88.75
+    },
+    "Non-IDEA Students Referred to Law Enforcement": {
+      "measure_id": 82,
+      "national_total": 46673,
+      "male": 29927,
+      "female": 16746,
+      "by_race": {
+        "american_indian": 988,
+        "asian": 449,
+        "hispanic": 9234,
+        "black": 8111,
+        "white": 25462,
+        "hawaiian_pacific_islander": 127,
+        "two_or_more_races": 2302
+      },
+      "participated_schools": 80442,
+      "participation_rate": 84.62
+    },
+    "Non-IDEA Students With School Related Arrest": {
+      "measure_id": 83,
+      "national_total": 6687,
+      "male": 4363,
+      "female": 2324,
+      "by_race": {
+        "american_indian": 131,
+        "asian": 52,
+        "hispanic": 1626,
+        "black": 1496,
+        "white": 3060,
+        "hawaiian_pacific_islander": 25,
+        "two_or_more_races": 297
+      },
+      "participated_schools": 80224,
+      "participation_rate": 84.39
+    },
+    "Non-IDEA Students Corporal Punishment": {
+      "measure_id": 75,
+      "national_total": 16181,
+      "male": 13118,
+      "female": 3063,
+      "by_race": {
+        "american_indian": 390,
+        "asian": 36,
+        "hispanic": 1954,
+        "black": 3923,
+        "white": 9379,
+        "hawaiian_pacific_islander": 22,
+        "two_or_more_races": 477
+      },
+      "participated_schools": 2773,
+      "participation_rate": 16.75
+    },
+    "Students reported harassed/bullied on basis of disability": {
+      "measure_id": 131,
+      "national_total": 3448,
+      "male": 2252,
+      "female": 1196,
+      "by_race": {
+        "american_indian": 80,
+        "asian": 40,
+        "hispanic": 311,
+        "black": 471,
+        "white": 2429,
+        "hawaiian_pacific_islander": 5,
+        "two_or_more_races": 112
+      },
+      "participated_schools": 81478,
+      "participation_rate": 85.22
+    },
+    "Students disciplined for harassment/bullying on basis of disability": {
+      "measure_id": 136,
+      "national_total": 5397,
+      "male": 4137,
+      "female": 1260,
+      "by_race": {
+        "american_indian": 87,
+        "asian": 59,
+        "hispanic": 898,
+        "black": 579,
+        "white": 3525,
+        "hawaiian_pacific_islander": 8,
+        "two_or_more_races": 241
+      },
+      "participated_schools": 81496,
+      "participation_rate": 85.24
+    }
+  },
+  "course_access": {
+    "AP - Students Enrolled in AP Courses(s)": {
+      "measure_id": 55,
+      "national_total": 2882284,
+      "idea_students": 59516,
+      "section_504_students": 0,
+      "non_disabled": 2822771,
+      "pct_idea": 2.06,
+      "pct_504": 0,
+      "male_total": 1259629,
+      "female_total": 1622655,
+      "male_idea": 35536,
+      "female_idea": 23980,
+      "by_race": {
+        "american_indian": 12158,
+        "asian": 345173,
+        "hispanic": 717464,
+        "black": 273207,
+        "white": 1423670,
+        "hawaiian_pacific_islander": 6894,
+        "two_or_more_races": 103718
+      },
+      "participated_schools": 13736
+    },
+    "Gifted/Talented Enrollment": {
+      "measure_id": 58,
+      "national_total": 2955610,
+      "idea_students": 81252,
+      "section_504_students": 0,
+      "non_disabled": 2874402,
+      "pct_idea": 2.75,
+      "pct_504": 0,
+      "male_total": 1493582,
+      "female_total": 1462028,
+      "male_idea": 58211,
+      "female_idea": 23041,
+      "by_race": {
+        "american_indian": 19408,
+        "asian": 307138,
+        "hispanic": 571709,
+        "black": 240229,
+        "white": 1671040,
+        "hawaiian_pacific_islander": 5635,
+        "two_or_more_races": 140451
+      },
+      "participated_schools": 54422
+    },
+    "Students who are taking Algebra II": {
+      "measure_id": 113,
+      "national_total": 3005276,
+      "idea_students": 251561,
+      "section_504_students": 0,
+      "non_disabled": 2753749,
+      "pct_idea": 8.37,
+      "pct_504": 0,
+      "male_total": 1491026,
+      "female_total": 1514250,
+      "male_idea": 160438,
+      "female_idea": 91123,
+      "by_race": {
+        "american_indian": 23803,
+        "asian": 164313,
+        "hispanic": 846943,
+        "black": 438946,
+        "white": 1418780,
+        "hawaiian_pacific_islander": 7746,
+        "two_or_more_races": 104745
+      },
+      "participated_schools": 21689
+    },
+    "Students who are taking calculus": {
+      "measure_id": 115,
+      "national_total": 624656,
+      "idea_students": 8800,
+      "section_504_students": 0,
+      "non_disabled": 615857,
+      "pct_idea": 1.41,
+      "pct_504": 0,
+      "male_total": 314332,
+      "female_total": 310324,
+      "male_idea": 6069,
+      "female_idea": 2731,
+      "by_race": {
+        "american_indian": 2285,
+        "asian": 100866,
+        "hispanic": 110404,
+        "black": 44107,
+        "white": 343163,
+        "hawaiian_pacific_islander": 1320,
+        "two_or_more_races": 22511
+      },
+      "participated_schools": 12514
+    },
+    "Students who are taking chemistry": {
+      "measure_id": 117,
+      "national_total": 2752810,
+      "idea_students": 194301,
+      "section_504_students": 0,
+      "non_disabled": 2558525,
+      "pct_idea": 7.06,
+      "pct_504": 0,
+      "male_total": 1334766,
+      "female_total": 1418044,
+      "male_idea": 122698,
+      "female_idea": 71603,
+      "by_race": {
+        "american_indian": 17118,
+        "asian": 197881,
+        "hispanic": 784628,
+        "black": 369950,
+        "white": 1280444,
+        "hawaiian_pacific_islander": 6876,
+        "two_or_more_races": 95913
+      },
+      "participated_schools": 19701
+    },
+    "Students who are taking physics": {
+      "measure_id": 118,
+      "national_total": 1614022,
+      "idea_students": 135067,
+      "section_504_students": 0,
+      "non_disabled": 1478979,
+      "pct_idea": 8.37,
+      "pct_504": 0,
+      "male_total": 878185,
+      "female_total": 735837,
+      "male_idea": 89890,
+      "female_idea": 45177,
+      "by_race": {
+        "american_indian": 9241,
+        "asian": 135238,
+        "hispanic": 473017,
+        "black": 203551,
+        "white": 733099,
+        "hawaiian_pacific_islander": 4125,
+        "two_or_more_races": 55751
+      },
+      "participated_schools": 15896
+    }
+  },
+  "historical_trends": {
+    "Total Enrollment": {
+      "measure_id": 1,
+      "by_year": {
+        "2020-21": {
+          "total": 49150566,
+          "male": 25236331,
+          "female": 23914235,
+          "idea_students": 6853313,
+          "section_504_students": 1605564,
+          "pct_idea": 13.94,
+          "pct_504": 3.27,
+          "participated_schools": 96983
+        },
+        "2017-18": {
+          "total": 50922401,
+          "male": 26171514,
+          "female": 24750887,
+          "idea_students": 6728064,
+          "section_504_students": 1380146,
+          "pct_idea": 13.21,
+          "pct_504": 2.71,
+          "participated_schools": 97621
+        },
+        "2015-16": {
+          "total": 50574476,
+          "male": 25995405,
+          "female": 24579071,
+          "idea_students": 6352285,
+          "section_504_students": 1156811,
+          "pct_idea": 12.56,
+          "pct_504": 2.29,
+          "participated_schools": 96347
+        },
+        "2013-14": {
+          "total": 50035746,
+          "male": 25711953,
+          "female": 24323793,
+          "idea_students": 6104340,
+          "section_504_students": 922615,
+          "pct_idea": 12.2,
+          "pct_504": 1.84,
+          "participated_schools": 95498
+        },
+        "2011-12": {
+          "total": 49756058,
+          "male": 25572264,
+          "female": 24183794,
+          "idea_students": 6082307,
+          "section_504_students": 760114,
+          "pct_idea": 12.22,
+          "pct_504": 1.53,
+          "participated_schools": 95634
+        }
+      }
+    },
+    "AP - Students Enrolled in AP Courses(s)": {
+      "measure_id": 55,
+      "by_year": {
+        "2020-21": {
+          "total": 2882284,
+          "male": 1259629,
+          "female": 1622655,
+          "idea_students": 59516,
+          "section_504_students": 0,
+          "pct_idea": 2.06,
+          "pct_504": 0,
+          "participated_schools": 13736
+        },
+        "2017-18": {
+          "total": 3030991,
+          "male": 1322717,
+          "female": 1708274,
+          "idea_students": 50989,
+          "section_504_students": 0,
+          "pct_idea": 1.68,
+          "pct_504": 0,
+          "participated_schools": 97624
+        },
+        "2015-16": {
+          "total": 2808786,
+          "male": 1229700,
+          "female": 1579086,
+          "idea_students": 43853,
+          "section_504_students": 0,
+          "pct_idea": 1.56,
+          "pct_504": 0,
+          "participated_schools": 96358
+        },
+        "2013-14": {
+          "total": 2531433,
+          "male": 1123066,
+          "female": 1408367,
+          "idea_students": 38586,
+          "section_504_students": 0,
+          "pct_idea": 1.52,
+          "pct_504": 0,
+          "participated_schools": 95482
+        },
+        "2011-12": {
+          "total": 2462051,
+          "male": 1088610,
+          "female": 1373441,
+          "idea_students": 39926,
+          "section_504_students": 0,
+          "pct_idea": 1.62,
+          "pct_504": 0,
+          "participated_schools": 95633
+        }
+      }
+    },
+    "IDEA Total Students Receiving Out-of-School Suspensions": {
+      "measure_id": 350,
+      "by_year": {
+        "2020-21": {
+          "total": 187220,
+          "male": 148170,
+          "female": 39050,
+          "idea_students": 187220,
+          "section_504_students": 31811,
+          "pct_idea": 100,
+          "pct_504": 16.99,
+          "participated_schools": 84787
+        },
+        "2017-18": {
+          "total": 615027,
+          "male": 486985,
+          "female": 128042,
+          "idea_students": 615027,
+          "section_504_students": 89496,
+          "pct_idea": 100,
+          "pct_504": 14.55,
+          "participated_schools": 97615
+        },
+        "2015-16": {
+          "total": 716408,
+          "male": 551434,
+          "female": 164974,
+          "idea_students": 716408,
+          "section_504_students": 91321,
+          "pct_idea": 100,
+          "pct_504": 12.75,
+          "participated_schools": 96349
+        },
+        "2013-14": {
+          "total": 704373,
+          "male": 543966,
+          "female": 160407,
+          "idea_students": 704373,
+          "section_504_students": 58276,
+          "pct_idea": 100,
+          "pct_504": 8.27,
+          "participated_schools": 95469
+        },
+        "2011-12": {
+          "total": 823253,
+          "male": 636782,
+          "female": 186471,
+          "idea_students": 823253,
+          "section_504_students": 42141,
+          "pct_idea": 100,
+          "pct_504": 5.12,
+          "participated_schools": 95521
+        }
+      }
+    },
+    "IDEA students subjected to physical restraint": {
+      "measure_id": 141,
+      "by_year": {
+        "2020-21": {
+          "total": 28390,
+          "male": 23799,
+          "female": 4591,
+          "idea_students": 28390,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 75978
+        },
+        "2017-18": {
+          "total": 57191,
+          "male": 47733,
+          "female": 9458,
+          "idea_students": 57191,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 95489
+        },
+        "2015-16": {
+          "total": 58513,
+          "male": 47220,
+          "female": 11293,
+          "idea_students": 58513,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 95876
+        },
+        "2013-14": {
+          "total": 46435,
+          "male": 37379,
+          "female": 9056,
+          "idea_students": 46435,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 94958
+        },
+        "2011-12": {
+          "total": 52886,
+          "male": 42739,
+          "female": 10147,
+          "idea_students": 52886,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 95254
+        }
+      }
+    },
+    "IDEA students subjected to seclusion": {
+      "measure_id": 142,
+      "by_year": {
+        "2020-21": {
+          "total": 11809,
+          "male": 9937,
+          "female": 1872,
+          "idea_students": 11809,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 75995
+        },
+        "2017-18": {
+          "total": 21253,
+          "male": 17777,
+          "female": 3476,
+          "idea_students": 21253,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 94968
+        },
+        "2015-16": {
+          "total": 25240,
+          "male": 20143,
+          "female": 5097,
+          "idea_students": 25240,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 95936
+        },
+        "2013-14": {
+          "total": 19857,
+          "male": 16002,
+          "female": 3855,
+          "idea_students": 19857,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 94979
+        },
+        "2011-12": {
+          "total": 21940,
+          "male": 17767,
+          "female": 4173,
+          "idea_students": 21940,
+          "section_504_students": 0,
+          "pct_idea": 100,
+          "pct_504": 0,
+          "participated_schools": 95254
+        }
+      }
+    },
+    "Gifted/Talented Enrollment": {
+      "measure_id": 58,
+      "by_year": {
+        "2020-21": {
+          "total": 2955610,
+          "male": 1493582,
+          "female": 1462028,
+          "idea_students": 81252,
+          "section_504_students": 0,
+          "pct_idea": 2.75,
+          "pct_504": 0,
+          "participated_schools": 54422
+        },
+        "2017-18": {
+          "total": 3329540,
+          "male": 1661573,
+          "female": 1667967,
+          "idea_students": 92782,
+          "section_504_students": 0,
+          "pct_idea": 2.79,
+          "pct_504": 0,
+          "participated_schools": 97628
+        },
+        "2015-16": {
+          "total": 3329727,
+          "male": 1647045,
+          "female": 1682682,
+          "idea_students": 88901,
+          "section_504_students": 0,
+          "pct_idea": 2.67,
+          "pct_504": 0,
+          "participated_schools": 96358
+        },
+        "2013-14": {
+          "total": 3401374,
+          "male": 1677683,
+          "female": 1723691,
+          "idea_students": 92260,
+          "section_504_students": 0,
+          "pct_idea": 2.71,
+          "pct_504": 0,
+          "participated_schools": 95483
+        },
+        "2011-12": {
+          "total": 3261605,
+          "male": 1606308,
+          "female": 1655297,
+          "idea_students": 87731,
+          "section_504_students": 0,
+          "pct_idea": 2.69,
+          "pct_504": 0,
+          "participated_schools": 95631
+        }
+      }
+    }
+  },
+  "summary_statistics": {
+    "collection_year": "2020-21",
+    "total_students_enrolled": 49150566,
+    "idea_students": 6853313,
+    "section_504_students": 1605564,
+    "pct_idea_of_total": 13.94,
+    "pct_504_of_total": 3.27,
+    "discipline": {
+      "idea_in_school_suspension": 186499,
+      "idea_out_of_school_suspension": 187220,
+      "nonidea_in_school_suspension": 603046,
+      "nonidea_out_of_school_suspension": 454716,
+      "idea_iss_rate_pct": 2.72,
+      "idea_oss_rate_pct": 2.73,
+      "nonidea_iss_rate_pct": 1.43,
+      "nonidea_oss_rate_pct": 1.08,
+      "note": "Rate comparison: IDEA vs non-IDEA students for same discipline actions"
+    },
+    "restraint_and_seclusion": {
+      "idea_physical_restraint": 28390,
+      "idea_mechanical_restraint": 683,
+      "idea_seclusion": 11809,
+      "nonidea_physical_restraint": 6676,
+      "nonidea_mechanical_restraint": 1483,
+      "nonidea_seclusion": 3900,
+      "total_incidents": 52941,
+      "pct_idea_of_all_rs": 77.22
+    },
+    "course_access": {
+      "ap_total_enrolled": 2882284,
+      "ap_idea_enrolled": 59516,
+      "ap_pct_idea": 2.06,
+      "gifted_total_enrolled": 2955610,
+      "gifted_idea_enrolled": 81252,
+      "gifted_pct_idea": 2.75,
+      "note": "IDEA students comprise ~14% of enrollment but significantly less of advanced courses"
+    }
+  }
+}

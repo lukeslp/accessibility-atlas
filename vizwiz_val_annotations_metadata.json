@@ -1,0 +1,14 @@
+{
+  "dataset_name": "VizWiz Visual Question Answering - Validation Annotations",
+  "last_updated": "2026-01-21",
+  "source": "VizWiz Challenge (vizwiz.org) - Danna Gurari et al., CVPR 2018",
+  "record_count": 4319,
+  "fields": {
+    "image": "Image filename (e.g., 'VizWiz_val_00000000.jpg')",
+    "question": "Natural language question asked by the visually impaired user about the image",
+    "answers": "JSON array of 10 crowd-sourced answers, each with 'answer' text and 'answer_confidence' (yes/maybe/no)",
+    "answer_type": "Category of the answer (e.g., 'unanswerable', 'other', 'yes/no', 'number')",
+    "answerable": "Binary flag: 1 if the question is answerable from the image, 0 if not"
+  },
+  "notes": "Validation split of the VizWiz VQA dataset containing 4,319 image-question pairs. Images were taken by blind or visually impaired users using smartphones. Each question has 10 crowd-sourced answers with confidence ratings. The 'unanswerable' category captures cases where the image quality is too poor or the question cannot be answered from the visual content. Used for accessibility research and assistive technology development."
+}
