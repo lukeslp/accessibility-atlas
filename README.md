@@ -208,7 +208,7 @@ The notebooks in `notebooks/` run through the numbers with charts and breakdowns
 | US Census Bureau ACS | Public Domain | https://data.census.gov |
 | Bureau of Labor Statistics | Public Domain | https://www.bls.gov/cps/cpsdisability.htm |
 | FRED (St. Louis Fed) | Public Domain | https://fred.stlouisfed.org |
-| EEOC | Public Domain | https://www.eeoc.gov/data/charge-statistics |
+| EEOC | Public Domain | https://www.eeoc.gov/data/enforcement-and-litigation-statistics-0 |
 | Job Accommodation Network (JAN) | Public Domain | https://askjan.org |
 | US Dept. of Education (IDEA/NCES) | Public Domain | https://sites.ed.gov/idea/data/ |
 | Civil Rights Data Collection (CRDC) | Public Domain | https://ocrdata.ed.gov |
