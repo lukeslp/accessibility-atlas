@@ -1,8 +1,8 @@
 # Accessibility Atlas
 
-42 datasets covering disability demographics, employment gaps, web accessibility compliance, assistive technology patents, special education, healthcare, housing discrimination, transportation, government benefits, and more -- across 15 categories.
+42 datasets on disability in the US and globally. Demographics, employment, web accessibility, assistive tech patents, special education, healthcare, housing discrimination, transportation, government benefits -- the works.
 
-Built for researchers, journalists, policy analysts, and anyone building tools for disabled communities.
+Disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. This puts it in one place with consistent formatting so you can actually use it.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Datasets](https://img.shields.io/badge/datasets-42-green)](dataset_index.json)
@@ -30,12 +30,12 @@ Built for researchers, journalists, policy analysts, and anyone building tools f
 
 4 datasets on the employment gap, discrimination charges, and workplace accommodations.
 
-| File | What It Covers | Key Stat |
-|------|---------------|----------|
-| `bls_disability_employment_2024.json` | BLS employment/unemployment by disability status | 24.5% labor force participation (disabled) vs ~67% (non-disabled) |
-| `fred_disability_employment.json` | FRED 16-year employment time series (2009-2024) | Gap narrowing from 40pp to 37pp |
-| `eeoc_ada_charges.json` | 33 years of ADA discrimination charges (1992-2024) | 679,637 total charges; peaked at 28,073 in FY 2016 |
-| `jan_workplace_accommodations.json` | JAN accommodation cost data | 58.7% of accommodations cost $0; median $300 |
+| File | What It Covers |
+|------|---------------|
+| `bls_disability_employment_2024.json` | BLS employment/unemployment by disability status |
+| `fred_disability_employment.json` | FRED 16-year employment time series (2009-2024) |
+| `eeoc_ada_charges.json` | 33 years of ADA discrimination charges (1992-2024) |
+| `jan_workplace_accommodations.json` | JAN accommodation cost data |
 
 ### Special Education (IDEA)
 
@@ -54,13 +54,13 @@ Built for researchers, journalists, policy analysts, and anyone building tools f
 
 5 datasets on WCAG compliance, lawsuits, screen reader usage, and federal Section 508 conformance.
 
-| File | What It Covers | Key Stat |
-|------|---------------|----------|
-| `webaim_million_2025.json` | WCAG failures across top 1M pages | 94.8% fail; avg 51 errors/page |
-| `webaim_screen_reader_survey_2024.json` | 1,539 respondents on screen reader usage | JAWS 40.5%, NVDA 37.7%, VoiceOver 70.6% (mobile) |
-| `ada_digital_lawsuits.json` | ADA digital lawsuits 2017-2024 | 814 (2017) to ~4,000 (2024); 77% target e-commerce |
-| `section_508_compliance_2024.json` | Federal agency Section 508 compliance (245 entities) | Only 23% of public websites conform |
-| `web_accessibility_metrics.json` | HTTP Archive web a11y trends 2019-2024 | Alt text: 51.8% to 58.5%; ARIA usage doubled |
+| File | What It Covers |
+|------|---------------|
+| `webaim_million_2025.json` | WCAG failures across top 1M pages |
+| `webaim_screen_reader_survey_2024.json` | 1,539 respondents on screen reader usage |
+| `ada_digital_lawsuits.json` | ADA digital lawsuits 2017-2024 |
+| `section_508_compliance_2024.json` | Federal agency Section 508 compliance (245 entities) |
+| `web_accessibility_metrics.json` | HTTP Archive web a11y trends 2019-2024 |
 
 ### International Disability
 
@@ -81,44 +81,44 @@ Built for researchers, journalists, policy analysts, and anyone building tools f
 
 3 datasets on Social Security disability, SSI, and VA compensation.
 
-| File | What It Covers | Key Stat |
-|------|---------------|----------|
-| `ssa_ssdi_ssi_annual.json` | SSDI/SSI beneficiaries 1970-2024 | 7.3M SSDI + 4.9M SSI recipients; $173B+ annual |
-| `ssa_state_agency_workload.json` | State-level determination data, approval rates | ~33% initial approval; 13-month avg processing |
-| `va_disability_compensation.json` | VA claims 2019-2026, compensation rates by state | 5.7M+ veterans receive disability comp |
+| File | What It Covers |
+|------|---------------|
+| `ssa_ssdi_ssi_annual.json` | SSDI/SSI beneficiaries 1970-2024 |
+| `ssa_state_agency_workload.json` | State-level determination data, approval rates |
+| `va_disability_compensation.json` | VA claims 2019-2026, compensation rates by state |
 
 ### Healthcare & Mental Health
 
 2 datasets on Medicaid disability enrollment and mental health prevalence.
 
-| File | What It Covers | Key Stat |
-|------|---------------|----------|
-| `cms_medicaid_disability_enrollment.json` | CMS aged/blind/disabled enrollment 2013-2024 (4.7MB) | 10.2M enrollees; 15% of Medicaid, ~45% of spending |
-| `samhsa_mental_health.json` | NSDUH mental health prevalence 2008-2023 | 23.1% of adults had mental illness (2023); 37% with SMI got no treatment |
+| File | What It Covers |
+|------|---------------|
+| `cms_medicaid_disability_enrollment.json` | CMS aged/blind/disabled enrollment 2013-2024 (4.7MB) |
+| `samhsa_mental_health.json` | NSDUH mental health prevalence 2008-2023 |
 
 ### Housing Discrimination
 
-| File | What It Covers | Key Stat |
-|------|---------------|----------|
-| `hud_fair_housing_disability.json` | HUD fair housing complaints 2009-2023, by state | Disability is #1 basis (~55% of all complaints) |
+| File | What It Covers |
+|------|---------------|
+| `hud_fair_housing_disability.json` | HUD fair housing complaints 2009-2023, by state |
 
 ### Transportation
 
-| File | What It Covers | Key Stat |
-|------|---------------|----------|
-| `ntd_paratransit_data.json` | ADA paratransit ridership & costs 2014-2022 | 146M trips at peak (2019); $40-50/trip vs ~$4 fixed-route |
+| File | What It Covers |
+|------|---------------|
+| `ntd_paratransit_data.json` | ADA paratransit ridership & costs 2014-2022 |
 
 ### Education (Civil Rights)
 
-| File | What It Covers | Key Stat |
-|------|---------------|----------|
-| `crdc_disability_data.json` | Section 504, restraint/seclusion, discipline | 2-3x higher suspension; 81% of restraint incidents |
+| File | What It Covers |
+|------|---------------|
+| `crdc_disability_data.json` | Section 504, restraint/seclusion, discipline |
 
 ### Assistive Technology Patents
 
-| File | What It Covers | Key Stat |
-|------|---------------|----------|
-| `patentsview_assistive_tech.json` | WIPO assistive tech patents 1985-2026 (696KB) | 10 patents (2010-14) to 519 (2020-24); prostheses, hearing, computing |
+| File | What It Covers |
+|------|---------------|
+| `patentsview_assistive_tech.json` | WIPO assistive tech patents 1985-2026 (696KB) |
 
 ### Visual Accessibility
 
@@ -197,23 +197,9 @@ for year, pct in zip(trends["years"], trends["pages_with_failures_pct"]):
     print(f"{year}: {pct}% of top 1M pages have WCAG failures")
 ```
 
-## Key Findings
+## What the Data Shows
 
-**44.1 million Americans (13.4%) have a disability** (Census 2022). Rate rose from 11.9% (2010) to 13.6% (2023). Ambulatory (6.7%) and cognitive (5.7%) are the most common types. Rates vary sharply: 0.8% under age 5, 45.9% age 75+.
-
-**The employment gap is massive.** Disabled workers have 24.5% labor force participation vs ~67% without. The OECD average gap is 34 percentage points. Switzerland has the smallest gap (22.6pp); Ireland the largest (40.3pp) among OECD countries.
-
-**Workplace accommodations are cheap.** 58.7% cost nothing. Median cost is $300. 90% of employers report them effective. Yet the EEOC received 679,637 ADA disability discrimination charges since 1992.
-
-**The web is still broken.** 94.8% of the top 1M websites fail WCAG. Average: 51 errors per page. Low contrast text hits 79% of pages. Alt text adoption grew from 51.8% to 58.5% (2019-2024), but it's slow going.
-
-**Disability is the #1 basis for fair housing complaints** (~55% of all HUD complaints). Failure to provide reasonable accommodation is the top issue.
-
-**Paratransit is expensive.** $40-50 per trip vs ~$4 for fixed-route transit. 146M trips at pre-COVID peak (2019).
-
-**Special education is growing.** 15.2% of public school students now served under IDEA. Autism grew 8.5x since 2000. Students with disabilities face 2-3x higher suspension rates.
-
-**Globally, 1.3 billion people (16%) live with significant disability** (WHO). 190 countries have signed the UN CRPD. Assistive tech patents exploded from 10 (2010-2014) to 519 (2020-2024).
+The notebooks in `notebooks/` run through the numbers with charts and breakdowns. Start with `accessibility_atlas_demo.ipynb` for a sampler, or dive into the category-specific ones listed above.
 
 ## Sources
 
@@ -249,20 +235,20 @@ for year, pct in zip(trends["years"], trends["pages_with_failures_pct"]):
 
 ## Record Format Examples
 
-**Census County Disability**
+Census County Disability:
 ```
 fips,county_name,state_fips,county_fips,total_population,disability_total,disability_rate,...
 01001,"Autauga County, Alabama",01,001,57443,4759,8.29,...
 ```
 
-**WHO HALE (Long Format)**
+WHO HALE (Long Format):
 ```
 country_code,region,year,hale_years
 AFG,Eastern Mediterranean,2000,41.0
 USA,Americas,2021,65.2
 ```
 
-**OECD Employment Gap**
+OECD Employment Gap:
 ```json
 {
   "country": "United States",
@@ -272,7 +258,7 @@ USA,Americas,2021,65.2
 }
 ```
 
-**SSA SSDI Beneficiaries**
+SSA SSDI Beneficiaries:
 ```json
 {
   "year": 2023,
@@ -281,11 +267,11 @@ USA,Americas,2021,65.2
 }
 ```
 
-## About
+## Author
 
-Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection. I built this because disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. Having it all in one place -- with consistent formatting and analysis notebooks -- makes it actually usable.
+Luke Steuber -- [lukesteuber.com](https://lukesteuber.com) -- [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com)
 
-**Luke Steuber** • [lukesteuber.com](https://lukesteuber.com) • [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com) • [dr.eamer.dev](https://dr.eamer.dev)
+Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection.
 
 ## License
 
