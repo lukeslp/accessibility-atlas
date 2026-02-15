@@ -6,20 +6,14 @@
       "name": "other"
     }
   ],
-  "subtitle": "42 datasets on disability, employment, web accessibility, and assistive tech",
-  "description": "# Accessibility Atlas\n\n42 datasets covering disability demographics, employment gaps, web accessibility compliance, assistive technology patents, special education, healthcare, housing discrimination, transportation, government benefits, and more -- across 15 categories.\n\nBuilt for researchers, journalists, policy analysts, and anyone building tools for disabled communities.\n\n## What's Inside\n\n- **US Disability Demographics**: 8 Census Bureau datasets (county, state, national trends)\n- **Employment**: BLS, FRED, EEOC, JAN data on the employment gap\n- **Special Education**: 6 IDEA/NCES datasets (7.5M students)\n- **Web Accessibility**: WebAIM Million, Section 508, ADA lawsuits, screen reader surveys\n- **International**: WHO, OECD, Eurostat, World Bank data (194+ countries)\n- **Government Benefits**: SSA SSDI/SSI, VA disability compensation\n- **Healthcare**: CMS Medicaid, SAMHSA mental health\n- **Housing**: HUD fair housing complaints\n- **Transportation**: NTD paratransit data\n- **Assistive Tech**: WIPO patent data\n- **Visual Accessibility**: VizWiz VQA dataset\n\n## Key Findings\n\n- 44.1 million Americans (13.4%) have a disability\n- Disabled workers: 24.5% labor force participation vs ~67% without\n- 94.8% of top 1M websites fail WCAG\n- Disability is #1 basis for fair housing complaints (~55%)\n- 7.5M students served under IDEA\n- 190 countries signed UN CRPD\n\n## Notebooks\n\n10 Jupyter notebooks for analysis and visualization.\n\n## Sources\n\nMost data is from US government (public domain) and international organizations (open licenses). Individual datasets carry their own licenses - see README for full source table.\n\n- Census Bureau ACS\n- Bureau of Labor Statistics\n- WHO Global Health Observatory  \n- OECD, Eurostat, World Bank\n- US Dept. of Education\n- SSA, VA, CMS, SAMHSA\n- WebAIM, VizWiz\n\n## License\n\nMIT for the collection. Individual datasets have their own licenses (public domain, CC BY 4.0, CC BY-NC-SA 3.0 IGO).",
+  "subtitle": "47 datasets on disability, employment, web accessibility, and assistive tech",
+  "description": "# Accessibility Atlas\n\n47 datasets covering disability demographics, employment gaps, web accessibility compliance, assistive technology patents, special education, healthcare, housing discrimination, transportation, government benefits, and more -- across 15 categories.\n\nBuilt for researchers, journalists, policy analysts, and anyone building tools for disabled communities.\n\n## What's Inside\n\n- **US Disability Demographics**: 8 Census Bureau datasets (county, state, national trends)\n- **Employment**: BLS, FRED, EEOC, JAN data on the employment gap\n- **Special Education**: 6 IDEA/NCES datasets (7.5M students)\n- **Web Accessibility**: WebAIM Million, Section 508, ADA lawsuits, screen reader surveys\n- **International**: WHO, OECD, Eurostat, World Bank data (194+ countries)\n- **Government Benefits**: SSA SSDI/SSI, VA disability compensation\n- **Healthcare**: CMS Medicaid, SAMHSA mental health\n- **Housing**: HUD fair housing complaints\n- **Transportation**: NTD paratransit data\n- **Assistive Tech**: WIPO patent data\n- **Visual Accessibility**: VizWiz VQA dataset\n\n## Key Findings\n\n- 44.1 million Americans (13.4%) have a disability\n- Disabled workers: 24.5% labor force participation vs ~67% without\n- 94.8% of top 1M websites fail WCAG\n- Disability is #1 basis for fair housing complaints (~55%)\n- 7.5M students served under IDEA\n- 190 countries signed UN CRPD\n\n## Notebooks\n\n10 Jupyter notebooks for analysis and visualization.\n\n## Sources\n\nMost data is from US government (public domain) and international organizations (open licenses). Individual datasets carry their own licenses - see README for full source table.\n\n- Census Bureau ACS\n- Bureau of Labor Statistics\n- WHO Global Health Observatory  \n- OECD, Eurostat, World Bank\n- US Dept. of Education\n- SSA, VA, CMS, SAMHSA\n- WebAIM, VizWiz\n\n## License\n\nMIT for the collection. Individual datasets have their own licenses (public domain, CC BY 4.0, CC BY-NC-SA 3.0 IGO).",
   "keywords": [
-    "accessibility",
-    "disability",
-    "wcag",
-    "employment",
-    "census",
-    "who",
-    "assistive-technology",
-    "special-education",
-    "screen-readers",
-    "health",
-    "demographics"
+    "healthcare",
+    "people and society",
+    "education",
+    "government",
+    "social science"
   ],
-  "isPrivate": true
+  "isPrivate": false
 }
