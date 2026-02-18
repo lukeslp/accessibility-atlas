@@ -167,6 +167,12 @@ Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection. I
 }
 ```
 
+
+## Distribution
+
+- **GitHub**: [lukeslp/accessibility-atlas](https://github.com/lukeslp/accessibility-atlas)
+- **Kaggle**: [lucassteuber/accessibility-atlas](https://www.kaggle.com/datasets/lucassteuber/accessibility-atlas)
+
 ## License
 
 MIT License for the collection. Individual datasets have their own licenses (see table above). Public domain data can be used freely. WHO data is CC BY-NC-SA 3.0 IGO. VizWiz is CC BY 4.0.

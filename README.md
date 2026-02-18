@@ -273,6 +273,11 @@ Luke Steuber -- [lukesteuber.com](https://lukesteuber.com) -- [@lukesteuber.com]
 
 Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection.
 
+## Distribution
+
+- **HuggingFace**: [lukeslp/accessibility-atlas](https://huggingface.co/datasets/lukeslp/accessibility-atlas)
+- **Kaggle**: [lucassteuber/accessibility-atlas](https://www.kaggle.com/datasets/lucassteuber/accessibility-atlas)
+
 ## License
 
 MIT License -- see [LICENSE](LICENSE) for details.
