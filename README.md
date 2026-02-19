@@ -1,11 +1,11 @@
 # Accessibility Atlas
 
-53 datasets on disability in the US and globally. Demographics, employment, web accessibility, assistive tech patents, special education, healthcare, housing discrimination, transportation, government benefits, and more.
+62 datasets on disability in the US and globally. Demographics, employment, web accessibility, assistive tech patents, special education, healthcare, housing discrimination, transportation, government benefits, and more.
 
 Disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. This repo puts it all in one place with consistent formatting so you can actually use it.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Datasets](https://img.shields.io/badge/datasets-53-green)](dataset_index.json)
+[![Datasets](https://img.shields.io/badge/datasets-62-green)](dataset_index.json)
 [![Notebooks](https://img.shields.io/badge/notebooks-10-purple)](notebooks/)
 [![Live Site](https://img.shields.io/badge/live-dr.eamer.dev-orange)](https://dr.eamer.dev/datavis/data_trove/)
 
@@ -13,12 +13,14 @@ Disability data is scattered across dozens of federal agencies, international or
 
 ### US Disability Demographics (Census Bureau)
 
-8 datasets from the American Community Survey covering county, state, and national disability rates.
+10 datasets from the American Community Survey covering county, state, and national disability rates.
 
 | File | Coverage | Source |
 |------|----------|--------|
 | `census_disability_by_county_2022.csv` | 3,100+ counties | ACS 5-Year 2022 |
 | `census_disability_states_2021.csv` | 50 states + DC | ACS 5-Year 2021 |
+| `census_disability_states_2023.json` | 50 states + DC + PR | ACS 1-Year 2023, S1810 |
+| `census_disability_by_age_2023.json` | 50 states + DC + PR (age breakdowns) | ACS 1-Year 2023, B18101 |
 | `census_disability_characteristics_2022.json` | National (sex, race, age, 6 types) | ACS 1-Year 2022, S1810 |
 | `census_disability_by_race_2022.json` | 9 race/ethnicity groups | ACS 1-Year 2022, B18101 |
 | `census_disability_by_age_sex_2022.json` | National (6 age groups x sex) | ACS 1-Year 2022, B18101 |
@@ -28,11 +30,12 @@ Disability data is scattered across dozens of federal agencies, international or
 
 ### Disability Employment
 
-4 datasets on the employment gap, discrimination charges, and workplace accommodations.
+5 datasets on the employment gap, discrimination charges, and workplace accommodations.
 
 | File | What It Covers |
 |------|---------------|
 | `bls_disability_employment_2024.json` | BLS employment/unemployment by disability status |
+| `bls_disability_employment_2025.json` | BLS 2025 CPS data: 5 series including disabled employment ratio, unemployment, and labor force participation |
 | `fred_disability_employment.json` | FRED 16-year employment time series (2009-2024) |
 | `eeoc_ada_charges.json` | 33 years of ADA discrimination charges (1992-2024) |
 | `jan_workplace_accommodations.json` | JAN accommodation cost data |
@@ -64,7 +67,7 @@ Disability data is scattered across dozens of federal agencies, international or
 
 ### International Disability
 
-8 datasets covering global disability prevalence, health metrics, and policy across 194+ countries.
+9 datasets covering global disability prevalence, health metrics, and policy across 194+ countries.
 
 | File | Coverage | Source |
 |------|----------|--------|
@@ -74,7 +77,8 @@ Disability data is scattered across dozens of federal agencies, international or
 | `who_hale_long.csv` | Same, long format (4,070 rows) | WHO GHO API |
 | `eurostat_disability_eu.json` | 36 EU countries, GALI indicator | Eurostat EU-SILC |
 | `oecd_disability_data.json` | 34 OECD countries: prevalence, employment, spending | OECD SOCX, EU-SILC |
-| `world_bank_disability_indicators.json` | 4,406 records, 10 socioeconomic indicators (2010-2023) | World Bank Open Data |
+| `world_bank_disability_indicators.json` | 3,526 records, 10 socioeconomic indicators (2020-2024) | World Bank Open Data |
+| `world_bank_ddh_disability.json` | 500 records: prevalence, education, employment by country | World Bank Disability Data Hub |
 | `un_crpd_ratification.json` | 199 countries: CRPD ratification status | UN Treaty Collection |
 
 ### Government Benefits (SSA & VA)
@@ -89,11 +93,12 @@ Disability data is scattered across dozens of federal agencies, international or
 
 ### Healthcare & Mental Health
 
-2 datasets on Medicaid disability enrollment and mental health prevalence.
+3 datasets on Medicaid disability enrollment and mental health prevalence.
 
 | File | What It Covers |
 |------|---------------|
 | `cms_medicaid_disability_enrollment.json` | CMS aged/blind/disabled enrollment 2013-2024 (4.7MB) |
+| `cms_medicaid_enrollment_2026.csv` | CMS state enrollment data, Jan 2026 release (10,302 records) |
 | `samhsa_mental_health.json` | NSDUH mental health prevalence 2008-2023 |
 
 ### Housing Discrimination
@@ -107,6 +112,7 @@ Disability data is scattered across dozens of federal agencies, international or
 | File | What It Covers |
 |------|---------------|
 | `ntd_paratransit_data.json` | ADA paratransit ridership & costs 2014-2022 |
+| `ntd_paratransit_latest.json` | NTD paratransit 2022-2023, 5,000 agency records from data.transportation.gov |
 
 ### Education (Civil Rights)
 
@@ -125,6 +131,13 @@ Disability data is scattered across dozens of federal agencies, international or
 | File | Records | Source |
 |------|---------|--------|
 | `vizwiz_val_annotations.csv` | 4,319 VQA pairs from blind users | VizWiz VQA |
+
+### CDC Disability & Health
+
+| File | What It Covers |
+|------|---------------|
+| `cdc_dhds_disability_prevalence.csv` | CDC DHDS state-level disability prevalence from BRFSS (3,592 records, all states) |
+| `cdc_dhds_disability_prevalence.json` | JSON summary with metadata and sample records |
 
 ### Reference Files
 
@@ -217,12 +230,14 @@ The notebooks in `notebooks/` run through the numbers with charts and breakdowns
 | World Bank Open Data | CC BY 4.0 | https://data.worldbank.org |
 | United Nations Treaty Collection | Public Domain | https://treaties.un.org |
 | Eurostat EU-SILC | Eurostat copyright policy | https://ec.europa.eu/eurostat |
+| CDC DHDS | Public Domain | https://dhds.cdc.gov |
 | CMS Medicaid/Medicare | Public Domain | https://data.cms.gov |
 | SAMHSA NSDUH | Public Domain | https://www.samhsa.gov/data |
 | SSA DI/SSI Reports | Public Domain | https://www.ssa.gov/policy |
 | VA Benefits Administration | Public Domain | https://www.va.gov/disability |
 | HUD Fair Housing | Public Domain | https://www.hud.gov/program_offices/fair_housing_equal_opp |
 | National Transit Database (NTD) | Public Domain | https://www.transit.dot.gov/ntd |
+| World Bank Disability Data Hub | CC BY 4.0 | https://www.worldbank.org/en/topic/disability |
 | WIPO PATENTSCOPE | Public Domain | https://patentscope.wipo.int |
 | HTTP Archive / Web Almanac | CC BY 4.0 | https://httparchive.org |
 | WebAIM Million | Fair use (structured summary) | https://webaim.org/projects/million/ |

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "source": "Bureau of Labor Statistics",
+    "retrieved": "2026-02-19T18:11:32.453702",
+    "series_descriptions": {
+      "LNU02374597": "Employment-population ratio, disabled, 16+",
+      "LNU04074597": "Unemployment rate, disabled, 16+",
+      "LNU01374597": "Labor force participation rate, disabled, 16+",
+      "LNU02300000": "Employment-population ratio, total, 16+",
+      "LNU04000000": "Unemployment rate, total, 16+"
+    },
+    "note": "Annual averages from Current Population Survey"
+  },
+  "series": {
+    "LNU02374597": {
+      "description": "Employment-population ratio, disabled, 16+",
+      "annual_averages": {}
+    },
+    "LNU04074597": {
+      "description": "Unemployment rate, disabled, 16+",
+      "annual_averages": {}
+    },
+    "LNU01374597": {
+      "description": "Labor force participation rate, disabled, 16+",
+      "annual_averages": {}
+    },
+    "LNU02300000": {
+      "description": "Employment-population ratio, total, 16+",
+      "annual_averages": {}
+    },
+    "LNU04000000": {
+      "description": "Unemployment rate, total, 16+",
+      "annual_averages": {}
+    }
+  }
+}
