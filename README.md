@@ -1,11 +1,11 @@
 # Accessibility Atlas
 
-42 datasets on disability in the US and globally. Demographics, employment, web accessibility, assistive tech patents, special education, healthcare, housing discrimination, transportation, government benefits -- the works.
+53 datasets on disability in the US and globally. Demographics, employment, web accessibility, assistive tech patents, special education, healthcare, housing discrimination, transportation, government benefits, and more.
 
-Disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. This puts it in one place with consistent formatting so you can actually use it.
+Disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. This repo puts it all in one place with consistent formatting so you can actually use it.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Datasets](https://img.shields.io/badge/datasets-42-green)](dataset_index.json)
+[![Datasets](https://img.shields.io/badge/datasets-53-green)](dataset_index.json)
 [![Notebooks](https://img.shields.io/badge/notebooks-10-purple)](notebooks/)
 [![Live Site](https://img.shields.io/badge/live-dr.eamer.dev-orange)](https://dr.eamer.dev/datavis/data_trove/)
 
@@ -269,7 +269,15 @@ SSA SSDI Beneficiaries:
 
 ## Author
 
-Luke Steuber -- [lukesteuber.com](https://lukesteuber.com) -- [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com)
+Luke Steuber
+
+[dr.eamer.dev](https://dr.eamer.dev) | [dr.eamer.dev/datavis](https://dr.eamer.dev/datavis) | [dr.eamer.dev/code](https://dr.eamer.dev/code)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Luke%20Steuber-blue?logo=linkedin)](https://www.linkedin.com/in/lukesteuber/)
+[![Bluesky](https://img.shields.io/badge/Bluesky-@lukesteuber.com-1DA1F2?logo=bluesky)](https://bsky.app/profile/lukesteuber.com)
+[![CodePen](https://img.shields.io/badge/CodePen-lukeslp-black?logo=codepen)](https://codepen.io/lukeslp)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-lukeslp-yellow?logo=huggingface)](https://huggingface.co/lukeslp)
+[![Kaggle](https://img.shields.io/badge/Kaggle-lucassteuber-20BEFF?logo=kaggle)](https://www.kaggle.com/lucassteuber)
 
 Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection.
 
@@ -283,3 +291,7 @@ Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection.
 MIT License -- see [LICENSE](LICENSE) for details.
 
 Individual datasets carry their own licenses (see Sources table). Most US government data is public domain. WHO data is CC BY-NC-SA 3.0 IGO. WebAIM data is structured from published reports under fair use. VizWiz is CC BY 4.0.
+
+### Related Resources
+
+- [Awesome Accessibility](https://github.com/lukeslp/awesome-accessibility) - A curated list of accessibility tools, articles, and resources for accessibility.

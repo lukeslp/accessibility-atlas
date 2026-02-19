@@ -1,0 +1,32 @@
+.DS_Store
+DS_Store
+
+# AI coding assistant artifacts
+.claude/
+.claude.json
+.cursor/
+.cursor-server/
+.github/copilot/
+.aider/
+.aider.log
+.continue/
+.tabnine/
+.codeium/
+.windsurf/
+.bolt/
+.replit
+.codex/
+.serena/
+.warp/
+.cody/
+.tabby/
+
+# AI-generated markers
+*_generated_by_ai.*
+*.ai-generated
+*.prompt.txt
+.prompts/
+*.conversation.json
+.conversations/
+.ai-cache/
+.llm-cache/
