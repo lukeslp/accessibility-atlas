@@ -3,7 +3,7 @@
     "created_at": "2025-12-21T12:17:29.026619",
     "updated_at": "2026-02-13",
     "version": "3.0",
-    "total_datasets": 55,
+    "total_datasets": 53,
     "note": "Comprehensive accessibility and disability dataset catalog with local files and external references"
   },
   "categories": {
@@ -311,11 +311,11 @@
       "datasets": [
         {
           "name": "WLASL (Word-Level ASL)",
-          "local_file": "wlasl_index.csv",
           "url": "https://dxli94.github.io/WLASL/",
           "hf_url": "https://huggingface.co/datasets/Voxel51/WLASL",
           "size": "21,083 videos, 2,000 words",
-          "access": "Public download",
+          "access": "Public download (not included - download separately)",
+          "note": "Removed from local collection due to licensing restrictions",
           "format": "CSV index (5.2MB)"
         },
         {
@@ -359,9 +359,10 @@
       "datasets": [
         {
           "name": "AAC Vocabulary Data",
-          "local_file": "aac_vocabulary_data.json",
+          "url": "https://globalsymbols.com",
           "source": "Compiled from AAC research literature",
-          "access": "Public",
+          "access": "Various CC licenses (not included - see GlobalSymbols)",
+          "note": "Removed from local collection due to mixed licensing",
           "format": "JSON"
         },
         {
