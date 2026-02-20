@@ -27,7 +27,7 @@ size_categories:
 
 # Accessibility Atlas
 
-42 datasets covering disability demographics, employment gaps, web accessibility compliance, assistive technology patents, special education, healthcare, housing discrimination, transportation, government benefits, and more -- across 15 categories.
+62 datasets covering disability demographics, employment gaps, web accessibility compliance, assistive technology patents, special education, healthcare, housing discrimination, transportation, government benefits, and more -- across 15 categories.
 
 Built for researchers, journalists, policy analysts, and anyone building tools for disabled communities.
 
