@@ -1,5 +1,8 @@
 # Accessibility Atlas
 
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Datasets](https://img.shields.io/badge/datasets-62-blue.svg)](#datasets)
+
 62 datasets on disability in the US and globally. Demographics, employment, web accessibility, assistive tech patents, special education, healthcare, housing discrimination, transportation, government benefits, and more.
 
 Disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. This repo puts it all in one place with consistent formatting so you can actually use it.
