@@ -2,15 +2,12 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Datasets](https://img.shields.io/badge/datasets-62-blue.svg)](#datasets)
+[![Notebooks](https://img.shields.io/badge/notebooks-10-purple)](https://nbviewer.org/github/lukeslp/accessibility-atlas/tree/main/notebooks/)
+[![Live Site](https://img.shields.io/badge/live-dr.eamer.dev-orange)](https://dr.eamer.dev/datavis/data_trove/)
 
 62 datasets on disability in the US and globally. Demographics, employment, web accessibility, assistive tech patents, special education, healthcare, housing discrimination, transportation, government benefits, and more.
 
 Disability data is scattered across dozens of federal agencies, international organizations, and advocacy groups. This repo puts it all in one place with consistent formatting so you can actually use it.
-
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Datasets](https://img.shields.io/badge/datasets-62-green)](dataset_index.json)
-[![Notebooks](https://img.shields.io/badge/notebooks-10-purple)](notebooks/)
-[![Live Site](https://img.shields.io/badge/live-dr.eamer.dev-orange)](https://dr.eamer.dev/datavis/data_trove/)
 
 ## What's Inside
 
@@ -285,9 +282,21 @@ SSA SSDI Beneficiaries:
 }
 ```
 
+## Citation
+
+```bibtex
+@dataset{accessibility_atlas_2025,
+  author    = {Steuber, Luke},
+  title     = {Accessibility Atlas: Disability Datasets for Research},
+  year      = {2025},
+  url       = {https://github.com/lukeslp/accessibility-atlas},
+  license   = {MIT}
+}
+```
+
 ## Author
 
-Luke Steuber
+**Luke Steuber**
 
 [dr.eamer.dev](https://dr.eamer.dev) | [dr.eamer.dev/datavis](https://dr.eamer.dev/datavis) | [dr.eamer.dev/code](https://dr.eamer.dev/code)
 
