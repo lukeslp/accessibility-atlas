@@ -1,10 +1,10 @@
 {
   "metadata": {
     "created_at": "2025-12-21T12:17:29.026619",
-    "updated_at": "2026-02-13",
-    "version": "3.0",
-    "total_datasets": 53,
-    "note": "Comprehensive accessibility and disability dataset catalog with local files and external references"
+    "updated_at": "2026-02-19",
+    "version": "4.0",
+    "total_datasets": 62,
+    "note": "Accessibility and disability dataset catalog with local files and external references"
   },
   "categories": {
     "disability_demographics": {
@@ -75,6 +75,26 @@
           "coverage": "50 states + DC",
           "access": "Public domain",
           "format": "CSV"
+        },
+        {
+          "name": "Census Disability by State 2023",
+          "local_file": "census_disability_states_2023.json",
+          "source": "U.S. Census Bureau ACS 2023 1-Year Estimates (S1810)",
+          "year": "2023",
+          "coverage": "50 states + DC + PR",
+          "records": "52 state-level records",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "Census Disability by Age 2023",
+          "local_file": "census_disability_by_age_2023.json",
+          "source": "U.S. Census Bureau ACS 2023 1-Year Estimates (B18101)",
+          "year": "2023",
+          "coverage": "50 states + DC + PR",
+          "records": "52 state-level records with age breakdowns",
+          "access": "Public domain",
+          "format": "JSON"
         }
       ]
     },
@@ -119,6 +139,15 @@
           "local_file": "jan_workplace_accommodations.json",
           "source": "Job Accommodation Network (JAN), U.S. DOL ODEP",
           "key_finding": "58.7% of accommodations cost $0; median cost $300; 90% employers report effectiveness",
+          "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "BLS Disability Employment 2025",
+          "local_file": "bls_disability_employment_2025.json",
+          "source": "Bureau of Labor Statistics, Current Population Survey",
+          "years": "2020-2025",
+          "records": "5 series: employment-population ratio, unemployment rate, labor force participation (disabled and total)",
           "access": "Public domain",
           "format": "JSON"
         }
@@ -287,12 +316,13 @@
           "name": "World Bank Disability-Relevant Indicators (2010-2023)",
           "local_file": "world_bank_disability_indicators.json",
           "source": "World Bank Open Data API v2",
-          "years": "2010-2023",
+          "years": "2020-2024",
           "coverage": "All World Bank member countries",
-          "records": "4,406 records across 10 socioeconomic indicators",
+          "records": "3,526 records across 10 socioeconomic indicators",
           "key_finding": "Cross-country data on aging, health spending, employment, literacy, inequality \u2014 context for disability analysis",
           "access": "CC-BY 4.0",
-          "format": "JSON"
+          "format": "JSON",
+          "note": "Updated Feb 2026 with latest available data"
         },
         {
           "name": "UN CRPD Ratification Status (199 Countries)",
@@ -302,6 +332,15 @@
           "records": "Ratification status, dates, Optional Protocol",
           "key_finding": "190 signatories, 188 ratifications; first binding international disability rights instrument",
           "access": "Public domain",
+          "format": "JSON"
+        },
+        {
+          "name": "World Bank Disability Data Hub",
+          "local_file": "world_bank_ddh_disability.json",
+          "source": "World Bank Disability Data Hub",
+          "url": "https://www.worldbank.org/en/topic/disability",
+          "records": "500 records on disability prevalence, education, employment, health across countries",
+          "access": "CC-BY 4.0",
           "format": "JSON"
         }
       ]
@@ -462,6 +501,17 @@
           "key_finding": "146M paratransit trips (2019 pre-COVID peak); operating cost $40-50/trip vs ~$4 for fixed-route",
           "access": "Public domain",
           "format": "JSON"
+        },
+        {
+          "name": "NTD Paratransit Data (2022-2023)",
+          "local_file": "ntd_paratransit_latest.json",
+          "source": "National Transit Database, Federal Transit Administration",
+          "url": "https://data.transportation.gov",
+          "years": "2022-2023",
+          "records": "5,000 transit agency records",
+          "note": "Updated from data.transportation.gov Socrata API; includes ridership, expenses, service levels",
+          "access": "Public domain",
+          "format": "JSON"
         }
       ]
     },
@@ -487,11 +537,12 @@
           "name": "CMS Medicaid Disability Enrollment",
           "local_file": "cms_medicaid_disability_enrollment.json",
           "source": "Centers for Medicare & Medicaid Services (CMS)",
-          "years": "2013-2024",
+          "years": "2013-2025",
           "records": "49 national records, 321 state ABD records, 84 monthly trends, 10,300 state monthly records",
           "key_finding": "10.2M aged/blind/disabled Medicaid enrollees; ABD enrollees are 15% of Medicaid but drive ~45% of spending",
           "access": "Public domain",
-          "format": "JSON"
+          "format": "JSON",
+          "note": "Original dataset; see cms_medicaid_enrollment_latest.json for Jan 2026 release"
         },
         {
           "name": "SAMHSA Mental Health Prevalence & Treatment",
@@ -502,6 +553,19 @@
           "key_finding": "23.1% of adults had any mental illness (2023); 37% with SMI received no treatment",
           "access": "Public domain",
           "format": "JSON"
+        },
+        {
+          "name": "CMS Medicaid Enrollment (Jan 2026 Release)",
+          "local_file": "cms_medicaid_enrollment_2026.csv",
+          "json_summary": "cms_medicaid_enrollment_latest.json",
+          "source": "Centers for Medicare & Medicaid Services (CMS)",
+          "url": "https://data.medicaid.gov",
+          "years": "Monthly enrollment through 2025",
+          "records": "10,302 state-month records",
+          "coverage": "All states and territories",
+          "note": "Applications, eligibility determinations, and enrollment data by state and month",
+          "access": "Public domain",
+          "format": "CSV + JSON summary"
         }
       ]
     },
@@ -565,6 +629,23 @@
           "key_finding": "Students with disabilities face 2-3x higher suspension rates; 81% of restraint/seclusion incidents involve students with disabilities",
           "access": "Public domain",
           "format": "JSON"
+        }
+      ]
+    },
+    "cdc_disability_health": {
+      "description": "CDC disability prevalence and health indicators by state",
+      "datasets": [
+        {
+          "name": "CDC DHDS State Disability Prevalence",
+          "local_file": "cdc_dhds_disability_prevalence.csv",
+          "json_summary": "cdc_dhds_disability_prevalence.json",
+          "source": "CDC Disability and Health Data System (DHDS), Behavioral Risk Factor Surveillance System (BRFSS)",
+          "url": "https://dhds.cdc.gov",
+          "records": "3,592 state-level records",
+          "columns": "30 fields including year, state, indicator, response, data value",
+          "coverage": "All 50 states + DC + territories",
+          "access": "Public domain",
+          "format": "CSV + JSON summary"
         }
       ]
     }
